@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+// Using require instead of import for the image
+const wechatQR = require('../assets/images/wechat.jpg');
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -46,6 +48,10 @@ const Footer: React.FC = () => {
               <li>微信: SolanaTraining</li>
               <li>工作时间: 周一至周五 9:00-18:00</li>
             </ul>
+            <div className="wechat-qr">
+              <p>扫描添加微信</p>
+              <img src={wechatQR} alt="WeChat QR Code" className="wechat-qr-image" />
+            </div>
           </div>
         </div>
       </div>
