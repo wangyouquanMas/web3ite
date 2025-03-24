@@ -61,12 +61,27 @@ const HeroSection: React.FC = () => {
           
           <div className="laptop">
             <div className="laptop-screen">
-              <div className="code-lines">
-                <div className="code-line"></div>
-                <div className="code-line"></div>
-                <div className="code-line"></div>
+              <div className="code-snippet">
+                <div className="code-line-numbers">
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>7</span>
+                </div>
+                <div className="code-content">
+                  <div className="code-text"><span className="keyword">use</span> <span className="namespace">solana_program::</span>account_info::AccountInfo;</div>
+                  <div className="code-text"><span className="keyword">use</span> <span className="namespace">anchor_lang::</span>prelude::*;</div>
+                  <div className="code-text"></div>
+                  <div className="code-text"><span className="keyword">pub fn</span> <span className="function">process</span>(ctx: Context&lt;Transfer&gt;) <span className="symbol">-&gt;</span> Result&lt;<span className="keyword">()&gt;</span> <span className="symbol">&#123;</span></div>
+                  <div className="code-text indent">ctx.<span className="property">accounts</span>.token_program.transfer(</div>
+                  <div className="code-text indent doubled">Transfer&#123; .. &#125;</div>
+                  <div className="code-text"><span className="symbol">&#125;</span></div>
+                </div>
               </div>
-              <div className="solana-logo-small"></div>
+              <div className="cursor-blink"></div>
             </div>
             <div className="laptop-keyboard"></div>
           </div>
