@@ -1,0 +1,125 @@
+.roadmap {
+  padding: 4rem 2rem;
+  background-color: #1E2D3D;
+  color: white;
+}
+
+.roadmap .section-header h2 {
+  color: white;
+}
+
+.roadmap .section-header p {
+  color: #ccc;
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.roadmap-step {
+  display: flex;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background-color: #14F195;
+  color: #1E2D3D;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1.5rem;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.step-content {
+  padding-top: 0.5rem;
+}
+
+.step-content h3 {
+  margin: 0 0 0.5rem;
+  color: #14F195;
+  font-size: 1.4rem;
+}
+
+.step-content p {
+  margin: 0;
+  color: #ccc;
+}
+
+.step-connector {
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  width: 2px;
+  height: calc(100% + 1rem);
+  background-color: #14F195;
+  z-index: 1;
+}
+
+.course-modules {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.modules-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.module-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+}
+
+.module-card h3 {
+  color: #1E2D3D;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #14F195;
+}
+
+.module-card ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.module-card li {
+  margin-bottom: 0.8rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .roadmap, .course-modules {
+    padding: 3rem 1rem;
+  }
+  
+  .step-connector {
+    left: 24px;
+  }
+  
+  .modules-container {
+    grid-template-columns: 1fr;
+  }
+} 
