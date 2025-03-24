@@ -2,6 +2,7 @@
   padding: 4rem 2rem;
   background-color: #1E2D3D;
   color: white;
+  overflow: hidden;
 }
 
 .roadmap .section-header h2 {
@@ -14,21 +15,38 @@
 
 .roadmap-container {
   display: flex;
-  flex-direction: column;
-  max-width: 800px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.roadmap-container:before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(20, 241, 149, 0.3);
+  z-index: 1;
 }
 
 .roadmap-step {
   display: flex;
-  margin-bottom: 2rem;
+  flex-direction: column;
+  align-items: center;
   position: relative;
+  flex: 1;
+  min-width: 150px;
+  padding: 0 10px;
 }
 
 .step-number {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: #14F195;
   color: #1E2D3D;
   border-radius: 50%;
@@ -37,17 +55,29 @@
   justify-content: center;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
   z-index: 2;
-  flex-shrink: 0;
+  box-shadow: 0 0 15px rgba(20, 241, 149, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roadmap-step:hover .step-number {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(20, 241, 149, 0.7);
 }
 
 .step-content {
-  padding-top: 0.5rem;
+  text-align: center;
+  max-width: 180px;
+  transition: transform 0.3s ease;
+}
+
+.roadmap-step:hover .step-content {
+  transform: translateY(-5px);
 }
 
 .step-content h3 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.7rem;
   color: #14F195;
   font-size: 1.4rem;
 }
@@ -55,16 +85,77 @@
 .step-content p {
   margin: 0;
   color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .step-connector {
   position: absolute;
-  top: 50px;
-  left: 25px;
-  width: 2px;
-  height: calc(100% + 1rem);
+  top: 30px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
   background-color: #14F195;
   z-index: 1;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .roadmap {
+    padding: 3rem 1rem;
+  }
+  
+  .roadmap-container {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  
+  .roadmap-container:before {
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    left: 25px;
+    right: auto;
+    height: auto;
+  }
+  
+  .roadmap-step {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    min-width: auto;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .step-number {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .step-content {
+    text-align: left;
+    max-width: none;
+    padding-top: 0.5rem;
+  }
+  
+  .roadmap-step:hover .step-content {
+    transform: none;
+  }
+  
+  .step-connector {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 2px;
+    height: calc(100% + 1rem);
+  }
+
+  .modules-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .course-modules {
@@ -111,12 +202,8 @@
 }
 
 @media (max-width: 768px) {
-  .roadmap, .course-modules {
+  .course-modules {
     padding: 3rem 1rem;
-  }
-  
-  .step-connector {
-    left: 24px;
   }
   
   .modules-container {

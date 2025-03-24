@@ -64,11 +64,11 @@ const CourseOutline: React.FC = () => {
           {roadmapSteps.map((step, index) => (
             <div key={step.id} className="roadmap-step">
               <div className="step-number">{step.id}</div>
+              {index < roadmapSteps.length - 1 && <div className="step-connector"></div>}
               <div className="step-content">
                 <h3>{step.name}</h3>
                 <p>{step.description}</p>
               </div>
-              {index < roadmapSteps.length - 1 && <div className="step-connector"></div>}
             </div>
           ))}
         </div>
