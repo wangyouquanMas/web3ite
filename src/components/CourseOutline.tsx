@@ -75,6 +75,7 @@ const CourseOutline: React.FC = () => {
       </section>
 
       <section id="outline" className="course-modules">
+        <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>课程大纲</h2>
           <p>全面的课程内容，让你系统学习Solana开发所需的技能</p>
@@ -91,6 +92,7 @@ const CourseOutline: React.FC = () => {
             </div>
           ))}
         </div>
+        <div className="section-transition-bottom"></div>
       </section>
     </div>
   );

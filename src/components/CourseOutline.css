@@ -1,16 +1,40 @@
 .roadmap {
   padding: 4rem 2rem;
-  background-color: #1E2D3D;
+  background-color: #0C111B;
+  background-image: linear-gradient(to bottom, #131b2c 0%, #0C111B 15%, #0C111B 85%, #131b2c 100%);
   color: white;
   overflow: hidden;
+  position: relative;
+}
+
+.roadmap::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: radial-gradient(circle at center, rgba(153, 69, 255, 0.03) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: 0;
+  animation: pulse-bg 10s ease-in-out infinite;
+}
+
+.roadmap .section-header {
+  position: relative;
+  z-index: 1;
 }
 
 .roadmap .section-header h2 {
   color: white;
+  text-shadow: 0 0 20px rgba(153, 69, 255, 0.3);
+  background: linear-gradient(to right, #ffffff, #9945FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .roadmap .section-header p {
-  color: #ccc;
+  color: #9BA5B7;
 }
 
 .roadmap-container {
@@ -21,17 +45,28 @@
   margin: 0 auto;
   padding: 3rem 0;
   position: relative;
+  z-index: 1;
 }
 
-.roadmap-container:before {
-  content: '';
+/* Section transition elements */
+.section-transition-top {
   position: absolute;
-  top: 30px;
+  top: -2px;
   left: 0;
-  right: 0;
-  height: 2px;
-  background: rgba(20, 241, 149, 0.3);
-  z-index: 1;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(153, 69, 255, 0.3), transparent);
+  opacity: 0.5;
+}
+
+.section-transition-bottom {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(20, 241, 149, 0.3), transparent);
+  opacity: 0.5;
 }
 
 .roadmap-step {
@@ -45,25 +80,26 @@
 }
 
 .step-number {
-  width: 60px;
-  height: 60px;
-  background-color: #14F195;
-  color: #1E2D3D;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #131b2c, #0e1520);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  color: white;
+  position: relative;
   z-index: 2;
-  box-shadow: 0 0 15px rgba(20, 241, 149, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 15px rgba(153, 69, 255, 0.5);
+  border: 2px solid rgba(153, 69, 255, 0.5);
+  transition: all 0.3s ease;
 }
 
 .roadmap-step:hover .step-number {
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(20, 241, 149, 0.7);
+  box-shadow: 0 0 20px rgba(153, 69, 255, 0.7);
 }
 
 .step-content {
@@ -91,11 +127,11 @@
 
 .step-connector {
   position: absolute;
-  top: 30px;
-  left: 50%;
+  top: 25px;
+  right: -50%;
   width: 100%;
   height: 2px;
-  background-color: #14F195;
+  background: linear-gradient(to right, rgba(153, 69, 255, 0.5), rgba(20, 241, 149, 0.3));
   z-index: 1;
 }
 
@@ -158,37 +194,104 @@
   }
 }
 
+/* Add transition dots between sections */
+.roadmap::after {
+  content: '•••';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  letter-spacing: 8px;
+  color: rgba(153, 69, 255, 0.4);
+  z-index: 2;
+}
+
 .course-modules {
   padding: 4rem 2rem;
-  background-color: #f8f9fa;
+  background-color: #0C111B;
+  background-image: linear-gradient(to bottom, #131b2c 0%, #0C111B 15%, #0C111B 85%, #131b2c 100%);
+  position: relative;
+  overflow: hidden;
+  margin-top: -1px; /* Eliminate any gap between sections */
+}
+
+.course-modules::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: radial-gradient(circle at center, rgba(20, 241, 149, 0.03) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: 0;
+  animation: pulse-bg 10s ease-in-out infinite alternate;
+}
+
+.course-modules .section-header h2 {
+  color: white;
+  text-shadow: 0 0 20px rgba(20, 241, 149, 0.3);
+  background: linear-gradient(to right, #ffffff, #14F195);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.course-modules .section-header p {
+  color: #9BA5B7;
 }
 
 .modules-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .module-card {
-  background: white;
-  border-radius: 8px;
+  background: linear-gradient(145deg, #131b2c, #0e1520);
+  border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+
+.module-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #9945FF, #14F195);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .module-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 0 0 20px rgba(20, 241, 149, 0.2);
+}
+
+.module-card:hover::before {
+  opacity: 1;
 }
 
 .module-card h3 {
-  color: #1E2D3D;
+  color: white;
+  margin-bottom: 1.5rem;
   font-size: 1.3rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #14F195;
+  background: linear-gradient(to right, #ffffff, #14F195);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
 }
 
 .module-card ul {
@@ -198,7 +301,41 @@
 
 .module-card li {
   margin-bottom: 0.8rem;
-  color: #555;
+  color: #9BA5B7;
+  position: relative;
+}
+
+.module-card li::before {
+  content: "";
+  position: absolute;
+  left: -1.2rem;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  background-color: #9945FF;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(153, 69, 255, 0.6);
+}
+
+/* Section transition elements */
+.course-modules .section-transition-top {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(20, 241, 149, 0.3), transparent);
+  opacity: 0.5;
+}
+
+.course-modules .section-transition-bottom {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(20, 241, 149, 0.3), transparent);
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -208,5 +345,6 @@
   
   .modules-container {
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
   }
 } 

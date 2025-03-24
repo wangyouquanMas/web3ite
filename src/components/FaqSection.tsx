@@ -49,6 +49,7 @@ const FaqSection: React.FC = () => {
   
   return (
     <section className="faq">
+      <div className="section-transition-top"></div>
       <div className="section-header">
         <h2>常见问题</h2>
         <p>解答您关于Solana培训课程的疑问</p>
@@ -66,6 +67,7 @@ const FaqSection: React.FC = () => {
           </div>
         ))}
       </div>
+      <div className="section-transition-bottom"></div>
     </section>
   );
 };

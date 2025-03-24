@@ -4,10 +4,14 @@ import './CertificateSection.css';
 const CertificateSection: React.FC = () => {
   return (
     <section className="certificate">
+      <div className="section-transition-top"></div>
+      <div className="section-header">
+        <h2>Solana开发者认证</h2>
+        <p>完成课程后，您将获得专业的Solana开发者认证，证明您具备专业的区块链开发能力</p>
+      </div>
       <div className="certificate-container">
         <div className="certificate-content">
-          <h2>Solana开发者认证</h2>
-          <p>完成课程后，您将获得专业的Solana开发者认证，证明您具备专业的区块链开发能力。</p>
+          <p>获得我们颁发的专业认证，为您的职业发展增添有力证明。</p>
           <ul className="certificate-benefits">
             <li>证明您的Solana开发技能</li>
             <li>增加您的就业竞争力</li>
@@ -30,6 +34,7 @@ const CertificateSection: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="section-transition-bottom"></div>
     </section>
   );
 };

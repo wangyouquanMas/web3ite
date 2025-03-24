@@ -12,6 +12,7 @@ const CourseSchedule: React.FC = () => {
   return (
     <div>
       <section id="fee" className="course-fee">
+        <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>课程费用</h2>
           <p>投资您的未来，成为专业的Solana开发者</p>
@@ -28,7 +29,6 @@ const CourseSchedule: React.FC = () => {
             <ul className="price-features">
               <li>完整的Solana开发技能培训</li>
               <li>项目实战经验</li>
-              <li>行业导师指导</li>
               <li>就业咨询服务</li>
               <li>Solana开发者认证</li>
               <li>终身学习社区</li>
@@ -36,9 +36,11 @@ const CourseSchedule: React.FC = () => {
             <button className="btn primary">立即报名</button>
           </div>
         </div>
+        <div className="section-transition-bottom"></div>
       </section>
 
       <section id="schedule" className="course-schedule">
+        <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>开班信息</h2>
           <p>选择适合您的课程批次，开始您的Solana开发之旅</p>
@@ -81,6 +83,7 @@ const CourseSchedule: React.FC = () => {
             ))}
           </div>
         </div>
+        <div className="section-transition-bottom"></div>
       </section>
     </div>
   );

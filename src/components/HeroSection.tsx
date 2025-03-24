@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Solana培训营</h1>
+        <h1>Solana训练营</h1>
         <p>系统学习Solana区块链开发，从零基础到专业开发者</p>
         <div className="hero-buttons">
           <button className="btn primary">申请报名</button>
@@ -186,19 +186,16 @@ const HeroSection: React.FC = () => {
           <div className="illustration-label">Work from anywhere</div>
         </div>
       </div>
-
-      {/* WeChat QR Code Popup */}
+      
+      {/* Transition elements */}
+      <div className="hero-transition-bottom"></div>
+      
       {showWechatQR && (
         <div className="wechat-popup-overlay" onClick={handleClosePopup}>
-          <div className="wechat-popup" onClick={(e) => e.stopPropagation()}>
-            <div className="wechat-popup-header">
-              <h3>扫描添加微信咨询</h3>
-              <button className="close-btn" onClick={handleClosePopup}>×</button>
-            </div>
-            <div className="wechat-popup-content">
-              <img src={wechatQR} alt="WeChat QR Code" className="wechat-popup-image" />
-              <p>扫描上方二维码添加微信，获取课程详细信息</p>
-            </div>
+          <div className="wechat-popup-content" onClick={(e) => e.stopPropagation()}>
+            <button className="wechat-popup-close" onClick={handleClosePopup}>×</button>
+            <img src={wechatQR} alt="WeChat QR Code" className="wechat-popup-image" />
+            <p>扫描上方二维码添加微信，获取课程详细信息</p>
           </div>
         </div>
       )}

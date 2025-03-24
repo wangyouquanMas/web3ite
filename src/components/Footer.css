@@ -21,7 +21,7 @@
 .footer-logo-section h2 {
   font-size: 1.8rem;
   margin: 0 0 1rem;
-  color: #14F195;
+  color: #9945FF;
 }
 
 .footer-logo-section p {
@@ -44,7 +44,7 @@
 }
 
 .social-link:hover {
-  color: #14F195;
+  color: #9945FF;
 }
 
 .footer-links-section {
@@ -63,7 +63,7 @@
 .footer-links-column h3 {
   font-size: 1.2rem;
   margin: 0 0 1.5rem;
-  color: #14F195;
+  color: #9945FF;
   position: relative;
 }
 
@@ -74,7 +74,7 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background-color: #14F195;
+  background-color: #9945FF;
 }
 
 .footer-links-column ul {
@@ -94,7 +94,7 @@
 }
 
 .footer-links-column a:hover {
-  color: #14F195;
+  color: #9945FF;
 }
 
 /* WeChat QR Code Styles */
@@ -109,7 +109,7 @@
 
 .wechat-qr-image {
   max-width: 120px;
-  border: 2px solid #14F195;
+  border: 2px solid #9945FF;
   border-radius: 6px;
 }
 

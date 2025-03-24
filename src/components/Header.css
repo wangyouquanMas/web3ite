@@ -10,7 +10,7 @@
 .logo h1 {
   font-size: 1.8rem;
   margin: 0;
-  color: #14F195; /* Solana green color */
+  color: #9945FF; /* Solana purple color */
 }
 
 .navigation ul {
@@ -32,7 +32,7 @@
 }
 
 .navigation a:hover {
-  color: #14F195;
+  color: #9945FF;
 }
 
 @media (max-width: 768px) {

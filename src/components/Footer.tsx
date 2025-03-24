@@ -44,9 +44,7 @@ const Footer: React.FC = () => {
           <div className="footer-links-column">
             <h3>联系我们</h3>
             <ul>
-              <li><a href="mailto:info@solanatraining.com">info@solanatraining.com</a></li>
-              <li>微信: SolanaTraining</li>
-              <li>工作时间: 周一至周五 9:00-18:00</li>
+              <li>微信: 1091643994</li>
             </ul>
             <div className="wechat-qr">
               <p>扫描添加微信</p>
