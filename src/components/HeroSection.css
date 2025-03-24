@@ -131,36 +131,82 @@
 
 .window-frame {
   position: absolute;
-  top: 30px;
-  left: 40px;
-  width: 190px;
-  height: 140px;
-  background-color: #4a5570;
-  border-radius: 8px;
-  border: 6px solid #5c6c8e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  background-color: transparent;
+  border-radius: 0 0 4px 4px;
+  border: 5px solid #3a3a50;
+  border-top: none;
+  border-right: none;
+  border-left: none;
   overflow: hidden;
   box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.3);
   z-index: 5;
 }
 
-.window-sill {
+.window-frame:after {
+  content: '';
   position: absolute;
-  bottom: -10px;
-  left: -10px;
-  width: calc(100% + 20px);
-  height: 15px;
-  background-color: #5c6c8e;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    135deg,
+    rgba(42, 42, 64, 0.1) 0%,
+    rgba(42, 42, 64, 0.2) 50%,
+    rgba(42, 42, 64, 0.3) 100%
+  );
+  z-index: 8;
+}
+
+.window-depth {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #2a2a40;
+  z-index: 6;
+}
+
+.window-sill {
+  display: none;
 }
 
 .window-frame-vertical {
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 6px;
+  left: 33%;
+  width: 4px;
   height: 100%;
-  background-color: #5c6c8e;
-  transform: translateX(-50%);
+  background-color: #3a3a50;
+  z-index: 7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.window-frame-vertical:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 4px;
+  height: 100%;
+  background-color: #3a3a50;
+  z-index: 7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.window-frame-horizontal {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #3a3a50;
   z-index: 7;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -179,56 +225,161 @@
   left: 0;
   width: 100%;
   height: 60%;
-  background: linear-gradient(to bottom, #4a9aff 0%, #8ccaff 100%);
+  background: linear-gradient(to bottom, #FF7B54 0%, #FFB26B 40%, #FFD56F 60%, #939B62 100%);
 }
 
-.ocean {
+.sun {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(circle, #ffee93 0%, #ffb347 60%, #ff8d47 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(255, 179, 71, 0.8);
+  animation: sunset-glow 10s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+@keyframes sunset-glow {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+    box-shadow: 0 0 30px rgba(255, 179, 71, 0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 179, 71, 1);
+  }
+}
+
+.city-skyline {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 40%;
-  background: linear-gradient(to bottom, #14B898 0%, #14F195 80%, #8df2cf 100%);
-  animation: wave 8s ease-in-out infinite;
+  background: linear-gradient(to bottom, #939B62 0%, #4B5267 100%);
+  z-index: 2;
 }
 
-@keyframes wave {
+/* City silhouette in the foreground */
+.city-silhouette {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #1a1a30;
+  z-index: 3;
+  clip-path: polygon(
+    0% 100%, 
+    0% 30%, 
+    5% 60%, 
+    10% 40%, 
+    15% 70%, 
+    20% 30%, 
+    25% 80%, 
+    30% 20%, 
+    35% 50%, 
+    40% 30%, 
+    45% 60%, 
+    50% 30%, 
+    55% 70%, 
+    60% 40%, 
+    65% 80%, 
+    70% 30%, 
+    75% 50%, 
+    80% 20%, 
+    85% 40%, 
+    90% 60%, 
+    95% 30%,
+    100% 70%, 
+    100% 100%
+  );
+}
+
+.buildings {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.building {
+  position: absolute;
+  bottom: 0;
+  background-color: #2a2a40;
+  box-shadow: inset 0 0 10px rgba(255, 179, 71, 0.2);
+  z-index: 3;
+}
+
+.building-1 {
+  left: 20px;
+  width: 40px;
+  height: 60%;
+}
+
+.building-2 {
+  left: 70px;
+  width: 35px;
+  height: 80%;
+}
+
+.building-3 {
+  left: 120px;
+  width: 50px;
+  height: 70%;
+}
+
+.building-4 {
+  left: 180px;
+  width: 45px;
+  height: 90%;
+}
+
+.building-5 {
+  left: 235px;
+  width: 40px;
+  height: 65%;
+}
+
+.building-6 {
+  left: 290px;
+  width: 35px;
+  height: 75%;
+}
+
+.windows {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 3px;
+}
+
+.building-window {
+  background-color: rgba(255, 207, 51, 0.5);
+  border-radius: 1px;
+  animation: window-flicker 4s ease-in-out infinite;
+}
+
+@keyframes window-flicker {
   0%, 100% {
-    transform: translateY(0);
-  }
-  25% {
-    transform: translateY(-3px) skewY(1deg);
+    opacity: 0.5;
   }
   50% {
-    transform: translateY(-5px) skewY(-1deg);
+    opacity: 0.8;
   }
   75% {
-    transform: translateY(-2px) skewY(0.5deg);
-  }
-}
-
-.sun {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-  background: radial-gradient(circle, #fff5bd 0%, #ffe14c 60%, #ffb700 100%);
-  border-radius: 50%;
-  box-shadow: 0 0 30px rgba(255, 225, 76, 0.8);
-  animation: glow 4s ease-in-out infinite;
-}
-
-@keyframes glow {
-  0%, 100% {
-    opacity: 0.9;
-    transform: scale(1);
-    box-shadow: 0 0 30px rgba(255, 225, 76, 0.8);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-    box-shadow: 0 0 40px rgba(255, 225, 76, 1);
+    opacity: 0.6;
   }
 }
 
@@ -243,66 +394,66 @@
 
 .cloud {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 221, 170, 0.7);
   border-radius: 50%;
 }
 
 .cloud-1 {
-  top: 15px;
+  top: 45px;
   left: 20px;
-  width: 50px;
+  width: 60px;
   height: 20px;
-  animation: cloud-move 15s linear infinite;
+  animation: cloud-move 25s linear infinite;
 }
 
 .cloud-1:before, .cloud-1:after {
   content: '';
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 221, 170, 0.7);
   border-radius: 50%;
 }
 
 .cloud-1:before {
-  width: 25px;
-  height: 25px;
-  top: -10px;
+  width: 30px;
+  height: 30px;
+  top: -15px;
   left: 5px;
 }
 
 .cloud-1:after {
   width: 25px;
   height: 25px;
-  top: -8px;
-  left: 25px;
+  top: -10px;
+  left: 30px;
 }
 
 .cloud-2 {
-  top: 35px;
+  top: 25px;
   left: -60px;
-  width: 40px;
+  width: 50px;
   height: 15px;
-  animation: cloud-move 20s linear infinite 5s;
+  animation: cloud-move 30s linear infinite 8s;
 }
 
 .cloud-2:before, .cloud-2:after {
   content: '';
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 221, 170, 0.7);
   border-radius: 50%;
 }
 
 .cloud-2:before {
-  width: 20px;
-  height: 20px;
-  top: -8px;
+  width: 25px;
+  height: 25px;
+  top: -10px;
   left: 5px;
 }
 
 .cloud-2:after {
   width: 20px;
   height: 20px;
-  top: -6px;
-  left: 20px;
+  top: -8px;
+  left: 25px;
 }
 
 @keyframes cloud-move {
@@ -310,45 +461,13 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(250px);
+    transform: translateX(300px);
   }
 }
 
-.islands {
-  position: absolute;
-  bottom: 30%;
-  left: 0;
-  width: 100%;
-  z-index: 7;
-}
-
-.island {
-  position: absolute;
-  background-color: #0fad7a;
-  border-radius: 50%;
-}
-
-.island-1 {
-  right: 30px;
-  width: 60px;
-  height: 20px;
-}
-
-.island-1:before {
-  content: '';
-  position: absolute;
-  top: -15px;
-  left: 20px;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 20px solid #14B898;
-}
-
-.island-2 {
-  left: 40px;
-  bottom: -5px;
-  width: 40px;
-  height: 10px;
+/* Remove islands since we're replacing with city */
+.islands, .island, .island-1, .island-2, .ocean {
+  display: none;
 }
 
 .desk {
@@ -721,7 +840,7 @@
 
 .person {
   position: absolute;
-  bottom: 122px;
+  bottom: 90px;
   left: 110px;
   z-index: 15;
   transform: rotate(0deg);
@@ -734,18 +853,18 @@
   border-radius: 50% 50% 45% 45%;
   position: relative;
   animation: head-move 4s ease-in-out infinite;
-  transform: rotate(5deg);
+  transform: rotate(-5deg);
 }
 
 @keyframes head-move {
   0%, 100% {
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   30% {
-    transform: rotate(3deg);
+    transform: rotate(-2deg);
   }
   70% {
-    transform: rotate(-2deg);
+    transform: rotate(-7deg);
   }
 }
 
@@ -811,16 +930,16 @@
   height: 50px;
   background-color: #14B898;
   border-radius: 8px 8px 0 0;
-  transform: rotate(3deg);
+  transform: rotate(0deg);
   animation: subtle-sway 5s ease-in-out infinite;
 }
 
 @keyframes subtle-sway {
   0%, 100% {
-    transform: rotate(3deg);
+    transform: rotate(0deg);
   }
   50% {
-    transform: rotate(1deg);
+    transform: rotate(-1deg);
   }
 }
 
@@ -843,22 +962,22 @@
 .arm-left {
   top: 15px;
   left: -15px;
-  transform: rotate(35deg);
+  transform: rotate(25deg);
 }
 
 .arm-right {
   top: 15px;
   right: -15px;
-  transform: rotate(-35deg);
+  transform: rotate(-30deg);
   animation: typing 2s infinite;
 }
 
 @keyframes typing {
   0%, 100% {
-    transform: rotate(-35deg) translateY(0);
+    transform: rotate(-30deg) translateY(0);
   }
   50% {
-    transform: rotate(-40deg) translateY(-2px);
+    transform: rotate(-35deg) translateY(-2px);
   }
 }
 
@@ -873,29 +992,29 @@
 .leg {
   position: absolute;
   width: 8px;
-  height: 50px;
+  height: 40px;
   background-color: #14B898;
   border-radius: 4px;
 }
 
 .leg-left {
   left: 3px;
-  transform: rotate(2deg);
+  transform: rotate(0deg);
   animation: weight-shift 4s ease-in-out infinite alternate;
 }
 
 .leg-right {
   right: 3px;
-  transform: rotate(-2deg);
+  transform: rotate(0deg);
   animation: weight-shift 4s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes weight-shift {
   0%, 100% {
-    transform: translateY(0) rotate(2deg);
+    transform: translateY(0) rotate(0deg);
   }
   50% {
-    transform: translateY(-2px) rotate(0deg);
+    transform: translateY(-1px) rotate(0deg);
   }
 }
 
@@ -905,7 +1024,7 @@
   bottom: -3px;
   left: -2px;
   width: 12px;
-  height: 6px;
+  height: 5px;
   background-color: #333;
   border-radius: 3px 5px 3px 3px;
   transform: rotate(0deg);
@@ -1089,10 +1208,18 @@
   }
   
   .window-frame {
-    top: 25px;
-    left: 35px;
-    width: 160px;
-    height: 120px;
+    height: 65%;
+  }
+
+  .window-reflection {
+    bottom: 70px;
+    height: 40px;
+  }
+
+  .city-glow {
+    top: 80px;
+    left: 30px;
+    width: 260px;
   }
 
   .illustration-label {
@@ -1106,6 +1233,37 @@
   .wechat-popup-image {
     max-width: 150px;
   }
+  
+  /* Adjust building positions for mobile */
+  .building-1 {
+    left: 10px;
+    width: 30px;
+  }
+  
+  .building-2 {
+    left: 45px;
+    width: 25px;
+  }
+  
+  .building-3 {
+    left: 80px;
+    width: 40px;
+  }
+  
+  .building-4 {
+    left: 125px;
+    width: 35px;
+  }
+  
+  .building-5 {
+    left: 165px;
+    width: 30px;
+  }
+  
+  .building-6 {
+    left: 200px;
+    width: 25px;
+  }
 }
 
 @keyframes screen-glow {
@@ -1114,5 +1272,310 @@
   }
   50% {
     box-shadow: 0 0 15px rgba(20, 241, 149, 0.3);
+  }
+}
+
+/* Window reflection on floor */
+.window-reflection {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(255, 123, 84, 0.2) 0%, rgba(75, 82, 103, 0.05) 100%);
+  filter: blur(5px);
+  transform: perspective(300px) rotateX(70deg) scale(1, 0.4);
+  opacity: 0.3;
+  z-index: 2;
+  border-radius: 0;
+}
+
+/* City light glow effect */
+.city-glow {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 280px;
+  height: 20px;
+  background: radial-gradient(ellipse at center, rgba(255, 179, 71, 0.2) 0%, rgba(255, 179, 71, 0) 70%);
+  filter: blur(10px);
+  opacity: 0.6;
+  z-index: 2;
+}
+
+/* Hide elements that conflict with the expanded window */
+.wall-art {
+  display: none;
+}
+
+.potted-plant {
+  display: none;
+}
+
+/* Car lights on city streets */
+.car-lights {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 4;
+}
+
+.car {
+  position: absolute;
+  height: 2px;
+  border-radius: 2px;
+}
+
+.car-1 {
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  left: -10px;
+  animation: car-move-right 8s linear infinite;
+}
+
+.car-2 {
+  width: 6px;
+  background-color: rgba(255, 100, 100, 0.8);
+  bottom: 8px;
+  right: -8px;
+  animation: car-move-left 12s linear infinite 3s;
+}
+
+.car-3 {
+  width: 7px;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 16px;
+  left: -12px;
+  animation: car-move-right 10s linear infinite 2s;
+}
+
+@keyframes car-move-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(380px);
+  }
+}
+
+@keyframes car-move-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-380px);
+  }
+}
+
+/* Add more car lights for the wider window */
+.car-4 {
+  width: 9px;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 24px;
+  left: -15px;
+  animation: car-move-right 15s linear infinite 5s;
+}
+
+.car-5 {
+  width: 7px;
+  background-color: rgba(255, 100, 100, 0.8);
+  bottom: 32px;
+  right: -10px;
+  animation: car-move-left 18s linear infinite 7s;
+}
+
+/* Airplane styles with improved visibility and contrail */
+.airplane {
+  position: absolute;
+  z-index: 6;
+}
+
+.airplane-body {
+  position: absolute;
+  width: 40px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50% 50% 0 0;
+}
+
+.airplane-tail {
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+}
+
+.airplane-wing {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  width: 30px;
+  height: 6px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50% 50% 0 0;
+  transform: rotate(10deg);
+}
+
+.airplane-contrail {
+  position: absolute;
+  top: 4px;
+  right: -50px;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6));
+}
+
+.airplane-1 {
+  top: 40px;
+  left: -50px;
+  animation: fly-right 30s linear infinite;
+}
+
+.airplane-2 {
+  top: 80px;
+  right: -50px;
+  transform: scale(0.3) rotateY(180deg);
+  animation: fly-left 45s linear infinite 15s;
+}
+
+/* Birds styles with improved visibility */
+.birds {
+  position: absolute;
+  z-index: 6;
+}
+
+.bird {
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  clip-path: polygon(0% 50%, 50% 0%, 100% 50%);
+  background-color: rgba(0, 0, 0, 0.65);
+  animation: bird-flap 0.8s ease-in-out infinite;
+}
+
+.bird-group-1 {
+  top: 30px;
+  left: -30px;
+  transform: scale(0.8);
+  animation: bird-fly-right 20s linear infinite 2s;
+}
+
+.bird-group-2 {
+  top: 60px;
+  right: -30px;
+  transform: scale(0.6) rotate(180deg);
+  animation: bird-fly-left 25s linear infinite 7s;
+}
+
+.bird-group-3 {
+  top: 20px;
+  left: 50%;
+  transform: scale(0.5) translateX(-50%);
+  animation: bird-fly-up 35s linear infinite 5s;
+}
+
+.bird-1 {
+  top: 0;
+  left: 0;
+}
+
+.bird-2 {
+  top: -5px;
+  left: 15px;
+}
+
+.bird-3 {
+  top: 0;
+  left: 30px;
+}
+
+.bird-4 {
+  top: 5px;
+  left: 10px;
+}
+
+.bird-5 {
+  top: 5px;
+  left: 25px;
+}
+
+@keyframes bird-flap {
+  0%, 100% {
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%);
+  }
+  50% {
+    clip-path: polygon(0% 45%, 50% 10%, 100% 45%);
+  }
+}
+
+@keyframes bird-fly-right {
+  0% {
+    transform: scale(0.8) translateX(0) translateY(0);
+  }
+  50% {
+    transform: scale(0.8) translateX(160px) translateY(-20px);
+  }
+  100% {
+    transform: scale(0.8) translateX(320px) translateY(0);
+  }
+}
+
+@keyframes bird-fly-left {
+  0% {
+    transform: scale(0.6) rotate(180deg) translateX(0) translateY(0);
+  }
+  50% {
+    transform: scale(0.6) rotate(180deg) translateX(140px) translateY(15px);
+  }
+  100% {
+    transform: scale(0.6) rotate(180deg) translateX(280px) translateY(0);
+  }
+}
+
+@keyframes bird-fly-up {
+  0% {
+    transform: scale(0.5) translateX(-50%) translateY(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5) translateX(-50%) translateY(-120px);
+    opacity: 0;
+  }
+}
+
+/* Animation keyframes for airplane */
+@keyframes fly-right {
+  0% {
+    transform: scale(0.5) translateX(0) translateY(0);
+  }
+  50% {
+    transform: scale(0.5) translateX(200px) translateY(-10px);
+  }
+  100% {
+    transform: scale(0.5) translateX(400px) translateY(0);
+  }
+}
+
+@keyframes fly-left {
+  0% {
+    transform: scale(0.3) rotateY(180deg) translateX(0) translateY(0);
+  }
+  50% {
+    transform: scale(0.3) rotateY(180deg) translateX(150px) translateY(10px);
+  }
+  100% {
+    transform: scale(0.3) rotateY(180deg) translateX(300px) translateY(0);
   }
 } 

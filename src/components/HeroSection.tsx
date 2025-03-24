@@ -30,21 +30,95 @@ const HeroSection: React.FC = () => {
         <div className="dream-lifestyle-illustration">
           <div className="room-wall"></div>
           <div className="room-floor"></div>
-          
+          <div className="window-reflection"></div>
+          <div className="city-glow"></div>
           <div className="window-frame">
             <div className="window-sill"></div>
             <div className="window-frame-vertical"></div>
+            <div className="window-frame-horizontal"></div>
+            <div className="window-depth"></div>
             <div className="window-view">
-              <div className="ocean"></div>
               <div className="sky"></div>
               <div className="sun"></div>
+              
+              {/* Airplanes */}
+              <div className="airplane airplane-1">
+                <div className="airplane-body"></div>
+                <div className="airplane-tail"></div>
+                <div className="airplane-wing"></div>
+                <div className="airplane-contrail"></div>
+              </div>
+              <div className="airplane airplane-2">
+                <div className="airplane-body"></div>
+                <div className="airplane-tail"></div>
+                <div className="airplane-wing"></div>
+                <div className="airplane-contrail"></div>
+              </div>
+              
+              {/* Birds */}
+              <div className="birds bird-group-1">
+                <div className="bird bird-1"></div>
+                <div className="bird bird-2"></div>
+                <div className="bird bird-3"></div>
+              </div>
+              <div className="birds bird-group-2">
+                <div className="bird bird-1"></div>
+                <div className="bird bird-2"></div>
+                <div className="bird bird-3"></div>
+                <div className="bird bird-4"></div>
+                <div className="bird bird-5"></div>
+              </div>
+              <div className="birds bird-group-3">
+                <div className="bird bird-1"></div>
+                <div className="bird bird-2"></div>
+                <div className="bird bird-3"></div>
+              </div>
+              
               <div className="clouds">
                 <div className="cloud cloud-1"></div>
                 <div className="cloud cloud-2"></div>
               </div>
-              <div className="islands">
-                <div className="island island-1"></div>
-                <div className="island island-2"></div>
+              <div className="city-skyline">
+                <div className="city-silhouette"></div>
+                <div className="buildings">
+                  <div className="building building-1">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                  <div className="building building-2">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                  <div className="building building-3">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                  <div className="building building-4">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                  <div className="building building-5">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                  <div className="building building-6">
+                    <div className="windows">
+                      {[...Array(15)].map((_, i) => <div key={i} className="building-window"></div>)}
+                    </div>
+                  </div>
+                </div>
+                <div className="car-lights">
+                  <div className="car car-1"></div>
+                  <div className="car car-2"></div>
+                  <div className="car car-3"></div>
+                  <div className="car car-4"></div>
+                  <div className="car car-5"></div>
+                </div>
               </div>
             </div>
           </div>
