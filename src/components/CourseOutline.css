@@ -294,6 +294,18 @@
   position: relative;
 }
 
+.topics-two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.topics-column {
+  width: 48%;
+  padding-left: 20px;
+  margin: 0;
+}
+
 .module-card ul {
   margin: 0;
   padding-left: 1.5rem;
@@ -346,5 +358,81 @@
   .modules-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
+  }
+}
+
+/* Styling for topic items with subtopics */
+.has-subtopics {
+  cursor: pointer;
+}
+
+.topic-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.has-subtopics .topic-title:hover {
+  color: #14F195;
+}
+
+.expand-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  background-color: rgba(153, 69, 255, 0.2);
+  color: #fff;
+  margin-left: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.expand-icon.expanded {
+  background-color: rgba(20, 241, 149, 0.2);
+  transform: rotate(180deg);
+}
+
+.subtopics-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-left: 1px dashed rgba(153, 69, 255, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.subtopics-list li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #9BA5B7;
+}
+
+.subtopics-list li::before {
+  background-color: #14F195;
+  width: 4px;
+  height: 4px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile responsiveness for subtopics */
+@media (max-width: 768px) {
+  .topics-two-columns {
+    flex-direction: column;
+  }
+  
+  .topics-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .topics-column:last-child {
+    margin-bottom: 0;
   }
 } 

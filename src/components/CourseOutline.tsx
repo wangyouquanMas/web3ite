@@ -1,57 +1,280 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CourseOutline.css';
 
+// Define types for our nested content structure
+interface Topic {
+  title: string;
+  subtopics?: string[];
+}
+
 const CourseOutline: React.FC = () => {
+  // Track expanded topics
+  const [expandedTopics, setExpandedTopics] = useState<Record<string, boolean>>({});
+
+  const toggleTopic = (moduleId: number, topicIndex: number) => {
+    const key = `${moduleId}-${topicIndex}`;
+    setExpandedTopics(prev => ({
+      ...prev,
+      [key]: !prev[key]
+    }));
+  };
+
   const roadmapSteps = [
-    { id: 1, name: 'Rust', description: '学习Rust编程语言基础' },
-    { id: 2, name: 'Solana', description: 'Solana区块链原理与架构' },
-    { id: 3, name: 'Anchor', description: 'Anchor框架应用开发' },
-    { id: 4, name: 'DApp', description: '去中心化应用开发' },
-    { id: 5, name: 'DeFi', description: '去中心化金融开发' }
+    { id: 1, name: 'Direction', description: '选择方向' },
+    { id: 2, name: 'Learning', description: '学习方法' },
+    { id: 3, name: 'Basic', description: 'Solana基础' },
+    { id: 4, name: 'Advanced', description: 'Solana进阶' },
+    { id: 5, name: 'Interview', description: '面试准备' }
   ];
 
   const courseModules = [
     {
       id: 1,
-      title: 'Solana 基础',
+      title: '认知方法',
       topics: [
-        'Solana区块链基本原理',
-        '共识机制与验证节点',
-        'Solana生态系统介绍',
-        '账户模型与交易结构'
+        {
+          title: '如何选择你的方向',
+          subtopics: [
+            '点线面体分析',
+            '做正确的事情',
+            '提前解决反复出现的问题'
+          ]
+        },
+        {
+          title: '认知负载理论',
+          subtopics: [
+            '工作记忆限制',
+            '构建信息块',
+            '内部与外部复杂度',
+            '任务分解与类比',
+             '不要外包思维过程',
+             '定期多样化的复习'
+          ]
+        },
+        {
+          title: '刻意练习',
+          subtopics: [
+            '有效及时反馈',
+            '避免过度练习'
+          ]
+        },
+        {
+          title: 'GTD理论',
+          subtopics: [
+            '收集整理',
+            '明确下一步行动',
+            '定期回顾'
+          ]
+        },
+        { title: '目标管理',
+          subtopics:[
+            '28原则',
+            '问题导向',
+            '不要强行上难度'
+          ]
+         },
+        { title: '信息收集',
+          subtopics:[
+            '去信息的源头'
+          ]
+         },
+        { title: '压力管理',
+          subtopics:[
+            '错误是成长的机会',
+            '可持续 > 高强度',
+            '完成 > 完美',
+            '什么是该停下来休息'
+          ]
+         },
+        { title: '其它',
+          subtopics:[
+            '社交链接：从他人身上学习',
+            '改变视角: 不追求目标,而是改变identity'
+          ]
+         }
       ]
     },
     {
       id: 2,
-      title: 'JavaScript & TypeScript 编程语言',
+      title: '基础部分',
       topics: [
-        'JS/TS基础语法',
-        '异步编程与Promise',
-        '前端框架介绍',
-        'Web3.js客户端开发'
+        {
+          title: '编程基础',
+          subtopics: [
+            'Rust语言',
+            'JS语言',
+          ]
+        },
+        {
+          title: '区块链基础',
+          subtopics: [
+            '分布式账本技术',
+            'PoH及共识机制',
+            'Solana架构'
+          ]
+        },
+        { title: '合约基础',
+          subtopics:[
+            '合约结构',
+            '合约入口',
+            '合约调用',
+            '合约测试',
+            '合约部署'
+          ]
+         },
+        {
+          title: '状态管理:账户模型',
+          subtopics: [
+            '账户类型',
+            '数据存储',
+            '账户权限',
+            'PDA账户',
+            '生命周期'
+          ]
+        },
+        {
+          title: 'SPL',
+          subtopics: [
+            'SPL Token标准'
+          ]
+        },
+        {
+          title: '流动性池',
+          subtopics: [
+            '基础版: AMM自动做市',
+            '流动性计算',
+            '池子深度与滑点关系'
+          ]
+        },
+        {
+          title: '交易结构及构造',
+          subtopics: [
+            '交易格式',
+            '指令集',
+            'Token2022交易构造'
+          ]
+        },
+        { title: '交易解析',
+          subtopics:[
+            '怎么构造，怎么解',
+            'Raydium V4、CLMM、CPMM解析',
+            'Pumpfun 解析',
+            'Token2022解析'
+          ]
+         },
+        { title: '实践:跟单机器人' }
       ]
     },
     {
       id: 3,
-      title: 'Rust 编程语言',
+      title: 'Solana 进阶',
       topics: [
-        'Rust基础语法',
-        '所有权与借用',
-        '结构体与枚举',
-        '错误处理与并发'
+        {
+          title: 'AMM系列',
+          subtopics: [
+            'Raydium V4/CLMM/CPMM',
+            'Pumpfun'
+          ]
+        },
+        {
+          title: 'Token2022系列',
+          subtopics: [
+            'Token2022交易构造',
+            'Token2022解析'
+          ]
+        },
+        {
+          title: '如何保障交易成功率',
+          subtopics: [
+            '优化交易构造',
+            '自动滑点'
+          ]
+        },
+        { title: '如何保障交易速率',
+          subtopics:[
+            '提高gas费',
+            '如何给合适的gas费'
+          ]
+         },
+        { title: '防夹与Jito管理',
+          subtopics:[
+            '夹子种类',
+            'Jito管理'
+          ]
+         },
+        { title: 'Pumpfun Swap支持',
+          subtopics:[
+            'Pumpfun Swap交易构造',
+            'Pumpfun Swap解析'
+          ]
+         },
+        { title: '共识源码解读',
+          subtopics:[
+            'BFT: 什么是共识？',
+            'POH在共识中的作用',
+            'POS共识及关键构成'
+          ]
+         },
+        { title: 'Raydium Pool源码解读',
+          subtopics:[
+            '池创建',
+            '池流动性管理',
+            'Swap',
+            '...'
+          ]
+         },
+        { title: 'Solana 核心源码解读',
+          subtopics:[
+            'System Program',
+            'Token Program',
+            'Token2022 Program',
+            '...'
+          ]
+         },
+        { title: '实践',
+          subtopics:[
+            '实现一个Pumpfun',
+            '实现一个套利bot'
+          ]
+         },
       ]
     },
     {
       id: 4,
-      title: 'Anchor 框架应用与进阶',
+      title: '面试亮点:线上问题与实践',
       topics: [
-        'Anchor框架设计理念',
-        '程序开发与测试',
-        '安全性与优化',
-        '实际项目案例分析'
+        { title: '限价单构造与实现' },
+        { title: 'Token交易权限冻结' },
+        { title: '计算单元优化与Gas费' },
+        { title: 'Holder数及Top10计算问题' },
+        { title: 'Helius 资产无法正常获取' },
+        { title: '钓鱼攻击' },
+        { title: '如何帮用户选择合适的池子',
+          subtopics:[
+            '低手续费，低滑点'
+          ]
+        },
+        { title: '区块解析: 丢块了怎么办？',
+          subtopics:[
+            '丢块补偿'
+          ]
+        },
+        { title: '其它' },
       ]
     }
   ];
+
+  // 将话题分成两列
+  const splitTopicsIntoColumns = (topics: Topic[]) => {
+    const midpoint = Math.ceil(topics.length / 2);
+    const firstColumn = topics.slice(0, midpoint);
+    const secondColumn = topics.slice(midpoint);
+    
+    return {
+      firstColumn,
+      secondColumn
+    };
+  };
 
   return (
     <div>
@@ -81,16 +304,69 @@ const CourseOutline: React.FC = () => {
           <p>全面的课程内容，让你系统学习Solana开发所需的技能</p>
         </div>
         <div className="modules-container">
-          {courseModules.map(module => (
-            <div key={module.id} className="module-card">
-              <h3>{module.title}</h3>
-              <ul>
-                {module.topics.map((topic, index) => (
-                  <li key={index}>{topic}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {courseModules.map(module => {
+            const { firstColumn, secondColumn } = splitTopicsIntoColumns(module.topics);
+            
+            return (
+              <div key={module.id} className="module-card">
+                <h3>{module.title}</h3>
+                <div className="topics-two-columns">
+                  <ul className="topics-column">
+                    {firstColumn.map((topic, topicIndex) => (
+                      <li key={`first-${topicIndex}`} className={topic.subtopics ? "has-subtopics" : ""}>
+                        <div 
+                          className="topic-title"
+                          onClick={() => topic.subtopics && toggleTopic(module.id, topicIndex)}
+                        >
+                          {topic.title}
+                          {topic.subtopics && (
+                            <span className={`expand-icon ${expandedTopics[`${module.id}-${topicIndex}`] ? 'expanded' : ''}`}>
+                              {expandedTopics[`${module.id}-${topicIndex}`] ? '−' : '+'}
+                            </span>
+                          )}
+                        </div>
+                        {topic.subtopics && expandedTopics[`${module.id}-${topicIndex}`] && (
+                          <ul className="subtopics-list">
+                            {topic.subtopics.map((subtopic, subtopicIndex) => (
+                              <li key={`subtopic-${subtopicIndex}`}>{subtopic}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                  <ul className="topics-column">
+                    {secondColumn.map((topic, topicIndex) => {
+                      // Adjust index for the second column
+                      const actualIndex = topicIndex + firstColumn.length;
+                      return (
+                        <li key={`second-${topicIndex}`} className={topic.subtopics ? "has-subtopics" : ""}>
+                          <div 
+                            className="topic-title"
+                            onClick={() => topic.subtopics && toggleTopic(module.id, actualIndex)}
+                          >
+                            {topic.title}
+                            {topic.subtopics && (
+                              <span className={`expand-icon ${expandedTopics[`${module.id}-${actualIndex}`] ? 'expanded' : ''}`}>
+                                {expandedTopics[`${module.id}-${actualIndex}`] ? '−' : '+'}
+                              </span>
+                            )}
+                          </div>
+                          {topic.subtopics && expandedTopics[`${module.id}-${actualIndex}`] && (
+                            <ul className="subtopics-list">
+                              {topic.subtopics.map((subtopic, subtopicIndex) => (
+                                <li key={`subtopic-${subtopicIndex}`}>{subtopic}</li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+              </div>
+            );
+          })}
         </div>
         <div className="section-transition-bottom"></div>
       </section>

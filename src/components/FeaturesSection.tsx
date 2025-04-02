@@ -5,20 +5,19 @@ const FeaturesSection: React.FC = () => {
   const features = [
     {
       id: 1,
-      title: '全链路 Solana 开发技术栈',
-      description: '从链上智能合约到链下客户端，掌握完整的 Solana 生态系统开发流程，构建去中心化应用的全部技能。',
+      title: '学习方向与决策框架',
+      description: '探索"如何选择正确方向？如何做出正确决策？"通过 3位一体理论，建立坚实的学习基础，确保你走在正确的区块链技术道路上。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M12 22V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       )
     },
     {
       id: 2,
-      title: 'Rust & Anchor 智能合约开发',
-      description: '深入掌握高性能、内存安全的 Rust 语言与 Anchor 框架，构建安全、高效的区块链智能合约。',
+      title: '高效学习理论与实践',
+      description: '整合认知负荷理论、刻意练习、GTD时间管理与系统化信息收集，打造针对Solana开发的专属学习体系，使复杂概念内化为实用技能。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -28,25 +27,26 @@ const FeaturesSection: React.FC = () => {
     },
     {
       id: 3,
-      title: 'DApp 与 DeFi 实战项目',
-      description: '通过构建去中心化应用和金融协议，掌握链上数据交互、Gas优化和安全审计，实现从开发到部署的完整流程。',
+      title: '三层次Solana实战教学',
+      description: '课程结构分为基础、进阶与面试准备，通过问题驱动学习，强调实践环节，帮助你将概念转化为真正的开发能力，积累实际项目经验。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M1 10H23" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path className="pulse-path" d="M8 16L10 14L12 16L14 14L16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12 22V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       )
     },
     {
       id: 4,
-      title: 'Web3 职业启航',
-      description: '获取链上项目开发经验与Solana开发者认证，同时接受针对区块链面试的专业辅导，加速进入高薪Web3行业。',
+      title: '英语+区块链：差异化竞争优势',
+      description: '在激烈的行业竞争中脱颖而出，通过全英文教学与内容，培养国际视野的区块链开发技能，让你能在全球范围内远程工作，提升职业竞争力。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M19 10H5C3.89543 10 3 10.8954 3 12V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V12C21 10.8954 20.1046 10 19 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M7 10V6C7 4.93913 7.42143 3.92172 8.17157 3.17157C8.92172 2.42143 9.93913 2 11 2H13C14.0609 2 15.0783 2.42143 15.8284 3.17157C16.5786 3.92172 17 4.93913 17 6V10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <circle className="glow-circle" cx="12" cy="16" r="2" stroke="currentColor" strokeWidth="2"/>
+          <path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="3" y1="12" x2="7" y2="12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <line x1="17" y1="12" x2="21" y2="12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       )
     }
@@ -56,7 +56,7 @@ const FeaturesSection: React.FC = () => {
     <section id="features" className="features">
       <div className="section-header">
         <h2>课程特征</h2>
-        <p>打造全栈<span className="highlight">区块链开发者</span>，为<span className="highlight">Web3</span>未来做好准备</p>
+        <p>不止于编程，<span className="highlight">科学学习方法</span>与<span className="highlight">实战经验</span>并重的Solana开发课程</p>
       </div>
       <div className="features-grid">
         {features.map(feature => (

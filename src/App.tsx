@@ -17,7 +17,7 @@ function App() {
         <HeroSection />
         <FeaturesSection />
         <CourseOutline />
-        <CertificateSection />
+        {/* <CertificateSection /> */}
         <CourseSchedule />
         <FaqSection />
       </main>
