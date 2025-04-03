@@ -21,7 +21,6 @@ const HeroSection: React.FC = () => {
         <h1>Solana训练营</h1>
         <p>系统学习Solana区块链开发，从零基础到专业开发者</p>
         <div className="hero-buttons">
-          <button className="btn primary">申请报名</button>
           <button className="btn secondary" onClick={handleConsultClick}>咨询课程详情</button>
         </div>
       </div>

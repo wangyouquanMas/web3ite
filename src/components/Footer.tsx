@@ -13,9 +13,9 @@ const Footer: React.FC = () => {
           <h2>Solana培训营</h2>
           <p>系统学习Solana区块链开发，从零基础到专业开发者</p>
           <div className="social-links">
-            <a href="#" className="social-link">微信</a>
+            {/* <a href="#" className="social-link">微信</a>
             <a href="#" className="social-link">知乎</a>
-            <a href="#" className="social-link">GitHub</a>
+            <a href="#" className="social-link">GitHub</a> */}
           </div>
         </div>
         
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <li><a href="#roadmap">技术路线图</a></li>
               <li><a href="#outline">课程大纲</a></li>
               <li><a href="#fee">课程费用</a></li>
-              <li><a href="#schedule">开班信息</a></li>
+              {/* <li><a href="#faq">常见问题</a></li> */}
             </ul>
           </div>
           

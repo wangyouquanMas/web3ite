@@ -86,6 +86,12 @@ const CourseOutline: React.FC = () => {
             '什么是该停下来休息'
           ]
          },
+         { title: '英语口语',
+          subtopics:[
+            '可复制的经验分享',
+            '一对一咨询'
+          ]
+         },
         { title: '其它',
           subtopics:[
             '社交链接：从他人身上学习',
@@ -103,6 +109,7 @@ const CourseOutline: React.FC = () => {
           subtopics: [
             'Rust语言',
             'JS语言',
+            'Go语言'
           ]
         },
         {
@@ -141,7 +148,7 @@ const CourseOutline: React.FC = () => {
         {
           title: '流动性池',
           subtopics: [
-            '基础版: AMM自动做市',
+            '基础版: AMM原理',
             '流动性计算',
             '池子深度与滑点关系'
           ]
@@ -162,7 +169,11 @@ const CourseOutline: React.FC = () => {
             'Token2022解析'
           ]
          },
-        { title: '实践:跟单机器人' }
+        { title: '实践',
+          subtopics:[
+            '跟单机器人'
+          ]
+         }
       ]
     },
     {
@@ -199,6 +210,7 @@ const CourseOutline: React.FC = () => {
         { title: '防夹与Jito管理',
           subtopics:[
             '夹子种类',
+            'Validator 排序规则',
             'Jito管理'
           ]
          },
@@ -233,9 +245,9 @@ const CourseOutline: React.FC = () => {
          },
         { title: '实践',
           subtopics:[
-            '实现一个Pumpfun',
-            '实现一个套利bot'
-          ]
+            '跟单机器人优化版',
+            '实现一个Pumpfun'         
+         ]
          },
       ]
     },
@@ -248,7 +260,6 @@ const CourseOutline: React.FC = () => {
         { title: '计算单元优化与Gas费' },
         { title: 'Holder数及Top10计算问题' },
         { title: 'Helius 资产无法正常获取' },
-        { title: '钓鱼攻击' },
         { title: '如何帮用户选择合适的池子',
           subtopics:[
             '低手续费，低滑点'
