@@ -34,7 +34,7 @@ const CourseSchedule: React.FC = () => {
             <div className="price-badge">最佳选择</div>
             <h3>全栈Solana开发者课程</h3>
             <div className="price">
-              <span className="amount">1024</span>
+              <span className="amount">400</span>
               <span className="currency">USDT</span>
             </div>
             <p className="price-description">为期两个月的系统培训</p>
