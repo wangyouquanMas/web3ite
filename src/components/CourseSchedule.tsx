@@ -21,33 +21,81 @@ const CourseSchedule: React.FC = () => {
     setShowWechatModal(false);
   };
 
+  const pricingPlans = [
+    {
+      id: 1,
+      name: '基础知识包',
+      priceUSDT: 59,
+      description: '快速入门Solana生态',
+      badge: '',
+      features: [
+        '1次答疑服务',
+        '精选学习资源合集',
+        '行业最新技术趋势更新',
+        '专属学习社群',
+        '高薪工作机会推荐'
+      ]
+    },
+    {
+        id: 2,
+        name: 'Web3实战开发',
+      priceUSDT: 549,
+      description: '从零到一完整项目实战',
+      badge: '最受欢迎',
+      features: [
+        '包含基础知识包所有内容',
+        '100+ 节精品视频课程',
+        '课后实践加答案解析',
+        '每周学习群答疑服务',
+        '1对1简历优化 + 求职指导',
+        '生产级项目实战',
+        '2个月学习周期',
+        '无限次重复学习'
+      ]
+    },
+    {
+      id: 3,
+      name: '全流程VIP陪跑',
+      priceUSDT: 1549,
+      description: '一对一全程指导',
+      badge: 'VIP专享',
+      features: [
+        '包含实战开发全部内容',
+        '模拟面试',
+        '面试复盘(持续跟踪)',
+        '英语口语学习路径规划',
+        '共6次咨询服务(每次1h)',
+        '持续6个月跟踪服务'
+      ]
+    }
+  ];
+
   return (
     <div>
       <section id="fee" className="course-fee">
         <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>课程费用</h2>
-          <p>投资您的未来，成为专业的Solana开发者</p>
+          <p>选择适合您的学习方案，开启Web3开发之旅</p>
         </div>
         <div className="fee-container">
-          <div className="price-card">
-            <div className="price-badge">最佳选择</div>
-            <h3>全栈Solana开发者课程</h3>
-            <div className="price">
-              <span className="amount">400</span>
-              <span className="currency">USDT</span>
+          {pricingPlans.map(plan => (
+            <div key={plan.id} className={`price-card ${plan.badge === '最佳选择' ? 'featured' : ''}`}>
+              {plan.badge && <div className="price-badge">{plan.badge}</div>}
+              <h3>{plan.name}</h3>
+              <div className="price">
+                <span className="amount">{plan.priceUSDT}</span>
+                <span className="currency">USDT</span>
+              </div>
+              <p className="price-description">{plan.description}</p>
+              <ul className="price-features">
+                {plan.features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+              <button className="btn primary" onClick={openWechatModal}>咨询详情</button>
             </div>
-            <p className="price-description">为期两个月的系统培训</p>
-            <ul className="price-features">
-              <li>完整的Solana开发技能培训</li>
-              <li>认知方法分享</li>
-              <li>项目实战经验</li>
-              <li>就业咨询服务</li>
-              <li>终身学习社区</li>
-              <li>英语口语教学</li>
-            </ul>
-            {/* <button className="btn primary" onClick={openWechatModal}>立即报名</button> */}
-          </div>
+          ))}
         </div>
         <div className="section-transition-bottom"></div>
       </section>
@@ -65,7 +113,7 @@ const CourseSchedule: React.FC = () => {
                 className="wechat-qr-image" 
               />
             </div>
-            <p>请扫描上方二维码添加我们的客服微信</p>
+            <p>请扫描上方二维码添加up微信</p>
           </div>
         </div>
       )}

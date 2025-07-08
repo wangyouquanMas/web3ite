@@ -7,6 +7,8 @@ interface FaqItem {
   answer: string;
 }
 
+
+
 const FaqSection: React.FC = () => {
   const [activeId, setActiveId] = useState<number | null>(null);
   
@@ -14,7 +16,7 @@ const FaqSection: React.FC = () => {
     {
       id: 1,
       question: '课程形式是怎么样的？',
-      answer: '每周2-3节课,我们的课程采用录播的形式进行，您可以在世界任何地方参与学习。同时，我们也有专门的学习社区和答疑网站，方便学员之间交流。'
+      answer: '课程采用录播的形式进行，每节课课后习题放在github仓库，详情查看图片'
     },
     {
       id: 2,
@@ -26,12 +28,12 @@ const FaqSection: React.FC = () => {
       question: '参加课程需要具备什么前提条件？',
       answer: '建议您有基本的编程基础，了解基本的编程概念。不过，我们的课程从基础开始，即使您是编程新手，只要有学习热情，配合高效的学习方法，也可以跟上。'
     },
-
     {
       id: 4,
-      question: '如果我错过了直播课程怎么办？',
-      answer: '所有课程都会录制，您可以随时观看回放。我们也提供课程笔记和补充材料，确保您不会错过重要内容。'
-    }
+      question: '项目采用的是什么技术栈？',
+      answer: '后端：Go, Kafka, Redis, MySQL, gRPC, WebSocket\n前端：React, JavaScript, HTML5, CSS3\n通信：HTTP REST API, WebSocket, gRPC\n数据存储：MySQL, Redis\n消息队列：Kafka'
+    },
+
   ];
   
   const toggleFaq = (id: number) => {
@@ -43,17 +45,35 @@ const FaqSection: React.FC = () => {
       <div className="section-transition-top"></div>
       <div className="section-header">
         <h2>常见问题</h2>
-        <p>解答您关于Solana培训课程的疑问</p>
+        <p>解答您关于Web3培训课程的疑问</p>
       </div>
       <div className="faq-container">
         {faqItems.map(item => (
-          <div key={item.id} className={`faq-item ${activeId === item.id ? 'active' : ''}`}>
+          <div key={item.id} className={`faq-item ${activeId === item.id ? 'active' : ''} ${item.id === 1 ? 'has-image' : ''}`}>
             <div className="faq-question" onClick={() => toggleFaq(item.id)}>
               <h3>{item.question}</h3>
               <span className="faq-icon">{activeId === item.id ? '−' : '+'}</span>
             </div>
             <div className={`faq-answer ${activeId === item.id ? 'show' : ''}`}>
               <p>{item.answer}</p>
+                            {item.id === 1 && (
+                <div className="course-structure-image">
+                  <img 
+                    src="/course-structure.png" 
+                    alt="Web3Fun-Dex Solana DEX 区块链课程学习项目结构说明" 
+                    className="structure-diagram"
+                  />
+                </div>
+              )}
+              {item.id === 4 && (
+                <div className="tech-stack-image">
+                  <img 
+                    src="/tech-stack-architecture.png" 
+                    alt="项目技术栈架构图" 
+                    className="tech-stack-diagram"
+                  />
+                </div>
+              )}
             </div>
           </div>
         ))}

@@ -17,7 +17,7 @@ const FeaturesSection: React.FC = () => {
     {
       id: 2,
       title: '高效学习理论与实践',
-      description: '整合认知负荷理论、刻意练习、GTD时间管理与系统化信息收集，打造针对Solana开发的专属学习体系，使复杂概念内化为实用技能。',
+      description: '整合认知负荷理论、刻意练习、GTD时间管理与系统化信息收集，打造针对Web3开发的专属学习体系，使复杂概念内化为实用技能。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -27,7 +27,7 @@ const FeaturesSection: React.FC = () => {
     },
     {
       id: 3,
-      title: '三层次Solana实战教学',
+      title: '三层次Web3实战教学',
       description: '课程结构分为基础、进阶与面试准备，通过问题驱动学习，强调实践环节，帮助你将概念转化为真正的开发能力，积累实际项目经验。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +40,7 @@ const FeaturesSection: React.FC = () => {
     {
       id: 4,
       title: '英语+区块链：差异化竞争优势',
-      description: '在激烈的行业竞争中脱颖而出，通过全英文教学与内容，培养国际视野的区块链开发技能，让你能在全球范围内远程工作，提升职业竞争力。',
+      description: '在激烈的行业竞争中脱颖而出，提供英语学习指导，培养国际视野的区块链开发技能，让你能在全球范围内远程工作，提升职业竞争力。',
       icon: (
         <svg className="feature-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -56,7 +56,7 @@ const FeaturesSection: React.FC = () => {
     <section id="features" className="features">
       <div className="section-header">
         <h2>课程特征</h2>
-        <p>不止于编程，<span className="highlight">科学学习方法</span>与<span className="highlight">实战经验</span>并重的Solana开发课程</p>
+        <p>不止于编程，<span className="highlight">科学学习方法</span>与<span className="highlight">实战经验</span>并重的Web3开发课程</p>
       </div>
       <div className="features-grid">
         {features.map(feature => (

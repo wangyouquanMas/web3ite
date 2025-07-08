@@ -288,100 +288,33 @@ const CourseOutline: React.FC = () => {
   };
 
   return (
-    <div>
-      <section id="roadmap" className="roadmap">
-        <div className="section-header">
-          <h2>技术路线图</h2>
-          <p>我们的课程按照循序渐进的方式设计，帮助你系统掌握Solana开发技能</p>
-        </div>
-        <div className="roadmap-container">
-          {roadmapSteps.map((step, index) => (
-            <div key={step.id} className="roadmap-step">
-              <div className="step-number">{step.id}</div>
-              {index < roadmapSteps.length - 1 && <div className="step-connector"></div>}
-              <div className="step-content">
-                <h3>{step.name}</h3>
-                <p>{step.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+    <section id="course-outline" className="roadmap">
+      <div className="section-transition-top"></div>
+      
+      <div className="section-header text-center">
+        <h2>项目实战路线图</h2>
+        <p>思维导图中每一个路径，都是一个视频知识点</p>
+      </div>
 
-      <section id="outline" className="course-modules">
-        <div className="section-transition-top"></div>
-        <div className="section-header">
-          <h2>课程大纲</h2>
-          <p>全面的课程内容，让你系统学习Solana开发所需的技能</p>
+      {/* Interactive Mindmap Section */}
+      <div className="mindmap-section">
+        <div className="section-header text-center">
+          <p>直接点击左上角的网站版提示，查看源文件</p>
         </div>
-        <div className="modules-container">
-          {courseModules.map(module => {
-            const { firstColumn, secondColumn } = splitTopicsIntoColumns(module.topics);
-            
-            return (
-              <div key={module.id} className="module-card">
-                <h3>{module.title}</h3>
-                <div className="topics-two-columns">
-                  <ul className="topics-column">
-                    {firstColumn.map((topic, topicIndex) => (
-                      <li key={`first-${topicIndex}`} className={topic.subtopics ? "has-subtopics" : ""}>
-                        <div 
-                          className="topic-title"
-                          onClick={() => topic.subtopics && toggleTopic(module.id, topicIndex)}
-                        >
-                          {topic.title}
-                          {topic.subtopics && (
-                            <span className={`expand-icon ${expandedTopics[`${module.id}-${topicIndex}`] ? 'expanded' : ''}`}>
-                              {expandedTopics[`${module.id}-${topicIndex}`] ? '−' : '+'}
-                            </span>
-                          )}
-                        </div>
-                        {topic.subtopics && expandedTopics[`${module.id}-${topicIndex}`] && (
-                          <ul className="subtopics-list">
-                            {topic.subtopics.map((subtopic, subtopicIndex) => (
-                              <li key={`subtopic-${subtopicIndex}`}>{subtopic}</li>
-                            ))}
-                          </ul>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                  <ul className="topics-column">
-                    {secondColumn.map((topic, topicIndex) => {
-                      // Adjust index for the second column
-                      const actualIndex = topicIndex + firstColumn.length;
-                      return (
-                        <li key={`second-${topicIndex}`} className={topic.subtopics ? "has-subtopics" : ""}>
-                          <div 
-                            className="topic-title"
-                            onClick={() => topic.subtopics && toggleTopic(module.id, actualIndex)}
-                          >
-                            {topic.title}
-                            {topic.subtopics && (
-                              <span className={`expand-icon ${expandedTopics[`${module.id}-${actualIndex}`] ? 'expanded' : ''}`}>
-                                {expandedTopics[`${module.id}-${actualIndex}`] ? '−' : '+'}
-                              </span>
-                            )}
-                          </div>
-                          {topic.subtopics && expandedTopics[`${module.id}-${actualIndex}`] && (
-                            <ul className="subtopics-list">
-                              {topic.subtopics.map((subtopic, subtopicIndex) => (
-                                <li key={`subtopic-${subtopicIndex}`}>{subtopic}</li>
-                              ))}
-                            </ul>
-                          )}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              </div>
-            );
-          })}
+        <div className="mindmap-container">
+          <iframe 
+            id="course_mindmap" 
+            name="course_mindmap" 
+            frameBorder="0" 
+            src="https://www.processon.com/embed/684689da0625a2683df18a3d?cid=684689da0625a2683df18a40"
+            title="Course Outline Mindmap"
+            className="mindmap-iframe"
+          />
         </div>
-        <div className="section-transition-bottom"></div>
-      </section>
-    </div>
+      </div>
+      
+      <div className="section-transition-bottom"></div>
+    </section>
   );
 };
 

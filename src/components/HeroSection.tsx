@@ -18,8 +18,8 @@ const HeroSection: React.FC = () => {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Solana训练营</h1>
-        <p>系统学习Solana区块链开发，从零基础到专业开发者</p>
+        <h1>Web3训练营</h1>
+        <p>系统学习Solana和以太坊开发，从零基础到专业开发者</p>
         <div className="hero-buttons">
           <button className="btn secondary" onClick={handleConsultClick}>咨询课程详情</button>
         </div>

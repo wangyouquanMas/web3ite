@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo-section">
-          <h2>Solana培训营</h2>
-          <p>系统学习Solana区块链开发，从零基础到专业开发者</p>
+          <h2>Web3培训营</h2>
+          <p>系统学习Solana和以太坊开发，从零基础到专业开发者</p>
           <div className="social-links">
             {/* <a href="#" className="social-link">微信</a>
             <a href="#" className="social-link">知乎</a>
@@ -34,6 +34,7 @@ const Footer: React.FC = () => {
           <div className="footer-links-column">
             <h3>学习资源</h3>
             <ul>
+              <li><a href="https://web3ite.tech/" target="_blank" rel="noopener noreferrer">Web3资料库</a></li>
               <li><a href="https://solana.com" target="_blank" rel="noopener noreferrer">Solana官网</a></li>
               <li><a href="https://docs.solana.com" target="_blank" rel="noopener noreferrer">开发文档</a></li>
               <li><a href="https://github.com/solana-labs" target="_blank" rel="noopener noreferrer">GitHub仓库</a></li>
@@ -55,7 +56,7 @@ const Footer: React.FC = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; {currentYear} Solana培训营. 保留所有权利.</p>
+        <p>&copy; {currentYear} Web3开发训练营. 保留所有权利.</p>
       </div>
     </footer>
   );
