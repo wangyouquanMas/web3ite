@@ -33,7 +33,11 @@ const FaqSection: React.FC = () => {
       question: '项目采用的是什么技术栈？',
       answer: '后端：Go, Kafka, Redis, MySQL, gRPC, WebSocket\n前端：React, JavaScript, HTML5, CSS3\n通信：HTTP REST API, WebSocket, gRPC\n数据存储：MySQL, Redis\n消息队列：Kafka'
     },
-
+    {
+      id: 5,
+      question: '项目专注的是哪个链？',
+      answer: '主流的EVM系列（以太坊、BSC、Base）和Solana都会教。所以你学完之后可以做任何链的开发。'
+    },
   ];
   
   const toggleFaq = (id: number) => {

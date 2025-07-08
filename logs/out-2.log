@@ -4618,3 +4618,71 @@
 2025-07-08T21:33:49: Files successfully emitted, waiting for typecheck results...
 2025-07-08T21:33:49: Issues checking in progress...
 2025-07-08T21:33:50: No issues found.
+2025-07-08T21:35:22: 
+2025-07-08T21:35:22: > web3ite@0.1.0 start
+2025-07-08T21:35:22: > react-scripts start
+2025-07-08T21:35:22: 
+2025-07-08T21:35:24: Starting the development server...
+2025-07-08T21:35:24: 
+2025-07-08T21:35:25: Compiled successfully!
+2025-07-08T21:35:25: 
+2025-07-08T21:35:25: You can now view web3ite in the browser.
+2025-07-08T21:35:25: 
+2025-07-08T21:35:25:   Local:            http://localhost:3000
+2025-07-08T21:35:25:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T21:35:25: 
+2025-07-08T21:35:25: Note that the development build is not optimized.
+2025-07-08T21:35:25: To create a production build, use npm run build.
+2025-07-08T21:35:25: 
+2025-07-08T21:35:25: webpack compiled successfully
+2025-07-08T21:35:25: Files successfully emitted, waiting for typecheck results...
+2025-07-08T21:35:25: Issues checking in progress...
+2025-07-08T21:35:27: No issues found.
+2025-07-08T21:38:08: Compiling...
+2025-07-08T21:38:10: Compiled successfully!
+2025-07-08T21:38:10: webpack compiled successfully
+2025-07-08T21:38:10: Compiling...
+2025-07-08T21:38:10: No issues found.
+2025-07-08T21:38:11: Compiled successfully!
+2025-07-08T21:38:11: webpack compiled successfully
+2025-07-08T21:38:11: No issues found.
+2025-07-08T21:40:49: 
+2025-07-08T21:40:49: > web3ite@0.1.0 start
+2025-07-08T21:40:49: > react-scripts start
+2025-07-08T21:40:49: 
+2025-07-08T21:40:55: Starting the development server...
+2025-07-08T21:40:55: 
+2025-07-08T21:40:58: Compiled successfully!
+2025-07-08T21:40:58: 
+2025-07-08T21:40:58: You can now view web3ite in the browser.
+2025-07-08T21:40:58: 
+2025-07-08T21:40:58:   Local:            http://localhost:3000
+2025-07-08T21:40:58:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T21:40:58: 
+2025-07-08T21:40:58: Note that the development build is not optimized.
+2025-07-08T21:40:58: To create a production build, use npm run build.
+2025-07-08T21:40:58: 
+2025-07-08T21:40:58: webpack compiled successfully
+2025-07-08T21:40:58: Files successfully emitted, waiting for typecheck results...
+2025-07-08T21:40:58: Issues checking in progress...
+2025-07-08T21:41:02: No issues found.
+2025-07-08T21:42:13: 
+2025-07-08T21:42:13: > web3ite@0.1.0 start
+2025-07-08T21:42:13: > react-scripts start
+2025-07-08T21:42:13: 
+2025-07-08T21:42:16: Starting the development server...
+2025-07-08T21:42:16: 
+2025-07-08T21:42:17: Compiled successfully!
+2025-07-08T21:42:17: 
+2025-07-08T21:42:17: You can now view web3ite in the browser.
+2025-07-08T21:42:17: 
+2025-07-08T21:42:17:   Local:            http://localhost:3000
+2025-07-08T21:42:17:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T21:42:17: 
+2025-07-08T21:42:17: Note that the development build is not optimized.
+2025-07-08T21:42:17: To create a production build, use npm run build.
+2025-07-08T21:42:17: 
+2025-07-08T21:42:17: webpack compiled successfully
+2025-07-08T21:42:17: Files successfully emitted, waiting for typecheck results...
+2025-07-08T21:42:17: Issues checking in progress...
+2025-07-08T21:42:19: No issues found.
