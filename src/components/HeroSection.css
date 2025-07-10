@@ -1646,4 +1646,17 @@
   letter-spacing: 8px;
   color: rgba(153, 69, 255, 0.4);
   z-index: 3;
+}
+
+/* Blockchain Highlight Styles */
+.blockchain-highlight {
+  color: #9945FF;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(153, 69, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.blockchain-highlight:hover {
+  color: #FF6B9D;
+  text-shadow: 0 0 15px rgba(255, 107, 157, 0.4);
 } 

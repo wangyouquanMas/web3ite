@@ -6098,3 +6098,478 @@
 2025-07-08T21:42:17: Files successfully emitted, waiting for typecheck results...
 2025-07-08T21:42:17: Issues checking in progress...
 2025-07-08T21:42:19: No issues found.
+2025-07-08T22:09:28: Compiling...
+2025-07-08T22:09:31: Compiled successfully!
+2025-07-08T22:09:31: webpack compiled successfully
+2025-07-08T22:09:31: No issues found.
+2025-07-08T22:09:32: Compiling...
+2025-07-08T22:09:33: Compiled successfully!
+2025-07-08T22:09:33: webpack compiled successfully
+2025-07-08T22:09:33: No issues found.
+2025-07-08T22:10:04: 
+2025-07-08T22:10:04: > web3ite@0.1.0 start
+2025-07-08T22:10:04: > react-scripts start
+2025-07-08T22:10:04: 
+2025-07-08T22:10:06: (node:5985) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:10:06: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:10:06: (node:5985) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:10:07: Starting the development server...
+2025-07-08T22:10:07: 
+2025-07-08T22:10:10: Compiled successfully!
+2025-07-08T22:10:10: 
+2025-07-08T22:10:10: You can now view web3ite in the browser.
+2025-07-08T22:10:10: 
+2025-07-08T22:10:10:   Local:            http://localhost:3000
+2025-07-08T22:10:10:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T22:10:10: 
+2025-07-08T22:10:10: Note that the development build is not optimized.
+2025-07-08T22:10:10: To create a production build, use npm run build.
+2025-07-08T22:10:10: 
+2025-07-08T22:10:10: webpack compiled successfully
+2025-07-08T22:10:10: No issues found.
+2025-07-08T22:10:55: Compiling...
+2025-07-08T22:10:57: Compiled successfully!
+2025-07-08T22:10:57: webpack compiled successfully
+2025-07-08T22:10:57: No issues found.
+2025-07-08T22:11:14: Compiling...
+2025-07-08T22:11:15: Compiled successfully!
+2025-07-08T22:11:15: webpack compiled successfully
+2025-07-08T22:11:15: No issues found.
+2025-07-08T22:14:54: Compiling...
+2025-07-08T22:14:54: Compiled successfully!
+2025-07-08T22:14:54: webpack compiled successfully
+2025-07-08T22:14:54: No issues found.
+2025-07-08T22:15:56: 
+2025-07-08T22:15:56: > web3ite@0.1.0 start
+2025-07-08T22:15:56: > react-scripts start
+2025-07-08T22:15:56: 
+2025-07-08T22:15:59: (node:8434) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:15:59: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:15:59: (node:8434) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:15:59: Starting the development server...
+2025-07-08T22:15:59: 
+2025-07-08T22:16:00: Compiled successfully!
+2025-07-08T22:16:00: 
+2025-07-08T22:16:00: You can now view web3ite in the browser.
+2025-07-08T22:16:00: 
+2025-07-08T22:16:00:   Local:            http://localhost:3000
+2025-07-08T22:16:00:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T22:16:00: 
+2025-07-08T22:16:00: Note that the development build is not optimized.
+2025-07-08T22:16:00: To create a production build, use npm run build.
+2025-07-08T22:16:00: 
+2025-07-08T22:16:00: webpack compiled successfully
+2025-07-08T22:16:00: Files successfully emitted, waiting for typecheck results...
+2025-07-08T22:16:00: Issues checking in progress...
+2025-07-08T22:16:02: No issues found.
+2025-07-08T22:17:25: Compiling...
+2025-07-08T22:17:29: Compiled successfully!
+2025-07-08T22:17:29: webpack compiled successfully
+2025-07-08T22:17:29: No issues found.
+2025-07-08T22:17:53: Compiling...
+2025-07-08T22:17:54: Compiled successfully!
+2025-07-08T22:17:54: webpack compiled successfully
+2025-07-08T22:17:54: No issues found.
+2025-07-08T22:18:36: 
+2025-07-08T22:18:36: > web3ite@0.1.0 start
+2025-07-08T22:18:36: > react-scripts start
+2025-07-08T22:18:36: 
+2025-07-08T22:18:38: (node:9124) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:18:38: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:18:38: (node:9124) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:18:38: Starting the development server...
+2025-07-08T22:18:38: 
+2025-07-08T22:18:40: Compiled successfully!
+2025-07-08T22:18:40: 
+2025-07-08T22:18:40: You can now view web3ite in the browser.
+2025-07-08T22:18:40: 
+2025-07-08T22:18:40:   Local:            http://localhost:3000
+2025-07-08T22:18:40:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T22:18:40: 
+2025-07-08T22:18:40: Note that the development build is not optimized.
+2025-07-08T22:18:40: To create a production build, use npm run build.
+2025-07-08T22:18:40: 
+2025-07-08T22:18:40: webpack compiled successfully
+2025-07-08T22:18:40: Files successfully emitted, waiting for typecheck results...
+2025-07-08T22:18:40: Issues checking in progress...
+2025-07-08T22:18:41: No issues found.
+2025-07-08T22:19:34: Compiling...
+2025-07-08T22:19:38: Compiled successfully!
+2025-07-08T22:19:38: webpack compiled successfully
+2025-07-08T22:19:38: No issues found.
+2025-07-08T22:19:51: 
+2025-07-08T22:19:51: > web3ite@0.1.0 start
+2025-07-08T22:19:51: > react-scripts start
+2025-07-08T22:19:51: 
+2025-07-08T22:19:54: (node:9545) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:19:54: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:19:54: (node:9545) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:19:54: Starting the development server...
+2025-07-08T22:19:54: 
+2025-07-08T22:19:55: Compiled successfully!
+2025-07-08T22:19:55: 
+2025-07-08T22:19:55: You can now view web3ite in the browser.
+2025-07-08T22:19:55: 
+2025-07-08T22:19:55:   Local:            http://localhost:3000
+2025-07-08T22:19:55:   On Your Network:  http://10.7.64.2:3000
+2025-07-08T22:19:55: 
+2025-07-08T22:19:55: Note that the development build is not optimized.
+2025-07-08T22:19:55: To create a production build, use npm run build.
+2025-07-08T22:19:55: 
+2025-07-08T22:19:55: webpack compiled successfully
+2025-07-08T22:19:55: Files successfully emitted, waiting for typecheck results...
+2025-07-08T22:19:55: Issues checking in progress...
+2025-07-08T22:19:58: No issues found.
+2025-07-10T11:12:31: Compiling...
+2025-07-10T11:12:31: Compiled successfully!
+2025-07-10T11:12:31: webpack compiled successfully
+2025-07-10T11:12:31: ERROR in src/components/CourseDetailSection.tsx
+2025-07-10T11:12:31: TS1208: 'CourseDetailSection.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+2025-07-10T11:12:31: 
+2025-07-10T11:12:33: Compiling...
+2025-07-10T11:12:34: Compiled successfully!
+2025-07-10T11:12:34: webpack compiled successfully
+2025-07-10T11:12:34: Files successfully emitted, waiting for typecheck results...
+2025-07-10T11:12:34: Issues checking in progress...
+2025-07-10T11:12:34: No issues found.
+2025-07-10T11:13:28: Compiling...
+2025-07-10T11:13:30: Compiled with warnings.
+2025-07-10T11:13:30: 
+2025-07-10T11:13:30: [eslint] 
+2025-07-10T11:13:30: src/App.tsx
+2025-07-10T11:13:30:   Line 6:8:  'CourseDetailSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:30:   Line 8:8:  'CertificateSection' is defined but never used   @typescript-eslint/no-unused-vars
+2025-07-10T11:13:30: 
+2025-07-10T11:13:30: Search for the keywords to learn more about each warning.
+2025-07-10T11:13:30: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:13:30: 
+2025-07-10T11:13:30: WARNING in [eslint] 
+2025-07-10T11:13:30: src/App.tsx
+2025-07-10T11:13:30:   Line 6:8:  'CourseDetailSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:30:   Line 8:8:  'CertificateSection' is defined but never used   @typescript-eslint/no-unused-vars
+2025-07-10T11:13:30: 
+2025-07-10T11:13:30: webpack compiled with 1 warning
+2025-07-10T11:13:30: No issues found.
+2025-07-10T11:13:34: Compiling...
+2025-07-10T11:13:35: Compiled with warnings.
+2025-07-10T11:13:35: 
+2025-07-10T11:13:35: [eslint] 
+2025-07-10T11:13:35: src/App.tsx
+2025-07-10T11:13:35:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:35: 
+2025-07-10T11:13:35: Search for the keywords to learn more about each warning.
+2025-07-10T11:13:35: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:13:35: 
+2025-07-10T11:13:35: WARNING in [eslint] 
+2025-07-10T11:13:35: src/App.tsx
+2025-07-10T11:13:35:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:35: 
+2025-07-10T11:13:35: webpack compiled with 1 warning
+2025-07-10T11:13:35: No issues found.
+2025-07-10T11:13:43: Compiling...
+2025-07-10T11:13:43: Compiled with warnings.
+2025-07-10T11:13:43: 
+2025-07-10T11:13:43: [eslint] 
+2025-07-10T11:13:43: src/App.tsx
+2025-07-10T11:13:43:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:43: 
+2025-07-10T11:13:43: Search for the keywords to learn more about each warning.
+2025-07-10T11:13:43: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:13:43: 
+2025-07-10T11:13:43: WARNING in [eslint] 
+2025-07-10T11:13:43: src/App.tsx
+2025-07-10T11:13:43:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:43: 
+2025-07-10T11:13:43: webpack compiled with 1 warning
+2025-07-10T11:13:43: No issues found.
+2025-07-10T11:13:56: Compiling...
+2025-07-10T11:13:57: Compiled with warnings.
+2025-07-10T11:13:57: 
+2025-07-10T11:13:57: [eslint] 
+2025-07-10T11:13:57: src/App.tsx
+2025-07-10T11:13:57:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:57: 
+2025-07-10T11:13:57: Search for the keywords to learn more about each warning.
+2025-07-10T11:13:57: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:13:57: 
+2025-07-10T11:13:57: WARNING in [eslint] 
+2025-07-10T11:13:57: src/App.tsx
+2025-07-10T11:13:57:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:13:57: 
+2025-07-10T11:13:57: webpack compiled with 1 warning
+2025-07-10T11:13:57: No issues found.
+2025-07-10T11:18:57: Compiling...
+2025-07-10T11:18:58: Compiled with warnings.
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: [eslint] 
+2025-07-10T11:18:58: src/App.tsx
+2025-07-10T11:18:58:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: Search for the keywords to learn more about each warning.
+2025-07-10T11:18:58: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: WARNING in [eslint] 
+2025-07-10T11:18:58: src/App.tsx
+2025-07-10T11:18:58:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: webpack compiled with 1 warning
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:24
+2025-07-10T11:18:58: TS2339: Property 'topics' does not exist on type '{ id: number; title: string; level: string; description: string; topicsLeft: string[]; topicsRight: string[]; duration: string; icon: Element; }'.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                        ^^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:36
+2025-07-10T11:18:58: TS7006: Parameter 'topic' implicitly has an 'any' type.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                                    ^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:43
+2025-07-10T11:18:58: TS7006: Parameter 'index' implicitly has an 'any' type.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                                           ^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:19:08: Compiling...
+2025-07-10T11:19:09: Compiled with warnings.
+2025-07-10T11:19:09: 
+2025-07-10T11:19:09: [eslint] 
+2025-07-10T11:19:09: src/App.tsx
+2025-07-10T11:19:09:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:09: 
+2025-07-10T11:19:09: Search for the keywords to learn more about each warning.
+2025-07-10T11:19:09: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:19:09: 
+2025-07-10T11:19:09: WARNING in [eslint] 
+2025-07-10T11:19:09: src/App.tsx
+2025-07-10T11:19:09:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:09: 
+2025-07-10T11:19:09: webpack compiled with 1 warning
+2025-07-10T11:19:09: No issues found.
+2025-07-10T11:19:22: Compiling...
+2025-07-10T11:19:22: Compiled with warnings.
+2025-07-10T11:19:22: 
+2025-07-10T11:19:22: [eslint] 
+2025-07-10T11:19:22: src/App.tsx
+2025-07-10T11:19:22:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:22: 
+2025-07-10T11:19:22: Search for the keywords to learn more about each warning.
+2025-07-10T11:19:22: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:19:22: 
+2025-07-10T11:19:22: WARNING in [eslint] 
+2025-07-10T11:19:22: src/App.tsx
+2025-07-10T11:19:22:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:22: 
+2025-07-10T11:19:22: webpack compiled with 1 warning
+2025-07-10T11:19:22: No issues found.
+2025-07-10T11:19:35: Compiling...
+2025-07-10T11:19:35: Compiled with warnings.
+2025-07-10T11:19:35: 
+2025-07-10T11:19:35: [eslint] 
+2025-07-10T11:19:35: src/App.tsx
+2025-07-10T11:19:35:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:35: 
+2025-07-10T11:19:35: Search for the keywords to learn more about each warning.
+2025-07-10T11:19:35: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:19:35: 
+2025-07-10T11:19:35: WARNING in [eslint] 
+2025-07-10T11:19:35: src/App.tsx
+2025-07-10T11:19:35:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:35: 
+2025-07-10T11:19:35: webpack compiled with 1 warning
+2025-07-10T11:19:35: No issues found.
+2025-07-10T11:19:45: Compiling...
+2025-07-10T11:19:45: Compiled with warnings.
+2025-07-10T11:19:45: 
+2025-07-10T11:19:45: [eslint] 
+2025-07-10T11:19:45: src/App.tsx
+2025-07-10T11:19:45:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:45: 
+2025-07-10T11:19:45: Search for the keywords to learn more about each warning.
+2025-07-10T11:19:45: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:19:45: 
+2025-07-10T11:19:45: WARNING in [eslint] 
+2025-07-10T11:19:45: src/App.tsx
+2025-07-10T11:19:45:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:19:45: 
+2025-07-10T11:19:45: webpack compiled with 1 warning
+2025-07-10T11:19:45: No issues found.
+2025-07-10T11:43:10: Compiling...
+2025-07-10T11:43:10: Compiled with warnings.
+2025-07-10T11:43:10: 
+2025-07-10T11:43:10: [eslint] 
+2025-07-10T11:43:10: src/App.tsx
+2025-07-10T11:43:10:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:43:10: 
+2025-07-10T11:43:10: Search for the keywords to learn more about each warning.
+2025-07-10T11:43:10: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:43:10: 
+2025-07-10T11:43:10: WARNING in [eslint] 
+2025-07-10T11:43:10: src/App.tsx
+2025-07-10T11:43:10:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:43:10: 
+2025-07-10T11:43:10: webpack compiled with 1 warning
+2025-07-10T11:43:11: ERROR in src/components/AboutInstructorSection.tsx
+2025-07-10T11:43:11: TS1208: 'AboutInstructorSection.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+2025-07-10T11:43:11: 
+2025-07-10T11:43:11: Compiling...
+2025-07-10T11:43:12: Compiled with warnings.
+2025-07-10T11:43:12: 
+2025-07-10T11:43:12: [eslint] 
+2025-07-10T11:43:12: src/App.tsx
+2025-07-10T11:43:12:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:43:12: 
+2025-07-10T11:43:12: Search for the keywords to learn more about each warning.
+2025-07-10T11:43:12: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:43:12: 
+2025-07-10T11:43:12: WARNING in [eslint] 
+2025-07-10T11:43:12: src/App.tsx
+2025-07-10T11:43:12:   Line 8:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:43:12: 
+2025-07-10T11:43:12: webpack compiled with 1 warning
+2025-07-10T11:43:12: Files successfully emitted, waiting for typecheck results...
+2025-07-10T11:43:12: Issues checking in progress...
+2025-07-10T11:43:12: No issues found.
+2025-07-10T11:44:11: Compiling...
+2025-07-10T11:44:12: Compiled with warnings.
+2025-07-10T11:44:12: 
+2025-07-10T11:44:12: [eslint] 
+2025-07-10T11:44:12: src/App.tsx
+2025-07-10T11:44:12:   Line 5:8:  'AboutInstructorSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:12:   Line 9:8:  'CertificateSection' is defined but never used      @typescript-eslint/no-unused-vars
+2025-07-10T11:44:12: 
+2025-07-10T11:44:12: Search for the keywords to learn more about each warning.
+2025-07-10T11:44:12: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:44:12: 
+2025-07-10T11:44:12: WARNING in [eslint] 
+2025-07-10T11:44:12: src/App.tsx
+2025-07-10T11:44:12:   Line 5:8:  'AboutInstructorSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:12:   Line 9:8:  'CertificateSection' is defined but never used      @typescript-eslint/no-unused-vars
+2025-07-10T11:44:12: 
+2025-07-10T11:44:12: webpack compiled with 1 warning
+2025-07-10T11:44:12: No issues found.
+2025-07-10T11:44:19: Compiling...
+2025-07-10T11:44:20: Compiled with warnings.
+2025-07-10T11:44:20: 
+2025-07-10T11:44:20: [eslint] 
+2025-07-10T11:44:20: src/App.tsx
+2025-07-10T11:44:20:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:20: 
+2025-07-10T11:44:20: Search for the keywords to learn more about each warning.
+2025-07-10T11:44:20: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:44:20: 
+2025-07-10T11:44:20: WARNING in [eslint] 
+2025-07-10T11:44:20: src/App.tsx
+2025-07-10T11:44:20:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:20: 
+2025-07-10T11:44:20: webpack compiled with 1 warning
+2025-07-10T11:44:20: No issues found.
+2025-07-10T11:44:28: Compiling...
+2025-07-10T11:44:28: Compiled with warnings.
+2025-07-10T11:44:28: 
+2025-07-10T11:44:28: [eslint] 
+2025-07-10T11:44:28: src/App.tsx
+2025-07-10T11:44:28:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:28: 
+2025-07-10T11:44:28: Search for the keywords to learn more about each warning.
+2025-07-10T11:44:28: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:44:28: 
+2025-07-10T11:44:28: WARNING in [eslint] 
+2025-07-10T11:44:28: src/App.tsx
+2025-07-10T11:44:28:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:44:28: 
+2025-07-10T11:44:28: webpack compiled with 1 warning
+2025-07-10T11:44:28: No issues found.
+2025-07-10T11:48:43: Compiling...
+2025-07-10T11:48:44: Compiled with warnings.
+2025-07-10T11:48:44: 
+2025-07-10T11:48:44: [eslint] 
+2025-07-10T11:48:44: src/App.tsx
+2025-07-10T11:48:44:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:48:44: 
+2025-07-10T11:48:44: Search for the keywords to learn more about each warning.
+2025-07-10T11:48:44: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:48:44: 
+2025-07-10T11:48:44: WARNING in [eslint] 
+2025-07-10T11:48:44: src/App.tsx
+2025-07-10T11:48:44:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:48:44: 
+2025-07-10T11:48:44: webpack compiled with 1 warning
+2025-07-10T11:48:44: No issues found.
+2025-07-10T11:49:03: Compiling...
+2025-07-10T11:49:04: Compiled with warnings.
+2025-07-10T11:49:04: 
+2025-07-10T11:49:04: [eslint] 
+2025-07-10T11:49:04: src/App.tsx
+2025-07-10T11:49:04:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:49:04: 
+2025-07-10T11:49:04: Search for the keywords to learn more about each warning.
+2025-07-10T11:49:04: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:49:04: 
+2025-07-10T11:49:04: WARNING in [eslint] 
+2025-07-10T11:49:04: src/App.tsx
+2025-07-10T11:49:04:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:49:04: 
+2025-07-10T11:49:04: webpack compiled with 1 warning
+2025-07-10T11:49:04: No issues found.
+2025-07-10T11:49:42: Compiling...
+2025-07-10T11:49:42: Compiled with warnings.
+2025-07-10T11:49:42: 
+2025-07-10T11:49:42: [eslint] 
+2025-07-10T11:49:42: src/App.tsx
+2025-07-10T11:49:42:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:49:42: 
+2025-07-10T11:49:42: Search for the keywords to learn more about each warning.
+2025-07-10T11:49:42: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:49:42: 
+2025-07-10T11:49:42: WARNING in [eslint] 
+2025-07-10T11:49:42: src/App.tsx
+2025-07-10T11:49:42:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:49:42: 
+2025-07-10T11:49:42: webpack compiled with 1 warning
+2025-07-10T11:49:42: No issues found.
+2025-07-10T11:50:03: Compiling...
+2025-07-10T11:50:03: Compiled with warnings.
+2025-07-10T11:50:03: 
+2025-07-10T11:50:03: [eslint] 
+2025-07-10T11:50:03: src/App.tsx
+2025-07-10T11:50:03:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:50:03: 
+2025-07-10T11:50:03: Search for the keywords to learn more about each warning.
+2025-07-10T11:50:03: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:50:03: 
+2025-07-10T11:50:03: WARNING in [eslint] 
+2025-07-10T11:50:03: src/App.tsx
+2025-07-10T11:50:03:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:50:03: 
+2025-07-10T11:50:03: webpack compiled with 1 warning
+2025-07-10T11:50:03: No issues found.
+2025-07-10T11:54:30: Compiling...
+2025-07-10T11:54:31: Compiled with warnings.
+2025-07-10T11:54:31: 
+2025-07-10T11:54:31: [eslint] 
+2025-07-10T11:54:31: src/App.tsx
+2025-07-10T11:54:31:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:54:31: 
+2025-07-10T11:54:31: Search for the keywords to learn more about each warning.
+2025-07-10T11:54:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T11:54:31: 
+2025-07-10T11:54:31: WARNING in [eslint] 
+2025-07-10T11:54:31: src/App.tsx
+2025-07-10T11:54:31:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T11:54:31: 
+2025-07-10T11:54:31: webpack compiled with 1 warning
+2025-07-10T11:54:31: No issues found.

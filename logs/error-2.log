@@ -1410,3 +1410,51 @@
 2025-07-08T21:42:15: (node:3614) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 2025-07-08T21:42:15: (Use `node --trace-deprecation ...` to show where the warning was created)
 2025-07-08T21:42:15: (node:3614) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:10:06: (node:5985) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:10:06: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:10:06: (node:5985) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:15:59: (node:8434) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:15:59: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:15:59: (node:8434) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:18:38: (node:9124) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:18:38: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:18:38: (node:9124) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:19:54: (node:9545) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-08T22:19:54: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-08T22:19:54: (node:9545) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-10T11:12:31: ERROR in src/components/CourseDetailSection.tsx
+2025-07-10T11:12:31: TS1208: 'CourseDetailSection.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+2025-07-10T11:12:31: 
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:24
+2025-07-10T11:18:58: TS2339: Property 'topics' does not exist on type '{ id: number; title: string; level: string; description: string; topicsLeft: string[]; topicsRight: string[]; duration: string; icon: Element; }'.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                        ^^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:36
+2025-07-10T11:18:58: TS7006: Parameter 'topic' implicitly has an 'any' type.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                                    ^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:18:58: ERROR in src/components/CourseDetailSection.tsx:245:43
+2025-07-10T11:18:58: TS7006: Parameter 'index' implicitly has an 'any' type.
+2025-07-10T11:18:58:     243 |             <p className="chapter-description">{chapter.description}</p>
+2025-07-10T11:18:58:     244 |             <ul className="chapter-topics">
+2025-07-10T11:18:58:   > 245 |               {chapter.topics.map((topic, index) => (
+2025-07-10T11:18:58:         |                                           ^^^^^
+2025-07-10T11:18:58:     246 |                 <li key={index}>{topic}</li>
+2025-07-10T11:18:58:     247 |               ))}
+2025-07-10T11:18:58:     248 |             </ul>
+2025-07-10T11:18:58: 
+2025-07-10T11:43:11: ERROR in src/components/AboutInstructorSection.tsx
+2025-07-10T11:43:11: TS1208: 'AboutInstructorSection.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+2025-07-10T11:43:11: 

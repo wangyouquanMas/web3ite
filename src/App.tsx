@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import AboutInstructorSection from './components/AboutInstructorSection';
 import FeaturesSection from './components/FeaturesSection';
+import CourseDetailSection from './components/CourseDetailSection';
 import CourseOutline from './components/CourseOutline';
 import CertificateSection from './components/CertificateSection';
 import CourseSchedule from './components/CourseSchedule';
@@ -15,7 +17,9 @@ function App() {
       <Header />
       <main>
         <HeroSection />
+        <AboutInstructorSection />
         <FeaturesSection />
+        <CourseDetailSection />
         <CourseOutline />
         {/* <CertificateSection /> */}
         <CourseSchedule />

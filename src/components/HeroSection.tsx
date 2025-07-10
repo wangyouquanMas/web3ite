@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
     <section className="hero">
       <div className="hero-content">
         <h1>Web3训练营</h1>
-        <p>系统学习Solana和以太坊开发，从零基础到专业开发者</p>
+        <p>系统学习<span className="blockchain-highlight">Solana</span>和<span className="blockchain-highlight">以太坊</span>开发，助力你转行web3或成为链上科学家</p>
         <div className="hero-buttons">
           <button className="btn secondary" onClick={handleConsultClick}>咨询课程详情</button>
         </div>

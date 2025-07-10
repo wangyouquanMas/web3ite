@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <div className="footer-container">
         <div className="footer-logo-section">
           <h2>Web3培训营</h2>
-          <p>系统学习Solana和以太坊开发，从零基础到专业开发者</p>
+          <p>系统学习<span className="blockchain-highlight">Solana</span>和<span className="blockchain-highlight">以太坊</span>开发，从零基础到专业开发者</p>
           <div className="social-links">
             {/* <a href="#" className="social-link">微信</a>
             <a href="#" className="social-link">知乎</a>
