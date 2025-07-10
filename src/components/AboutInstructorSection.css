@@ -73,80 +73,12 @@
   z-index: 1;
 }
 
-/* 个人简介卡片 */
-.instructor-intro-card {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 3rem;
-  background: linear-gradient(145deg, #131b2c, #0e1520);
-  border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
 
-.intro-avatar {
-  flex-shrink: 0;
-}
-
-.avatar-placeholder {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(135deg, #14F195, #9945FF);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 10px 30px rgba(20, 241, 149, 0.3);
-}
-
-.avatar-svg {
-  width: 50px;
-  height: 50px;
-  color: white;
-}
-
-.intro-content {
-  flex: 1;
-}
-
-.intro-content h3 {
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 0.8rem;
-  font-weight: 600;
-}
-
-.education {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.education-label {
-  color: #14F195;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.education-value {
-  color: #9BA5B7;
-  font-size: 0.9rem;
-}
-
-.intro-description {
-  color: #9BA5B7;
-  line-height: 1.5;
-  font-size: 0.95rem;
-}
 
 /* 主要内容区域 */
 .main-content-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -185,106 +117,10 @@
   border-radius: 2px;
 }
 
-/* 工作经历紧凑样式 */
-.experience-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
 
-.experience-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.8rem;
-  background: rgba(20, 241, 149, 0.05);
-  border-radius: 8px;
-  border: 1px solid rgba(20, 241, 149, 0.1);
-}
 
-.exp-icon {
-  background: rgba(20, 241, 149, 0.1);
-  border-radius: 50%;
-  padding: 0.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
-}
+/* 人生感悟样式 */
 
-.experience-svg {
-  width: 18px;
-  height: 18px;
-  color: #14F195;
-}
-
-.exp-content {
-  flex: 1;
-}
-
-.exp-period {
-  color: #14F195;
-  font-weight: 600;
-  font-size: 0.8rem;
-  margin-bottom: 0.2rem;
-}
-
-.exp-role {
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.2rem;
-}
-
-.exp-company {
-  color: #9945FF;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-/* 技能栈紧凑样式 */
-.skills-compact {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.skill-group {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  padding-bottom: 0.8rem;
-}
-
-.skill-group:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.skill-category-compact {
-  color: #9945FF;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.6rem;
-}
-
-.skill-items-compact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.skill-tag {
-  background: rgba(20, 241, 149, 0.1);
-  color: #14F195;
-  padding: 0.3rem 0.6rem;
-  border-radius: 15px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  border: 1px solid rgba(20, 241, 149, 0.2);
-}
-
-/* 人生感悟紧凑样式 */
 .insights-compact {
   display: flex;
   flex-direction: column;
@@ -292,32 +128,170 @@
 }
 
 .insight-item {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  padding-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
+  padding: 1.2rem;
+  background: rgba(153, 69, 255, 0.05);
+  border-radius: 10px;
+  border-left: 4px solid #14F195;
+  position: relative;
 }
 
 .insight-item:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .insight-title-compact {
-  color: #9945FF;
-  font-size: 1rem;
+  color: #14F195;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 .insight-content-compact {
   color: #9BA5B7;
-  line-height: 1.4;
-  font-size: 0.9rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
   margin: 0;
 }
 
-/* 让感悟卡片跨两列 */
-.insights-card {
-  grid-column: 1 / -1;
+
+
+/* 转行经历卡片样式 */
+.career-transition-card {
+  background: linear-gradient(145deg, #131b2c, #0e1520);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.career-transition-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #9945FF, #14F195);
+  border-radius: 16px 16px 0 0;
+}
+
+.career-transition-card .card-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: linear-gradient(to right, #ffffff, #9945FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.transition-content {
+  color: #9BA5B7;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.transition-preview {
+  margin-bottom: 1rem;
+}
+
+.transition-preview p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: #9BA5B7;
+  font-style: italic;
+}
+
+.expand-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(45deg, #9945FF, #14F195);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.expand-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(153, 69, 255, 0.4);
+}
+
+.expand-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.expand-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.expand-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.transition-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  margin-top: 1rem;
+}
+
+.transition-details.expanded {
+  max-height: 3000px;
+}
+
+.transition-stage {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(153, 69, 255, 0.05);
+  border-radius: 12px;
+  border-left: 4px solid #9945FF;
+  position: relative;
+}
+
+.transition-stage:last-child {
+  margin-bottom: 0;
+}
+
+.stage-title {
+  color: #9945FF;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.transition-stage p {
+  margin-bottom: 0.8rem;
+  text-align: justify;
+  color: #9BA5B7;
+  line-height: 1.6;
+}
+
+.transition-stage p:last-child {
+  margin-bottom: 0;
+}
+
+.transition-stage strong {
+  color: #14F195;
+  font-weight: 600;
 }
 
 /* 移动端响应式 */
@@ -330,55 +304,67 @@
     font-size: 2rem;
   }
   
-  .instructor-intro-card {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-  }
-  
-  .avatar-placeholder {
-    width: 80px;
-    height: 80px;
-  }
-  
-  .avatar-svg {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .intro-content h3 {
-    font-size: 1.3rem;
-  }
-  
-  .education {
-    flex-direction: column;
-    gap: 0.3rem;
-  }
+
   
   .main-content-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
   
-  .insights-card {
-    grid-column: 1;
+
+  
+  .career-transition-card {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
   }
   
-  .experience-item {
-    flex-direction: column;
-    gap: 0.8rem;
-    text-align: center;
+  .career-transition-card .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
   
-  .exp-icon {
-    width: 35px;
-    height: 35px;
-    padding: 0.5rem;
+  .transition-content {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
   
-  .experience-svg {
-    width: 16px;
-    height: 16px;
+  .transition-content p {
+    margin-bottom: 0.8rem;
+  }
+  
+  .expand-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
+  }
+  
+  .transition-stage {
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stage-title {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .transition-stage p {
+    margin-bottom: 0.6rem;
+  }
+  
+
+  
+  .insight-item {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .insight-title-compact {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .insight-content-compact {
+    font-size: 0.9rem;
   }
 }
 
@@ -391,23 +377,61 @@
     font-size: 1.2rem;
   }
   
-  .exp-role {
-    font-size: 0.9rem;
-  }
+
   
-  .skill-category-compact {
-    font-size: 0.9rem;
-  }
-  
-  .insight-title-compact {
-    font-size: 0.9rem;
-  }
+
   
   .content-card {
     padding: 1.2rem;
   }
   
-  .instructor-intro-card {
-    padding: 1.5rem;
+
+  
+  .career-transition-card {
+    padding: 1.2rem;
+  }
+  
+  .career-transition-card .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .transition-content {
+    font-size: 0.85rem;
+  }
+  
+  .expand-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .transition-stage {
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .stage-title {
+    font-size: 0.95rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .transition-stage p {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  
+  .insight-item {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .insight-title-compact {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .insight-content-compact {
+    font-size: 0.85rem;
   }
 } 

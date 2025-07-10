@@ -9,12 +9,11 @@ const Header: React.FC = () => {
       </div>
       <nav className="navigation">
         <ul>
-          <li><a href="#about-instructor">关于导师</a></li>
           <li><a href="#features">课程特征</a></li>
           <li><a href="#course-detail">课表详情</a></li>
-          <li><a href="#roadmap">技术路线图</a></li>
-          <li><a href="#outline">课程大纲</a></li>
+          <li><a href="#course-outline">技术路线图</a></li>
           <li><a href="#fee">课程费用</a></li>
+          <li><a href="#about-instructor">关于我</a></li>
           <li><a href="#faq">常见问题</a></li>
         </ul>
       </nav>

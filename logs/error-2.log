@@ -1458,3 +1458,133 @@
 2025-07-10T11:43:11: ERROR in src/components/AboutInstructorSection.tsx
 2025-07-10T11:43:11: TS1208: 'AboutInstructorSection.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
 2025-07-10T11:43:11: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:176:16
+2025-07-10T13:45:45: TS2304: Cannot find name 'experiences'.
+2025-07-10T13:45:45:     174 |             <h3 className="card-title">工作经历</h3>
+2025-07-10T13:45:45:     175 |             <div className="experience-list">
+2025-07-10T13:45:45:   > 176 |               {experiences.map((exp, index) => (
+2025-07-10T13:45:45:         |                ^^^^^^^^^^^
+2025-07-10T13:45:45:     177 |                 <div key={index} className="experience-item">
+2025-07-10T13:45:45:     178 |                   <div className="exp-icon">{exp.icon}</div>
+2025-07-10T13:45:45:     179 |                   <div className="exp-content">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:176:33
+2025-07-10T13:45:45: TS7006: Parameter 'exp' implicitly has an 'any' type.
+2025-07-10T13:45:45:     174 |             <h3 className="card-title">工作经历</h3>
+2025-07-10T13:45:45:     175 |             <div className="experience-list">
+2025-07-10T13:45:45:   > 176 |               {experiences.map((exp, index) => (
+2025-07-10T13:45:45:         |                                 ^^^
+2025-07-10T13:45:45:     177 |                 <div key={index} className="experience-item">
+2025-07-10T13:45:45:     178 |                   <div className="exp-icon">{exp.icon}</div>
+2025-07-10T13:45:45:     179 |                   <div className="exp-content">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:176:38
+2025-07-10T13:45:45: TS7006: Parameter 'index' implicitly has an 'any' type.
+2025-07-10T13:45:45:     174 |             <h3 className="card-title">工作经历</h3>
+2025-07-10T13:45:45:     175 |             <div className="experience-list">
+2025-07-10T13:45:45:   > 176 |               {experiences.map((exp, index) => (
+2025-07-10T13:45:45:         |                                      ^^^^^
+2025-07-10T13:45:45:     177 |                 <div key={index} className="experience-item">
+2025-07-10T13:45:45:     178 |                   <div className="exp-icon">{exp.icon}</div>
+2025-07-10T13:45:45:     179 |                   <div className="exp-content">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:193:16
+2025-07-10T13:45:45: TS2304: Cannot find name 'skills'.
+2025-07-10T13:45:45:     191 |             <h3 className="card-title">技能栈</h3>
+2025-07-10T13:45:45:     192 |             <div className="skills-compact">
+2025-07-10T13:45:45:   > 193 |               {skills.map((skill, index) => (
+2025-07-10T13:45:45:         |                ^^^^^^
+2025-07-10T13:45:45:     194 |                 <div key={index} className="skill-group">
+2025-07-10T13:45:45:     195 |                   <div className="skill-category-compact">{skill.category}</div>
+2025-07-10T13:45:45:     196 |                   <div className="skill-items-compact">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:193:28
+2025-07-10T13:45:45: TS7006: Parameter 'skill' implicitly has an 'any' type.
+2025-07-10T13:45:45:     191 |             <h3 className="card-title">技能栈</h3>
+2025-07-10T13:45:45:     192 |             <div className="skills-compact">
+2025-07-10T13:45:45:   > 193 |               {skills.map((skill, index) => (
+2025-07-10T13:45:45:         |                            ^^^^^
+2025-07-10T13:45:45:     194 |                 <div key={index} className="skill-group">
+2025-07-10T13:45:45:     195 |                   <div className="skill-category-compact">{skill.category}</div>
+2025-07-10T13:45:45:     196 |                   <div className="skill-items-compact">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:193:35
+2025-07-10T13:45:45: TS7006: Parameter 'index' implicitly has an 'any' type.
+2025-07-10T13:45:45:     191 |             <h3 className="card-title">技能栈</h3>
+2025-07-10T13:45:45:     192 |             <div className="skills-compact">
+2025-07-10T13:45:45:   > 193 |               {skills.map((skill, index) => (
+2025-07-10T13:45:45:         |                                   ^^^^^
+2025-07-10T13:45:45:     194 |                 <div key={index} className="skill-group">
+2025-07-10T13:45:45:     195 |                   <div className="skill-category-compact">{skill.category}</div>
+2025-07-10T13:45:45:     196 |                   <div className="skill-items-compact">
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:197:39
+2025-07-10T13:45:45: TS7006: Parameter 'item' implicitly has an 'any' type.
+2025-07-10T13:45:45:     195 |                   <div className="skill-category-compact">{skill.category}</div>
+2025-07-10T13:45:45:     196 |                   <div className="skill-items-compact">
+2025-07-10T13:45:45:   > 197 |                     {skill.items.map((item, itemIndex) => (
+2025-07-10T13:45:45:         |                                       ^^^^
+2025-07-10T13:45:45:     198 |                       <span key={itemIndex} className="skill-tag">{item}</span>
+2025-07-10T13:45:45:     199 |                     ))}
+2025-07-10T13:45:45:     200 |                   </div>
+2025-07-10T13:45:45: 
+2025-07-10T13:45:45: ERROR in src/components/AboutInstructorSection.tsx:197:45
+2025-07-10T13:45:45: TS7006: Parameter 'itemIndex' implicitly has an 'any' type.
+2025-07-10T13:45:45:     195 |                   <div className="skill-category-compact">{skill.category}</div>
+2025-07-10T13:45:45:     196 |                   <div className="skill-items-compact">
+2025-07-10T13:45:45:   > 197 |                     {skill.items.map((item, itemIndex) => (
+2025-07-10T13:45:45:         |                                             ^^^^^^^^^
+2025-07-10T13:45:45:     198 |                       <span key={itemIndex} className="skill-tag">{item}</span>
+2025-07-10T13:45:45:     199 |                     ))}
+2025-07-10T13:45:45:     200 |                   </div>
+2025-07-10T13:45:45: 
+2025-07-10T14:27:45: ERROR in src/components/AboutInstructorSection.tsx:184:34
+2025-07-10T14:27:45: TS2304: Cannot find name 'setIsInsightsExpanded'.
+2025-07-10T14:27:45:     182 |                 <button 
+2025-07-10T14:27:45:     183 |                   className="expand-btn"
+2025-07-10T14:27:45:   > 184 |                   onClick={() => setIsInsightsExpanded(!isInsightsExpanded)}
+2025-07-10T14:27:45:         |                                  ^^^^^^^^^^^^^^^^^^^^^
+2025-07-10T14:27:45:     185 |                 >
+2025-07-10T14:27:45:     186 |                   {isInsightsExpanded ? '收起感悟' : '查看全部感悟'}
+2025-07-10T14:27:45:     187 |                   <span className={`expand-icon ${isInsightsExpanded ? 'expanded' : ''}`}>
+2025-07-10T14:27:45: 
+2025-07-10T14:27:45: ERROR in src/components/AboutInstructorSection.tsx:184:57
+2025-07-10T14:27:45: TS2304: Cannot find name 'isInsightsExpanded'.
+2025-07-10T14:27:45:     182 |                 <button 
+2025-07-10T14:27:45:     183 |                   className="expand-btn"
+2025-07-10T14:27:45:   > 184 |                   onClick={() => setIsInsightsExpanded(!isInsightsExpanded)}
+2025-07-10T14:27:45:         |                                                         ^^^^^^^^^^^^^^^^^^
+2025-07-10T14:27:45:     185 |                 >
+2025-07-10T14:27:45:     186 |                   {isInsightsExpanded ? '收起感悟' : '查看全部感悟'}
+2025-07-10T14:27:45:     187 |                   <span className={`expand-icon ${isInsightsExpanded ? 'expanded' : ''}`}>
+2025-07-10T14:27:45: 
+2025-07-10T14:27:45: ERROR in src/components/AboutInstructorSection.tsx:186:20
+2025-07-10T14:27:45: TS2304: Cannot find name 'isInsightsExpanded'.
+2025-07-10T14:27:45:     184 |                   onClick={() => setIsInsightsExpanded(!isInsightsExpanded)}
+2025-07-10T14:27:45:     185 |                 >
+2025-07-10T14:27:45:   > 186 |                   {isInsightsExpanded ? '收起感悟' : '查看全部感悟'}
+2025-07-10T14:27:45:         |                    ^^^^^^^^^^^^^^^^^^
+2025-07-10T14:27:45:     187 |                   <span className={`expand-icon ${isInsightsExpanded ? 'expanded' : ''}`}>
+2025-07-10T14:27:45:     188 |                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+2025-07-10T14:27:45:     189 |                       <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+2025-07-10T14:27:45: 
+2025-07-10T14:27:45: ERROR in src/components/AboutInstructorSection.tsx:187:51
+2025-07-10T14:27:45: TS2304: Cannot find name 'isInsightsExpanded'.
+2025-07-10T14:27:45:     185 |                 >
+2025-07-10T14:27:45:     186 |                   {isInsightsExpanded ? '收起感悟' : '查看全部感悟'}
+2025-07-10T14:27:45:   > 187 |                   <span className={`expand-icon ${isInsightsExpanded ? 'expanded' : ''}`}>
+2025-07-10T14:27:45:         |                                                   ^^^^^^^^^^^^^^^^^^
+2025-07-10T14:27:45:     188 |                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+2025-07-10T14:27:45:     189 |                       <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+2025-07-10T14:27:45:     190 |                     </svg>
+2025-07-10T14:27:45: 
+2025-07-10T14:27:45: ERROR in src/components/AboutInstructorSection.tsx:195:51
+2025-07-10T14:27:45: TS2304: Cannot find name 'isInsightsExpanded'.
+2025-07-10T14:27:45:     193 |               </div>
+2025-07-10T14:27:45:     194 |               
+2025-07-10T14:27:45:   > 195 |               <div className={`insights-details ${isInsightsExpanded ? 'expanded' : ''}`}>
+2025-07-10T14:27:45:         |                                                   ^^^^^^^^^^^^^^^^^^
+2025-07-10T14:27:45:     196 |                 <div className="insights-compact">
+2025-07-10T14:27:45:     197 |                   {insights.map((insight, index) => (
+2025-07-10T14:27:45:     198 |                     <div key={index} className="insight-item">
+2025-07-10T14:27:45: 

@@ -17,12 +17,12 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-        <AboutInstructorSection />
         <FeaturesSection />
         <CourseDetailSection />
         <CourseOutline />
         {/* <CertificateSection /> */}
         <CourseSchedule />
+        <AboutInstructorSection />
         <FaqSection />
       </main>
       <Footer />

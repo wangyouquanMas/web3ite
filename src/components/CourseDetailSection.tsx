@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CourseDetailSection.css';
+// Import the WeChat QR code image
+import wechatQrImage from '../assets/images/wechat.jpg';
 
 const CourseDetailSection: React.FC = () => {
+  const [showWechatModal, setShowWechatModal] = useState(false);
+
+  const openWechatModal = () => {
+    setShowWechatModal(true);
+  };
+
+  const closeWechatModal = () => {
+    setShowWechatModal(false);
+  };
+
   const courseChapters = [
     {
       id: 1,
@@ -222,45 +234,62 @@ const CourseDetailSection: React.FC = () => {
   ];
 
   return (
-    <section id="course-detail" className="course-detail">
-      <div className="section-header">
-        <h2>课表详情</h2>
-        <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的Web3开发学习路径</p>
-      </div>
-      <div className="course-detail-grid">
-        {courseChapters.map(chapter => (
-          <div key={chapter.id} className="course-chapter-card">
-            <div className="chapter-header">
-              <div className="chapter-icon-container">
-                {chapter.icon}
+    <div>
+      <section id="course-detail" className="course-detail">
+        <div className="section-header">
+          <h2>课表详情</h2>
+          <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的Web3开发学习路径</p>
+        </div>
+        <div className="course-detail-grid">
+          {courseChapters.map(chapter => (
+            <div key={chapter.id} className="course-chapter-card">
+              <div className="chapter-header">
+                <div className="chapter-icon-container">
+                  {chapter.icon}
+                </div>
+                <div className="chapter-level">
+                  <span className="level-badge">{chapter.level}</span>
+                  <span className="duration">{chapter.duration}</span>
+                </div>
               </div>
-              <div className="chapter-level">
-                <span className="level-badge">{chapter.level}</span>
-                <span className="duration">{chapter.duration}</span>
+              <h3>{chapter.title}</h3>
+              <p className="chapter-description">{chapter.description}</p>
+              <div className="chapter-topics-container">
+                <div className="topics-column">
+                  <ul className="chapter-topics">
+                    {chapter.topicsLeft.map((topic, index) => (
+                      <li key={index}>{topic}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="topics-column">
+                  <ul className="chapter-topics">
+                    {chapter.topicsRight.map((topic, index) => (
+                      <li key={index}>{topic}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
-            <h3>{chapter.title}</h3>
-            <p className="chapter-description">{chapter.description}</p>
-            <div className="chapter-topics-container">
-              <div className="topics-column">
-                <ul className="chapter-topics">
-                  {chapter.topicsLeft.map((topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="topics-column">
-                <ul className="chapter-topics">
-                  {chapter.topicsRight.map((topic, index) => (
-                    <li key={index}>{topic}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+          ))}
+        </div>
+        <div className="course-detail-cta">
+          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
+        </div>
+      </section>
+
+      {/* Wechat Modal */}
+      {showWechatModal && (
+        <div className="modal-overlay" onClick={closeWechatModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={closeWechatModal}>&times;</button>
+            <h3>微信咨询</h3>
+            <img src={wechatQrImage} alt="微信二维码" className="wechat-qr" />
+            <p>扫码添加微信，获取更多课程信息</p>
           </div>
-        ))}
-      </div>
-    </section>
+        </div>
+      )}
+    </div>
   );
 };
 
