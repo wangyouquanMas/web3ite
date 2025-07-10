@@ -6539,3 +6539,641 @@
 2025-07-10T14:41:37: 
 2025-07-10T14:41:37: webpack compiled with 1 warning
 2025-07-10T14:41:37: No issues found.
+2025-07-10T14:45:26: Compiling...
+2025-07-10T14:45:27: Compiled with warnings.
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: [eslint] 
+2025-07-10T14:45:27: src/App.tsx
+2025-07-10T14:45:27:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: src/components/CourseSchedule.tsx
+2025-07-10T14:45:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: Search for the keywords to learn more about each warning.
+2025-07-10T14:45:27: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: WARNING in [eslint] 
+2025-07-10T14:45:27: src/App.tsx
+2025-07-10T14:45:27:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: src/components/CourseSchedule.tsx
+2025-07-10T14:45:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:27: 
+2025-07-10T14:45:27: webpack compiled with 1 warning
+2025-07-10T14:45:27: No issues found.
+2025-07-10T14:45:36: Compiling...
+2025-07-10T14:45:36: Compiled with warnings.
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: [eslint] 
+2025-07-10T14:45:36: src/App.tsx
+2025-07-10T14:45:36:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: src/components/CourseSchedule.tsx
+2025-07-10T14:45:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: Search for the keywords to learn more about each warning.
+2025-07-10T14:45:36: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: WARNING in [eslint] 
+2025-07-10T14:45:36: src/App.tsx
+2025-07-10T14:45:36:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: src/components/CourseSchedule.tsx
+2025-07-10T14:45:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:45:36: 
+2025-07-10T14:45:36: webpack compiled with 1 warning
+2025-07-10T14:45:36: No issues found.
+2025-07-10T14:47:46: Compiling...
+2025-07-10T14:47:47: Compiled with warnings.
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: [eslint] 
+2025-07-10T14:47:47: src/App.tsx
+2025-07-10T14:47:47:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: src/components/CourseSchedule.tsx
+2025-07-10T14:47:47:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: Search for the keywords to learn more about each warning.
+2025-07-10T14:47:47: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: WARNING in [eslint] 
+2025-07-10T14:47:47: src/App.tsx
+2025-07-10T14:47:47:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: src/components/CourseSchedule.tsx
+2025-07-10T14:47:47:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:47: 
+2025-07-10T14:47:47: webpack compiled with 1 warning
+2025-07-10T14:47:47: No issues found.
+2025-07-10T14:47:55: Compiling...
+2025-07-10T14:47:55: Compiled with warnings.
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: [eslint] 
+2025-07-10T14:47:55: src/App.tsx
+2025-07-10T14:47:55:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: src/components/CourseSchedule.tsx
+2025-07-10T14:47:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: Search for the keywords to learn more about each warning.
+2025-07-10T14:47:55: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: WARNING in [eslint] 
+2025-07-10T14:47:55: src/App.tsx
+2025-07-10T14:47:55:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: src/components/CourseSchedule.tsx
+2025-07-10T14:47:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:47:55: 
+2025-07-10T14:47:55: webpack compiled with 1 warning
+2025-07-10T14:47:55: No issues found.
+2025-07-10T14:48:04: Compiling...
+2025-07-10T14:48:04: Compiled with warnings.
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: [eslint] 
+2025-07-10T14:48:04: src/App.tsx
+2025-07-10T14:48:04:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: src/components/CourseSchedule.tsx
+2025-07-10T14:48:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: Search for the keywords to learn more about each warning.
+2025-07-10T14:48:04: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: WARNING in [eslint] 
+2025-07-10T14:48:04: src/App.tsx
+2025-07-10T14:48:04:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: src/components/CourseSchedule.tsx
+2025-07-10T14:48:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:04: 
+2025-07-10T14:48:04: webpack compiled with 1 warning
+2025-07-10T14:48:04: No issues found.
+2025-07-10T14:48:13: Compiling...
+2025-07-10T14:48:14: Compiled with warnings.
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: [eslint] 
+2025-07-10T14:48:14: src/App.tsx
+2025-07-10T14:48:14:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: src/components/CourseSchedule.tsx
+2025-07-10T14:48:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: Search for the keywords to learn more about each warning.
+2025-07-10T14:48:14: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: WARNING in [eslint] 
+2025-07-10T14:48:14: src/App.tsx
+2025-07-10T14:48:14:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: src/components/CourseSchedule.tsx
+2025-07-10T14:48:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:48:14: 
+2025-07-10T14:48:14: webpack compiled with 1 warning
+2025-07-10T14:48:14: No issues found.
+2025-07-10T14:48:59: Compiling...
+2025-07-10T14:49:00: Compiled with warnings.
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: [eslint] 
+2025-07-10T14:49:00: src/App.tsx
+2025-07-10T14:49:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: src/components/CourseSchedule.tsx
+2025-07-10T14:49:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: Search for the keywords to learn more about each warning.
+2025-07-10T14:49:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: WARNING in [eslint] 
+2025-07-10T14:49:00: src/App.tsx
+2025-07-10T14:49:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: src/components/CourseSchedule.tsx
+2025-07-10T14:49:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:00: 
+2025-07-10T14:49:00: webpack compiled with 1 warning
+2025-07-10T14:49:00: No issues found.
+2025-07-10T14:49:25: Compiling...
+2025-07-10T14:49:25: Compiled with warnings.
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: [eslint] 
+2025-07-10T14:49:25: src/App.tsx
+2025-07-10T14:49:25:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: src/components/CourseSchedule.tsx
+2025-07-10T14:49:25:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: Search for the keywords to learn more about each warning.
+2025-07-10T14:49:25: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: WARNING in [eslint] 
+2025-07-10T14:49:25: src/App.tsx
+2025-07-10T14:49:25:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: src/components/CourseSchedule.tsx
+2025-07-10T14:49:25:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:49:25: 
+2025-07-10T14:49:25: webpack compiled with 1 warning
+2025-07-10T14:49:25: No issues found.
+2025-07-10T14:50:02: Compiling...
+2025-07-10T14:50:03: Compiled with warnings.
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: [eslint] 
+2025-07-10T14:50:03: src/App.tsx
+2025-07-10T14:50:03:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: src/components/CourseSchedule.tsx
+2025-07-10T14:50:03:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: Search for the keywords to learn more about each warning.
+2025-07-10T14:50:03: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: WARNING in [eslint] 
+2025-07-10T14:50:03: src/App.tsx
+2025-07-10T14:50:03:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: src/components/CourseSchedule.tsx
+2025-07-10T14:50:03:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:03: 
+2025-07-10T14:50:03: webpack compiled with 1 warning
+2025-07-10T14:50:03: No issues found.
+2025-07-10T14:50:12: Compiling...
+2025-07-10T14:50:12: Compiled with warnings.
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: [eslint] 
+2025-07-10T14:50:12: src/App.tsx
+2025-07-10T14:50:12:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: src/components/CourseSchedule.tsx
+2025-07-10T14:50:12:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: Search for the keywords to learn more about each warning.
+2025-07-10T14:50:12: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: WARNING in [eslint] 
+2025-07-10T14:50:12: src/App.tsx
+2025-07-10T14:50:12:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: src/components/CourseSchedule.tsx
+2025-07-10T14:50:12:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:12: 
+2025-07-10T14:50:12: webpack compiled with 1 warning
+2025-07-10T14:50:12: No issues found.
+2025-07-10T14:50:27: Compiling...
+2025-07-10T14:50:27: Compiled with warnings.
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: [eslint] 
+2025-07-10T14:50:27: src/App.tsx
+2025-07-10T14:50:27:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: src/components/CourseSchedule.tsx
+2025-07-10T14:50:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: Search for the keywords to learn more about each warning.
+2025-07-10T14:50:27: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: WARNING in [eslint] 
+2025-07-10T14:50:27: src/App.tsx
+2025-07-10T14:50:27:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: src/components/CourseSchedule.tsx
+2025-07-10T14:50:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:27: 
+2025-07-10T14:50:27: webpack compiled with 1 warning
+2025-07-10T14:50:27: No issues found.
+2025-07-10T14:50:29: Compiling...
+2025-07-10T14:50:30: Compiled with warnings.
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: [eslint] 
+2025-07-10T14:50:30: src/App.tsx
+2025-07-10T14:50:30:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: src/components/CourseSchedule.tsx
+2025-07-10T14:50:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: Search for the keywords to learn more about each warning.
+2025-07-10T14:50:30: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: WARNING in [eslint] 
+2025-07-10T14:50:30: src/App.tsx
+2025-07-10T14:50:30:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: src/components/CourseSchedule.tsx
+2025-07-10T14:50:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T14:50:30: 
+2025-07-10T14:50:30: webpack compiled with 1 warning
+2025-07-10T14:50:30: No issues found.
+2025-07-10T15:37:00: Compiling...
+2025-07-10T15:37:01: Compiled with warnings.
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: [eslint] 
+2025-07-10T15:37:01: src/App.tsx
+2025-07-10T15:37:01:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: src/components/CourseSchedule.tsx
+2025-07-10T15:37:01:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: Search for the keywords to learn more about each warning.
+2025-07-10T15:37:01: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: WARNING in [eslint] 
+2025-07-10T15:37:01: src/App.tsx
+2025-07-10T15:37:01:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: src/components/CourseSchedule.tsx
+2025-07-10T15:37:01:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:37:01: 
+2025-07-10T15:37:01: webpack compiled with 1 warning
+2025-07-10T15:37:01: No issues found.
+2025-07-10T15:41:50: Compiling...
+2025-07-10T15:41:50: Compiled with warnings.
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: [eslint] 
+2025-07-10T15:41:50: src/App.tsx
+2025-07-10T15:41:50:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: src/components/CourseSchedule.tsx
+2025-07-10T15:41:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: Search for the keywords to learn more about each warning.
+2025-07-10T15:41:50: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: WARNING in [eslint] 
+2025-07-10T15:41:50: src/App.tsx
+2025-07-10T15:41:50:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: src/components/CourseSchedule.tsx
+2025-07-10T15:41:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:50: 
+2025-07-10T15:41:50: webpack compiled with 1 warning
+2025-07-10T15:41:50: No issues found.
+2025-07-10T15:41:51: Compiling...
+2025-07-10T15:41:51: Compiled with warnings.
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: [eslint] 
+2025-07-10T15:41:51: src/App.tsx
+2025-07-10T15:41:51:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: src/components/CourseSchedule.tsx
+2025-07-10T15:41:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: Search for the keywords to learn more about each warning.
+2025-07-10T15:41:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: WARNING in [eslint] 
+2025-07-10T15:41:51: src/App.tsx
+2025-07-10T15:41:51:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: src/components/CourseSchedule.tsx
+2025-07-10T15:41:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:41:51: 
+2025-07-10T15:41:51: webpack compiled with 1 warning
+2025-07-10T15:41:51: No issues found.
+2025-07-10T15:42:50: Compiling...
+2025-07-10T15:42:51: Compiled with warnings.
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: [eslint] 
+2025-07-10T15:42:51: src/App.tsx
+2025-07-10T15:42:51:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: src/components/CourseSchedule.tsx
+2025-07-10T15:42:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: Search for the keywords to learn more about each warning.
+2025-07-10T15:42:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: WARNING in [eslint] 
+2025-07-10T15:42:51: src/App.tsx
+2025-07-10T15:42:51:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: src/components/CourseSchedule.tsx
+2025-07-10T15:42:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:51: 
+2025-07-10T15:42:51: webpack compiled with 1 warning
+2025-07-10T15:42:51: No issues found.
+2025-07-10T15:42:58: Compiling...
+2025-07-10T15:42:59: Compiled with warnings.
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: [eslint] 
+2025-07-10T15:42:59: src/App.tsx
+2025-07-10T15:42:59:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: src/components/CourseSchedule.tsx
+2025-07-10T15:42:59:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: Search for the keywords to learn more about each warning.
+2025-07-10T15:42:59: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: WARNING in [eslint] 
+2025-07-10T15:42:59: src/App.tsx
+2025-07-10T15:42:59:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: src/components/CourseSchedule.tsx
+2025-07-10T15:42:59:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:42:59: 
+2025-07-10T15:42:59: webpack compiled with 1 warning
+2025-07-10T15:42:59: No issues found.
+2025-07-10T15:43:33: Compiling...
+2025-07-10T15:43:34: Compiled with warnings.
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: [eslint] 
+2025-07-10T15:43:34: src/App.tsx
+2025-07-10T15:43:34:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: src/components/CourseSchedule.tsx
+2025-07-10T15:43:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: Search for the keywords to learn more about each warning.
+2025-07-10T15:43:34: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: WARNING in [eslint] 
+2025-07-10T15:43:34: src/App.tsx
+2025-07-10T15:43:34:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: src/components/CourseSchedule.tsx
+2025-07-10T15:43:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:43:34: 
+2025-07-10T15:43:34: webpack compiled with 1 warning
+2025-07-10T15:43:34: No issues found.
+2025-07-10T15:44:00: Compiling...
+2025-07-10T15:44:00: Compiled with warnings.
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: [eslint] 
+2025-07-10T15:44:00: src/App.tsx
+2025-07-10T15:44:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: src/components/CourseSchedule.tsx
+2025-07-10T15:44:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: Search for the keywords to learn more about each warning.
+2025-07-10T15:44:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: WARNING in [eslint] 
+2025-07-10T15:44:00: src/App.tsx
+2025-07-10T15:44:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: src/components/CourseSchedule.tsx
+2025-07-10T15:44:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:44:00: 
+2025-07-10T15:44:00: webpack compiled with 1 warning
+2025-07-10T15:44:00: No issues found.
+2025-07-10T15:48:29: Compiling...
+2025-07-10T15:48:29: Compiled with warnings.
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: [eslint] 
+2025-07-10T15:48:29: src/App.tsx
+2025-07-10T15:48:29:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: src/components/CourseSchedule.tsx
+2025-07-10T15:48:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: Search for the keywords to learn more about each warning.
+2025-07-10T15:48:29: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: WARNING in [eslint] 
+2025-07-10T15:48:29: src/App.tsx
+2025-07-10T15:48:29:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: src/components/CourseSchedule.tsx
+2025-07-10T15:48:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:48:29: 
+2025-07-10T15:48:29: webpack compiled with 1 warning
+2025-07-10T15:48:29: No issues found.
+2025-07-10T15:49:00: Compiling...
+2025-07-10T15:49:00: Compiled with warnings.
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: [eslint] 
+2025-07-10T15:49:00: src/App.tsx
+2025-07-10T15:49:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: src/components/CourseSchedule.tsx
+2025-07-10T15:49:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: Search for the keywords to learn more about each warning.
+2025-07-10T15:49:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: WARNING in [eslint] 
+2025-07-10T15:49:00: src/App.tsx
+2025-07-10T15:49:00:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: src/components/CourseSchedule.tsx
+2025-07-10T15:49:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:00: 
+2025-07-10T15:49:00: webpack compiled with 1 warning
+2025-07-10T15:49:00: No issues found.
+2025-07-10T15:49:53: Compiling...
+2025-07-10T15:49:54: Compiled with warnings.
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: [eslint] 
+2025-07-10T15:49:54: src/App.tsx
+2025-07-10T15:49:54:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: src/components/CourseSchedule.tsx
+2025-07-10T15:49:54:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: Search for the keywords to learn more about each warning.
+2025-07-10T15:49:54: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: WARNING in [eslint] 
+2025-07-10T15:49:54: src/App.tsx
+2025-07-10T15:49:54:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: src/components/CourseSchedule.tsx
+2025-07-10T15:49:54:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:49:54: 
+2025-07-10T15:49:54: webpack compiled with 1 warning
+2025-07-10T15:49:54: No issues found.
+2025-07-10T15:50:13: Compiling...
+2025-07-10T15:50:14: Compiled with warnings.
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: [eslint] 
+2025-07-10T15:50:14: src/App.tsx
+2025-07-10T15:50:14:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: src/components/CourseSchedule.tsx
+2025-07-10T15:50:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: Search for the keywords to learn more about each warning.
+2025-07-10T15:50:14: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: WARNING in [eslint] 
+2025-07-10T15:50:14: src/App.tsx
+2025-07-10T15:50:14:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: src/components/CourseSchedule.tsx
+2025-07-10T15:50:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:50:14: 
+2025-07-10T15:50:14: webpack compiled with 1 warning
+2025-07-10T15:50:14: No issues found.
+2025-07-10T15:51:05: Compiling...
+2025-07-10T15:51:05: Compiled with warnings.
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: [eslint] 
+2025-07-10T15:51:05: src/App.tsx
+2025-07-10T15:51:05:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: src/components/CourseSchedule.tsx
+2025-07-10T15:51:05:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: Search for the keywords to learn more about each warning.
+2025-07-10T15:51:05: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: WARNING in [eslint] 
+2025-07-10T15:51:05: src/App.tsx
+2025-07-10T15:51:05:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: src/components/CourseSchedule.tsx
+2025-07-10T15:51:05:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:05: 
+2025-07-10T15:51:05: webpack compiled with 1 warning
+2025-07-10T15:51:05: No issues found.
+2025-07-10T15:51:23: Compiling...
+2025-07-10T15:51:23: Compiled with warnings.
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: [eslint] 
+2025-07-10T15:51:23: src/App.tsx
+2025-07-10T15:51:23:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: src/components/CourseSchedule.tsx
+2025-07-10T15:51:23:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: Search for the keywords to learn more about each warning.
+2025-07-10T15:51:23: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: WARNING in [eslint] 
+2025-07-10T15:51:23: src/App.tsx
+2025-07-10T15:51:23:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: src/components/CourseSchedule.tsx
+2025-07-10T15:51:23:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:23: 
+2025-07-10T15:51:23: webpack compiled with 1 warning
+2025-07-10T15:51:23: No issues found.
+2025-07-10T15:51:32: Compiling...
+2025-07-10T15:51:32: Compiled with warnings.
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: [eslint] 
+2025-07-10T15:51:32: src/App.tsx
+2025-07-10T15:51:32:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: src/components/CourseSchedule.tsx
+2025-07-10T15:51:32:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: Search for the keywords to learn more about each warning.
+2025-07-10T15:51:32: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: WARNING in [eslint] 
+2025-07-10T15:51:32: src/App.tsx
+2025-07-10T15:51:32:   Line 9:8:  'CertificateSection' is defined but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: src/components/CourseSchedule.tsx
+2025-07-10T15:51:32:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T15:51:32: 
+2025-07-10T15:51:32: webpack compiled with 1 warning
+2025-07-10T15:51:32: No issues found.
+2025-07-10T15:54:56: 
+2025-07-10T15:54:56: > web3ite@0.1.0 start
+2025-07-10T15:54:56: > react-scripts start
+2025-07-10T15:54:56: 
+2025-07-10T15:55:01: Starting the development server...
+2025-07-10T15:55:01: 
+2025-07-10T15:55:07: Compiled successfully!
+2025-07-10T15:55:07: 
+2025-07-10T15:55:07: You can now view web3ite in the browser.
+2025-07-10T15:55:07: 
+2025-07-10T15:55:07:   Local:            http://localhost:3000
+2025-07-10T15:55:07:   On Your Network:  http://10.7.64.2:3000
+2025-07-10T15:55:07: 
+2025-07-10T15:55:07: Note that the development build is not optimized.
+2025-07-10T15:55:07: To create a production build, use npm run build.
+2025-07-10T15:55:07: 
+2025-07-10T15:55:07: webpack compiled successfully
+2025-07-10T15:55:07: No issues found.
+2025-07-10T15:55:42: Compiling...
+2025-07-10T15:55:43: Compiled successfully!
+2025-07-10T15:55:43: webpack compiled successfully
+2025-07-10T15:55:43: No issues found.
+2025-07-10T15:56:29: Compiling...
+2025-07-10T15:56:30: Compiled successfully!
+2025-07-10T15:56:30: webpack compiled successfully
+2025-07-10T15:56:30: No issues found.
+2025-07-10T16:02:22: Compiling...
+2025-07-10T16:02:23: Compiled successfully!
+2025-07-10T16:02:23: webpack compiled successfully
+2025-07-10T16:02:23: No issues found.
+2025-07-10T16:24:06: Compiling...
+2025-07-10T16:24:07: Compiled successfully!
+2025-07-10T16:24:07: webpack compiled successfully
+2025-07-10T16:24:07: No issues found.
+2025-07-10T17:37:41: Compiling...
+2025-07-10T17:37:42: Compiled with warnings.
+2025-07-10T17:37:42: 
+2025-07-10T17:37:42: [eslint] 
+2025-07-10T17:37:42: src/components/CourseSchedule.tsx
+2025-07-10T17:37:42:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T17:37:42: 
+2025-07-10T17:37:42: Search for the keywords to learn more about each warning.
+2025-07-10T17:37:42: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T17:37:42: 
+2025-07-10T17:37:42: WARNING in [eslint] 
+2025-07-10T17:37:42: src/components/CourseSchedule.tsx
+2025-07-10T17:37:42:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T17:37:42: 
+2025-07-10T17:37:42: webpack compiled with 1 warning
+2025-07-10T17:37:42: No issues found.
+2025-07-10T17:40:10: Compiling...
+2025-07-10T17:40:11: Compiled with warnings.
+2025-07-10T17:40:11: 
+2025-07-10T17:40:11: [eslint] 
+2025-07-10T17:40:11: src/components/CourseSchedule.tsx
+2025-07-10T17:40:11:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T17:40:11: 
+2025-07-10T17:40:11: Search for the keywords to learn more about each warning.
+2025-07-10T17:40:11: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-10T17:40:11: 
+2025-07-10T17:40:11: WARNING in [eslint] 
+2025-07-10T17:40:11: src/components/CourseSchedule.tsx
+2025-07-10T17:40:11:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-10T17:40:11: 
+2025-07-10T17:40:11: webpack compiled with 1 warning
+2025-07-10T17:40:11: No issues found.

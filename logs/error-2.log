@@ -1588,3 +1588,6 @@
 2025-07-10T14:27:45:     197 |                   {insights.map((insight, index) => (
 2025-07-10T14:27:45:     198 |                     <div key={index} className="insight-item">
 2025-07-10T14:27:45: 
+2025-07-10T15:55:01: (node:1625) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-10T15:55:01: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-10T15:55:01: (node:1625) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.

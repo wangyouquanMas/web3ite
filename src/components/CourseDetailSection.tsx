@@ -285,7 +285,6 @@ const CourseDetailSection: React.FC = () => {
             <button className="modal-close" onClick={closeWechatModal}>&times;</button>
             <h3>微信咨询</h3>
             <img src={wechatQrImage} alt="微信二维码" className="wechat-qr" />
-            <p>扫码添加微信，获取更多课程信息</p>
           </div>
         </div>
       )}
