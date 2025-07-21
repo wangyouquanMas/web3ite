@@ -30,6 +30,7 @@ const CourseSchedule: React.FC = () => {
       badge: '',
       features: [
         '1次答疑服务',
+        'web3基础入门教程',
         '精选学习资源合集',
         '行业最新技术趋势更新',
         '专属学习社群',
