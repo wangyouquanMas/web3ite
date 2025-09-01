@@ -9074,3 +9074,834 @@
 2025-07-11T16:04:05: 
 2025-07-11T16:04:05: webpack compiled with 1 warning
 2025-07-11T16:04:05: No issues found.
+2025-07-21T22:46:42: Compiling...
+2025-07-21T22:46:43: Compiled with warnings.
+2025-07-21T22:46:43: 
+2025-07-21T22:46:43: [eslint] 
+2025-07-21T22:46:43: src/components/CourseSchedule.tsx
+2025-07-21T22:46:43:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-21T22:46:43: 
+2025-07-21T22:46:43: Search for the keywords to learn more about each warning.
+2025-07-21T22:46:43: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-21T22:46:43: 
+2025-07-21T22:46:43: WARNING in [eslint] 
+2025-07-21T22:46:43: src/components/CourseSchedule.tsx
+2025-07-21T22:46:43:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-21T22:46:43: 
+2025-07-21T22:46:43: webpack compiled with 1 warning
+2025-07-21T22:46:43: No issues found.
+2025-07-24T17:34:36: Compiling...
+2025-07-24T17:34:37: Compiled with warnings.
+2025-07-24T17:34:37: 
+2025-07-24T17:34:37: [eslint] 
+2025-07-24T17:34:37: src/components/CourseSchedule.tsx
+2025-07-24T17:34:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-24T17:34:37: 
+2025-07-24T17:34:37: Search for the keywords to learn more about each warning.
+2025-07-24T17:34:37: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-24T17:34:37: 
+2025-07-24T17:34:37: WARNING in [eslint] 
+2025-07-24T17:34:37: src/components/CourseSchedule.tsx
+2025-07-24T17:34:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-24T17:34:37: 
+2025-07-24T17:34:37: webpack compiled with 1 warning
+2025-07-24T17:34:37: No issues found.
+2025-07-24T18:22:33: Compiling...
+2025-07-24T18:22:34: Compiled with warnings.
+2025-07-24T18:22:34: 
+2025-07-24T18:22:34: [eslint] 
+2025-07-24T18:22:34: src/components/CourseSchedule.tsx
+2025-07-24T18:22:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-24T18:22:34: 
+2025-07-24T18:22:34: Search for the keywords to learn more about each warning.
+2025-07-24T18:22:34: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-24T18:22:34: 
+2025-07-24T18:22:34: WARNING in [eslint] 
+2025-07-24T18:22:34: src/components/CourseSchedule.tsx
+2025-07-24T18:22:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-24T18:22:34: 
+2025-07-24T18:22:34: webpack compiled with 1 warning
+2025-07-24T18:22:34: No issues found.
+2025-07-25T17:48:09: Compiling...
+2025-07-25T17:48:10: Compiled with warnings.
+2025-07-25T17:48:10: 
+2025-07-25T17:48:10: [eslint] 
+2025-07-25T17:48:10: src/components/CourseSchedule.tsx
+2025-07-25T17:48:10:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-25T17:48:10: 
+2025-07-25T17:48:10: Search for the keywords to learn more about each warning.
+2025-07-25T17:48:10: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-25T17:48:10: 
+2025-07-25T17:48:10: WARNING in [eslint] 
+2025-07-25T17:48:10: src/components/CourseSchedule.tsx
+2025-07-25T17:48:10:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-25T17:48:10: 
+2025-07-25T17:48:10: webpack compiled with 1 warning
+2025-07-25T17:48:10: No issues found.
+2025-07-25T17:48:13: Compiling...
+2025-07-25T17:50:27: Compiled with warnings.
+2025-07-25T17:50:27: 
+2025-07-25T17:50:27: [eslint] 
+2025-07-25T17:50:27: src/components/CourseSchedule.tsx
+2025-07-25T17:50:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-25T17:50:27: 
+2025-07-25T17:50:27: Search for the keywords to learn more about each warning.
+2025-07-25T17:50:27: To ignore, add // eslint-disable-next-line to the line before.
+2025-07-25T17:50:27: 
+2025-07-25T17:50:27: WARNING in [eslint] 
+2025-07-25T17:50:27: src/components/CourseSchedule.tsx
+2025-07-25T17:50:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-07-25T17:50:27: 
+2025-07-25T17:50:27: webpack compiled with 1 warning
+2025-07-25T17:50:27: No issues found.
+2025-07-25T17:50:57: 
+2025-07-25T17:50:57: > web3ite@0.1.0 start
+2025-07-25T17:50:57: > react-scripts start
+2025-07-25T17:50:57: 
+2025-07-25T17:51:02: (node:1774) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-25T17:51:02: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-25T17:51:02: (node:1774) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-25T17:51:02: Starting the development server...
+2025-07-25T17:51:02: 
+2025-07-25T17:51:04: Compiled successfully!
+2025-07-25T17:51:04: 
+2025-07-25T17:51:04: You can now view web3ite in the browser.
+2025-07-25T17:51:04: 
+2025-07-25T17:51:04:   Local:            http://localhost:3000
+2025-07-25T17:51:04:   On Your Network:  http://10.7.64.2:3000
+2025-07-25T17:51:04: 
+2025-07-25T17:51:04: Note that the development build is not optimized.
+2025-07-25T17:51:04: To create a production build, use npm run build.
+2025-07-25T17:51:04: 
+2025-07-25T17:51:04: webpack compiled successfully
+2025-07-25T17:51:04: Files successfully emitted, waiting for typecheck results...
+2025-07-25T17:51:04: Issues checking in progress...
+2025-07-25T17:51:07: No issues found.
+2025-08-03T09:42:57: Compiling...
+2025-08-03T09:43:00: Compiled successfully!
+2025-08-03T09:43:00: webpack compiled successfully
+2025-08-03T09:43:00: No issues found.
+2025-08-03T10:04:12: Compiling...
+2025-08-03T10:04:12: Compiled successfully!
+2025-08-03T10:04:12: webpack compiled successfully
+2025-08-03T10:04:12: No issues found.
+2025-08-03T10:04:50: Compiling...
+2025-08-03T10:04:50: Compiled successfully!
+2025-08-03T10:04:50: webpack compiled successfully
+2025-08-03T10:04:50: No issues found.
+2025-08-03T10:12:03: Compiling...
+2025-08-03T10:12:03: Compiled successfully!
+2025-08-03T10:12:03: webpack compiled successfully
+2025-08-03T10:12:03: No issues found.
+2025-08-03T10:12:12: Compiling...
+2025-08-03T10:12:13: Compiled successfully!
+2025-08-03T10:12:13: webpack compiled successfully
+2025-08-03T10:12:13: No issues found.
+2025-08-03T10:12:18: Compiling...
+2025-08-03T10:12:19: Compiled successfully!
+2025-08-03T10:12:19: webpack compiled successfully
+2025-08-03T10:12:19: No issues found.
+2025-08-03T10:12:37: Compiling...
+2025-08-03T10:12:37: Compiled successfully!
+2025-08-03T10:12:37: webpack compiled successfully
+2025-08-03T10:12:37: No issues found.
+2025-08-03T10:15:49: Compiling...
+2025-08-03T10:15:50: Compiled successfully!
+2025-08-03T10:15:50: webpack compiled successfully
+2025-08-03T10:15:50: No issues found.
+2025-08-03T10:15:54: Compiling...
+2025-08-03T10:15:54: Compiled successfully!
+2025-08-03T10:15:54: webpack compiled successfully
+2025-08-03T10:15:54: No issues found.
+2025-08-03T10:18:02: Compiling...
+2025-08-03T10:18:03: Compiled successfully!
+2025-08-03T10:18:03: webpack compiled successfully
+2025-08-03T10:18:03: No issues found.
+2025-08-03T10:24:47: Compiling...
+2025-08-03T10:24:47: Compiled successfully!
+2025-08-03T10:24:47: webpack compiled successfully
+2025-08-03T10:24:47: No issues found.
+2025-08-03T10:27:13: Compiling...
+2025-08-03T10:27:13: Compiled successfully!
+2025-08-03T10:27:13: webpack compiled successfully
+2025-08-03T10:27:13: No issues found.
+2025-08-03T10:28:03: Compiling...
+2025-08-03T10:28:03: Compiled successfully!
+2025-08-03T10:28:03: webpack compiled successfully
+2025-08-03T10:28:03: No issues found.
+2025-08-03T10:28:12: Compiling...
+2025-08-03T10:28:12: Compiled successfully!
+2025-08-03T10:28:12: webpack compiled successfully
+2025-08-03T10:28:12: No issues found.
+2025-08-03T10:28:15: Compiling...
+2025-08-03T10:28:16: Compiled successfully!
+2025-08-03T10:28:16: webpack compiled successfully
+2025-08-03T10:28:16: No issues found.
+2025-08-03T14:43:01: The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
+2025-08-03T14:43:01: npm notice
+2025-08-03T14:43:01: npm notice New major version of npm available! 10.8.2 -> 11.5.1
+2025-08-03T14:43:01: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.5.1
+2025-08-03T14:43:01: npm notice To update run: npm install -g npm@11.5.1
+2025-08-03T14:43:01: npm notice
+2025-08-03T14:43:04: 
+2025-08-03T14:43:04: > web3ite@0.1.0 start
+2025-08-03T14:43:04: > react-scripts start
+2025-08-03T14:43:04: 
+2025-08-03T14:43:06: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-03T14:43:06:   npx update-browserslist-db@latest
+2025-08-03T14:43:06:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-03T14:43:06: (node:249459) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-03T14:43:06: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-03T14:43:06: (node:249459) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-03T14:43:07: Starting the development server...
+2025-08-03T14:43:07: 
+2025-08-03T14:43:08: Compiled successfully!
+2025-08-03T14:43:08: 
+2025-08-03T14:43:08: You can now view web3ite in the browser.
+2025-08-03T14:43:08: 
+2025-08-03T14:43:08:   Local:            http://localhost:3000
+2025-08-03T14:43:08:   On Your Network:  http://10.7.64.2:3000
+2025-08-03T14:43:08: 
+2025-08-03T14:43:08: Note that the development build is not optimized.
+2025-08-03T14:43:08: To create a production build, use npm run build.
+2025-08-03T14:43:08: 
+2025-08-03T14:43:08: webpack compiled successfully
+2025-08-03T14:43:08: Files successfully emitted, waiting for typecheck results...
+2025-08-03T14:43:08: Issues checking in progress...
+2025-08-03T14:43:10: No issues found.
+2025-08-06T12:36:50: Compiling...
+2025-08-06T12:36:53: Compiled with warnings.
+2025-08-06T12:36:53: 
+2025-08-06T12:36:53: [eslint] 
+2025-08-06T12:36:53: src/components/CourseSchedule.tsx
+2025-08-06T12:36:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:36:53: 
+2025-08-06T12:36:53: Search for the keywords to learn more about each warning.
+2025-08-06T12:36:53: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:36:53: 
+2025-08-06T12:36:53: WARNING in [eslint] 
+2025-08-06T12:36:53: src/components/CourseSchedule.tsx
+2025-08-06T12:36:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:36:53: 
+2025-08-06T12:36:53: webpack compiled with 1 warning
+2025-08-06T12:36:53: No issues found.
+2025-08-06T12:37:14: Compiling...
+2025-08-06T12:37:14: Compiled with warnings.
+2025-08-06T12:37:14: 
+2025-08-06T12:37:14: [eslint] 
+2025-08-06T12:37:14: src/components/CourseSchedule.tsx
+2025-08-06T12:37:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:14: 
+2025-08-06T12:37:14: Search for the keywords to learn more about each warning.
+2025-08-06T12:37:14: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:37:14: 
+2025-08-06T12:37:14: WARNING in [eslint] 
+2025-08-06T12:37:14: src/components/CourseSchedule.tsx
+2025-08-06T12:37:14:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:14: 
+2025-08-06T12:37:14: webpack compiled with 1 warning
+2025-08-06T12:37:14: No issues found.
+2025-08-06T12:37:15: Compiling...
+2025-08-06T12:37:15: Compiled with warnings.
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: [eslint] 
+2025-08-06T12:37:15: src/components/CourseSchedule.tsx
+2025-08-06T12:37:15:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: Search for the keywords to learn more about each warning.
+2025-08-06T12:37:15: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: WARNING in [eslint] 
+2025-08-06T12:37:15: src/components/CourseSchedule.tsx
+2025-08-06T12:37:15:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: webpack compiled with 1 warning
+2025-08-06T12:37:15: No issues found.
+2025-08-06T12:37:15: Compiling...
+2025-08-06T12:37:15: Compiled with warnings.
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: [eslint] 
+2025-08-06T12:37:15: src/components/CourseSchedule.tsx
+2025-08-06T12:37:15:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: Search for the keywords to learn more about each warning.
+2025-08-06T12:37:15: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: WARNING in [eslint] 
+2025-08-06T12:37:15: src/components/CourseSchedule.tsx
+2025-08-06T12:37:15:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:15: 
+2025-08-06T12:37:15: webpack compiled with 1 warning
+2025-08-06T12:37:15: No issues found.
+2025-08-06T12:37:45: Compiling...
+2025-08-06T12:37:45: Compiled with warnings.
+2025-08-06T12:37:45: 
+2025-08-06T12:37:45: [eslint] 
+2025-08-06T12:37:45: src/components/CourseSchedule.tsx
+2025-08-06T12:37:45:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:45: 
+2025-08-06T12:37:45: Search for the keywords to learn more about each warning.
+2025-08-06T12:37:45: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:37:45: 
+2025-08-06T12:37:45: WARNING in [eslint] 
+2025-08-06T12:37:45: src/components/CourseSchedule.tsx
+2025-08-06T12:37:45:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:45: 
+2025-08-06T12:37:45: webpack compiled with 1 warning
+2025-08-06T12:37:45: No issues found.
+2025-08-06T12:37:48: Compiling...
+2025-08-06T12:37:49: Compiled with warnings.
+2025-08-06T12:37:49: 
+2025-08-06T12:37:49: [eslint] 
+2025-08-06T12:37:49: src/components/CourseSchedule.tsx
+2025-08-06T12:37:49:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:49: 
+2025-08-06T12:37:49: Search for the keywords to learn more about each warning.
+2025-08-06T12:37:49: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:37:49: 
+2025-08-06T12:37:49: WARNING in [eslint] 
+2025-08-06T12:37:49: src/components/CourseSchedule.tsx
+2025-08-06T12:37:49:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:37:49: 
+2025-08-06T12:37:49: webpack compiled with 1 warning
+2025-08-06T12:37:49: No issues found.
+2025-08-06T12:45:29: 
+2025-08-06T12:45:29: > web3ite@0.1.0 start
+2025-08-06T12:45:29: > react-scripts start
+2025-08-06T12:45:29: 
+2025-08-06T12:45:33: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-06T12:45:33:   npx update-browserslist-db@latest
+2025-08-06T12:45:33:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-06T12:45:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-06T12:45:34: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-06T12:45:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-06T12:45:34: Starting the development server...
+2025-08-06T12:45:34: 
+2025-08-06T12:45:39: Compiled with warnings.
+2025-08-06T12:45:39: 
+2025-08-06T12:45:39: [eslint] 
+2025-08-06T12:45:39: src/components/CourseSchedule.tsx
+2025-08-06T12:45:39:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:45:39: 
+2025-08-06T12:45:39: Search for the keywords to learn more about each warning.
+2025-08-06T12:45:39: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-06T12:45:39: 
+2025-08-06T12:45:39: WARNING in [eslint] 
+2025-08-06T12:45:39: src/components/CourseSchedule.tsx
+2025-08-06T12:45:39:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-06T12:45:39: 
+2025-08-06T12:45:39: webpack compiled with 1 warning
+2025-08-06T12:45:39: No issues found.
+2025-08-11T11:43:42: Compiling...
+2025-08-11T11:43:44: Compiled with warnings.
+2025-08-11T11:43:44: 
+2025-08-11T11:43:44: [eslint] 
+2025-08-11T11:43:44: src/components/CourseSchedule.tsx
+2025-08-11T11:43:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:43:44: 
+2025-08-11T11:43:44: Search for the keywords to learn more about each warning.
+2025-08-11T11:43:44: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:43:44: 
+2025-08-11T11:43:44: WARNING in [eslint] 
+2025-08-11T11:43:44: src/components/CourseSchedule.tsx
+2025-08-11T11:43:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:43:44: 
+2025-08-11T11:43:44: webpack compiled with 1 warning
+2025-08-11T11:43:44: No issues found.
+2025-08-11T11:43:47: Compiling...
+2025-08-11T11:43:48: Compiled with warnings.
+2025-08-11T11:43:48: 
+2025-08-11T11:43:48: [eslint] 
+2025-08-11T11:43:48: src/components/CourseSchedule.tsx
+2025-08-11T11:43:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:43:48: 
+2025-08-11T11:43:48: Search for the keywords to learn more about each warning.
+2025-08-11T11:43:48: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:43:48: 
+2025-08-11T11:43:48: WARNING in [eslint] 
+2025-08-11T11:43:48: src/components/CourseSchedule.tsx
+2025-08-11T11:43:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:43:48: 
+2025-08-11T11:43:48: webpack compiled with 1 warning
+2025-08-11T11:43:48: No issues found.
+2025-08-11T11:44:28: Compiling...
+2025-08-11T11:44:29: Compiled with warnings.
+2025-08-11T11:44:29: 
+2025-08-11T11:44:29: [eslint] 
+2025-08-11T11:44:29: src/components/CourseSchedule.tsx
+2025-08-11T11:44:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:29: 
+2025-08-11T11:44:29: Search for the keywords to learn more about each warning.
+2025-08-11T11:44:29: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:44:29: 
+2025-08-11T11:44:29: WARNING in [eslint] 
+2025-08-11T11:44:29: src/components/CourseSchedule.tsx
+2025-08-11T11:44:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:29: 
+2025-08-11T11:44:29: webpack compiled with 1 warning
+2025-08-11T11:44:29: No issues found.
+2025-08-11T11:44:30: Compiling...
+2025-08-11T11:44:30: Compiled with warnings.
+2025-08-11T11:44:30: 
+2025-08-11T11:44:30: [eslint] 
+2025-08-11T11:44:30: src/components/CourseSchedule.tsx
+2025-08-11T11:44:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:30: 
+2025-08-11T11:44:30: Search for the keywords to learn more about each warning.
+2025-08-11T11:44:30: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:44:30: 
+2025-08-11T11:44:30: WARNING in [eslint] 
+2025-08-11T11:44:30: src/components/CourseSchedule.tsx
+2025-08-11T11:44:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:30: 
+2025-08-11T11:44:30: webpack compiled with 1 warning
+2025-08-11T11:44:30: No issues found.
+2025-08-11T11:44:30: Compiling...
+2025-08-11T11:44:31: Compiled with warnings.
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: [eslint] 
+2025-08-11T11:44:31: src/components/CourseSchedule.tsx
+2025-08-11T11:44:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: Search for the keywords to learn more about each warning.
+2025-08-11T11:44:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: WARNING in [eslint] 
+2025-08-11T11:44:31: src/components/CourseSchedule.tsx
+2025-08-11T11:44:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: webpack compiled with 1 warning
+2025-08-11T11:44:31: No issues found.
+2025-08-11T11:44:31: Compiling...
+2025-08-11T11:44:31: Compiled with warnings.
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: [eslint] 
+2025-08-11T11:44:31: src/components/CourseSchedule.tsx
+2025-08-11T11:44:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: Search for the keywords to learn more about each warning.
+2025-08-11T11:44:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: WARNING in [eslint] 
+2025-08-11T11:44:31: src/components/CourseSchedule.tsx
+2025-08-11T11:44:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T11:44:31: 
+2025-08-11T11:44:31: webpack compiled with 1 warning
+2025-08-11T11:44:31: No issues found.
+2025-08-11T16:57:45: Compiling...
+2025-08-11T16:57:45: Failed to compile.
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: [eslint] 
+2025-08-11T16:57:45: src/components/FaqSection.tsx
+2025-08-11T16:57:45: Syntax error: Unterminated string literal (89:92)
+2025-08-11T16:57:45: WARNING in [eslint] 
+2025-08-11T16:57:45: src/components/CourseSchedule.tsx
+2025-08-11T16:57:45:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in ./src/components/FaqSection.tsx
+2025-08-11T16:57:45: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+2025-08-11T16:57:45: SyntaxError: /home/ubuntu/web3ite/src/components/FaqSection.tsx: Unterminated string constant. (89:14)
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45:   87 |       id: 15,
+2025-08-11T16:57:45:   88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45: > 89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:      |               ^
+2025-08-11T16:57:45:   90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:   91 |     }, 
+2025-08-11T16:57:45:   92 |   ];
+2025-08-11T16:57:45:     at constructor (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:360:19)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.raise (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3327:19)
+2025-08-11T16:57:45:     at Object.unterminated (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2395:20)
+2025-08-11T16:57:45:     at readStringContents (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2137:16)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.readString (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3226:9)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2986:14)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6969:11)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9828:11)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.nextToken (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2510:10)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.next (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2423:10)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.eat (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:2427:12)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseObjectProperty (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11636:14)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseObjPropValue (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11662:100)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseObjPropValue (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9583:18)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parsePropertyDefinition (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11602:17)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseObjectLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11517:21)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11025:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9625:20)
+2025-08-11T16:57:45:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:39
+2025-08-11T16:57:45:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12101:12)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:17)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprListItem (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11859:18)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprList (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11834:22)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseArrayLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11741:26)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseArrayLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9102:24)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11016:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9625:20)
+2025-08-11T16:57:45:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:39
+2025-08-11T16:57:45:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12096:16)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:17)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseVar (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:13023:91)
+2025-08-11T16:57:45:     at TypeScriptParserMixin.parseVarStatement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12869:10)
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in [eslint] 
+2025-08-11T16:57:45: src/components/FaqSection.tsx
+2025-08-11T16:57:45:   Line 89:92:  Parsing error: Unterminated string literal
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: webpack compiled with 2 errors and 1 warning
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx
+2025-08-11T16:57:45: TS1002: Unterminated string literal.
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS1005: ',' expected.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '稀缺性'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS2322: Type '{ id: number; question: string; answer: string; 稀缺性: any; 查看课程项目是否可以在github: any; youtube或者其它地方找到: any; 岗位相关性: any; 可以通过去招聘平台查看技能要求和课程内容是否匹配: any; '': any; }' is not assignable to type 'FaqItem'.
+2025-08-11T16:57:45:   Object literal may only specify known properties, and '稀缺性' does not exist in type 'FaqItem'.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:10
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |          ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:11
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '查看课程项目是否可以在github'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |           ^^^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:29
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property 'youtube或者其它地方找到'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                             ^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:44
+2025-08-11T16:57:45: TS1005: ',' expected.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                            ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:46
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '岗位相关性'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                              ^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:51
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                   ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:52
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '可以通过去招聘平台查看技能要求和课程内容是否匹配'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:76
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                                            ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:91:5
+2025-08-11T16:57:45: TS1005: ':' expected.
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:     90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:   > 91 |     }, 
+2025-08-11T16:57:45:        |     ^
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45:     94 |   const toggleFaq = (id: number) => {
+2025-08-11T16:57:45: 
+2025-08-11T16:57:56: Compiling...
+2025-08-11T16:57:57: Compiled with warnings.
+2025-08-11T16:57:57: 
+2025-08-11T16:57:57: [eslint] 
+2025-08-11T16:57:57: src/components/CourseSchedule.tsx
+2025-08-11T16:57:57:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T16:57:57: 
+2025-08-11T16:57:57: Search for the keywords to learn more about each warning.
+2025-08-11T16:57:57: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-11T16:57:57: 
+2025-08-11T16:57:57: WARNING in [eslint] 
+2025-08-11T16:57:57: src/components/CourseSchedule.tsx
+2025-08-11T16:57:57:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-08-11T16:57:57: 
+2025-08-11T16:57:57: webpack compiled with 1 warning
+2025-08-11T16:57:57: No issues found.
+2025-08-11T17:02:30: 
+2025-08-11T17:02:30: > web3ite@0.1.0 start
+2025-08-11T17:02:30: > react-scripts start
+2025-08-11T17:02:30: 
+2025-08-11T17:02:33: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-11T17:02:33:   npx update-browserslist-db@latest
+2025-08-11T17:02:33:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-11T17:02:34: (node:1820) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:02:34: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-11T17:02:34: (node:1820) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:02:35: Starting the development server...
+2025-08-11T17:02:35: 
+2025-08-11T17:02:37: Compiled successfully!
+2025-08-11T17:02:37: 
+2025-08-11T17:02:37: You can now view web3ite in the browser.
+2025-08-11T17:02:37: 
+2025-08-11T17:02:37:   Local:            http://localhost:3000
+2025-08-11T17:02:37:   On Your Network:  http://10.7.64.2:3000
+2025-08-11T17:02:37: 
+2025-08-11T17:02:37: Note that the development build is not optimized.
+2025-08-11T17:02:37: To create a production build, use npm run build.
+2025-08-11T17:02:37: 
+2025-08-11T17:02:37: webpack compiled successfully
+2025-08-11T17:02:37: Files successfully emitted, waiting for typecheck results...
+2025-08-11T17:02:37: Issues checking in progress...
+2025-08-11T17:02:39: No issues found.
+2025-08-11T17:03:49: 
+2025-08-11T17:03:49: > web3ite@0.1.0 start
+2025-08-11T17:03:49: > react-scripts start
+2025-08-11T17:03:49: 
+2025-08-11T17:03:54: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-11T17:03:54:   npx update-browserslist-db@latest
+2025-08-11T17:03:54:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-11T17:03:54: (node:1626) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:03:54: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-11T17:03:54: (node:1626) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:03:55: Starting the development server...
+2025-08-11T17:03:55: 
+2025-08-11T17:03:57: Compiled successfully!
+2025-08-11T17:03:57: 
+2025-08-11T17:03:57: You can now view web3ite in the browser.
+2025-08-11T17:03:57: 
+2025-08-11T17:03:57:   Local:            http://localhost:3000
+2025-08-11T17:03:57:   On Your Network:  http://10.7.64.2:3000
+2025-08-11T17:03:57: 
+2025-08-11T17:03:57: Note that the development build is not optimized.
+2025-08-11T17:03:57: To create a production build, use npm run build.
+2025-08-11T17:03:57: 
+2025-08-11T17:03:57: webpack compiled successfully
+2025-08-11T17:03:57: Files successfully emitted, waiting for typecheck results...
+2025-08-11T17:03:57: Issues checking in progress...
+2025-08-11T17:04:00: No issues found.
+2025-08-11T17:06:55: Compiling...
+2025-08-11T17:06:57: Compiled successfully!
+2025-08-11T17:06:57: webpack compiled successfully
+2025-08-11T17:06:57: No issues found.
+2025-08-15T22:20:50: Compiling...
+2025-08-15T22:20:51: Compiled with warnings.
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: [eslint] 
+2025-08-15T22:20:51: src/components/FaqSection.tsx
+2025-08-15T22:20:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: Search for the keywords to learn more about each warning.
+2025-08-15T22:20:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: WARNING in [eslint] 
+2025-08-15T22:20:51: src/components/FaqSection.tsx
+2025-08-15T22:20:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: webpack compiled with 1 warning
+2025-08-15T22:20:51: No issues found.
+2025-08-15T22:20:51: Compiling...
+2025-08-15T22:20:51: Compiled with warnings.
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: [eslint] 
+2025-08-15T22:20:51: src/components/FaqSection.tsx
+2025-08-15T22:20:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: Search for the keywords to learn more about each warning.
+2025-08-15T22:20:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: WARNING in [eslint] 
+2025-08-15T22:20:51: src/components/FaqSection.tsx
+2025-08-15T22:20:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:51: 
+2025-08-15T22:20:51: webpack compiled with 1 warning
+2025-08-15T22:20:51: No issues found.
+2025-08-15T22:20:53: Compiling...
+2025-08-15T22:20:53: Compiled with warnings.
+2025-08-15T22:20:53: 
+2025-08-15T22:20:53: [eslint] 
+2025-08-15T22:20:53: src/components/FaqSection.tsx
+2025-08-15T22:20:53:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:53: 
+2025-08-15T22:20:53: Search for the keywords to learn more about each warning.
+2025-08-15T22:20:53: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-15T22:20:53: 
+2025-08-15T22:20:53: WARNING in [eslint] 
+2025-08-15T22:20:53: src/components/FaqSection.tsx
+2025-08-15T22:20:53:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:53: 
+2025-08-15T22:20:53: webpack compiled with 1 warning
+2025-08-15T22:20:53: No issues found.
+2025-08-15T22:20:55: Compiling...
+2025-08-15T22:20:55: Compiled with warnings.
+2025-08-15T22:20:55: 
+2025-08-15T22:20:55: [eslint] 
+2025-08-15T22:20:55: src/components/FaqSection.tsx
+2025-08-15T22:20:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:55: 
+2025-08-15T22:20:55: Search for the keywords to learn more about each warning.
+2025-08-15T22:20:55: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-15T22:20:55: 
+2025-08-15T22:20:55: WARNING in [eslint] 
+2025-08-15T22:20:55: src/components/FaqSection.tsx
+2025-08-15T22:20:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-15T22:20:55: 
+2025-08-15T22:20:55: webpack compiled with 1 warning
+2025-08-15T22:20:55: No issues found.
+2025-08-16T19:28:54: Compiling...
+2025-08-16T19:28:56: Compiled with warnings.
+2025-08-16T19:28:56: 
+2025-08-16T19:28:56: [eslint] 
+2025-08-16T19:28:56: src/components/FaqSection.tsx
+2025-08-16T19:28:56:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-16T19:28:56: 
+2025-08-16T19:28:56: Search for the keywords to learn more about each warning.
+2025-08-16T19:28:56: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-16T19:28:56: 
+2025-08-16T19:28:56: WARNING in [eslint] 
+2025-08-16T19:28:56: src/components/FaqSection.tsx
+2025-08-16T19:28:56:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-16T19:28:56: 
+2025-08-16T19:28:56: webpack compiled with 1 warning
+2025-08-16T19:28:56: No issues found.
+2025-08-22T23:43:13: Compiling...
+2025-08-22T23:43:14: Compiled with warnings.
+2025-08-22T23:43:14: 
+2025-08-22T23:43:14: [eslint] 
+2025-08-22T23:43:14: src/components/FaqSection.tsx
+2025-08-22T23:43:14:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-22T23:43:14: 
+2025-08-22T23:43:14: Search for the keywords to learn more about each warning.
+2025-08-22T23:43:14: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-22T23:43:14: 
+2025-08-22T23:43:14: WARNING in [eslint] 
+2025-08-22T23:43:14: src/components/FaqSection.tsx
+2025-08-22T23:43:14:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-22T23:43:14: 
+2025-08-22T23:43:14: webpack compiled with 1 warning
+2025-08-22T23:43:14: Compiling...
+2025-08-22T23:43:14: No issues found.
+2025-08-22T23:43:15: Compiled with warnings.
+2025-08-22T23:43:15: 
+2025-08-22T23:43:15: [eslint] 
+2025-08-22T23:43:15: src/components/FaqSection.tsx
+2025-08-22T23:43:15:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-22T23:43:15: 
+2025-08-22T23:43:15: Search for the keywords to learn more about each warning.
+2025-08-22T23:43:15: To ignore, add // eslint-disable-next-line to the line before.
+2025-08-22T23:43:15: 
+2025-08-22T23:43:15: WARNING in [eslint] 
+2025-08-22T23:43:15: src/components/FaqSection.tsx
+2025-08-22T23:43:15:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-08-22T23:43:15: 
+2025-08-22T23:43:15: webpack compiled with 1 warning
+2025-08-22T23:43:15: No issues found.
+2025-09-01T14:11:30: Compiling...
+2025-09-01T14:11:31: Compiled with warnings.
+2025-09-01T14:11:31: 
+2025-09-01T14:11:31: [eslint] 
+2025-09-01T14:11:31: src/components/FaqSection.tsx
+2025-09-01T14:11:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-01T14:11:31: 
+2025-09-01T14:11:31: Search for the keywords to learn more about each warning.
+2025-09-01T14:11:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-01T14:11:31: 
+2025-09-01T14:11:31: WARNING in [eslint] 
+2025-09-01T14:11:31: src/components/FaqSection.tsx
+2025-09-01T14:11:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-01T14:11:31: 
+2025-09-01T14:11:31: webpack compiled with 1 warning
+2025-09-01T14:11:31: No issues found.
+2025-09-01T14:12:07: Compiling...
+2025-09-01T14:12:08: Compiled with warnings.
+2025-09-01T14:12:08: 
+2025-09-01T14:12:08: [eslint] 
+2025-09-01T14:12:08: src/components/FaqSection.tsx
+2025-09-01T14:12:08:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-01T14:12:08: 
+2025-09-01T14:12:08: Search for the keywords to learn more about each warning.
+2025-09-01T14:12:08: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-01T14:12:08: 
+2025-09-01T14:12:08: WARNING in [eslint] 
+2025-09-01T14:12:08: src/components/FaqSection.tsx
+2025-09-01T14:12:08:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-01T14:12:08: 
+2025-09-01T14:12:08: webpack compiled with 1 warning
+2025-09-01T14:12:08: No issues found.

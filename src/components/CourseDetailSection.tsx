@@ -38,7 +38,8 @@ const CourseDetailSection: React.FC = () => {
         '交易的三种状态处理机制',
         '交易状态confirmed详解',
         '交易状态finalized详解',
-        'Golang核心特性与并发模型'
+        'Golang核心特性与并发模型',
+        'Rust核心特性及合约开发基础',
       ],
       duration: '2-3周',
       icon: (
@@ -181,7 +182,8 @@ const CourseDetailSection: React.FC = () => {
         '拜占庭攻击原理',
         'POW工作量证明',
         'POS权益证明',
-        'POH历史证明优化'
+        'POH历史证明优化',
+        'UniswapV3源码及实战',
       ],
       topicsRight: [
         'Finalized状态安全性',
@@ -206,7 +208,7 @@ const CourseDetailSection: React.FC = () => {
       id: 7,
       title: '项目综合篇',
       level: 'L3',
-      description: '完整DEX项目开发实战，包括架构设计、微服务搭建、数据库部署、前端实现等端到端开发',
+      description: '从零到一，一行行跟着敲代码，实现完整DEX项目开发，包括架构设计、微服务搭建、数据库部署、前端实现等端到端开发',
       topicsLeft: [
         'Go-Zero框架搭建',
         'Consumer服务核心',

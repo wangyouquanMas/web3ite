@@ -1591,3 +1591,159 @@
 2025-07-10T15:55:01: (node:1625) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 2025-07-10T15:55:01: (Use `node --trace-deprecation ...` to show where the warning was created)
 2025-07-10T15:55:01: (node:1625) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-25T17:51:02: (node:1774) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-07-25T17:51:02: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-07-25T17:51:02: (node:1774) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-03T14:43:01: npm notice
+2025-08-03T14:43:01: npm notice New major version of npm available! 10.8.2 -> 11.5.1
+2025-08-03T14:43:01: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.5.1
+2025-08-03T14:43:01: npm notice To update run: npm install -g npm@11.5.1
+2025-08-03T14:43:01: npm notice
+2025-08-03T14:43:06: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-03T14:43:06:   npx update-browserslist-db@latest
+2025-08-03T14:43:06:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-03T14:43:06: (node:249459) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-03T14:43:06: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-03T14:43:06: (node:249459) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-06T12:45:33: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-06T12:45:33:   npx update-browserslist-db@latest
+2025-08-06T12:45:33:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-06T12:45:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-06T12:45:34: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-06T12:45:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx
+2025-08-11T16:57:45: TS1002: Unterminated string literal.
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS1005: ',' expected.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '稀缺性'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:7
+2025-08-11T16:57:45: TS2322: Type '{ id: number; question: string; answer: string; 稀缺性: any; 查看课程项目是否可以在github: any; youtube或者其它地方找到: any; 岗位相关性: any; 可以通过去招聘平台查看技能要求和课程内容是否匹配: any; '': any; }' is not assignable to type 'FaqItem'.
+2025-08-11T16:57:45:   Object literal may only specify known properties, and '稀缺性' does not exist in type 'FaqItem'.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |       ^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:10
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |          ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:11
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '查看课程项目是否可以在github'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |           ^^^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:29
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property 'youtube或者其它地方找到'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                             ^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:44
+2025-08-11T16:57:45: TS1005: ',' expected.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                            ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:46
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '岗位相关性'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                              ^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:51
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                   ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:52
+2025-08-11T16:57:45: TS18004: No value exists in scope for the shorthand property '可以通过去招聘平台查看技能要求和课程内容是否匹配'. Either declare one or provide an initializer.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:90:76
+2025-08-11T16:57:45: TS1127: Invalid character.
+2025-08-11T16:57:45:     88 |       question: '如何判断项目课程质量？',
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:   > 90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:        |                                                                            ^
+2025-08-11T16:57:45:     91 |     }, 
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45: 
+2025-08-11T16:57:45: ERROR in src/components/FaqSection.tsx:91:5
+2025-08-11T16:57:45: TS1005: ':' expected.
+2025-08-11T16:57:45:     89 |       answer: '三个指标：项目的稀缺性，系统性和岗位要求的相关性。系统和稀缺性确保你学了之后具有先发优势，岗位相关性确保你的优势能够帮助你快速找到工作。这些指标自己验证：
+2025-08-11T16:57:45:     90 |       稀缺性：查看课程项目是否可以在github,youtube或者其它地方找到; 岗位相关性：可以通过去招聘平台查看技能要求和课程内容是否匹配。'
+2025-08-11T16:57:45:   > 91 |     }, 
+2025-08-11T16:57:45:        |     ^
+2025-08-11T16:57:45:     92 |   ];
+2025-08-11T16:57:45:     93 |   
+2025-08-11T16:57:45:     94 |   const toggleFaq = (id: number) => {
+2025-08-11T16:57:45: 
+2025-08-11T17:02:33: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-11T17:02:33:   npx update-browserslist-db@latest
+2025-08-11T17:02:33:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-11T17:02:34: (node:1820) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:02:34: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-11T17:02:34: (node:1820) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:03:54: Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+2025-08-11T17:03:54:   npx update-browserslist-db@latest
+2025-08-11T17:03:54:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-08-11T17:03:54: (node:1626) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-08-11T17:03:54: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-11T17:03:54: (node:1626) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.

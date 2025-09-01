@@ -15,6 +15,7 @@ const Header: React.FC = () => {
           <li><a href="#fee">课程费用</a></li>
           <li><a href="#about-instructor">关于我</a></li>
           <li><a href="#faq">常见问题</a></li>
+          {/* <li><a href="https://web3ite.tech/" target="_blank" rel="noopener noreferrer">web3资料库</a></li> */}
         </ul>
       </nav>
     </header>
