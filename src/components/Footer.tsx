@@ -43,9 +43,12 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="footer-links-column">
-            <h3>联系我们</h3>
+            <h3>联系我</h3>
             <ul>
               <li>微信: 1091643994</li>
+            </ul>
+            <ul>
+              <li ><a href="https://space.bilibili.com/402753638" target="_blank" rel="noopener noreferrer">bilibili: 不用早起的流浪蛙</a></li>
             </ul>
             <div className="wechat-qr">
               <p>扫描添加微信</p>

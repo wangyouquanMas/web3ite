@@ -40,7 +40,7 @@ const CourseSchedule: React.FC = () => {
     {
         id: 2,
         name: 'Web3实战开发',
-      priceUSDT: 549,
+      priceUSDT: 649,
       description: '从零到一完整项目实战',
       badge: '最受欢迎',
       features: [
