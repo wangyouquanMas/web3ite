@@ -8244,3 +8244,1043 @@
 2025-09-02T04:33:47: 
 2025-09-02T04:33:47: webpack compiled with 1 warning
 2025-09-02T04:33:47: No issues found.
+2025-09-14T18:15:52: Compiling...
+2025-09-14T18:15:53: Compiled with warnings.
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: [eslint] 
+2025-09-14T18:15:53: src/components/CourseSchedule.tsx
+2025-09-14T18:15:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: src/components/FaqSection.tsx
+2025-09-14T18:15:53:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: Search for the keywords to learn more about each warning.
+2025-09-14T18:15:53: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: WARNING in [eslint] 
+2025-09-14T18:15:53: src/components/CourseSchedule.tsx
+2025-09-14T18:15:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: src/components/FaqSection.tsx
+2025-09-14T18:15:53:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:15:53: 
+2025-09-14T18:15:53: webpack compiled with 1 warning
+2025-09-14T18:15:53: No issues found.
+2025-09-14T18:26:50: Compiling...
+2025-09-14T18:26:50: Compiled with warnings.
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: [eslint] 
+2025-09-14T18:26:50: src/components/CourseSchedule.tsx
+2025-09-14T18:26:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: src/components/FaqSection.tsx
+2025-09-14T18:26:50:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: Search for the keywords to learn more about each warning.
+2025-09-14T18:26:50: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: WARNING in [eslint] 
+2025-09-14T18:26:50: src/components/CourseSchedule.tsx
+2025-09-14T18:26:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: src/components/FaqSection.tsx
+2025-09-14T18:26:50:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:26:50: 
+2025-09-14T18:26:50: webpack compiled with 1 warning
+2025-09-14T18:26:50: Compiling...
+2025-09-14T18:26:50: No issues found.
+2025-09-14T18:26:51: Compiled with warnings.
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: [eslint] 
+2025-09-14T18:26:51: src/components/CourseSchedule.tsx
+2025-09-14T18:26:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: src/components/FaqSection.tsx
+2025-09-14T18:26:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: Search for the keywords to learn more about each warning.
+2025-09-14T18:26:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: WARNING in [eslint] 
+2025-09-14T18:26:51: src/components/CourseSchedule.tsx
+2025-09-14T18:26:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: src/components/FaqSection.tsx
+2025-09-14T18:26:51:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:26:51: 
+2025-09-14T18:26:51: webpack compiled with 1 warning
+2025-09-14T18:26:51: No issues found.
+2025-09-14T18:27:44: Compiling...
+2025-09-14T18:27:44: Compiled with warnings.
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: [eslint] 
+2025-09-14T18:27:44: src/components/CourseSchedule.tsx
+2025-09-14T18:27:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: src/components/FaqSection.tsx
+2025-09-14T18:27:44:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: Search for the keywords to learn more about each warning.
+2025-09-14T18:27:44: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: WARNING in [eslint] 
+2025-09-14T18:27:44: src/components/CourseSchedule.tsx
+2025-09-14T18:27:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: src/components/FaqSection.tsx
+2025-09-14T18:27:44:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:27:44: 
+2025-09-14T18:27:44: webpack compiled with 1 warning
+2025-09-14T18:27:44: No issues found.
+2025-09-14T18:27:45: Compiling...
+2025-09-14T18:27:45: Compiled with warnings.
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: [eslint] 
+2025-09-14T18:27:45: src/components/CourseSchedule.tsx
+2025-09-14T18:27:45:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: src/components/FaqSection.tsx
+2025-09-14T18:27:45:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: Search for the keywords to learn more about each warning.
+2025-09-14T18:27:45: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: WARNING in [eslint] 
+2025-09-14T18:27:45: src/components/CourseSchedule.tsx
+2025-09-14T18:27:45:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: src/components/FaqSection.tsx
+2025-09-14T18:27:45:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-14T18:27:45: 
+2025-09-14T18:27:45: webpack compiled with 1 warning
+2025-09-14T18:27:45: No issues found.
+2025-09-18T00:17:59: Compiling...
+2025-09-18T00:18:00: Compiled with warnings.
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: [eslint] 
+2025-09-18T00:18:00: src/components/CourseSchedule.tsx
+2025-09-18T00:18:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: src/components/FaqSection.tsx
+2025-09-18T00:18:00:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: WARNING in [eslint] 
+2025-09-18T00:18:00: src/components/CourseSchedule.tsx
+2025-09-18T00:18:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: src/components/FaqSection.tsx
+2025-09-18T00:18:00:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:00: 
+2025-09-18T00:18:00: webpack compiled with 1 warning
+2025-09-18T00:18:00: No issues found.
+2025-09-18T00:18:06: Compiling...
+2025-09-18T00:18:06: Compiled with warnings.
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: [eslint] 
+2025-09-18T00:18:06: src/components/CourseSchedule.tsx
+2025-09-18T00:18:06:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: src/components/FaqSection.tsx
+2025-09-18T00:18:06:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:06: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: WARNING in [eslint] 
+2025-09-18T00:18:06: src/components/CourseSchedule.tsx
+2025-09-18T00:18:06:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: src/components/FaqSection.tsx
+2025-09-18T00:18:06:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:06: 
+2025-09-18T00:18:06: webpack compiled with 1 warning
+2025-09-18T00:18:06: No issues found.
+2025-09-18T00:18:36: Compiling...
+2025-09-18T00:18:37: Compiled with warnings.
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: [eslint] 
+2025-09-18T00:18:37: src/components/CourseSchedule.tsx
+2025-09-18T00:18:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: src/components/FaqSection.tsx
+2025-09-18T00:18:37:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:37: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: WARNING in [eslint] 
+2025-09-18T00:18:37: src/components/CourseSchedule.tsx
+2025-09-18T00:18:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: src/components/FaqSection.tsx
+2025-09-18T00:18:37:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:37: 
+2025-09-18T00:18:37: webpack compiled with 1 warning
+2025-09-18T00:18:37: No issues found.
+2025-09-18T00:18:38: Compiling...
+2025-09-18T00:18:38: Compiled with warnings.
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: [eslint] 
+2025-09-18T00:18:38: src/components/CourseSchedule.tsx
+2025-09-18T00:18:38:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: src/components/FaqSection.tsx
+2025-09-18T00:18:38:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:38: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: WARNING in [eslint] 
+2025-09-18T00:18:38: src/components/CourseSchedule.tsx
+2025-09-18T00:18:38:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: src/components/FaqSection.tsx
+2025-09-18T00:18:38:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:38: 
+2025-09-18T00:18:38: webpack compiled with 1 warning
+2025-09-18T00:18:38: No issues found.
+2025-09-18T00:18:41: Compiling...
+2025-09-18T00:18:41: Compiled with warnings.
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: [eslint] 
+2025-09-18T00:18:41: src/components/CourseSchedule.tsx
+2025-09-18T00:18:41:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: src/components/FaqSection.tsx
+2025-09-18T00:18:41:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:41: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: WARNING in [eslint] 
+2025-09-18T00:18:41: src/components/CourseSchedule.tsx
+2025-09-18T00:18:41:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: src/components/FaqSection.tsx
+2025-09-18T00:18:41:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:41: 
+2025-09-18T00:18:41: webpack compiled with 1 warning
+2025-09-18T00:18:41: No issues found.
+2025-09-18T00:18:41: Compiling...
+2025-09-18T00:18:42: Compiled with warnings.
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: [eslint] 
+2025-09-18T00:18:42: src/components/CourseSchedule.tsx
+2025-09-18T00:18:42:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: src/components/FaqSection.tsx
+2025-09-18T00:18:42:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: Search for the keywords to learn more about each warning.
+2025-09-18T00:18:42: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: WARNING in [eslint] 
+2025-09-18T00:18:42: src/components/CourseSchedule.tsx
+2025-09-18T00:18:42:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: src/components/FaqSection.tsx
+2025-09-18T00:18:42:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:18:42: 
+2025-09-18T00:18:42: webpack compiled with 1 warning
+2025-09-18T00:18:42: No issues found.
+2025-09-18T00:19:11: Compiling...
+2025-09-18T00:19:11: Compiled with warnings.
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: [eslint] 
+2025-09-18T00:19:11: src/components/CourseSchedule.tsx
+2025-09-18T00:19:11:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: src/components/FaqSection.tsx
+2025-09-18T00:19:11:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:11: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: WARNING in [eslint] 
+2025-09-18T00:19:11: src/components/CourseSchedule.tsx
+2025-09-18T00:19:11:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: src/components/FaqSection.tsx
+2025-09-18T00:19:11:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:11: 
+2025-09-18T00:19:11: webpack compiled with 1 warning
+2025-09-18T00:19:11: No issues found.
+2025-09-18T00:19:26: Compiling...
+2025-09-18T00:19:27: Compiled with warnings.
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: [eslint] 
+2025-09-18T00:19:27: src/components/CourseSchedule.tsx
+2025-09-18T00:19:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: src/components/FaqSection.tsx
+2025-09-18T00:19:27:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:27: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: WARNING in [eslint] 
+2025-09-18T00:19:27: src/components/CourseSchedule.tsx
+2025-09-18T00:19:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: src/components/FaqSection.tsx
+2025-09-18T00:19:27:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:27: 
+2025-09-18T00:19:27: webpack compiled with 1 warning
+2025-09-18T00:19:27: No issues found.
+2025-09-18T00:19:30: Compiling...
+2025-09-18T00:19:30: Compiled with warnings.
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: [eslint] 
+2025-09-18T00:19:30: src/components/CourseSchedule.tsx
+2025-09-18T00:19:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: src/components/FaqSection.tsx
+2025-09-18T00:19:30:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:30: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: WARNING in [eslint] 
+2025-09-18T00:19:30: src/components/CourseSchedule.tsx
+2025-09-18T00:19:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: src/components/FaqSection.tsx
+2025-09-18T00:19:30:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:30: 
+2025-09-18T00:19:30: webpack compiled with 1 warning
+2025-09-18T00:19:30: No issues found.
+2025-09-18T00:19:31: Compiling...
+2025-09-18T00:19:31: Compiled with warnings.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: WARNING in [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: webpack compiled with 1 warning
+2025-09-18T00:19:31: No issues found.
+2025-09-18T00:19:31: Compiling...
+2025-09-18T00:19:31: Compiled with warnings.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: WARNING in [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: webpack compiled with 1 warning
+2025-09-18T00:19:31: No issues found.
+2025-09-18T00:19:31: Compiling...
+2025-09-18T00:19:31: Compiled with warnings.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:31: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: WARNING in [eslint] 
+2025-09-18T00:19:31: src/components/CourseSchedule.tsx
+2025-09-18T00:19:31:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: src/components/FaqSection.tsx
+2025-09-18T00:19:31:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:31: 
+2025-09-18T00:19:31: webpack compiled with 1 warning
+2025-09-18T00:19:31: No issues found.
+2025-09-18T00:19:32: Compiling...
+2025-09-18T00:19:32: Compiled with warnings.
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: [eslint] 
+2025-09-18T00:19:32: src/components/CourseSchedule.tsx
+2025-09-18T00:19:32:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: src/components/FaqSection.tsx
+2025-09-18T00:19:32:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:32: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: WARNING in [eslint] 
+2025-09-18T00:19:32: src/components/CourseSchedule.tsx
+2025-09-18T00:19:32:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: src/components/FaqSection.tsx
+2025-09-18T00:19:32:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:32: 
+2025-09-18T00:19:32: webpack compiled with 1 warning
+2025-09-18T00:19:32: No issues found.
+2025-09-18T00:19:34: Compiling...
+2025-09-18T00:19:34: Compiled with warnings.
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: [eslint] 
+2025-09-18T00:19:34: src/components/CourseSchedule.tsx
+2025-09-18T00:19:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: src/components/FaqSection.tsx
+2025-09-18T00:19:34:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:34: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: WARNING in [eslint] 
+2025-09-18T00:19:34: src/components/CourseSchedule.tsx
+2025-09-18T00:19:34:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: src/components/FaqSection.tsx
+2025-09-18T00:19:34:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:34: 
+2025-09-18T00:19:34: webpack compiled with 1 warning
+2025-09-18T00:19:34: No issues found.
+2025-09-18T00:19:37: Compiling...
+2025-09-18T00:19:38: Compiled with warnings.
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: [eslint] 
+2025-09-18T00:19:38: src/components/CourseSchedule.tsx
+2025-09-18T00:19:38:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: src/components/FaqSection.tsx
+2025-09-18T00:19:38:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:38: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: WARNING in [eslint] 
+2025-09-18T00:19:38: src/components/CourseSchedule.tsx
+2025-09-18T00:19:38:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: src/components/FaqSection.tsx
+2025-09-18T00:19:38:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:38: 
+2025-09-18T00:19:38: webpack compiled with 1 warning
+2025-09-18T00:19:38: No issues found.
+2025-09-18T00:19:44: Compiling...
+2025-09-18T00:19:44: Compiled with warnings.
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: [eslint] 
+2025-09-18T00:19:44: src/components/CourseSchedule.tsx
+2025-09-18T00:19:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: src/components/FaqSection.tsx
+2025-09-18T00:19:44:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:44: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: WARNING in [eslint] 
+2025-09-18T00:19:44: src/components/CourseSchedule.tsx
+2025-09-18T00:19:44:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: src/components/FaqSection.tsx
+2025-09-18T00:19:44:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:44: 
+2025-09-18T00:19:44: webpack compiled with 1 warning
+2025-09-18T00:19:44: No issues found.
+2025-09-18T00:19:55: Compiling...
+2025-09-18T00:19:55: Compiled with warnings.
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: [eslint] 
+2025-09-18T00:19:55: src/components/CourseSchedule.tsx
+2025-09-18T00:19:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: src/components/FaqSection.tsx
+2025-09-18T00:19:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:55: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: WARNING in [eslint] 
+2025-09-18T00:19:55: src/components/CourseSchedule.tsx
+2025-09-18T00:19:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: src/components/FaqSection.tsx
+2025-09-18T00:19:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: webpack compiled with 1 warning
+2025-09-18T00:19:55: No issues found.
+2025-09-18T00:19:55: Compiling...
+2025-09-18T00:19:55: Compiled with warnings.
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: [eslint] 
+2025-09-18T00:19:55: src/components/CourseSchedule.tsx
+2025-09-18T00:19:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: src/components/FaqSection.tsx
+2025-09-18T00:19:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: Search for the keywords to learn more about each warning.
+2025-09-18T00:19:55: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: WARNING in [eslint] 
+2025-09-18T00:19:55: src/components/CourseSchedule.tsx
+2025-09-18T00:19:55:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: src/components/FaqSection.tsx
+2025-09-18T00:19:55:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:19:55: 
+2025-09-18T00:19:55: webpack compiled with 1 warning
+2025-09-18T00:19:55: No issues found.
+2025-09-18T00:20:00: Compiling...
+2025-09-18T00:20:00: Compiled with warnings.
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: [eslint] 
+2025-09-18T00:20:00: src/components/CourseSchedule.tsx
+2025-09-18T00:20:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: src/components/FaqSection.tsx
+2025-09-18T00:20:00:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: Search for the keywords to learn more about each warning.
+2025-09-18T00:20:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: WARNING in [eslint] 
+2025-09-18T00:20:00: src/components/CourseSchedule.tsx
+2025-09-18T00:20:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: src/components/FaqSection.tsx
+2025-09-18T00:20:00:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-18T00:20:00: 
+2025-09-18T00:20:00: webpack compiled with 1 warning
+2025-09-18T00:20:00: No issues found.
+2025-09-21T20:45:32: Compiling...
+2025-09-21T20:45:33: Compiled with warnings.
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: [eslint] 
+2025-09-21T20:45:33: src/components/CourseSchedule.tsx
+2025-09-21T20:45:33:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: src/components/FaqSection.tsx
+2025-09-21T20:45:33:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: Search for the keywords to learn more about each warning.
+2025-09-21T20:45:33: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: WARNING in [eslint] 
+2025-09-21T20:45:33: src/components/CourseSchedule.tsx
+2025-09-21T20:45:33:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: src/components/FaqSection.tsx
+2025-09-21T20:45:33:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: webpack compiled with 1 warning
+2025-09-21T20:45:33: No issues found.
+2025-09-21T20:45:33: Compiling...
+2025-09-21T20:45:33: Compiled with warnings.
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: [eslint] 
+2025-09-21T20:45:33: src/components/CourseSchedule.tsx
+2025-09-21T20:45:33:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: src/components/FaqSection.tsx
+2025-09-21T20:45:33:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: Search for the keywords to learn more about each warning.
+2025-09-21T20:45:33: To ignore, add // eslint-disable-next-line to the line before.
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: WARNING in [eslint] 
+2025-09-21T20:45:33: src/components/CourseSchedule.tsx
+2025-09-21T20:45:33:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: src/components/FaqSection.tsx
+2025-09-21T20:45:33:   Line 49:440:  Unnecessary escape character: \   no-useless-escape
+2025-09-21T20:45:33: 
+2025-09-21T20:45:33: webpack compiled with 1 warning
+2025-09-21T20:45:33: No issues found.
+2025-10-09T00:36:03: 
+2025-10-09T00:36:03: > web3ite@0.1.0 start
+2025-10-09T00:36:03: > react-scripts start
+2025-10-09T00:36:03: 
+2025-10-09T00:36:09: Starting the development server...
+2025-10-09T00:36:09: 
+2025-10-09T00:36:11: Compiled successfully!
+2025-10-09T00:36:11: 
+2025-10-09T00:36:11: You can now view web3ite in the browser.
+2025-10-09T00:36:11: 
+2025-10-09T00:36:11:   Local:            http://localhost:3000
+2025-10-09T00:36:11:   On Your Network:  http://10.7.64.2:3000
+2025-10-09T00:36:11: 
+2025-10-09T00:36:11: Note that the development build is not optimized.
+2025-10-09T00:36:11: To create a production build, use npm run build.
+2025-10-09T00:36:11: 
+2025-10-09T00:36:11: webpack compiled successfully
+2025-10-09T00:36:11: Files successfully emitted, waiting for typecheck results...
+2025-10-09T00:36:11: Issues checking in progress...
+2025-10-09T00:36:14: No issues found.
+2025-10-12T00:22:58: Compiling...
+2025-10-12T00:23:02: Compiled with warnings.
+2025-10-12T00:23:02: 
+2025-10-12T00:23:02: [eslint] 
+2025-10-12T00:23:02: src/components/CourseSchedule.tsx
+2025-10-12T00:23:02:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:02: 
+2025-10-12T00:23:02: Search for the keywords to learn more about each warning.
+2025-10-12T00:23:02: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:23:02: 
+2025-10-12T00:23:02: WARNING in [eslint] 
+2025-10-12T00:23:02: src/components/CourseSchedule.tsx
+2025-10-12T00:23:02:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:02: 
+2025-10-12T00:23:02: webpack compiled with 1 warning
+2025-10-12T00:23:02: No issues found.
+2025-10-12T00:23:35: Compiling...
+2025-10-12T00:23:36: Compiled with warnings.
+2025-10-12T00:23:36: 
+2025-10-12T00:23:36: [eslint] 
+2025-10-12T00:23:36: src/components/CourseSchedule.tsx
+2025-10-12T00:23:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:36: 
+2025-10-12T00:23:36: Search for the keywords to learn more about each warning.
+2025-10-12T00:23:36: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:23:36: 
+2025-10-12T00:23:36: WARNING in [eslint] 
+2025-10-12T00:23:36: src/components/CourseSchedule.tsx
+2025-10-12T00:23:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:36: 
+2025-10-12T00:23:36: webpack compiled with 1 warning
+2025-10-12T00:23:36: No issues found.
+2025-10-12T00:23:37: Compiling...
+2025-10-12T00:23:37: Compiled with warnings.
+2025-10-12T00:23:37: 
+2025-10-12T00:23:37: [eslint] 
+2025-10-12T00:23:37: src/components/CourseSchedule.tsx
+2025-10-12T00:23:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:37: 
+2025-10-12T00:23:37: Search for the keywords to learn more about each warning.
+2025-10-12T00:23:37: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:23:37: 
+2025-10-12T00:23:37: WARNING in [eslint] 
+2025-10-12T00:23:37: src/components/CourseSchedule.tsx
+2025-10-12T00:23:37:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:23:37: 
+2025-10-12T00:23:37: webpack compiled with 1 warning
+2025-10-12T00:23:37: No issues found.
+2025-10-12T00:24:04: Compiling...
+2025-10-12T00:24:04: Compiled with warnings.
+2025-10-12T00:24:04: 
+2025-10-12T00:24:04: [eslint] 
+2025-10-12T00:24:04: src/components/CourseSchedule.tsx
+2025-10-12T00:24:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:04: 
+2025-10-12T00:24:04: Search for the keywords to learn more about each warning.
+2025-10-12T00:24:04: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:24:04: 
+2025-10-12T00:24:04: WARNING in [eslint] 
+2025-10-12T00:24:04: src/components/CourseSchedule.tsx
+2025-10-12T00:24:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:04: 
+2025-10-12T00:24:04: webpack compiled with 1 warning
+2025-10-12T00:24:04: No issues found.
+2025-10-12T00:24:49: Compiling...
+2025-10-12T00:24:50: Compiled with warnings.
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: [eslint] 
+2025-10-12T00:24:50: src/components/CourseSchedule.tsx
+2025-10-12T00:24:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: Search for the keywords to learn more about each warning.
+2025-10-12T00:24:50: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: WARNING in [eslint] 
+2025-10-12T00:24:50: src/components/CourseSchedule.tsx
+2025-10-12T00:24:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: webpack compiled with 1 warning
+2025-10-12T00:24:50: No issues found.
+2025-10-12T00:24:50: Compiling...
+2025-10-12T00:24:50: Compiled with warnings.
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: [eslint] 
+2025-10-12T00:24:50: src/components/CourseSchedule.tsx
+2025-10-12T00:24:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: Search for the keywords to learn more about each warning.
+2025-10-12T00:24:50: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: WARNING in [eslint] 
+2025-10-12T00:24:50: src/components/CourseSchedule.tsx
+2025-10-12T00:24:50:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:24:50: 
+2025-10-12T00:24:50: webpack compiled with 1 warning
+2025-10-12T00:24:50: No issues found.
+2025-10-12T00:25:04: Compiling...
+2025-10-12T00:25:04: Compiled with warnings.
+2025-10-12T00:25:04: 
+2025-10-12T00:25:04: [eslint] 
+2025-10-12T00:25:04: src/components/CourseSchedule.tsx
+2025-10-12T00:25:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:25:04: 
+2025-10-12T00:25:04: Search for the keywords to learn more about each warning.
+2025-10-12T00:25:04: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:25:04: 
+2025-10-12T00:25:04: WARNING in [eslint] 
+2025-10-12T00:25:04: src/components/CourseSchedule.tsx
+2025-10-12T00:25:04:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:25:04: 
+2025-10-12T00:25:04: webpack compiled with 1 warning
+2025-10-12T00:25:04: No issues found.
+2025-10-12T00:26:26: Compiling...
+2025-10-12T00:26:27: Compiled with warnings.
+2025-10-12T00:26:27: 
+2025-10-12T00:26:27: [eslint] 
+2025-10-12T00:26:27: src/components/CourseSchedule.tsx
+2025-10-12T00:26:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:27: 
+2025-10-12T00:26:27: Search for the keywords to learn more about each warning.
+2025-10-12T00:26:27: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:26:27: 
+2025-10-12T00:26:27: WARNING in [eslint] 
+2025-10-12T00:26:27: src/components/CourseSchedule.tsx
+2025-10-12T00:26:27:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:27: 
+2025-10-12T00:26:27: webpack compiled with 1 warning
+2025-10-12T00:26:27: No issues found.
+2025-10-12T00:26:28: Compiling...
+2025-10-12T00:26:28: Compiled with warnings.
+2025-10-12T00:26:28: 
+2025-10-12T00:26:28: [eslint] 
+2025-10-12T00:26:28: src/components/CourseSchedule.tsx
+2025-10-12T00:26:28:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:28: 
+2025-10-12T00:26:28: Search for the keywords to learn more about each warning.
+2025-10-12T00:26:28: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:26:28: 
+2025-10-12T00:26:28: WARNING in [eslint] 
+2025-10-12T00:26:28: src/components/CourseSchedule.tsx
+2025-10-12T00:26:28:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:28: 
+2025-10-12T00:26:28: webpack compiled with 1 warning
+2025-10-12T00:26:28: No issues found.
+2025-10-12T00:26:35: Compiling...
+2025-10-12T00:26:35: Compiled with warnings.
+2025-10-12T00:26:35: 
+2025-10-12T00:26:35: [eslint] 
+2025-10-12T00:26:35: src/components/CourseSchedule.tsx
+2025-10-12T00:26:35:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:35: 
+2025-10-12T00:26:35: Search for the keywords to learn more about each warning.
+2025-10-12T00:26:35: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:26:35: 
+2025-10-12T00:26:35: WARNING in [eslint] 
+2025-10-12T00:26:35: src/components/CourseSchedule.tsx
+2025-10-12T00:26:35:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:26:35: 
+2025-10-12T00:26:35: webpack compiled with 1 warning
+2025-10-12T00:26:35: No issues found.
+2025-10-12T00:27:02: Compiling...
+2025-10-12T00:27:02: Compiled with warnings.
+2025-10-12T00:27:02: 
+2025-10-12T00:27:02: [eslint] 
+2025-10-12T00:27:02: src/components/CourseSchedule.tsx
+2025-10-12T00:27:02:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:02: 
+2025-10-12T00:27:02: Search for the keywords to learn more about each warning.
+2025-10-12T00:27:02: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:27:02: 
+2025-10-12T00:27:02: WARNING in [eslint] 
+2025-10-12T00:27:02: src/components/CourseSchedule.tsx
+2025-10-12T00:27:02:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:02: 
+2025-10-12T00:27:02: webpack compiled with 1 warning
+2025-10-12T00:27:02: No issues found.
+2025-10-12T00:27:35: Compiling...
+2025-10-12T00:27:36: Compiled with warnings.
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: [eslint] 
+2025-10-12T00:27:36: src/components/CourseSchedule.tsx
+2025-10-12T00:27:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: Search for the keywords to learn more about each warning.
+2025-10-12T00:27:36: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: WARNING in [eslint] 
+2025-10-12T00:27:36: src/components/CourseSchedule.tsx
+2025-10-12T00:27:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: webpack compiled with 1 warning
+2025-10-12T00:27:36: Compiling...
+2025-10-12T00:27:36: No issues found.
+2025-10-12T00:27:36: Compiled with warnings.
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: [eslint] 
+2025-10-12T00:27:36: src/components/CourseSchedule.tsx
+2025-10-12T00:27:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: Search for the keywords to learn more about each warning.
+2025-10-12T00:27:36: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: WARNING in [eslint] 
+2025-10-12T00:27:36: src/components/CourseSchedule.tsx
+2025-10-12T00:27:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:36: 
+2025-10-12T00:27:36: webpack compiled with 1 warning
+2025-10-12T00:27:36: No issues found.
+2025-10-12T00:27:42: Compiling...
+2025-10-12T00:27:43: Compiled with warnings.
+2025-10-12T00:27:43: 
+2025-10-12T00:27:43: [eslint] 
+2025-10-12T00:27:43: src/components/CourseSchedule.tsx
+2025-10-12T00:27:43:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:43: 
+2025-10-12T00:27:43: Search for the keywords to learn more about each warning.
+2025-10-12T00:27:43: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:27:43: 
+2025-10-12T00:27:43: WARNING in [eslint] 
+2025-10-12T00:27:43: src/components/CourseSchedule.tsx
+2025-10-12T00:27:43:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:43: 
+2025-10-12T00:27:43: webpack compiled with 1 warning
+2025-10-12T00:27:43: No issues found.
+2025-10-12T00:27:53: Compiling...
+2025-10-12T00:27:53: Compiled with warnings.
+2025-10-12T00:27:53: 
+2025-10-12T00:27:53: [eslint] 
+2025-10-12T00:27:53: src/components/CourseSchedule.tsx
+2025-10-12T00:27:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:53: 
+2025-10-12T00:27:53: Search for the keywords to learn more about each warning.
+2025-10-12T00:27:53: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:27:53: 
+2025-10-12T00:27:53: WARNING in [eslint] 
+2025-10-12T00:27:53: src/components/CourseSchedule.tsx
+2025-10-12T00:27:53:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:27:53: 
+2025-10-12T00:27:53: webpack compiled with 1 warning
+2025-10-12T00:27:53: No issues found.
+2025-10-12T00:28:29: Compiling...
+2025-10-12T00:28:29: Compiled with warnings.
+2025-10-12T00:28:29: 
+2025-10-12T00:28:29: [eslint] 
+2025-10-12T00:28:29: src/components/CourseSchedule.tsx
+2025-10-12T00:28:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:28:29: 
+2025-10-12T00:28:29: Search for the keywords to learn more about each warning.
+2025-10-12T00:28:29: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:28:29: 
+2025-10-12T00:28:29: WARNING in [eslint] 
+2025-10-12T00:28:29: src/components/CourseSchedule.tsx
+2025-10-12T00:28:29:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:28:29: 
+2025-10-12T00:28:29: webpack compiled with 1 warning
+2025-10-12T00:28:29: No issues found.
+2025-10-12T00:29:35: Compiling...
+2025-10-12T00:29:36: Compiled with warnings.
+2025-10-12T00:29:36: 
+2025-10-12T00:29:36: [eslint] 
+2025-10-12T00:29:36: src/components/CourseSchedule.tsx
+2025-10-12T00:29:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:29:36: 
+2025-10-12T00:29:36: Search for the keywords to learn more about each warning.
+2025-10-12T00:29:36: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:29:36: 
+2025-10-12T00:29:36: WARNING in [eslint] 
+2025-10-12T00:29:36: src/components/CourseSchedule.tsx
+2025-10-12T00:29:36:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:29:36: 
+2025-10-12T00:29:36: webpack compiled with 1 warning
+2025-10-12T00:29:36: No issues found.
+2025-10-12T00:29:51: Compiling...
+2025-10-12T00:29:51: Compiled with warnings.
+2025-10-12T00:29:51: 
+2025-10-12T00:29:51: [eslint] 
+2025-10-12T00:29:51: src/components/CourseSchedule.tsx
+2025-10-12T00:29:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:29:51: 
+2025-10-12T00:29:51: Search for the keywords to learn more about each warning.
+2025-10-12T00:29:51: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-12T00:29:51: 
+2025-10-12T00:29:51: WARNING in [eslint] 
+2025-10-12T00:29:51: src/components/CourseSchedule.tsx
+2025-10-12T00:29:51:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-12T00:29:51: 
+2025-10-12T00:29:51: webpack compiled with 1 warning
+2025-10-12T00:29:51: No issues found.
+2025-10-23T23:30:29: Compiling...
+2025-10-23T23:30:30: Compiled with warnings.
+2025-10-23T23:30:30: 
+2025-10-23T23:30:30: [eslint] 
+2025-10-23T23:30:30: src/components/CourseSchedule.tsx
+2025-10-23T23:30:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:30: 
+2025-10-23T23:30:30: Search for the keywords to learn more about each warning.
+2025-10-23T23:30:30: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:30:30: 
+2025-10-23T23:30:30: WARNING in [eslint] 
+2025-10-23T23:30:30: src/components/CourseSchedule.tsx
+2025-10-23T23:30:30:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:30: 
+2025-10-23T23:30:30: webpack compiled with 1 warning
+2025-10-23T23:30:30: No issues found.
+2025-10-23T23:30:46: Compiling...
+2025-10-23T23:30:46: Compiled with warnings.
+2025-10-23T23:30:46: 
+2025-10-23T23:30:46: [eslint] 
+2025-10-23T23:30:46: src/components/CourseSchedule.tsx
+2025-10-23T23:30:46:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:46: 
+2025-10-23T23:30:46: Search for the keywords to learn more about each warning.
+2025-10-23T23:30:46: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:30:46: 
+2025-10-23T23:30:46: WARNING in [eslint] 
+2025-10-23T23:30:46: src/components/CourseSchedule.tsx
+2025-10-23T23:30:46:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:46: 
+2025-10-23T23:30:46: webpack compiled with 1 warning
+2025-10-23T23:30:46: No issues found.
+2025-10-23T23:30:47: Compiling...
+2025-10-23T23:30:48: Compiled with warnings.
+2025-10-23T23:30:48: 
+2025-10-23T23:30:48: [eslint] 
+2025-10-23T23:30:48: src/components/CourseSchedule.tsx
+2025-10-23T23:30:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:48: 
+2025-10-23T23:30:48: Search for the keywords to learn more about each warning.
+2025-10-23T23:30:48: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:30:48: 
+2025-10-23T23:30:48: WARNING in [eslint] 
+2025-10-23T23:30:48: src/components/CourseSchedule.tsx
+2025-10-23T23:30:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:30:48: 
+2025-10-23T23:30:48: webpack compiled with 1 warning
+2025-10-23T23:30:48: No issues found.
+2025-10-23T23:30:59: Compiling...
+2025-10-23T23:31:00: Compiled with warnings.
+2025-10-23T23:31:00: 
+2025-10-23T23:31:00: [eslint] 
+2025-10-23T23:31:00: src/components/CourseSchedule.tsx
+2025-10-23T23:31:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:00: 
+2025-10-23T23:31:00: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:00: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:00: 
+2025-10-23T23:31:00: WARNING in [eslint] 
+2025-10-23T23:31:00: src/components/CourseSchedule.tsx
+2025-10-23T23:31:00:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:00: 
+2025-10-23T23:31:00: webpack compiled with 1 warning
+2025-10-23T23:31:00: No issues found.
+2025-10-23T23:31:05: Compiling...
+2025-10-23T23:31:05: Compiled with warnings.
+2025-10-23T23:31:05: 
+2025-10-23T23:31:05: [eslint] 
+2025-10-23T23:31:05: src/components/CourseSchedule.tsx
+2025-10-23T23:31:05:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:05: 
+2025-10-23T23:31:05: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:05: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:05: 
+2025-10-23T23:31:05: WARNING in [eslint] 
+2025-10-23T23:31:05: src/components/CourseSchedule.tsx
+2025-10-23T23:31:05:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:05: 
+2025-10-23T23:31:05: webpack compiled with 1 warning
+2025-10-23T23:31:05: No issues found.
+2025-10-23T23:31:13: Compiling...
+2025-10-23T23:31:13: Compiled with warnings.
+2025-10-23T23:31:13: 
+2025-10-23T23:31:13: [eslint] 
+2025-10-23T23:31:13: src/components/CourseSchedule.tsx
+2025-10-23T23:31:13:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:13: 
+2025-10-23T23:31:13: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:13: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:13: 
+2025-10-23T23:31:13: WARNING in [eslint] 
+2025-10-23T23:31:13: src/components/CourseSchedule.tsx
+2025-10-23T23:31:13:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:13: 
+2025-10-23T23:31:13: webpack compiled with 1 warning
+2025-10-23T23:31:13: No issues found.
+2025-10-23T23:31:22: Compiling...
+2025-10-23T23:31:22: Compiled with warnings.
+2025-10-23T23:31:22: 
+2025-10-23T23:31:22: [eslint] 
+2025-10-23T23:31:22: src/components/CourseSchedule.tsx
+2025-10-23T23:31:22:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:22: 
+2025-10-23T23:31:22: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:22: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:22: 
+2025-10-23T23:31:22: WARNING in [eslint] 
+2025-10-23T23:31:22: src/components/CourseSchedule.tsx
+2025-10-23T23:31:22:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:22: 
+2025-10-23T23:31:22: webpack compiled with 1 warning
+2025-10-23T23:31:22: No issues found.
+2025-10-23T23:31:47: Compiling...
+2025-10-23T23:31:48: Compiled with warnings.
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: [eslint] 
+2025-10-23T23:31:48: src/components/CourseSchedule.tsx
+2025-10-23T23:31:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:48: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: WARNING in [eslint] 
+2025-10-23T23:31:48: src/components/CourseSchedule.tsx
+2025-10-23T23:31:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: webpack compiled with 1 warning
+2025-10-23T23:31:48: Compiling...
+2025-10-23T23:31:48: No issues found.
+2025-10-23T23:31:48: Compiled with warnings.
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: [eslint] 
+2025-10-23T23:31:48: src/components/CourseSchedule.tsx
+2025-10-23T23:31:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: Search for the keywords to learn more about each warning.
+2025-10-23T23:31:48: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: WARNING in [eslint] 
+2025-10-23T23:31:48: src/components/CourseSchedule.tsx
+2025-10-23T23:31:48:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:31:48: 
+2025-10-23T23:31:48: webpack compiled with 1 warning
+2025-10-23T23:31:48: No issues found.
+2025-10-23T23:32:08: Compiling...
+2025-10-23T23:32:08: Compiled with warnings.
+2025-10-23T23:32:08: 
+2025-10-23T23:32:08: [eslint] 
+2025-10-23T23:32:08: src/components/CourseSchedule.tsx
+2025-10-23T23:32:08:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:32:08: 
+2025-10-23T23:32:08: Search for the keywords to learn more about each warning.
+2025-10-23T23:32:08: To ignore, add // eslint-disable-next-line to the line before.
+2025-10-23T23:32:08: 
+2025-10-23T23:32:08: WARNING in [eslint] 
+2025-10-23T23:32:08: src/components/CourseSchedule.tsx
+2025-10-23T23:32:08:   Line 9:9:  'batches' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2025-10-23T23:32:08: 
+2025-10-23T23:32:08: webpack compiled with 1 warning
+2025-10-23T23:32:08: No issues found.

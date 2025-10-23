@@ -24,24 +24,22 @@ const CourseSchedule: React.FC = () => {
   const pricingPlans = [
     {
       id: 1,
-      name: '基础知识包',
-      priceUSDT: 59,
+      name: 'Web3实战开发(一年交付版)',
+      priceUSDT: 299,
       description: '快速入门Solana生态',
       badge: '',
       features: [
         '1次答疑服务',
         'web3基础入门教程',
-        '精选学习资源合集',
-        '行业最新技术趋势更新',
-        '专属学习社群',
-        '高薪工作机会推荐'
+        'Web3实战内容每周定期交付(一年交付完毕)',
+        '更适合在校学生群体~'
       ]
     },
     {
         id: 2,
-        name: 'Web3实战开发',
+        name: 'Web3实战开发(实时交付)',
       priceUSDT: 649,
-      description: '从零到一完整项目实战',
+      description: '从零到一完整项目实战[]',
       badge: '最受欢迎',
       features: [
         '包含基础知识包所有内容',
@@ -49,19 +47,17 @@ const CourseSchedule: React.FC = () => {
         '课后实践加答案解析',
         '学习群答疑服务',
         '生产级项目实战',
-        '试用期指导',
-        '黑客松参赛指导',
-        '2个月学习周期',
         '无限次重复学习'
       ]
     },
     {
       id: 3,
       name: '全流程VIP陪跑',
-      priceUSDT: 1549,
+      priceUSDT: 1649,
       description: '一对一全程指导',
       badge: 'VIP专享',
       features: [
+        '个性化学习路径规划',
         '包含实战开发全部内容',
         '1对1简历优化 + 求职指导',
         '模拟面试',
@@ -69,6 +65,7 @@ const CourseSchedule: React.FC = () => {
         '面试复盘(持续跟踪)',
         '英语口语学习路径规划',
         '每周1次1h,1v1进度跟踪及复盘',
+        '试用期指导',
         '持续6个月跟踪服务'
       ]
     }
