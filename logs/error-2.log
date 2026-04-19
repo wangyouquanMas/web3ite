@@ -2152,3 +2152,45 @@
 2026-04-11T16:39:52: (node:1772) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 2026-04-11T16:39:52: (Use `node --trace-deprecation ...` to show where the warning was created)
 2026-04-11T16:39:52: (node:1772) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-20T01:44:16: ERROR in src/components/CourseDetailSection.tsx:423:28
+2026-04-20T01:44:16: TS2552: Cannot find name 'pumpfunCourseChapters'. Did you mean 'courseChapters'?
+2026-04-20T01:44:16:     421 |           </p>
+2026-04-20T01:44:16:     422 |         </div>
+2026-04-20T01:44:16:   > 423 |         {renderChapterGrid(pumpfunCourseChapters)}
+2026-04-20T01:44:16:         |                            ^^^^^^^^^^^^^^^^^^^^^
+2026-04-20T01:44:16:     424 |         <div className="course-detail-cta course-detail-cta-pumpfun">
+2026-04-20T01:44:16:     425 |           <button className="btn primary" onClick={openWechatModal}>咨询 Pumpfun 专项</button>
+2026-04-20T01:44:16:     426 |         </div>
+2026-04-20T01:44:16: 
+2026-04-20T01:44:27: ERROR in src/components/CourseDetailSection.tsx:509:8
+2026-04-20T01:44:27: TS17008: JSX element 'section' has no corresponding closing tag.
+2026-04-20T01:44:27:     507 |       </section>
+2026-04-20T01:44:27:     508 |
+2026-04-20T01:44:27:   > 509 |       <section id="router-course-detail" className="course-detail router-course-detail">
+2026-04-20T01:44:27:         |        ^^^^^^^
+2026-04-20T01:44:27:     510 |         <div className="section-header">
+2026-04-20T01:44:27:     511 |           <h2>Router 实战项目</h2>
+2026-04-20T01:44:27:     512 |           <p className="router-subtitle">
+2026-04-20T01:44:27: 
+2026-04-20T01:44:31: ERROR in src/components/CourseDetailSection.tsx:509:8
+2026-04-20T01:44:31: TS17008: JSX element 'section' has no corresponding closing tag.
+2026-04-20T01:44:31:     507 |       </section>
+2026-04-20T01:44:31:     508 |
+2026-04-20T01:44:31:   > 509 |       <section id="router-course-detail" className="course-detail router-course-detail">
+2026-04-20T01:44:31:         |        ^^^^^^^
+2026-04-20T01:44:31:     510 |         <div className="section-header">
+2026-04-20T01:44:31:     511 |           <h2>Router 实战项目</h2>
+2026-04-20T01:44:31:     512 |           <p className="router-subtitle">
+2026-04-20T01:44:31: 
+2026-04-20T01:47:36: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-20T01:47:36:   npx update-browserslist-db@latest
+2026-04-20T01:47:36:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-20T01:47:37: (node:1671) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-20T01:47:37: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-20T01:47:37: (node:1671) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-20T01:48:08: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-20T01:48:08:   npx update-browserslist-db@latest
+2026-04-20T01:48:08:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-20T01:48:09: (node:1620) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-20T01:48:09: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-20T01:48:09: (node:1620) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.

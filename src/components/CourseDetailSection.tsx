@@ -25,8 +25,8 @@ const CourseDetailSection: React.FC = () => {
     setShowWechatModal(false);
   };
 
-  const renderChapterGrid = (chapters: CourseChapterCard[]) => (
-    <div className="course-detail-grid">
+  const renderChapterGrid = (chapters: CourseChapterCard[], gridExtraClass?: string) => (
+    <div className={gridExtraClass ? `course-detail-grid ${gridExtraClass}` : 'course-detail-grid'}>
       {chapters.map((chapter) => (
         <div key={chapter.id} className="course-chapter-card">
           <div className="chapter-header">
@@ -280,59 +280,275 @@ const CourseDetailSection: React.FC = () => {
     }
   ];
 
-  const pumpfunCourseChapters: CourseChapterCard[] = [
+  const routerCourseChapters: CourseChapterCard[] = [
     {
       id: 1,
-      title: '模型与账户设计',
-      level: 'P0',
-      description: '理解 Pump 类发射台业务模型，梳理链上账户、PDA 与权限边界，为合约实现打地基',
-      topicsLeft: ['Bonding curve 与定价直觉', 'Mint / 迁移生命周期', '相关 Program 与账户关系'],
-      topicsRight: ['PDA 派生与种子设计', '权限与签名方梳理', '开发网环境与调试思路'],
-      duration: '1-2周',
+      title: 'Go 工程与仓库结构',
+      level: 'L0',
+      description: '能独立编译、跑测试、跟读 router_v1 目录与依赖服务边界。',
+      topicsLeft: [
+        'Go modules、go test、benchmark 基础',
+        'go-zero / 服务分层（logic、svc、internal）粗读',
+        '本仓库 consumer、cache、resources 的职责划分',
+      ],
+      topicsRight: ['作业：跑通 resources/experiments 下单元测试，改一个边界 case'],
+      duration: '1～2周',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 19h16M6 16l3-8 4 6 3-10 2 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
     },
     {
       id: 2,
-      title: '合约骨架与指令',
-      level: 'P1',
-      description: '从零搭建链上程序骨架，拆解核心指令与状态迁移，对齐官方/社区常见实现思路',
-      topicsLeft: ['项目结构与入口', '指令分发与反序列化', '错误码与可测试性'],
-      topicsRight: ['状态账户布局', '核心指令：创建 / 交易 / 迁移', '安全边界与断言'],
-      duration: '2-3周',
+      title: '图论与路由入门',
+      level: 'L1',
+      description: '建立「代币图为点、池为边、汇率为乘积」的心智模型，并理解为何需要线图与 DP。',
+      topicsLeft: [
+        '有向图、最短路、松弛的直观含义',
+        'Bellman–Ford 与负环检测（与 bellman_ford_moore.go 对照）',
+        '−ln(R) 把「汇率乘积」变成「边权之和」',
+      ],
+      topicsRight: [
+        '作业：阅读 route_paper/5.1.Bellman-Ford-Moore.md，手绘小环 ∏R>1 与 ∑(−ln R)<0 的对应关系',
+      ],
+      duration: '1～2周',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="2" />
-          <path d="M9 9h6v6H9z" stroke="currentColor" strokeWidth="2" />
+          <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 1V3M12 21V23M4.22 4.22L5.64 5.64M18.36 18.36L19.78 19.78M1 12H3M21 12H23" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
     },
     {
       id: 3,
-      title: '解析与数据面',
-      level: 'P1',
-      description: '把链上行为变成结构化事件：池创建、buy/sell、迁移等，服务索引与展示',
-      topicsLeft: ['日志与事件字段对齐', '解析 buy / sell / 池子创建', '元数据与补充数据源'],
-      topicsRight: ['与 DEX 解析的异同', '失败与重组场景', '对账与回放'],
-      duration: '1-2周',
+      title: '线图与「路径爆炸」',
+      level: 'L1',
+      description: '理解聚合器为何不用「枚举所有简单路径」，而用线图上的有限轮更新。（核心模块）',
+      topicsLeft: [
+        'route_paper/1.如何避免路径爆炸.md 主线',
+        '线图顶点=原图边（池）、线图边=合法池间跳转',
+        '剪枝（如互惠来回）、有限步终止与储备、AMM 性质在文档中的角色',
+      ],
+      topicsRight: ['作业：用伪代码写清「一轮更新」在输入输出上做了什么'],
+      duration: '2～3周',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" strokeWidth="2" />
-          <path d="M14 2v6h6M8 13h8M8 17h8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M3 12L12 3L21 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M3 12L12 21L21 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
     },
     {
       id: 4,
-      title: 'Swap 构造与对接',
-      level: 'P2',
-      description: '掌握 Pumpfun Swap 相关交易构造与解析，并能接入聚合/路由层调用路径',
-      topicsLeft: ['账户列表与依赖', '滑点与最小输出', '与常见路由参数对齐'],
-      topicsRight: ['构造失败排查', '解析回填业务模型', '和聚合器联调要点'],
-      duration: '2周',
+      title: '缓存、数据与消息',
+      level: 'L1',
+      description: '弄清线上路由依赖的数据从哪来、如何更新。',
+      topicsLeft: [
+        'PathCache / DepthCache 的加载与使用场景（consumer）',
+        'MySQL 与全量/增量加载思路（以代码与配置为准）',
+        'Kafka 在路由/市场数据流中的角色（按仓库实际订阅为准）',
+      ],
+      topicsRight: ['作业：画一张「请求 → 缓存 → 构图 → 报价」的时序草图'],
+      duration: '1～2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 16V8C21 5.79086 19.2091 4 17 4H7C4.79086 4 3 5.79086 3 8V16C3 18.2091 4.79086 20 7 20H17C19.2091 20 21 18.2091 21 16Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M7 10L12 15L17 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: '报价与 Swap 逻辑走读',
+      level: 'L2',
+      description: '能把一次 Quote 从入口函数跟到「路径 + 池子选择」的关键分支。',
+      topicsLeft: ['consumer 侧 quotelogic、quote/swapservice 等入口', '与 PathCache、DepthCache 的协作方式'],
+      topicsRight: [
+        '滑点、多池比较的工程细节（以当前实现为准）',
+        '作业：选一个 token 对，用日志或调试走通一次完整报价路径',
+      ],
+      duration: '1～2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 6V12L16 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 6,
+      title: '综合实战与扩展',
+      level: 'L2',
+      description: '在真实约束下思考「检测套利」与「主路由目标」的差异。',
+      topicsLeft: [
+        'Bellman–Ford 负环检测 vs 主路由最优化报价（见 5.1 Q5）',
+        '可选：mock 池子数据对接 ArbitrageNegativeCycle 实验（bellman_ford_moore_pool_test.go）',
+        '可选：阅读论文/博客链接（resources/readme.md）',
+      ],
+      topicsRight: [
+        '大作业（任选）：A 扩展/优化某链路径缓存策略说明文档；或 B 设计「批处理套利扫描」模块方案（架构与数据流）',
+      ],
+      duration: '1～2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 7,
+      title: '综合篇',
+      level: 'L3',
+      description: '核心能力回顾、仓库文档锚点与专项定位；与 Pumpfun 链上合约方向对照。',
+      topicsLeft: [
+        '线图 + 迭代 DP、PathCache / DepthCache',
+        'Quote / SwapService、experiments 与 route_paper',
+        '参考：router_v1/resources/route_paper/、readme.md、bellman_ford_moore.go',
+      ],
+      topicsRight: [
+        'Pumpfun：合约 + Anchor + 全栈一条链',
+        'Router：链下聚合与路由，重图算法与缓存',
+        '技术栈：Go、gRPC、MySQL、Kafka、go-zero、Bellman–Ford 等',
+      ],
+      duration: '复盘',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 19V9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 19C9 20.1046 9.89543 21 11 21H13C14.1046 21 15 20.1046 15 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 6V3M8 3H16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+  ];
+
+  const pumpfunCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '基础篇',
+      level: 'L0',
+      description: '对应 lessons「1.基础」：在 pumpfun_program 语境下补齐 Rust 与 Anchor，能读懂后续源码与四条核心指令的账户、约束与 CPI。',
+      topicsLeft: [
+        '1.rust基础（约 21 文件）：变量/常量/类型、函数与作用域、表达式',
+        '所有权、生命周期、slice；struct、trait、generics',
+        'mod、pub、cargo.toml；macro 基础',
+        '必读：readme.md、rust_syntax_roadmap.md（语法与项目映射）',
+      ],
+      topicsRight: [
+        '2.anchor基础（约 36 文件）：项目结构、declare_id、program、mod',
+        'Context、#[derive(Accounts)]、常见 account 约束写法',
+        'PDA 派生、跨程序 CPI、错误与自定义错误码',
+        '编译、部署、本地/开发网调试与日志阅读',
+        '3.anchor进阶：Signer 等账户语义、进阶约束场景',
+      ],
+      duration: '4～8周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 22V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 2,
+      title: '源码解读篇',
+      level: 'L1',
+      description: '对应「2.源码解读」（约 9 文件）：先建立业务心智与代码地图，再进入指令级实现；多数文档含录播与问答，便于对照仓库阅读。',
+      topicsLeft: [
+        'bonding curve：定价直觉、曲线状态如何随交易更新',
+        '虚拟储备 vs 真实储备：对价格与流动性的影响',
+        '合约编译、部署与 config：全局/可配参数如何进入链上状态',
+      ],
+      topicsRight: [
+        'create bonding curve：账户布局与初始化顺序',
+        '买卖（swap）路径：资产在哪些 ATA/金库间流转',
+        'migration：触发条件、涉及账户、与 Meteora 衔接在代码中的落点',
+        '将「机制说明」映射到具体文件与函数，养成断点/日志跟踪习惯',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <polyline points="14,2 14,8 20,8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 3,
+      title: '实战篇 · Configure 指令',
+      level: 'L1',
+      description: '「3.实战 / 1.configure」（约 16 文件）：从零写清一条配置类指令的账户列表、约束与 handler，建立后续指令的「模板感」。',
+      topicsLeft: [
+        '指令目标：要改哪些链上状态、与产品/部署流程的对应关系',
+        '所需账户清单：谁可写、谁只读、PDA 与签名方分别是谁',
+        'instruction data：序列化布局、与客户端/测试如何对齐',
+        '#[derive(Accounts)]：每个字段的约束（mut、signer、has_one 等）',
+      ],
+      topicsRight: [
+        '结构体与参数：配置项如何映射到账户字段与 data',
+        'handler：权限校验、状态写入顺序、错误分支',
+        '与全局 config 账户的初始化/升级关系（若课程文档涉及）',
+        '调试：单元测试、开发网重放、常见账户缺失/权限报错定位',
+        '交付：能独立说明「本指令输入→链上变化→验证方式」',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L22 9L12 16L2 9L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M2 17L12 24L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 4,
+      title: '实战篇 · CreateBondingCurve',
+      level: 'L1',
+      description: '「3.实战 / 2.bondingcurve」（约 9 文件）：完成曲线与池子相关状态初始化，理清依赖程序与账户准备顺序。',
+      topicsLeft: [
+        '指令概述：创建曲线时链上需要出现哪些状态账户',
+        '账户准备：mint、vault、curve 状态、权限 PDA 等如何串联',
+        '依赖关系：与 token program、系统账户、可选第三方程序的 CPI',
+        '参数与剩余账户：可选扩展位、与 IDL/客户端字段一致',
+      ],
+      topicsRight: [
+        '状态账户：空间分配、discriminator、初始化与默认值',
+        'handler：分步初始化、防重复创建、错误码设计',
+        '测试：本地 validator、fixture、与参考答案 diff',
+        '与后续 swap 的衔接：哪些字段会被 swap 读取、不变量约定',
+        '自检：能画出「创建曲线」时序图与账户关系图',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L22 9L12 16L2 9L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M2 12L12 19L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: '实战篇 · Swap 指令',
+      level: 'L2',
+      description: '「3.实战 / 3.swap」（约 9 文件）：买卖核心路径、储备更新与 AMM 公式落地，是 Pump 风格合约中最长链路之一。',
+      topicsLeft: [
+        '指令概述：buy / sell 在数据与账户上的差异',
+        '账户：用户 ATA、池储备、curve 状态、fee 相关账户',
+        'handler 数据准备：从 instruction data 解析到内部结构',
+        'Trait / 模块拆分：报价、滑点、最小输出等边界由谁实现',
+      ],
+      topicsRight: [
+        'apply_buy（及对称卖出）逻辑：状态转移与断言',
+        'AMM / 曲线公式：与虚拟储备、手续费参数的结合方式',
+        '精度与舍入：避免可套利缺口与安全断言',
+        '测试：正向/反向交易、边界金额、失败路径（余额不足、滑点）',
+        '与链下解析/索引的对照：事件或账户差分如何还原成交',
+      ],
+      duration: '2～4周',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 16V4M7 4L3 8M7 4l4 4M17 8v12M17 20l4-4M17 20l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -340,120 +556,53 @@ const CourseDetailSection: React.FC = () => {
       ),
     },
     {
-      id: 5,
-      title: '测试、部署与观测',
-      level: 'P2',
-      description: '从本地单测到开发网部署，建立日志与指标，保障迭代效率',
-      topicsLeft: ['单元与集成测试策略', '开发网部署与升级注意点', '常见坑与排障清单'],
-      topicsRight: ['模拟交易与快照', '监控指标建议', '版本兼容与依赖管理'],
-      duration: '1-2周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
       id: 6,
-      title: '综合实战',
-      level: 'P3',
-      description: '串联「合约 + 解析 + Swap」形成可演示的最小产品闭环，贴近真实交付节奏',
-      topicsLeft: ['里程碑拆分与验收标准', '接口与文档化', '性能与成本粗估'],
-      topicsRight: ['安全自查清单', '扩展：多环境/多版本', '简历与面试可讲亮点'],
-      duration: '2-3周',
+      title: '实战篇 · Migration 指令',
+      level: 'L2',
+      description: '「3.实战 / 4.migration」（4 文件）：在满足迁移条件时，将流动性与权限切换到 Meteora 侧，完成「发射台 → AMM 池」闭环。',
+      topicsLeft: [
+        'migration 概述：业务触发条件与链上前置检查',
+        '指令账户：旧状态、新池相关账户、Meteora 程序与 PDA',
+        '核心逻辑：资金/ LP / 权限的交接顺序，避免中间态被攻击',
+      ],
+      topicsRight: [
+        'Meteora 创建池子：instruction data 字段含义与长度',
+        'CPI 组合：本 program 如何调用外部 program、返回值处理',
+        '测试与联调：开发网部署顺序、常见 CPI 账户错误',
+        '与 swap 完结态：迁移后用户应走哪条交易路径',
+        '复盘：能口述「为何必须按该顺序 CPI」',
+      ],
+      duration: '1～2周',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
-          <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-  ];
-
-  const routerCourseChapters: CourseChapterCard[] = [
-    {
-      id: 1,
-      title: '路由问题抽象',
-      level: 'R0',
-      description: '把「用户要换币」抽象成可计算的报价与路径问题，明确链上约束与产品目标',
-      topicsLeft: ['询价 / 报价 / 成交链路', '多池并存的组合爆炸', '链上确认与最终性'],
-      topicsRight: ['成功率与体验指标', '与钱包、节点交互边界', '需求到接口的拆解'],
-      duration: '1周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" />
-          <path d="M12 7v5l3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M21 16V8C21 5.79086 19.2091 4 17 4H7C4.79086 4 3 5.79086 3 8V16C3 18.2091 4.79086 20 7 20H17C19.2091 20 21 18.2091 21 16Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M7 10L12 15L17 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
     },
     {
-      id: 2,
-      title: '报价与路径搜索',
-      level: 'R1',
-      description: '实现多跳、拆单、限额下的路径搜索与剪枝，平衡精度与延迟',
-      topicsLeft: ['图模型与中间代币', '剪枝与启发式', '拆单与深度约束'],
-      topicsRight: ['数值精度与舍入', '缓存与增量更新', '最坏情况降级策略'],
-      duration: '2-3周',
+      id: 7,
+      title: '综合篇',
+      level: 'L3',
+      description: '串联四条指令与 lessons 学习顺序；建议节奏、验收标准，并与 Router（链下路由）专项作定位区分。',
+      topicsLeft: [
+        '推荐顺序：1.基础 → 2.源码解读 → configure → bondingcurve → swap → migration',
+        '系统学习约 10～15 周：每周完成一个子模块 +「代码定位 + 机制复述」',
+        '教学方法：项目导向、先模型后指令、任务式闭环（输入→处理→输出→验证）',
+      ],
+      topicsRight: [
+        '机制：能解释曲线、虚拟储备、migration 条件与 Meteora 衔接',
+        '代码：能定位四指令关键文件并说明账户图',
+        '实现：能按步骤口述四指令执行与失败回滚',
+        '扩展：可选结合 Dex 主课的解析/构造视角做 end-to-end 复盘',
+        'Router 对照：Router 重链下路由与缓存；本专项重 Anchor 链上程序',
+      ],
+      duration: '全程',
       icon: (
         <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 12h4l2-6 4 12 2-6h4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
-      id: 3,
-      title: '滑点、风控与回滚',
-      level: 'R1',
-      description: '把最小输出、限额、失败回滚和产品提示串成一致的风控层',
-      topicsLeft: ['minOut / deadline 语义', '部分成交与重试', '用户可见错误归因'],
-      topicsRight: ['模拟与预检（simulate）', '黑名单与熔断', '日志与告警'],
-      duration: '1-2周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 3v18M5 9l7-6 7 6M5 15l7 6 7-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
-      id: 4,
-      title: '链下服务与多链适配',
-      level: 'R2',
-      description: '搭建 Quote / Route API，抽象 Solana 与 EVM 等异构链的适配层',
-      topicsLeft: ['服务分层与依赖注入', '限流、鉴权与配额', '配置与多环境'],
-      topicsRight: ['EVM 路由差异点', 'Solana 账户模型对接', '协议升级与兼容策略'],
-      duration: '2-3周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      ),
-    },
-    {
-      id: 5,
-      title: '数据、回放与压测',
-      level: 'R2',
-      description: '用真实流量样本验证路由质量，建立回归集与压测基线',
-      topicsLeft: ['录制与回放工具链', '关键指标：延迟、命中率', 'Diff 与回归门禁'],
-      topicsRight: ['影子流量与灰度', '容量规划粗算', '事故演练与复盘模板'],
-      duration: '1-2周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 3v18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-          <path d="M7 14l4-4 3 3 5-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      ),
-    },
-    {
-      id: 6,
-      title: '项目集成与交付',
-      level: 'R3',
-      description: '与现有 DEX/钱包/前端串联，完成从设计文档到可上线模块的交付闭环',
-      topicsLeft: ['API 契约与版本化', '联调清单与里程碑', '文档与运维交接'],
-      topicsRight: ['面试：如何讲清路由架构', '扩展：MEV / 私有 RPC', '简历项目描述模板'],
-      duration: '2-3周',
-      icon: (
-        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M8 21h8M12 17v4M6 8l6-5 6 5v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 19V9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9V19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 19C9 20.1046 9.89543 21 11 21H13C14.1046 21 15 20.1046 15 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 6V3M8 3H16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       ),
     },
@@ -472,29 +621,31 @@ const CourseDetailSection: React.FC = () => {
         </div>
       </section>
 
-      <section id="pumpfun-course-detail" className="course-detail course-detail-pumpfun">
+      <section id="pumpfun-course-detail" className="course-detail pumpfun-course-detail">
         <div className="section-header">
-          <h2>Pumpfun 合约 · 从零到一</h2>
+          <h2>Pumpfun Program · 课表详情</h2>
           <p>
-            面向<span className="highlight-pumpfun">Solana 发射台类业务</span>，覆盖合约、解析与 Swap 对接，与「Web3 实战+合约开发」套餐内容对齐
+            围绕 <span className="highlight">pumpfun_program/lessons</span>，从 <span className="highlight">Rust / Anchor</span> 到{' '}
+            <span className="highlight">bonding curve、swap、migration（Meteora）</span> 完整链路；文档为主，配合录播与命令示例，强调能读源码、理解设计、完成关键指令与调试。
           </p>
         </div>
-        {renderChapterGrid(pumpfunCourseChapters)}
-        <div className="course-detail-cta course-detail-cta-pumpfun">
-          <button className="btn primary" onClick={openWechatModal}>咨询 Pumpfun 专项</button>
+        {renderChapterGrid(pumpfunCourseChapters, 'pumpfun-course-grid')}
+        <div className="course-detail-cta">
+          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
         </div>
       </section>
 
-      <section id="router-course-detail" className="course-detail course-detail-router">
+      <section id="router-course-detail" className="course-detail router-course-detail">
         <div className="section-header">
-          <h2>Router 路由聚合器 · 实战项目</h2>
+          <h2>Router 实战项目 · 课表详情</h2>
           <p>
-            聚焦<span className="highlight-router">链下报价与路径</span>、多协议适配与工程化交付，与含「路由聚合器」套餐能力对应
+            面向 <span className="highlight">DEX 聚合</span> 场景，从 <span className="highlight">流动性图建模、路径缓存、多池报价</span> 到{' '}
+            <span className="highlight">可证明复杂度的路由核心</span>，贯通工程实现与算法理论（L0 基础 → L1 核心 → L2 实战 → L3 综合）。
           </p>
         </div>
-        {renderChapterGrid(routerCourseChapters)}
-        <div className="course-detail-cta course-detail-cta-router">
-          <button className="btn primary" onClick={openWechatModal}>咨询路由专项</button>
+        {renderChapterGrid(routerCourseChapters, 'router-course-grid')}
+        <div className="course-detail-cta">
+          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
         </div>
       </section>
 
