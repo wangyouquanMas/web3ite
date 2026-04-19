@@ -1753,3 +1753,402 @@
 2025-10-09T00:36:08: (node:1652) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 2025-10-09T00:36:08: (Use `node --trace-deprecation ...` to show where the warning was created)
 2025-10-09T00:36:08: (node:1652) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:19:29: Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+2025-11-03T23:19:29:   npx update-browserslist-db@latest
+2025-11-03T23:19:29:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-11-03T23:19:30: (node:1841) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:19:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-11-03T23:19:30: (node:1841) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:20:06: Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+2025-11-03T23:20:06:   npx update-browserslist-db@latest
+2025-11-03T23:20:06:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-11-03T23:20:07: (node:1608) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:20:07: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-11-03T23:20:07: (node:1608) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:20:45: Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+2025-11-03T23:20:45:   npx update-browserslist-db@latest
+2025-11-03T23:20:45:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-11-03T23:20:45: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-11-03T23:20:45: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-11-03T23:20:45: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-12-28T13:23:11: Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+2025-12-28T13:23:11:   npx update-browserslist-db@latest
+2025-12-28T13:23:11:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2025-12-28T13:23:12: (node:1821) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-12-28T13:23:12: (Use `node --trace-deprecation ...` to show where the warning was created)
+2025-12-28T13:23:12: (node:1821) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-01-23T14:37:24: URIError: Failed to decode param '/%c0'
+2026-01-23T14:37:24:     at decodeURIComponent (<anonymous>)
+2026-01-23T14:37:24:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-01-23T14:37:24:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-01-23T14:37:24:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-01-23T14:37:24:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-01-23T14:37:24:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-01-23T14:37:24:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-01-23T14:37:24:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-01-23T14:37:24:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-01-23T14:37:24:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-01-23T14:37:24:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:280:10)
+2026-01-23T14:37:24:     at query (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/query.js:45:5)
+2026-01-23T14:37:24:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-01-23T14:37:24:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-01-23T14:37:24:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-01-23T14:37:24:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-01-23T14:37:24:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:280:10)
+2026-01-23T14:37:24:     at Function.handle (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:175:3)
+2026-01-23T14:37:24:     at Function.handle (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/application.js:181:10)
+2026-01-23T14:37:24:     at Server.app (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/express.js:39:9)
+2026-01-23T14:37:24:     at Server.emit (node:events:518:28)
+2026-01-23T14:37:24:     at parserOnIncoming (node:_http_server:1141:12)
+2026-01-23T14:37:24:     at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17)
+2026-03-05T23:37:39: Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+2026-03-05T23:37:39:   npx update-browserslist-db@latest
+2026-03-05T23:37:39:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-03-05T23:37:40: (node:1749) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-05T23:37:40: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-05T23:37:40: (node:1749) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-20T11:56:18: URIError: Failed to decode param '/%c0'
+2026-03-20T11:56:18:     at decodeURIComponent (<anonymous>)
+2026-03-20T11:56:18:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-03-20T11:56:18:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-03-20T11:56:18:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-03-20T11:56:18:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-03-20T11:56:18:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-03-20T11:56:18:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-03-20T11:56:18:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-03-20T11:56:18:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-03-20T11:56:18:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-03-20T12:00:06: URIError: Failed to decode param '/%c0/'
+2026-03-20T12:00:06:     at decodeURIComponent (<anonymous>)
+2026-03-20T12:00:06:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-03-20T12:00:06:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-03-20T12:00:06:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-03-20T12:00:06:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-03-20T12:00:06:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-03-20T12:00:06:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-03-20T12:00:06:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-03-20T12:00:06:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-03-20T12:00:06:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-03-21T07:37:14: URIError: Failed to decode param '/%c0'
+2026-03-21T07:37:14:     at decodeURIComponent (<anonymous>)
+2026-03-21T07:37:14:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-03-21T07:37:14:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-03-21T07:37:14:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-03-21T07:37:14:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-03-21T07:37:14:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-03-21T07:37:14:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-03-21T07:37:14:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-03-21T07:37:14:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-03-21T07:37:14:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-03-21T07:40:50: URIError: Failed to decode param '/%c0/'
+2026-03-21T07:40:50:     at decodeURIComponent (<anonymous>)
+2026-03-21T07:40:50:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-03-21T07:40:50:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-03-21T07:40:50:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-03-21T07:40:50:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-03-21T07:40:50:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-03-21T07:40:50:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-03-21T07:40:50:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-03-21T07:40:50:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-03-21T07:40:50:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-03-25T16:45:46: Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+2026-03-25T16:45:46:   npx update-browserslist-db@latest
+2026-03-25T16:45:46:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-03-25T16:45:46: (node:1791) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-25T16:45:46: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-25T16:45:46: (node:1791) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-25T18:42:20: Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+2026-03-25T18:42:20:   npx update-browserslist-db@latest
+2026-03-25T18:42:20:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-03-25T18:42:21: (node:1616) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-25T18:42:21: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-25T18:42:21: (node:1616) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-25T19:59:37: Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+2026-03-25T19:59:37:   npx update-browserslist-db@latest
+2026-03-25T19:59:37:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-03-25T19:59:37: (node:1621) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-25T19:59:37: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-25T19:59:37: (node:1621) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-26T19:59:16: URIError: Failed to decode param '/%c0'
+2026-03-26T19:59:16:     at decodeURIComponent (<anonymous>)
+2026-03-26T19:59:16:     at decode_param (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:172:12)
+2026-03-26T19:59:16:     at Layer.match (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:123:27)
+2026-03-26T19:59:16:     at matchLayer (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:585:18)
+2026-03-26T19:59:16:     at next (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:226:15)
+2026-03-26T19:59:16:     at expressInit (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/middleware/init.js:40:5)
+2026-03-26T19:59:16:     at Layer.handle [as handle_request] (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/layer.js:95:5)
+2026-03-26T19:59:16:     at trim_prefix (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:328:13)
+2026-03-26T19:59:16:     at /home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:286:9
+2026-03-26T19:59:16:     at Function.process_params (/home/ubuntu/web3ite/node_modules/webpack-dev-server/node_modules/express/lib/router/index.js:346:12)
+2026-03-27T18:58:29: Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+2026-03-27T18:58:29:   npx update-browserslist-db@latest
+2026-03-27T18:58:29:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-03-27T18:58:30: (node:1677) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-03-27T18:58:30: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-03-27T18:58:30: (node:1677) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-03T16:42:39: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-03T16:42:39:   npx update-browserslist-db@latest
+2026-04-03T16:42:39:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-03T16:42:40: (node:1853) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-03T16:42:40: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-03T16:42:40: (node:1853) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:945:12
+2026-04-05T16:41:06: TS2552: Cannot find name 'walletCourseChapters'. Did you mean 'courseChapters'?
+2026-04-05T16:41:06:     943 |
+2026-04-05T16:41:06:     944 |         <div className="course-detail-grid wallet-course-grid">
+2026-04-05T16:41:06:   > 945 |           {walletCourseChapters.map(chapter => (
+2026-04-05T16:41:06:         |            ^^^^^^^^^^^^^^^^^^^^
+2026-04-05T16:41:06:     946 |             <div key={chapter.id} className="course-chapter-card">
+2026-04-05T16:41:06:     947 |               <div className="chapter-header">
+2026-04-05T16:41:06:     948 |                 <div className="chapter-icon-container">
+2026-04-05T16:41:06: 
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:945:37
+2026-04-05T16:41:06: TS7006: Parameter 'chapter' implicitly has an 'any' type.
+2026-04-05T16:41:06:     943 |
+2026-04-05T16:41:06:     944 |         <div className="course-detail-grid wallet-course-grid">
+2026-04-05T16:41:06:   > 945 |           {walletCourseChapters.map(chapter => (
+2026-04-05T16:41:06:         |                                     ^^^^^^^
+2026-04-05T16:41:06:     946 |             <div key={chapter.id} className="course-chapter-card">
+2026-04-05T16:41:06:     947 |               <div className="chapter-header">
+2026-04-05T16:41:06:     948 |                 <div className="chapter-icon-container">
+2026-04-05T16:41:06: 
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:961:46
+2026-04-05T16:41:06: TS7006: Parameter 'topic' implicitly has an 'any' type.
+2026-04-05T16:41:06:     959 |                 <div className="topics-column">
+2026-04-05T16:41:06:     960 |                   <ul className="chapter-topics">
+2026-04-05T16:41:06:   > 961 |                     {chapter.topicsLeft.map((topic, index) => (
+2026-04-05T16:41:06:         |                                              ^^^^^
+2026-04-05T16:41:06:     962 |                       <li key={index}>{topic}</li>
+2026-04-05T16:41:06:     963 |                     ))}
+2026-04-05T16:41:06:     964 |                   </ul>
+2026-04-05T16:41:06: 
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:961:53
+2026-04-05T16:41:06: TS7006: Parameter 'index' implicitly has an 'any' type.
+2026-04-05T16:41:06:     959 |                 <div className="topics-column">
+2026-04-05T16:41:06:     960 |                   <ul className="chapter-topics">
+2026-04-05T16:41:06:   > 961 |                     {chapter.topicsLeft.map((topic, index) => (
+2026-04-05T16:41:06:         |                                                     ^^^^^
+2026-04-05T16:41:06:     962 |                       <li key={index}>{topic}</li>
+2026-04-05T16:41:06:     963 |                     ))}
+2026-04-05T16:41:06:     964 |                   </ul>
+2026-04-05T16:41:06: 
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:968:47
+2026-04-05T16:41:06: TS7006: Parameter 'topic' implicitly has an 'any' type.
+2026-04-05T16:41:06:     966 |                 <div className="topics-column">
+2026-04-05T16:41:06:     967 |                   <ul className="chapter-topics">
+2026-04-05T16:41:06:   > 968 |                     {chapter.topicsRight.map((topic, index) => (
+2026-04-05T16:41:06:         |                                               ^^^^^
+2026-04-05T16:41:06:     969 |                       <li key={index}>{topic}</li>
+2026-04-05T16:41:06:     970 |                     ))}
+2026-04-05T16:41:06:     971 |                   </ul>
+2026-04-05T16:41:06: 
+2026-04-05T16:41:06: ERROR in src/components/CourseDetailSection.tsx:968:54
+2026-04-05T16:41:06: TS7006: Parameter 'index' implicitly has an 'any' type.
+2026-04-05T16:41:06:     966 |                 <div className="topics-column">
+2026-04-05T16:41:06:     967 |                   <ul className="chapter-topics">
+2026-04-05T16:41:06:   > 968 |                     {chapter.topicsRight.map((topic, index) => (
+2026-04-05T16:41:06:         |                                                      ^^^^^
+2026-04-05T16:41:06:     969 |                       <li key={index}>{topic}</li>
+2026-04-05T16:41:06:     970 |                     ))}
+2026-04-05T16:41:06:     971 |                   </ul>
+2026-04-05T16:41:06: 
+2026-04-09T01:18:33: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-09T01:18:33:   npx update-browserslist-db@latest
+2026-04-09T01:18:33:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-09T01:18:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T01:18:34: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-09T01:18:34: (node:1611) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T01:19:13: ERROR in src/App.tsx:12:31
+2026-04-09T01:19:13: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:19:13:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:19:13:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:19:13:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:19:13:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:19:13:     13 | import Footer from './components/Footer';
+2026-04-09T01:19:13:     14 |
+2026-04-09T01:19:13:     15 | function App() {
+2026-04-09T01:19:13: 
+2026-04-09T01:20:50: ERROR in src/App.tsx:12:31
+2026-04-09T01:20:50: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:20:50:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:20:50:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:20:50:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:20:50:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:20:50:     13 | import Footer from './components/Footer';
+2026-04-09T01:20:50:     14 |
+2026-04-09T01:20:50:     15 | function App() {
+2026-04-09T01:20:50: 
+2026-04-09T01:20:50: ERROR in src/App.tsx:12:31
+2026-04-09T01:20:50: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:20:50:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:20:50:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:20:50:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:20:50:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:20:50:     13 | import Footer from './components/Footer';
+2026-04-09T01:20:50:     14 |
+2026-04-09T01:20:50:     15 | function App() {
+2026-04-09T01:20:50: 
+2026-04-09T01:20:56: ERROR in src/App.tsx:12:31
+2026-04-09T01:20:56: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:20:56:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:20:56:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:20:56:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:20:56:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:20:56:     13 | import Footer from './components/Footer';
+2026-04-09T01:20:56:     14 |
+2026-04-09T01:20:56:     15 | function App() {
+2026-04-09T01:20:56: 
+2026-04-09T01:21:16: ERROR in src/App.tsx:12:31
+2026-04-09T01:21:16: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:21:16:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:21:16:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:21:16:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:21:16:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:21:16:     13 | import Footer from './components/Footer';
+2026-04-09T01:21:16:     14 |
+2026-04-09T01:21:16:     15 | function App() {
+2026-04-09T01:21:16: 
+2026-04-09T01:21:18: ERROR in src/App.tsx:12:31
+2026-04-09T01:21:18: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:21:18:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:21:18:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:21:18:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:21:18:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:21:18:     13 | import Footer from './components/Footer';
+2026-04-09T01:21:18:     14 |
+2026-04-09T01:21:18:     15 | function App() {
+2026-04-09T01:21:18: 
+2026-04-09T01:21:21: ERROR in src/App.tsx:12:31
+2026-04-09T01:21:21: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:21:21:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:21:21:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:21:21:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:21:21:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:21:21:     13 | import Footer from './components/Footer';
+2026-04-09T01:21:21:     14 |
+2026-04-09T01:21:21:     15 | function App() {
+2026-04-09T01:21:21: 
+2026-04-09T01:21:24: ERROR in src/App.tsx:12:31
+2026-04-09T01:21:24: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T01:21:24:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T01:21:24:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T01:21:24:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T01:21:24:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T01:21:24:     13 | import Footer from './components/Footer';
+2026-04-09T01:21:24:     14 |
+2026-04-09T01:21:24:     15 | function App() {
+2026-04-09T01:21:24: 
+2026-04-09T02:22:44: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-09T02:22:44:   npx update-browserslist-db@latest
+2026-04-09T02:22:44:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-09T02:22:45: (node:1636) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:22:45: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-09T02:22:45: (node:1636) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:22:52: ERROR in src/App.tsx:7:33
+2026-04-09T02:22:52: TS2307: Cannot find module './components/CourseDetailSection' or its corresponding type declarations.
+2026-04-09T02:22:52:      5 | import AboutInstructorSection from './components/AboutInstructorSection';
+2026-04-09T02:22:52:      6 | import FeaturesSection from './components/FeaturesSection';
+2026-04-09T02:22:52:   >  7 | import CourseDetailSection from './components/CourseDetailSection';
+2026-04-09T02:22:52:        |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:22:52:      8 | import CourseOutline from './components/CourseOutline';
+2026-04-09T02:22:52:      9 | import CertificateSection from './components/CertificateSection';
+2026-04-09T02:22:52:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:22:52: 
+2026-04-09T02:22:52: ERROR in src/App.tsx:12:31
+2026-04-09T02:22:52: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:22:52:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:22:52:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:22:52:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:22:52:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:22:52:     13 | import Footer from './components/Footer';
+2026-04-09T02:22:52:     14 |
+2026-04-09T02:22:52:     15 | function App() {
+2026-04-09T02:22:52: 
+2026-04-09T02:23:57: ERROR in src/App.tsx:12:31
+2026-04-09T02:23:57: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:23:57:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:23:57:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:23:57:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:23:57:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:23:57:     13 | import Footer from './components/Footer';
+2026-04-09T02:23:57:     14 |
+2026-04-09T02:23:57:     15 | function App() {
+2026-04-09T02:23:57: 
+2026-04-09T02:27:59: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-09T02:27:59:   npx update-browserslist-db@latest
+2026-04-09T02:27:59:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-09T02:28:00: (node:1681) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:28:00: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-09T02:28:00: (node:1681) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:30:08: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-09T02:30:08:   npx update-browserslist-db@latest
+2026-04-09T02:30:08:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-09T02:30:09: (node:1628) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:30:09: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-09T02:30:09: (node:1628) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-09T02:31:16: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:16: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:16:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:16:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:16:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:16:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:16:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:16:     14 |
+2026-04-09T02:31:16:     15 | function App() {
+2026-04-09T02:31:16: 
+2026-04-09T02:31:38: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:38: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:38:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:38:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:38:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:38:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:38:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:38:     14 |
+2026-04-09T02:31:38:     15 | function App() {
+2026-04-09T02:31:38: 
+2026-04-09T02:31:39: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:39: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:39:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:39:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:39:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:39:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:39:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:39:     14 |
+2026-04-09T02:31:39:     15 | function App() {
+2026-04-09T02:31:39: 
+2026-04-09T02:31:39: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:39: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:39:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:39:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:39:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:39:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:39:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:39:     14 |
+2026-04-09T02:31:39:     15 | function App() {
+2026-04-09T02:31:39: 
+2026-04-09T02:31:52: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:52: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:52:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:52:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:52:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:52:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:52:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:52:     14 |
+2026-04-09T02:31:52:     15 | function App() {
+2026-04-09T02:31:52: 
+2026-04-09T02:31:56: ERROR in src/App.tsx:12:31
+2026-04-09T02:31:56: TS2307: Cannot find module './components/LandedListSection' or its corresponding type declarations.
+2026-04-09T02:31:56:     10 | import CourseSchedule from './components/CourseSchedule';
+2026-04-09T02:31:56:     11 | import FaqSection from './components/FaqSection';
+2026-04-09T02:31:56:   > 12 | import LandedListSection from './components/LandedListSection';
+2026-04-09T02:31:56:        |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-09T02:31:56:     13 | import Footer from './components/Footer';
+2026-04-09T02:31:56:     14 |
+2026-04-09T02:31:56:     15 | function App() {
+2026-04-09T02:31:56: 
+2026-04-11T16:39:51: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-11T16:39:51:   npx update-browserslist-db@latest
+2026-04-11T16:39:51:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-11T16:39:52: (node:1772) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-11T16:39:52: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-11T16:39:52: (node:1772) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.

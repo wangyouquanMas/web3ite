@@ -3,6 +3,17 @@ import './CourseDetailSection.css';
 // Import the WeChat QR code image
 import wechatQrImage from '../assets/images/wechat.jpg';
 
+type CourseChapterCard = {
+  id: number;
+  title: string;
+  level: string;
+  description: string;
+  topicsLeft: string[];
+  topicsRight: string[];
+  duration: string;
+  icon: React.ReactNode;
+};
+
 const CourseDetailSection: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
 
@@ -14,7 +25,41 @@ const CourseDetailSection: React.FC = () => {
     setShowWechatModal(false);
   };
 
-  const courseChapters = [
+  const renderChapterGrid = (chapters: CourseChapterCard[]) => (
+    <div className="course-detail-grid">
+      {chapters.map((chapter) => (
+        <div key={chapter.id} className="course-chapter-card">
+          <div className="chapter-header">
+            <div className="chapter-icon-container">{chapter.icon}</div>
+            <div className="chapter-level">
+              <span className="level-badge">{chapter.level}</span>
+              <span className="duration">{chapter.duration}</span>
+            </div>
+          </div>
+          <h3>{chapter.title}</h3>
+          <p className="chapter-description">{chapter.description}</p>
+          <div className="chapter-topics-container">
+            <div className="topics-column">
+              <ul className="chapter-topics">
+                {chapter.topicsLeft.map((topic, index) => (
+                  <li key={index}>{topic}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="topics-column">
+              <ul className="chapter-topics">
+                {chapter.topicsRight.map((topic, index) => (
+                  <li key={index}>{topic}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
+  const courseChapters: CourseChapterCard[] = [
     {
       id: 1,
       title: '基础篇',
@@ -235,48 +280,221 @@ const CourseDetailSection: React.FC = () => {
     }
   ];
 
+  const pumpfunCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '模型与账户设计',
+      level: 'P0',
+      description: '理解 Pump 类发射台业务模型，梳理链上账户、PDA 与权限边界，为合约实现打地基',
+      topicsLeft: ['Bonding curve 与定价直觉', 'Mint / 迁移生命周期', '相关 Program 与账户关系'],
+      topicsRight: ['PDA 派生与种子设计', '权限与签名方梳理', '开发网环境与调试思路'],
+      duration: '1-2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 19h16M6 16l3-8 4 6 3-10 2 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 2,
+      title: '合约骨架与指令',
+      level: 'P1',
+      description: '从零搭建链上程序骨架，拆解核心指令与状态迁移，对齐官方/社区常见实现思路',
+      topicsLeft: ['项目结构与入口', '指令分发与反序列化', '错误码与可测试性'],
+      topicsRight: ['状态账户布局', '核心指令：创建 / 交易 / 迁移', '安全边界与断言'],
+      duration: '2-3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="2" />
+          <path d="M9 9h6v6H9z" stroke="currentColor" strokeWidth="2" />
+        </svg>
+      ),
+    },
+    {
+      id: 3,
+      title: '解析与数据面',
+      level: 'P1',
+      description: '把链上行为变成结构化事件：池创建、buy/sell、迁移等，服务索引与展示',
+      topicsLeft: ['日志与事件字段对齐', '解析 buy / sell / 池子创建', '元数据与补充数据源'],
+      topicsRight: ['与 DEX 解析的异同', '失败与重组场景', '对账与回放'],
+      duration: '1-2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" stroke="currentColor" strokeWidth="2" />
+          <path d="M14 2v6h6M8 13h8M8 17h8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 4,
+      title: 'Swap 构造与对接',
+      level: 'P2',
+      description: '掌握 Pumpfun Swap 相关交易构造与解析，并能接入聚合/路由层调用路径',
+      topicsLeft: ['账户列表与依赖', '滑点与最小输出', '与常见路由参数对齐'],
+      topicsRight: ['构造失败排查', '解析回填业务模型', '和聚合器联调要点'],
+      duration: '2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 16V4M7 4L3 8M7 4l4 4M17 8v12M17 20l4-4M17 20l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: '测试、部署与观测',
+      level: 'P2',
+      description: '从本地单测到开发网部署，建立日志与指标，保障迭代效率',
+      topicsLeft: ['单元与集成测试策略', '开发网部署与升级注意点', '常见坑与排障清单'],
+      topicsRight: ['模拟交易与快照', '监控指标建议', '版本兼容与依赖管理'],
+      duration: '1-2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 6,
+      title: '综合实战',
+      level: 'P3',
+      description: '串联「合约 + 解析 + Swap」形成可演示的最小产品闭环，贴近真实交付节奏',
+      topicsLeft: ['里程碑拆分与验收标准', '接口与文档化', '性能与成本粗估'],
+      topicsRight: ['安全自查清单', '扩展：多环境/多版本', '简历与面试可讲亮点'],
+      duration: '2-3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2l7 4v6c0 5-3 9-7 10-4-1-7-5-7-10V6l7-4z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+          <path d="M9 12l2 2 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+  ];
+
+  const routerCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '路由问题抽象',
+      level: 'R0',
+      description: '把「用户要换币」抽象成可计算的报价与路径问题，明确链上约束与产品目标',
+      topicsLeft: ['询价 / 报价 / 成交链路', '多池并存的组合爆炸', '链上确认与最终性'],
+      topicsRight: ['成功率与体验指标', '与钱包、节点交互边界', '需求到接口的拆解'],
+      duration: '1周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2" />
+          <path d="M12 7v5l3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 2,
+      title: '报价与路径搜索',
+      level: 'R1',
+      description: '实现多跳、拆单、限额下的路径搜索与剪枝，平衡精度与延迟',
+      topicsLeft: ['图模型与中间代币', '剪枝与启发式', '拆单与深度约束'],
+      topicsRight: ['数值精度与舍入', '缓存与增量更新', '最坏情况降级策略'],
+      duration: '2-3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 12h4l2-6 4 12 2-6h4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 3,
+      title: '滑点、风控与回滚',
+      level: 'R1',
+      description: '把最小输出、限额、失败回滚和产品提示串成一致的风控层',
+      topicsLeft: ['minOut / deadline 语义', '部分成交与重试', '用户可见错误归因'],
+      topicsRight: ['模拟与预检（simulate）', '黑名单与熔断', '日志与告警'],
+      duration: '1-2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3v18M5 9l7-6 7 6M5 15l7 6 7-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 4,
+      title: '链下服务与多链适配',
+      level: 'R2',
+      description: '搭建 Quote / Route API，抽象 Solana 与 EVM 等异构链的适配层',
+      topicsLeft: ['服务分层与依赖注入', '限流、鉴权与配额', '配置与多环境'],
+      topicsRight: ['EVM 路由差异点', 'Solana 账户模型对接', '协议升级与兼容策略'],
+      duration: '2-3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6h16M4 12h10M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: '数据、回放与压测',
+      level: 'R2',
+      description: '用真实流量样本验证路由质量，建立回归集与压测基线',
+      topicsLeft: ['录制与回放工具链', '关键指标：延迟、命中率', 'Diff 与回归门禁'],
+      topicsRight: ['影子流量与灰度', '容量规划粗算', '事故演练与复盘模板'],
+      duration: '1-2周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 3v18h18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M7 14l4-4 3 3 5-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 6,
+      title: '项目集成与交付',
+      level: 'R3',
+      description: '与现有 DEX/钱包/前端串联，完成从设计文档到可上线模块的交付闭环',
+      topicsLeft: ['API 契约与版本化', '联调清单与里程碑', '文档与运维交接'],
+      topicsRight: ['面试：如何讲清路由架构', '扩展：MEV / 私有 RPC', '简历项目描述模板'],
+      duration: '2-3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 21h8M12 17v4M6 8l6-5 6 5v8a2 2 0 01-2 2H8a2 2 0 01-2-2V8z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+  ];
+
   return (
     <div>
       <section id="course-detail" className="course-detail">
         <div className="section-header">
-          <h2>课表详情</h2>
-          <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的Web3开发学习路径</p>
+          <h2>DEX 聚合器 · 课表详情</h2>
+          <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的 Web3 开发学习路径</p>
         </div>
-        <div className="course-detail-grid">
-          {courseChapters.map(chapter => (
-            <div key={chapter.id} className="course-chapter-card">
-              <div className="chapter-header">
-                <div className="chapter-icon-container">
-                  {chapter.icon}
-                </div>
-                <div className="chapter-level">
-                  <span className="level-badge">{chapter.level}</span>
-                  <span className="duration">{chapter.duration}</span>
-                </div>
-              </div>
-              <h3>{chapter.title}</h3>
-              <p className="chapter-description">{chapter.description}</p>
-              <div className="chapter-topics-container">
-                <div className="topics-column">
-                  <ul className="chapter-topics">
-                    {chapter.topicsLeft.map((topic, index) => (
-                      <li key={index}>{topic}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="topics-column">
-                  <ul className="chapter-topics">
-                    {chapter.topicsRight.map((topic, index) => (
-                      <li key={index}>{topic}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        {renderChapterGrid(courseChapters)}
         <div className="course-detail-cta">
           <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
+        </div>
+      </section>
+
+      <section id="pumpfun-course-detail" className="course-detail course-detail-pumpfun">
+        <div className="section-header">
+          <h2>Pumpfun 合约 · 从零到一</h2>
+          <p>
+            面向<span className="highlight-pumpfun">Solana 发射台类业务</span>，覆盖合约、解析与 Swap 对接，与「Web3 实战+合约开发」套餐内容对齐
+          </p>
+        </div>
+        {renderChapterGrid(pumpfunCourseChapters)}
+        <div className="course-detail-cta course-detail-cta-pumpfun">
+          <button className="btn primary" onClick={openWechatModal}>咨询 Pumpfun 专项</button>
+        </div>
+      </section>
+
+      <section id="router-course-detail" className="course-detail course-detail-router">
+        <div className="section-header">
+          <h2>Router 路由聚合器 · 实战项目</h2>
+          <p>
+            聚焦<span className="highlight-router">链下报价与路径</span>、多协议适配与工程化交付，与含「路由聚合器」套餐能力对应
+          </p>
+        </div>
+        {renderChapterGrid(routerCourseChapters)}
+        <div className="course-detail-cta course-detail-cta-router">
+          <button className="btn primary" onClick={openWechatModal}>咨询路由专项</button>
         </div>
       </section>
 

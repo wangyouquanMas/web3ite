@@ -49,6 +49,72 @@
   margin: 0 auto;
 }
 
+.social-connect {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: -0.5rem auto 2.75rem;
+  text-align: center;
+}
+
+.social-connect-intro {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #8b95a8;
+}
+
+.social-link-bilibili {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.35rem;
+  border-radius: 999px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #fb7299 0%, #ff85a7 50%, #fb7299 100%);
+  box-shadow: 0 4px 18px rgba(251, 114, 153, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.social-link-bilibili:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 26px rgba(251, 114, 153, 0.45);
+  filter: brightness(1.05);
+}
+
+.social-link-bilibili:focus-visible {
+  outline: 2px solid #14f195;
+  outline-offset: 3px;
+}
+
+.social-link-icon {
+  display: flex;
+  flex-shrink: 0;
+  opacity: 0.95;
+}
+
+.social-link-text {
+  letter-spacing: 0.02em;
+}
+
+.social-link-arrow {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+  .social-link-bilibili {
+    flex-wrap: wrap;
+    padding: 0.6rem 1rem;
+    font-size: 0.92rem;
+  }
+}
+
 .highlight {
   color: #14F195;
   font-weight: 600;

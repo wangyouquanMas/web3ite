@@ -9,6 +9,7 @@ import CourseOutline from './components/CourseOutline';
 import CertificateSection from './components/CertificateSection';
 import CourseSchedule from './components/CourseSchedule';
 import FaqSection from './components/FaqSection';
+import LandedListSection from './components/LandedListSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <CourseSchedule />
         <AboutInstructorSection />
         <FaqSection />
+        <LandedListSection />
       </main>
       <Footer />
     </div>

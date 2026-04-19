@@ -1,74 +1,101 @@
 import React, { useState } from 'react';
 import './CourseSchedule.css';
-// Import the WeChat QR code image
 import wechatQrImage from '../assets/images/wechat.jpg';
+
+type PricingPlan = {
+  id: number;
+  name: string;
+  priceUSDT: number;
+  discount?: number;
+  description: React.ReactNode;
+  badge?: string;
+  features: Array<string | React.ReactNode>;
+};
 
 const CourseSchedule: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
-  
-  const batches = [
-    { id: 1, date: '2025年2月15日', slots: { total: 10, filled: 10 }, isFull: true },
-    { id: 2, date: '2025年5月15日', slots: { total: 10, filled: 7 }, isFull: false },
-    { id: 3, date: '2025年8月15日', slots: { total: 10, filled: 0 }, isFull: false },
-    { id: 4, date: '2025年11月15日', slots: { total: 10, filled: 0 }, isFull: false },
-  ];
 
-  const openWechatModal = () => {
-    setShowWechatModal(true);
-  };
+  const openWechatModal = () => setShowWechatModal(true);
+  const closeWechatModal = () => setShowWechatModal(false);
 
-  const closeWechatModal = () => {
-    setShowWechatModal(false);
-  };
-
-  const pricingPlans = [
+  const pricingPlans: PricingPlan[] = [
     {
       id: 1,
-      name: 'Web3实战开发(一年交付版)',
-      priceUSDT: 299,
-      description: '快速入门Solana生态',
-      badge: '',
-      features: [
-        '1次答疑服务',
-        'web3基础入门教程',
-        'Web3实战内容每周定期交付(一年交付完毕)',
-        '更适合在校学生群体~'
-      ]
-    },
-    {
-        id: 2,
-        name: 'Web3实战开发(实时交付)',
-      priceUSDT: 649,
-      description: '从零到一完整项目实战[]',
+      name: 'Web3实战开发',
+      priceUSDT: 1018,
+      discount: 0.5,
+      description: '从零到一完整项目实战',
       badge: '最受欢迎',
       features: [
-        '包含基础知识包所有内容',
-        '100+ 节精品视频课程',
+        'DEX聚合器100+ 节精品视频课程',
         '课后实践加答案解析',
         '学习群答疑服务',
         '生产级项目实战',
-        '无限次重复学习'
-      ]
+        '大量真实面经',
+        '简历修改',
+        '专属社区(实时交流)',
+      ],
+    },
+    {
+      id: 2,
+      name: 'Web3实战+合约开发',
+      priceUSDT: 1258,
+      discount: 0.5,
+      description: '从零到一完整项目实战',
+      badge: '最受欢迎',
+      features: [
+        'DEX聚合器100+ 节精品视频课程',
+        'Pumpfun合约从零到一实现',
+        'EVM(ETH/BASE/BSC)全系列解析实战',
+        '课后实践加答案解析',
+        '学习群答疑服务',
+        '生产级项目实战',
+        '大量真实面经',
+        '简历修改',
+        '专属社区(实时交流)',
+      ],
     },
     {
       id: 3,
+      name: 'Web3实战+合约开发+路由聚合器开发',
+      priceUSDT: 1498,
+      discount: 0.5,
+      description: '实战、合约与链下路由聚合一站式',
+      badge: '含路由专项',
+      features: [
+        'DEX聚合器100+ 节精品视频课程',
+        'Pumpfun合约从零到一实现',
+        'EVM(ETH/BASE/BSC)全系列解析实战',
+        'Router 路由聚合器实战项目',
+        '课后实践加答案解析',
+        '学习群答疑服务',
+        '生产级项目实战',
+        '大量真实面经',
+        '简历修改',
+        '专属社区(实时交流)',
+      ],
+    },
+    {
+      id: 4,
       name: '全流程VIP陪跑',
-      priceUSDT: 1649,
-      description: '一对一全程指导',
+      priceUSDT: 2449,
+      description: <span className="price-highlight-text">一对一全程指导</span>,
       badge: 'VIP专享',
       features: [
         '个性化学习路径规划',
         '包含实战开发全部内容',
+        'EVM全系列解析实战',
+        '合约开发实战',
+        'Router 路由聚合器实战项目',
         '1对1简历优化 + 求职指导',
         '模拟面试',
-        'EVM全系列解析实战',
         '面试复盘(持续跟踪)',
         '英语口语学习路径规划',
-        '每周1次1h,1v1进度跟踪及复盘',
-        '试用期指导',
-        '持续6个月跟踪服务'
-      ]
-    }
+        <span key="vip-meetings" className="price-highlight-text">每周3-4次,1v1会议，进度跟踪及复盘</span>,
+        <span key="vip-probation" className="price-highlight-text">试用期指导</span>,
+        '持续6个月跟踪服务',
+      ],
+    },
   ];
 
   return (
@@ -79,14 +106,38 @@ const CourseSchedule: React.FC = () => {
           <h2>课程费用</h2>
           <p>选择适合您的学习方案，开启Web3开发之旅</p>
         </div>
+        <p className="fee-pricing-policy">
+          为了给大家提供更高性价比的内容体验，同时为了打击盗版，<strong>所有内容全部五折</strong>
+          ；同时<strong>可免费进入付费社群</strong>，享 <strong>1 年</strong>权益
+          <span className="fee-note-highlight">（现价 999）</span>。
+        </p>
         <div className="fee-container">
-          {pricingPlans.map(plan => (
+          {pricingPlans.map((plan) => (
             <div key={plan.id} className={`price-card ${plan.badge === '最佳选择' ? 'featured' : ''}`}>
               {plan.badge && <div className="price-badge">{plan.badge}</div>}
               <h3>{plan.name}</h3>
               <div className="price">
-                <span className="amount">{plan.priceUSDT}</span>
-                <span className="currency">USDT</span>
+                {plan.discount != null && plan.discount < 1 ? (
+                  <>
+                    <div className="price-discount-line">
+                      <span className="price-zhe-badge">{Math.round(plan.discount * 10)}折</span>
+                    </div>
+                    <div className="price-row price-row--sale">
+                      <span className="amount">{Math.round(plan.priceUSDT * plan.discount)}</span>
+                      <span className="currency">USDT</span>
+                    </div>
+                    <div className="price-row price-row--original">
+                      <span className="price-original-label">原价</span>
+                      <span className="price-original-value">{plan.priceUSDT}</span>
+                      <span className="currency currency--muted">USDT</span>
+                    </div>
+                  </>
+                ) : (
+                  <div className="price-row price-row--sale">
+                    <span className="amount">{plan.priceUSDT}</span>
+                    <span className="currency">USDT</span>
+                  </div>
+                )}
               </div>
               <p className="price-description">{plan.description}</p>
               <ul className="price-features">
@@ -94,80 +145,32 @@ const CourseSchedule: React.FC = () => {
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
-              <button className="btn primary" onClick={openWechatModal}>咨询详情</button>
+              <button type="button" className="btn primary" onClick={openWechatModal}>
+                咨询详情
+              </button>
             </div>
           ))}
         </div>
+
         <div className="section-transition-bottom"></div>
       </section>
 
-      {/* Wechat Modal */}
       {showWechatModal && (
         <div className="wechat-modal-overlay" onClick={closeWechatModal}>
           <div className="wechat-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-modal-btn" onClick={closeWechatModal}>×</button>
+            <button type="button" className="close-modal-btn" onClick={closeWechatModal}>
+              ×
+            </button>
             <h3>扫描二维码联系我们</h3>
             <div className="wechat-qr-container">
-              <img 
-                src={wechatQrImage} 
-                alt="微信二维码" 
-                className="wechat-qr-image" 
-              />
+              <img src={wechatQrImage} alt="微信二维码" className="wechat-qr-image" />
             </div>
             <p>请扫描上方二维码添加up微信</p>
           </div>
         </div>
       )}
-
-      {/* 
-      <section id="schedule" className="course-schedule">
-        <div className="section-transition-top"></div>
-        <div className="section-header">
-          <h2>开班信息</h2>
-          <p>选择适合您的课程批次，开始您的Solana开发之旅</p>
-        </div>
-        <div className="schedule-container">
-          <div className="batches">
-            {batches.map(batch => (
-              <div key={batch.id} className={`batch-card ${batch.isFull ? 'full' : ''}`}>
-                <div className="batch-header">
-                  <h3>第{batch.id}期</h3>
-                  {batch.isFull && <span className="batch-status full">已满</span>}
-                  {!batch.isFull && batch.slots.filled > 0 && (
-                    <span className="batch-status available">招生中</span>
-                  )}
-                  {batch.slots.filled === 0 && (
-                    <span className="batch-status new">未开放</span>
-                  )}
-                </div>
-                <div className="batch-details">
-                  <div className="batch-date">
-                    <strong>开班日期:</strong> {batch.date}
-                  </div>
-                  <div className="batch-slots">
-                    <strong>名额:</strong> {batch.slots.filled}/{batch.slots.total}
-                    <div className="progress-bar">
-                      <div 
-                        className="progress" 
-                        style={{ width: `${(batch.slots.filled / batch.slots.total) * 100}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                </div>
-                <button 
-                  className={`btn ${batch.isFull ? 'disabled' : 'primary'}`}
-                  disabled={batch.isFull}
-                >
-                  {batch.isFull ? '名额已满' : '申请报名'}
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="section-transition-bottom"></div>
-      </section> */}
     </div>
   );
 };
 
-export default CourseSchedule; 
+export default CourseSchedule;

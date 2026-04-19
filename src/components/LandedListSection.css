@@ -1,0 +1,310 @@
+.landed-list {
+  padding: 4rem 2rem;
+  background-color: #131b2c;
+  background-image: linear-gradient(to bottom, #0C111B 0%, #131b2c 15%, #131b2c 85%, #0C111B 100%);
+  position: relative;
+  overflow: hidden;
+  margin-top: -1px; /* Eliminate any gap between sections */
+}
+
+.landed-list::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  background: radial-gradient(circle at center, rgba(20, 241, 149, 0.03) 0%, rgba(0, 0, 0, 0) 70%);
+  z-index: 0;
+  animation: pulse-bg 10s ease-in-out infinite alternate;
+}
+
+/* Section transition elements */
+.landed-list .section-transition-top {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(153, 69, 255, 0.3), transparent);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.landed-list .section-transition-bottom {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, rgba(153, 69, 255, 0.3), transparent);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.landed-list .section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.landed-list .section-header h2 {
+  color: white;
+  text-shadow: 0 0 20px rgba(153, 69, 255, 0.3);
+  background: linear-gradient(to right, #ffffff, #9945FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.landed-list .section-header p {
+  color: #9BA5B7;
+  font-size: 1.1rem;
+}
+
+.landed-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* 统一：每行 3 列，缩略图固定高度，说明区最小高度对齐 */
+.screenshots-grid {
+  --landed-thumb-h: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1.25rem;
+  padding: 1rem 0;
+  align-items: stretch;
+}
+
+.screenshot-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(145deg, #131b2c, #0e1520);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.screenshot-card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3), 0 0 15px rgba(153, 69, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.screenshot-image-wrapper {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+  height: var(--landed-thumb-h);
+  overflow: hidden;
+  cursor: pointer;
+  background: #0a0f18;
+}
+
+button.screenshot-image-wrapper {
+  border: none;
+  padding: 0;
+  background: #0a0f18;
+  font: inherit;
+  color: inherit;
+  display: block;
+  text-align: left;
+}
+
+button.screenshot-image-wrapper:disabled {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+button.screenshot-image-wrapper:focus-visible {
+  outline: 2px solid rgba(153, 69, 255, 0.7);
+  outline-offset: 2px;
+}
+
+.screenshot-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.35s ease;
+}
+
+.screenshot-image-wrapper:hover:not(:disabled) .screenshot-image {
+  transform: scale(1.04);
+}
+
+.screenshot-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  color: #9BA5B7;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  background: rgba(13, 19, 32, 0.92);
+}
+
+.screenshot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+
+.screenshot-image-wrapper:hover:not(:disabled) .screenshot-overlay {
+  opacity: 1;
+}
+
+.view-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.view-text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.screenshot-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.25rem;
+  padding: 0.875rem 1rem;
+  background: rgba(10, 15, 24, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.screenshot-description p {
+  margin: 0;
+  color: #b8c0cc;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+/* Image Modal */
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, color 0.3s ease;
+  z-index: 1001;
+}
+
+.close-modal-btn:hover {
+  transform: rotate(90deg);
+  color: #9945FF;
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1100px) {
+  .screenshots-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .landed-list {
+    padding: 3rem 1rem;
+  }
+
+  .landed-list .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .screenshots-grid {
+    --landed-thumb-h: 260px;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .screenshot-description {
+    min-height: 3.75rem;
+  }
+
+  .image-modal-content {
+    max-width: 95%;
+  }
+
+  .close-modal-btn {
+    top: -35px;
+    font-size: 2.5rem;
+  }
+}

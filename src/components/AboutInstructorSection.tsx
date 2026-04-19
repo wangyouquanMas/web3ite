@@ -38,6 +38,25 @@ const AboutInstructorSection: React.FC = () => {
         <h2>关于我</h2>
         <p>一个<span className="highlight">普通人</span>的Web3开发之路，从传统互联网到区块链的<span className="highlight">全栈实践</span></p>
       </div>
+
+      <div className="social-connect" aria-label="社交账号">
+        <p className="social-connect-intro">欢迎在 B 站关注我，看更多更新与分享。</p>
+        <a
+          className="social-link social-link-bilibili"
+          href="https://b23.tv/AdjkDVI"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="social-link-icon" aria-hidden>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6.5A2.5 2.5 0 016.5 4h11A2.5 2.5 0 0120 6.5v11A2.5 2.5 0 0117.5 20h-11A2.5 2.5 0 014 17.5v-11z" stroke="currentColor" strokeWidth="1.75" />
+              <path d="M10.25 9.5L15 12l-4.75 2.5V9.5z" fill="currentColor" />
+            </svg>
+          </span>
+          <span className="social-link-text">B站：不用早起的流浪蛙</span>
+          <span className="social-link-arrow" aria-hidden>↗</span>
+        </a>
+      </div>
       
       <div className="instructor-content">
 

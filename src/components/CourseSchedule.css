@@ -67,13 +67,37 @@
 
 .fee-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 0;
   position: relative;
   z-index: 1;
+}
+
+@media (max-width: 1200px) {
+  .fee-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.fee-pricing-policy {
+  position: relative;
+  z-index: 1;
+  max-width: 920px;
+  margin: -1.5rem auto 0;
+  padding: 0 1.25rem 1.75rem;
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: #9BA5B7;
+}
+
+.fee-pricing-policy strong,
+.fee-pricing-policy .fee-note-highlight {
+  color: #c4cbd6;
+  font-weight: 600;
 }
 
 .price-card {
@@ -153,6 +177,56 @@
   margin-bottom: 1rem;
 }
 
+.price-discount-line {
+  margin-bottom: 0.35rem;
+}
+
+.price-zhe-badge {
+  display: inline-block;
+  background: linear-gradient(90deg, rgba(239, 68, 68, 0.95), rgba(249, 115, 22, 0.95));
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(239, 68, 68, 0.35);
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.price-row--sale {
+  margin-bottom: 0.35rem;
+}
+
+.price-row--original {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.price-original-label {
+  color: #7c8a9e;
+  font-size: 0.85rem;
+  margin-right: 0.25rem;
+}
+
+.price-original-value {
+  color: #9BA5B7;
+  text-decoration: line-through;
+  text-decoration-color: rgba(155, 165, 183, 0.7);
+}
+
+.currency--muted {
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+}
+
 .amount {
   font-size: 3rem;
   font-weight: bold;
@@ -164,6 +238,14 @@
   font-size: 1.2rem;
   color: #9BA5B7;
   margin-left: 0.5rem;
+}
+
+.price-highlight-text {
+  background: linear-gradient(90deg, #14F195, #9945FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
 }
 
 .price-rmb {
@@ -423,6 +505,13 @@
 @media (max-width: 768px) {
   .course-fee, .course-schedule {
     padding: 3rem 1rem;
+  }
+
+  .fee-pricing-policy {
+    font-size: 0.92rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: -1rem;
   }
   
   .fee-container {
