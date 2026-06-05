@@ -16,6 +16,7 @@ type CourseChapterCard = {
 
 const CourseDetailSection: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
+  const [activeCourse, setActiveCourse] = useState('dex');
 
   const openWechatModal = () => {
     setShowWechatModal(true);
@@ -608,53 +609,319 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
+  const predictionMarketCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '导论与 EVM 基础',
+      level: 'L0',
+      description:
+        '架构全景 + EVM 基础：从账户、Gas 到 ERC20 / ERC1155 与事件，搭好链上预测市场全栈的地基。',
+      topicsLeft: [
+        '你要造什么：BTC 涨跌 + 通用 YES/NO 预测市场',
+        '架构全景：前端 → 后端/撮合 → 合约/链',
+        '账户、交易、Nonce、Gas、区块',
+        'EOA vs 合约账户（埋点 EIP-7702 智能账户）',
+        'EVM 执行模型、revert 与自定义错误',
+      ],
+      topicsRight: [
+        'ERC20 抵押币（USDT）',
+        'ERC1155 多代币：为什么预测市场用它',
+        '事件(Event/Log)与链上索引',
+        '开发环境：Hardhat / Postgres / Redis / 水龙头',
+        '实验：手写并部署一个最小 ERC1155',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 22V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 2,
+      title: '合约①：AMM 预测市场',
+      level: 'L1',
+      description:
+        'KurokageXMarket.sol：FPMM 定价、买卖曲线、parimutuel 结算与 UUPS 可升级合约，真实部署到 Sepolia。',
+      topicsLeft: [
+        'FPMM 定价：yesPrice = noReserve/(yes+no)',
+        '为什么 YES + NO ≡ 1',
+        '买入/卖出：恒定乘积、滑点、手续费',
+        '储备地板 reserve floor',
+        'parimutuel 结算：赢家按份额瓜分整池',
+      ],
+      topicsRight: [
+        '市场状态机 Pending→Active→Closed→Resolved',
+        'ERC1155 抵押、铸造与 claim 领取',
+        'UUPS 可升级 + 访问控制',
+        'Hardhat 编译 / 部署 / Sepolia 实战',
+        '实验：开盘→买卖→结算→领取闭环验证',
+      ],
+      duration: '3～4周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 3V21H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M7 14C9 9 11 9 13 12C15 15 17 13 19 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 3,
+      title: '合约②：CLOB 订单簿引擎',
+      level: 'L1',
+      description:
+        'ConditionalTokens 与 OutcomeExchange：1:1 固定赔付、EIP-712 链下签名限价单、链上撮合成交，不托管资金。',
+      topicsLeft: [
+        '为什么 CLOB 需要 1:1 ConditionalTokens',
+        'split / merge：1 USDC ⇄ 1 YES + 1 NO',
+        'OutcomeExchange.fillOrder 链上撮合',
+        'EIP-712 签名限价单：maker 链下签',
+      ],
+      topicsRight: [
+        'taker 链上吃单、资金不托管',
+        'AMM vs CLOB 全面对比',
+        '流动性、价格发现、滑点、对手方',
+        '实验：签限价单 → 脚本 fill → 校验代币转移',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 16V4M7 4L3 8M7 4l4 4M17 8v12M17 20l4-4M17 20l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 4,
+      title: '合约安全与测试',
+      level: 'L2',
+      description:
+        '单元 / 集成 / Fork / 不变量 / 模糊测试一套打通，复盘真实漏洞与状态机非法转移。',
+      topicsLeft: [
+        '测试方法论：单元、集成、Fork、不变量',
+        '重入攻击与防御 nonReentrant',
+        '抵押不变量：池子守恒、totalCollateral 一致',
+        'Fork 测试：在真实链状态上测试',
+      ],
+      topicsRight: [
+        '状态机非法转移、边界与权限测试',
+        '真实漏洞：EIP-7702 智能账户无法收 ERC1155',
+        '覆盖率、Gas 报告、EVM 漏洞清单',
+        '实验：跑通测试套件并补一条非法转移用例',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L4 5V11C4 16 7.5 20.5 12 22C16.5 20.5 20 16 20 11V5L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: '后端：API · 索引器 · Workers',
+      level: 'L2',
+      description:
+        'KuroKageX-Backend：Fastify + Prisma + Redis，链上事件索引、自动开盘/结算与多方式鉴权。',
+      topicsLeft: [
+        'Fastify + Prisma(Postgres) + Redis 工程骨架',
+        'Zod 配置校验与密钥管理',
+        '链上事件索引器：区块扫描 + WS 订阅',
+        '幂等与链↔库一致性（真实坑：反向区间崩溃）',
+      ],
+      topicsRight: [
+        'BullMQ Workers：价格流/自动开盘/自动结算',
+        '鉴权：JWT(ES256) · SIWE 钱包登录 · OAuth',
+        '托管钱包、加密密钥、relayer 代付',
+        '实验：触发一次自动开盘，索引器写库',
+      ],
+      duration: '3～4周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="4" width="18" height="6" rx="1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <rect x="3" y="14" width="18" height="6" rx="1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M7 7H7.01M7 17H7.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 6,
+      title: '撮合服务 + 前端 DApp',
+      level: 'L2',
+      description:
+        'CLOB Operator 撮合器（不托管资金）+ Next.js Polymarket 风格 DApp：交易面板、组合 P&L、订单簿。',
+      topicsLeft: [
+        '撮合器：订单 API + 聚合盘口 + WS 推送',
+        '价格-时间优先撮合、EIP-712 验签',
+        '多钱包发现 EIP-6963、连接/切换/退出',
+        'EIP-7702 智能账户识别与护栏',
+      ],
+      topicsRight: [
+        '交易面板：Buy/Sell、分价、滑点、To win 预览',
+        '组合与 P&L：Won/Lost 语义（对冲亏损坑）',
+        '订单簿 UI、最近成交、WebSocket',
+        'Polymarket 风格 UI 重构 + 限流分批加载',
+      ],
+      duration: '3～4周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="20" height="13" rx="2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M8 21H16M12 17V21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 7,
+      title: '部署上线 · 可观测 · Capstone',
+      level: 'L3',
+      description:
+        'Vercel + Railway + Docker 全站上线，k6 压测与混沌注入，最后独立交付一个端到端新特性。',
+      topicsLeft: [
+        '拓扑：Vercel(前端) + Railway(后端/撮合/PG/Redis)',
+        'Docker 化后端：Prisma 引擎与 OpenSSL',
+        '跨站打通：CORS + SameSite=None + OAuth 回调',
+        '排障实录：镜像 / RPC / 启动命令连环故障',
+      ],
+      topicsRight: [
+        'k6 负载测试给 API / 撮合压测',
+        '混沌 / 故障注入：RPC 抖动下的韧性',
+        '公共 RPC vs 付费 RPC、filter 不稳定根治',
+        'Capstone：设计→合约/后端/前端→测试→上线',
+      ],
+      duration: '2～3周',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 15C3 17 3 21 3 21C3 21 7 21 9 19C10 18 10 16.5 9.5 15.5C9 14.5 7 14 5 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 15L7 13C8 9 11 5 18 4C19 8 17 12 14 14L12 16L9 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="14.5" cy="8.5" r="1.5" stroke="currentColor" strokeWidth="2" />
+        </svg>
+      ),
+    },
+  ];
+
+  type CourseTab = {
+    id: string;
+    tab: string;
+    badge?: string;
+    panelClass: string;
+    gridClass?: string;
+    title: string;
+    subtitle: React.ReactNode;
+    valueProp: React.ReactNode;
+    chapters: CourseChapterCard[];
+  };
+
+  const courses: CourseTab[] = [
+    {
+      id: 'dex',
+      tab: 'DEX 聚合器',
+      panelClass: '',
+      title: 'DEX 聚合器 · 课表详情',
+      subtitle: (
+        <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的 Web3 开发学习路径</p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">实现一个类似 gmgn.ai 的项目，包含所有核心功能，岗位量大。</p>
+      ),
+      chapters: courseChapters,
+    },
+    {
+      id: 'pumpfun',
+      tab: 'Pumpfun 合约',
+      panelClass: 'pumpfun-course-detail',
+      gridClass: 'pumpfun-course-grid',
+      title: 'Pumpfun Program · 课表详情',
+      subtitle: (
+        <p>
+          围绕 <span className="highlight">pumpfun_program/lessons</span>，从 <span className="highlight">Rust / Anchor</span> 到{' '}
+          <span className="highlight">bonding curve、swap、migration（Meteora）</span> 完整链路；文档为主，配合录播与命令示例，强调能读源码、理解设计、完成关键指令与调试。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">实现一个类似 pump.fun 的项目，面试亮点。</p>
+      ),
+      chapters: pumpfunCourseChapters,
+    },
+    {
+      id: 'router',
+      tab: 'Router 路由',
+      panelClass: 'router-course-detail',
+      gridClass: 'router-course-grid',
+      title: 'Router 实战项目 · 课表详情',
+      subtitle: (
+        <p>
+          面向 <span className="highlight">DEX 聚合</span> 场景，从 <span className="highlight">流动性图建模、路径缓存、多池报价</span> 到{' '}
+          <span className="highlight">可证明复杂度的路由核心</span>，贯通工程实现与算法理论（L0 基础 → L1 核心 → L2 实战 → L3 综合）。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          实现类似 Uniswap Swap / jup.ag 的项目，支持最佳路径报价 <strong className="course-detail-value-prop-emphasis">【面试核心亮点】</strong>
+        </p>
+      ),
+      chapters: routerCourseChapters,
+    },
+    {
+      id: 'evm',
+      tab: '预测市场 (EVM)',
+      badge: 'NEW',
+      panelClass: 'prediction-market-course-detail',
+      gridClass: 'prediction-market-course-grid',
+      title: '预测市场（EVM）· 课表详情',
+      subtitle: (
+        <p>
+          一套 <span className="highlight">真实部署、真实可交易</span> 的链上预测市场：从{' '}
+          <span className="highlight">智能合约（AMM + CLOB 两套引擎）</span> 到{' '}
+          <span className="highlight">后端基建、撮合服务、前端 DApp 与上线运维</span> 的完整全栈链路。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          实现一个类似 Polymarket 的预测市场，跑在 Sepolia 测试网、公网可访问可交易{' '}
+          <strong className="course-detail-value-prop-emphasis">【面试核心亮点】</strong>
+        </p>
+      ),
+      chapters: predictionMarketCourseChapters,
+    },
+  ];
+
+  const active = courses.find((c) => c.id === activeCourse) ?? courses[0];
+
   return (
     <div>
-      <section id="course-detail" className="course-detail">
-        <div className="section-header">
-          <h2>DEX 聚合器 · 课表详情</h2>
-          <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的 Web3 开发学习路径</p>
-          <p className="course-detail-value-prop">
-            实现一个类似 gmgn.ai 的项目，包含所有核心功能，岗位量大。
-          </p>
+      <section id="course-detail" className="course-detail course-detail--tabbed">
+        <div className="section-header course-detail-intro">
+          <h2>课表详情</h2>
+          <p>四大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
-        {renderChapterGrid(courseChapters)}
-        <div className="course-detail-cta">
-          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
-        </div>
-      </section>
 
-      <section id="pumpfun-course-detail" className="course-detail pumpfun-course-detail">
-        <div className="section-header">
-          <h2>Pumpfun Program · 课表详情</h2>
-          <p>
-            围绕 <span className="highlight">pumpfun_program/lessons</span>，从 <span className="highlight">Rust / Anchor</span> 到{' '}
-            <span className="highlight">bonding curve、swap、migration（Meteora）</span> 完整链路；文档为主，配合录播与命令示例，强调能读源码、理解设计、完成关键指令与调试。
-          </p>
-          <p className="course-detail-value-prop">
-            实现一个类似 pump.fun 的项目，面试亮点。
-          </p>
+        <div className="course-tabs" role="tablist" aria-label="课程切换">
+          {courses.map((c) => (
+            <button
+              key={c.id}
+              type="button"
+              role="tab"
+              aria-selected={active.id === c.id}
+              className={`course-tab course-tab--${c.id} ${active.id === c.id ? 'active' : ''}`}
+              onClick={() => setActiveCourse(c.id)}
+            >
+              {c.tab}
+              {c.badge && <span className="course-tab-badge">{c.badge}</span>}
+            </button>
+          ))}
         </div>
-        {renderChapterGrid(pumpfunCourseChapters, 'pumpfun-course-grid')}
-        <div className="course-detail-cta">
-          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
-        </div>
-      </section>
 
-      <section id="router-course-detail" className="course-detail router-course-detail">
-        <div className="section-header">
-          <h2>Router 实战项目 · 课表详情</h2>
-          <p>
-            面向 <span className="highlight">DEX 聚合</span> 场景，从 <span className="highlight">流动性图建模、路径缓存、多池报价</span> 到{' '}
-            <span className="highlight">可证明复杂度的路由核心</span>，贯通工程实现与算法理论（L0 基础 → L1 核心 → L2 实战 → L3 综合）。
-          </p>
-          <p className="course-detail-value-prop">
-            实现类似 Uniswap Swap / jup.ag 的项目，支持最佳路径报价 <strong className="course-detail-value-prop-emphasis">【面试核心亮点】</strong>
-          </p>
-        </div>
-        {renderChapterGrid(routerCourseChapters, 'router-course-grid')}
-        <div className="course-detail-cta">
-          <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
+        <div className={`course-panel ${active.panelClass}`} role="tabpanel">
+          <div className="section-header course-panel-header">
+            <h2>{active.title}</h2>
+            {active.subtitle}
+            {active.valueProp}
+          </div>
+          {renderChapterGrid(active.chapters, active.gridClass)}
+          <div className="course-detail-cta">
+            <button className="btn primary" onClick={openWechatModal}>咨询课程详情</button>
+          </div>
         </div>
       </section>
 

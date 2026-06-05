@@ -15,12 +15,17 @@ const HeroSection: React.FC = () => {
     setShowWechatQR(false);
   };
 
+  const scrollToCourses = () => {
+    document.getElementById('course-detail')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
         <h1>Web3训练营</h1>
         <p>系统学习<span className="blockchain-highlight">Solana</span>和<span className="blockchain-highlight">以太坊</span>开发，助力你转行web3或成为链上科学家</p>
         <div className="hero-buttons">
+          <button className="btn primary" onClick={scrollToCourses}>查看课程详情</button>
           <button className="btn secondary" onClick={handleConsultClick}>咨询课程详情</button>
         </div>
       </div>

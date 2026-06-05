@@ -220,9 +220,67 @@
   box-shadow: 0 8px 25px rgba(251, 191, 36, 0.35);
 }
 
+.prediction-market-course-detail .course-detail-value-prop {
+  background: rgba(56, 189, 248, 0.09);
+  border-color: rgba(56, 189, 248, 0.32);
+}
+
+.prediction-market-course-detail {
+  margin-top: 2rem;
+  border-top: 2px solid rgba(56, 189, 248, 0.25);
+  padding-top: 4rem;
+}
+
+.prediction-market-course-detail::before {
+  background: radial-gradient(circle at center, rgba(56, 189, 248, 0.06) 0%, rgba(0, 0, 0, 0) 70%);
+}
+
+.prediction-market-course-detail .section-header h2 {
+  background: linear-gradient(to right, #ffffff, #38bdf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.prediction-market-course-grid {
+  grid-template-rows: repeat(4, auto);
+}
+
+.prediction-market-course-detail .course-chapter-card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 0 0 20px rgba(56, 189, 248, 0.12);
+}
+
+.prediction-market-course-detail .course-chapter-card::before {
+  background: linear-gradient(90deg, #38bdf8, #3b82f6);
+}
+
+.prediction-market-course-detail .chapter-icon-container {
+  background: rgba(56, 189, 248, 0.12);
+}
+
+.prediction-market-course-detail .course-svg {
+  color: #38bdf8;
+}
+
+.prediction-market-course-detail .level-badge {
+  background: linear-gradient(45deg, #38bdf8, #3b82f6);
+  box-shadow: 0 2px 10px rgba(56, 189, 248, 0.25);
+}
+
+.prediction-market-course-detail .course-detail-cta .btn {
+  background: linear-gradient(90deg, #38bdf8, #3b82f6);
+  box-shadow: 0 5px 15px rgba(56, 189, 248, 0.25);
+  color: #0C111B;
+}
+
+.prediction-market-course-detail .course-detail-cta .btn:hover {
+  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.35);
+}
+
 @media (max-width: 768px) {
   .router-course-detail,
-  .pumpfun-course-detail {
+  .pumpfun-course-detail,
+  .prediction-market-course-detail {
     padding-top: 2rem;
     margin-top: 1rem;
   }
@@ -595,5 +653,118 @@
   .wechat-qr {
     width: 160px;
     height: 160px;
+  }
+}
+
+/* ============================================================
+   Course tabs (single section, switchable panels)
+   ============================================================ */
+.course-detail-intro {
+  margin-bottom: 1.75rem !important;
+}
+
+.course-tabs {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+}
+
+.course-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.65rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #9BA5B7;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-tab:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.course-tab.active {
+  color: #0C111B;
+  font-weight: 700;
+  border-color: transparent;
+}
+
+/* per-course active accent (matches each panel theme) */
+.course-tab--dex.active {
+  background: linear-gradient(90deg, #9945FF, #b97bff);
+  box-shadow: 0 6px 18px rgba(153, 69, 255, 0.35);
+}
+.course-tab--pumpfun.active {
+  background: linear-gradient(90deg, #14F195, #2dd4bf);
+  box-shadow: 0 6px 18px rgba(20, 241, 149, 0.3);
+}
+.course-tab--router.active {
+  background: linear-gradient(90deg, #fbbf24, #f97316);
+  box-shadow: 0 6px 18px rgba(251, 191, 36, 0.3);
+}
+.course-tab--evm.active {
+  background: linear-gradient(90deg, #38bdf8, #3b82f6);
+  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.3);
+}
+
+.course-tab-badge {
+  padding: 0.05rem 0.4rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  color: #fff;
+  background: #ef4444;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+}
+
+.course-tab.active .course-tab-badge {
+  color: #ef4444;
+  background: #fff;
+  box-shadow: none;
+}
+
+/* Panel wrapper: keep per-theme colors, drop the old stacking offsets */
+.course-panel {
+  position: relative;
+  z-index: 1;
+  animation: course-panel-fade 0.35s ease;
+}
+
+.course-panel.pumpfun-course-detail,
+.course-panel.router-course-detail,
+.course-panel.prediction-market-course-detail {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+}
+
+@keyframes course-panel-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .course-tabs {
+    gap: 0.5rem;
+    margin-bottom: 1.75rem;
+  }
+  .course-tab {
+    padding: 0.55rem 1rem;
+    font-size: 0.9rem;
   }
 } 
