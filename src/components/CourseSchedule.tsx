@@ -5,10 +5,16 @@ import wechatQrImage from '../assets/images/wechat.jpg';
 type PricingPlan = {
   id: number;
   name: string;
+  /** 套餐类别：自学 / 小班 / 1v1 */
+  category: string;
   priceUSDT: number;
+  /** 每期人数 / 开班节奏等补充说明（小班用） */
+  cohortNote?: React.ReactNode;
   discount?: number;
   description: React.ReactNode;
   badge?: string;
+  /** 主推套餐（小班）高亮显示 */
+  featured?: boolean;
   /** 与 PILLAR_COPY 四项对应（DEX → Pumpfun → Router → EVM），true 表示本套餐含该项 */
   pillars: [boolean, boolean, boolean, boolean];
   features: Array<string | React.ReactNode>;
@@ -18,7 +24,7 @@ const PILLAR_COPY: readonly [string, string, string, string] = [
   'DEX聚合器100+ 节精品视频课程',
   'Pumpfun合约从零到一实现',
   'Router 路由聚合器实战项目',
-  'EVM全系列解析实战',
+  '预测市场（EVM）全栈实战',
 ];
 
 const CourseSchedule: React.FC = () => {
@@ -30,70 +36,62 @@ const CourseSchedule: React.FC = () => {
   const pricingPlans: PricingPlan[] = [
     {
       id: 1,
-      name: 'Web3实战开发',
-      priceUSDT: 649,
-      description: '从零到一完整项目实战',
-      badge: '最受欢迎',
-      pillars: [true, false, false, false],
+      name: '自学套餐',
+      category: '自学',
+      priceUSDT: 1049,
+      description: '一次购买，永久回看 · 按自己的节奏学',
+      pillars: [true, true, true, false],
       features: [
+        <span key="self-combo" className="price-highlight-text">Web3实战 + 合约开发 + 路由聚合器开发</span>,
         '课后实践加答案解析',
         '学习群答疑服务',
         '生产级项目实战',
         '大量真实面经',
-        '简历修改',
         '专属社区(实时交流)',
       ],
     },
     {
       id: 2,
-      name: 'Web3实战+合约开发',
-      priceUSDT: 849,
-      description: '从零到一完整项目实战',
-      badge: '最受欢迎',
-      pillars: [true, true, false, false],
+      name: '小班课程',
+      category: '小班',
+      priceUSDT: 2049,
+      discount: 0.9,
+      description: '小班直播带练 · 带改作业 · 带找工作',
+      badge: '主推',
+      featured: true,
+      cohortNote: (
+        <>
+          <strong>下期 7 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>5 人</strong>
+          <span className="price-earlybird">⏰ 提前预定享 9 折优惠</span>
+        </>
+      ),
+      pillars: [true, true, true, true],
       features: [
-        '课后实践加答案解析',
-        '学习群答疑服务',
-        '生产级项目实战',
-        '大量真实面经',
-        '简历修改',
-        '专属社区(实时交流)',
+        <span key="class-include" className="price-highlight-text">含自学套餐全部内容</span>,
+        <span key="class-cohort" className="price-highlight-text">每 2 个月一期，为保障质量每期仅招 5 人</span>,
+        '小班直播带练 + 作业批改',
+        '简历修改 + 求职指导',
+        '模拟面试 + 面经复盘',
+        '专属小班社群（高频答疑）',
       ],
     },
     {
       id: 3,
-      name: 'Web3实战+合约开发+路由聚合器开发',
-      priceUSDT: 1049,
-      description: '实战、合约与链下路由聚合一站式',
-      badge: '含路由专项',
-      pillars: [true, true, true, false],
-      features: [
-        '课后实践加答案解析',
-        '学习群答疑服务',
-        '生产级项目实战',
-        '大量真实面经',
-        '简历修改',
-        '专属社区(实时交流)',
-      ],
-    },
-    {
-      id: 4,
-      name: '全流程VIP陪跑',
-      priceUSDT: 3000,
+      name: '1v1 全程陪跑',
+      category: '1v1',
+      priceUSDT: 3899,
       description: <span className="price-highlight-text">一对一全程指导</span>,
       badge: 'VIP专享',
       pillars: [true, true, true, true],
       features: [
+        <span key="vip-include" className="price-highlight-text">含小班课程全部内容</span>,
         '个性化学习路径规划',
-        '包含实战开发全部内容',
-        '合约开发实战',
-        '1对1简历优化 + 求职指导',
-        '模拟面试',
-        '面试复盘(持续跟踪)',
+        '1对1 简历优化 + 求职指导',
+        '模拟面试 + 面试复盘(持续跟踪)',
+        <span key="vip-meetings" className="price-highlight-text">每周 1v1 会议，进度跟踪及复盘</span>,
         '英语口语学习路径规划',
-        <span key="vip-meetings" className="price-highlight-text">每周3-4次,1v1会议，进度跟踪及复盘</span>,
         <span key="vip-probation" className="price-highlight-text">试用期指导</span>,
-        '持续6个月跟踪服务',
+        '持续 6 个月跟踪服务',
       ],
     },
   ];
@@ -104,7 +102,7 @@ const CourseSchedule: React.FC = () => {
         <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>课程费用</h2>
-          <p>选择适合您的学习方案，开启Web3开发之旅</p>
+          <p>三种学习方式：自学 · 小班 · 1v1，<strong className="fee-note-highlight">主推小班带练</strong>，开启你的 Web3 之旅</p>
         </div>
         <p className="fee-pricing-policy">
           为了给大家提供更高性价比的内容体验，同时为了打击盗版，所有付费用户<strong>可免费进入付费社群</strong>，享 <strong>1 年</strong>权益
@@ -129,14 +127,17 @@ const CourseSchedule: React.FC = () => {
 
         <div className="fee-container">
           {pricingPlans.map((plan) => (
-            <div key={plan.id} className={`price-card ${plan.badge === '最佳选择' ? 'featured' : ''}`}>
+            <div key={plan.id} className={`price-card ${plan.featured ? 'featured' : ''}`}>
               {plan.badge && <div className="price-badge">{plan.badge}</div>}
+              <span className={`price-category price-category--${plan.category === '小班' ? 'class' : plan.category === '1v1' ? 'vip' : 'self'}`}>
+                {plan.category}
+              </span>
               <h3>{plan.name}</h3>
               <div className="price">
                 {plan.discount != null && plan.discount < 1 ? (
                   <>
                     <div className="price-discount-line">
-                      <span className="price-zhe-badge">{Math.round(plan.discount * 10)}折</span>
+                      <span className="price-zhe-badge">提前预定 {Math.round(plan.discount * 10)}折</span>
                     </div>
                     <div className="price-row price-row--sale">
                       <span className="amount">{Math.round(plan.priceUSDT * plan.discount)}</span>
@@ -155,6 +156,7 @@ const CourseSchedule: React.FC = () => {
                   </div>
                 )}
               </div>
+              {plan.cohortNote && <p className="price-cohort-note">{plan.cohortNote}</p>}
               <p className="price-description">{plan.description}</p>
               <ul className="price-features">
                 {PILLAR_COPY.map((pillarText, i) =>
@@ -208,9 +210,9 @@ const CourseSchedule: React.FC = () => {
                 <ul>
                   <li>Pumpfun 合约实战拆解</li>
                   <li>Router 路由聚合器实战拆解</li>
+                  <li>预测市场（EVM）全栈实战拆解</li>
                   <li>Smart Wallet 实战拆解</li>
                   <li>UniswapV3 实战拆解</li>
-                  <li>持续交付与迭代复盘</li>
                 </ul>
               </article>
               <article className="community-module">
