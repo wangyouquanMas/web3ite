@@ -614,6 +614,9 @@ const CourseDetailSection: React.FC = () => {
         <div className="section-header">
           <h2>DEX 聚合器 · 课表详情</h2>
           <p>从<span className="highlight">基础入门</span>到<span className="highlight">项目实战</span>，循序渐进的 Web3 开发学习路径</p>
+          <p className="course-detail-value-prop">
+            实现一个类似 gmgn.ai 的项目，包含所有核心功能，岗位量大。
+          </p>
         </div>
         {renderChapterGrid(courseChapters)}
         <div className="course-detail-cta">
@@ -628,6 +631,9 @@ const CourseDetailSection: React.FC = () => {
             围绕 <span className="highlight">pumpfun_program/lessons</span>，从 <span className="highlight">Rust / Anchor</span> 到{' '}
             <span className="highlight">bonding curve、swap、migration（Meteora）</span> 完整链路；文档为主，配合录播与命令示例，强调能读源码、理解设计、完成关键指令与调试。
           </p>
+          <p className="course-detail-value-prop">
+            实现一个类似 pump.fun 的项目，面试亮点。
+          </p>
         </div>
         {renderChapterGrid(pumpfunCourseChapters, 'pumpfun-course-grid')}
         <div className="course-detail-cta">
@@ -641,6 +647,9 @@ const CourseDetailSection: React.FC = () => {
           <p>
             面向 <span className="highlight">DEX 聚合</span> 场景，从 <span className="highlight">流动性图建模、路径缓存、多池报价</span> 到{' '}
             <span className="highlight">可证明复杂度的路由核心</span>，贯通工程实现与算法理论（L0 基础 → L1 核心 → L2 实战 → L3 综合）。
+          </p>
+          <p className="course-detail-value-prop">
+            实现类似 Uniswap Swap / jup.ag 的项目，支持最佳路径报价 <strong className="course-detail-value-prop-emphasis">【面试核心亮点】</strong>
           </p>
         </div>
         {renderChapterGrid(routerCourseChapters, 'router-course-grid')}

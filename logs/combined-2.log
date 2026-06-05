@@ -15549,3 +15549,795 @@
 2026-04-20T02:03:35: Compiled successfully!
 2026-04-20T02:03:35: webpack compiled successfully
 2026-04-20T02:03:35: No issues found.
+2026-04-28T19:57:56: Compiling...
+2026-04-28T19:57:57: Compiled successfully!
+2026-04-28T19:57:57: webpack compiled successfully
+2026-04-28T19:57:57: No issues found.
+2026-04-28T19:57:57: Compiling...
+2026-04-28T19:57:58: Compiled successfully!
+2026-04-28T19:57:58: webpack compiled successfully
+2026-04-28T19:57:58: No issues found.
+2026-04-28T20:01:09: Compiling...
+2026-04-28T20:01:10: Compiled successfully!
+2026-04-28T20:01:10: webpack compiled successfully
+2026-04-28T20:01:10: No issues found.
+2026-04-28T20:01:11: Compiling...
+2026-04-28T20:01:11: Compiled successfully!
+2026-04-28T20:01:11: webpack compiled successfully
+2026-04-28T20:01:11: No issues found.
+2026-04-28T20:01:16: Compiling...
+2026-04-28T20:01:16: Compiled successfully!
+2026-04-28T20:01:16: webpack compiled successfully
+2026-04-28T20:01:16: No issues found.
+2026-04-28T20:01:28: Compiling...
+2026-04-28T20:01:28: Compiled successfully!
+2026-04-28T20:01:28: webpack compiled successfully
+2026-04-28T20:01:28: No issues found.
+2026-04-28T20:01:29: Compiling...
+2026-04-28T20:01:29: Compiled successfully!
+2026-04-28T20:01:29: webpack compiled successfully
+2026-04-28T20:01:29: No issues found.
+2026-04-28T20:02:27: Compiling...
+2026-04-28T20:02:28: Compiled successfully!
+2026-04-28T20:02:28: webpack compiled successfully
+2026-04-28T20:02:28: No issues found.
+2026-04-28T20:02:44: Compiling...
+2026-04-28T20:02:44: Compiled successfully!
+2026-04-28T20:02:44: webpack compiled successfully
+2026-04-28T20:02:44: No issues found.
+2026-04-28T20:02:53: Compiling...
+2026-04-28T20:02:54: Compiled successfully!
+2026-04-28T20:02:54: webpack compiled successfully
+2026-04-28T20:02:54: No issues found.
+2026-04-28T20:02:55: Compiling...
+2026-04-28T20:02:55: Compiled successfully!
+2026-04-28T20:02:55: webpack compiled successfully
+2026-04-28T20:02:55: No issues found.
+2026-04-28T20:02:56: Compiling...
+2026-04-28T20:02:56: Compiled successfully!
+2026-04-28T20:02:56: webpack compiled successfully
+2026-04-28T20:02:56: No issues found.
+2026-04-28T20:02:57: Compiling...
+2026-04-28T20:02:57: Compiled successfully!
+2026-04-28T20:02:57: webpack compiled successfully
+2026-04-28T20:02:58: No issues found.
+2026-04-28T20:06:13: Compiling...
+2026-04-28T20:06:14: Compiled successfully!
+2026-04-28T20:06:14: webpack compiled successfully
+2026-04-28T20:06:14: No issues found.
+2026-04-28T20:06:27: Compiling...
+2026-04-28T20:06:27: Compiled successfully!
+2026-04-28T20:06:27: webpack compiled successfully
+2026-04-28T20:06:27: No issues found.
+2026-04-28T20:10:08: 
+2026-04-28T20:10:08: > web3ite@0.1.0 start
+2026-04-28T20:10:08: > react-scripts start
+2026-04-28T20:10:08: 
+2026-04-28T20:10:13: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-28T20:10:13:   npx update-browserslist-db@latest
+2026-04-28T20:10:13:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-28T20:10:14: (node:1674) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-28T20:10:14: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-28T20:10:14: (node:1674) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-28T20:10:15: Starting the development server...
+2026-04-28T20:10:15: 
+2026-04-28T20:10:17: Compiled successfully!
+2026-04-28T20:10:17: 
+2026-04-28T20:10:17: You can now view web3ite in the browser.
+2026-04-28T20:10:17: 
+2026-04-28T20:10:17:   Local:            http://localhost:3000
+2026-04-28T20:10:17:   On Your Network:  http://10.7.64.2:3000
+2026-04-28T20:10:17: 
+2026-04-28T20:10:17: Note that the development build is not optimized.
+2026-04-28T20:10:17: To create a production build, use npm run build.
+2026-04-28T20:10:17: 
+2026-04-28T20:10:17: webpack compiled successfully
+2026-04-28T20:10:17: Files successfully emitted, waiting for typecheck results...
+2026-04-28T20:10:17: Issues checking in progress...
+2026-04-28T20:10:20: No issues found.
+2026-04-28T20:14:50: Compiling...
+2026-04-28T20:14:53: Compiled successfully!
+2026-04-28T20:14:53: webpack compiled successfully
+2026-04-28T20:14:53: No issues found.
+2026-04-28T20:14:59: Compiling...
+2026-04-28T20:15:00: Compiled successfully!
+2026-04-28T20:15:00: webpack compiled successfully
+2026-04-28T20:15:00: No issues found.
+2026-04-28T20:15:12: Compiling...
+2026-04-28T20:15:13: Compiled successfully!
+2026-04-28T20:15:13: webpack compiled successfully
+2026-04-28T20:15:13: No issues found.
+2026-04-28T20:15:14: Compiling...
+2026-04-28T20:15:15: Compiled successfully!
+2026-04-28T20:15:15: webpack compiled successfully
+2026-04-28T20:15:15: No issues found.
+2026-04-28T20:15:17: Compiling...
+2026-04-28T20:15:18: Compiled successfully!
+2026-04-28T20:15:18: webpack compiled successfully
+2026-04-28T20:15:18: No issues found.
+2026-04-28T20:16:19: Compiling...
+2026-04-28T20:16:19: Compiled successfully!
+2026-04-28T20:16:19: webpack compiled successfully
+2026-04-28T20:16:19: No issues found.
+2026-04-28T20:19:09: Compiling...
+2026-04-28T20:19:10: Compiled successfully!
+2026-04-28T20:19:11: webpack compiled successfully
+2026-04-28T20:19:11: No issues found.
+2026-04-28T20:19:25: Compiling...
+2026-04-28T20:19:25: Compiled successfully!
+2026-04-28T20:19:25: webpack compiled successfully
+2026-04-28T20:19:25: No issues found.
+2026-04-28T20:20:20: Compiling...
+2026-04-28T20:20:20: Failed to compile.
+2026-04-28T20:20:20: 
+2026-04-28T20:20:20: [eslint] 
+2026-04-28T20:20:20: src/components/CourseSchedule.tsx
+2026-04-28T20:20:20: Syntax error: JSX element 'div' has no corresponding closing tag (157:9)
+2026-04-28T20:20:20: ERROR in ./src/components/CourseSchedule.tsx
+2026-04-28T20:20:20: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+2026-04-28T20:20:20: SyntaxError: /home/ubuntu/web3ite/src/components/CourseSchedule.tsx: Expected corresponding JSX closing tag for <div>. (240:6)
+2026-04-28T20:20:20: 
+2026-04-28T20:20:20:   238 |         </div>
+2026-04-28T20:20:20:   239 |         <div className="section-transition-bottom" aria-hidden="true" />
+2026-04-28T20:20:20: > 240 |       </section>
+2026-04-28T20:20:20:       |       ^
+2026-04-28T20:20:20:   241 |
+2026-04-28T20:20:20:   242 |       {showWechatModal && (
+2026-04-28T20:20:20:   243 |         <div className="wechat-modal-overlay" onClick={closeWechatModal}>
+2026-04-28T20:20:20:     at constructor (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:360:19)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.raise (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3327:19)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6899:16)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6921:17)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6931:19)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:20:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:39
+2026-04-28T20:20:20:     at TypeScriptParserMixin.tryParse (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3665:20)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:18)
+2026-04-28T20:20:20:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:39
+2026-04-28T20:20:20:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12101:12)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:17)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11360:28)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9625:20)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10477:23)
+2026-04-28T20:20:20:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:39
+2026-04-28T20:20:20:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12096:16)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:17)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12781:28)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12438:21)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9351:18)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12407:17)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12387:17)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12955:61)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12948:10)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseBlock (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12936:10)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseFunctionBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11784:24)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseArrowExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11759:10)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11372:12)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:20:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:20: 
+2026-04-28T20:20:20: ERROR in [eslint] 
+2026-04-28T20:20:20: src/components/CourseSchedule.tsx
+2026-04-28T20:20:20:   Line 157:9:  Parsing error: JSX element 'div' has no corresponding closing tag
+2026-04-28T20:20:20: 
+2026-04-28T20:20:20: webpack compiled with 2 errors
+2026-04-28T20:20:20: Files successfully emitted, waiting for typecheck results...
+2026-04-28T20:20:20: Issues checking in progress...
+2026-04-28T20:20:20: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:20: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:20:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:20:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:20:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:20:         |          ^^^
+2026-04-28T20:20:20:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:20:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:20:     160 |               社群内容交付总览
+2026-04-28T20:20:20: 
+2026-04-28T20:20:21: Compiling...
+2026-04-28T20:20:21: Failed to compile.
+2026-04-28T20:20:21: 
+2026-04-28T20:20:21: [eslint] 
+2026-04-28T20:20:21: src/components/CourseSchedule.tsx
+2026-04-28T20:20:21: Syntax error: JSX element 'div' has no corresponding closing tag (157:9)
+2026-04-28T20:20:21: ERROR in ./src/components/CourseSchedule.tsx
+2026-04-28T20:20:21: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+2026-04-28T20:20:21: SyntaxError: /home/ubuntu/web3ite/src/components/CourseSchedule.tsx: Expected corresponding JSX closing tag for <div>. (240:6)
+2026-04-28T20:20:21: 
+2026-04-28T20:20:21:   238 |         </div>
+2026-04-28T20:20:21:   239 |         <div className="section-transition-bottom" aria-hidden="true" />
+2026-04-28T20:20:21: > 240 |       </section>
+2026-04-28T20:20:21:       |       ^
+2026-04-28T20:20:21:   241 |
+2026-04-28T20:20:21:   242 |       {showWechatModal && (
+2026-04-28T20:20:21:   243 |         <div className="wechat-modal-overlay" onClick={closeWechatModal}>
+2026-04-28T20:20:21:     at constructor (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:360:19)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.raise (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3327:19)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6899:16)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6921:17)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6931:19)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:21:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:39
+2026-04-28T20:20:21:     at TypeScriptParserMixin.tryParse (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3665:20)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:18)
+2026-04-28T20:20:21:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:39
+2026-04-28T20:20:21:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12101:12)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:17)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11360:28)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9625:20)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10477:23)
+2026-04-28T20:20:21:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:39
+2026-04-28T20:20:21:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12096:16)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:17)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12781:28)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12438:21)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9351:18)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12407:17)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12387:17)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12955:61)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12948:10)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseBlock (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12936:10)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseFunctionBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11784:24)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseArrowExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11759:10)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11372:12)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:21:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:21: 
+2026-04-28T20:20:21: ERROR in [eslint] 
+2026-04-28T20:20:21: src/components/CourseSchedule.tsx
+2026-04-28T20:20:21:   Line 157:9:  Parsing error: JSX element 'div' has no corresponding closing tag
+2026-04-28T20:20:21: 
+2026-04-28T20:20:21: webpack compiled with 2 errors
+2026-04-28T20:20:21: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:21: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:21:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:21:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:21:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:21:         |          ^^^
+2026-04-28T20:20:21:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:21:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:21:     160 |               社群内容交付总览
+2026-04-28T20:20:21: 
+2026-04-28T20:20:29: Compiling...
+2026-04-28T20:20:29: Failed to compile.
+2026-04-28T20:20:29: 
+2026-04-28T20:20:29: [eslint] 
+2026-04-28T20:20:29: src/components/CourseSchedule.tsx
+2026-04-28T20:20:29: Syntax error: JSX element 'div' has no corresponding closing tag (157:9)
+2026-04-28T20:20:29: ERROR in ./src/components/CourseSchedule.tsx
+2026-04-28T20:20:29: Module build failed (from ./node_modules/babel-loader/lib/index.js):
+2026-04-28T20:20:29: SyntaxError: /home/ubuntu/web3ite/src/components/CourseSchedule.tsx: Expected corresponding JSX closing tag for <div>. (242:6)
+2026-04-28T20:20:29: 
+2026-04-28T20:20:29:   240 |         </div>
+2026-04-28T20:20:29:   241 |         <div className="section-transition-bottom" aria-hidden="true" />
+2026-04-28T20:20:29: > 242 |       </section>
+2026-04-28T20:20:29:       |       ^
+2026-04-28T20:20:29:   243 |
+2026-04-28T20:20:29:   244 |       {showWechatModal && (
+2026-04-28T20:20:29:   245 |         <div className="wechat-modal-overlay" onClick={closeWechatModal}>
+2026-04-28T20:20:29:     at constructor (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:360:19)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.raise (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3327:19)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6899:16)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6870:32)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6921:17)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6931:19)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:29:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:39
+2026-04-28T20:20:29:     at TypeScriptParserMixin.tryParse (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:3665:20)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9614:18)
+2026-04-28T20:20:29:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:39
+2026-04-28T20:20:29:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12101:12)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10493:17)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11360:28)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10759:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10744:21)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10724:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9676:18)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10577:61)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10582:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10559:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10522:21)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9625:20)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10477:23)
+2026-04-28T20:20:29:     at /home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:39
+2026-04-28T20:20:29:     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12096:16)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:10473:17)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12781:28)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12438:21)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:9351:18)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12407:17)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12387:17)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12955:61)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12948:10)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseBlock (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:12936:10)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseFunctionBody (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11784:24)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseArrowExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11759:10)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11372:12)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:11007:23)
+2026-04-28T20:20:29:     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/web3ite/node_modules/@babel/parser/lib/index.js:6936:20)
+2026-04-28T20:20:29: 
+2026-04-28T20:20:29: ERROR in [eslint] 
+2026-04-28T20:20:29: src/components/CourseSchedule.tsx
+2026-04-28T20:20:29:   Line 157:9:  Parsing error: JSX element 'div' has no corresponding closing tag
+2026-04-28T20:20:29: 
+2026-04-28T20:20:29: webpack compiled with 2 errors
+2026-04-28T20:20:29: Files successfully emitted, waiting for typecheck results...
+2026-04-28T20:20:29: Issues checking in progress...
+2026-04-28T20:20:29: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:29: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:29:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:29:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:29:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:29:         |          ^^^
+2026-04-28T20:20:29:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:29:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:29:     160 |               社群内容交付总览
+2026-04-28T20:20:29: 
+2026-04-28T20:20:33: Compiling...
+2026-04-28T20:20:34: Compiled successfully!
+2026-04-28T20:20:34: webpack compiled successfully
+2026-04-28T20:20:34: No issues found.
+2026-04-28T20:20:45: Compiling...
+2026-04-28T20:20:46: Compiled successfully!
+2026-04-28T20:20:46: webpack compiled successfully
+2026-04-28T20:20:46: No issues found.
+2026-04-28T20:21:20: Compiling...
+2026-04-28T20:21:21: Compiled successfully!
+2026-04-28T20:21:21: webpack compiled successfully
+2026-04-28T20:21:21: No issues found.
+2026-04-28T20:22:34: Compiling...
+2026-04-28T20:22:35: Compiled successfully!
+2026-04-28T20:22:35: webpack compiled successfully
+2026-04-28T20:22:35: No issues found.
+2026-04-28T20:22:42: Compiling...
+2026-04-28T20:22:42: Compiled successfully!
+2026-04-28T20:22:42: webpack compiled successfully
+2026-04-28T20:22:42: No issues found.
+2026-04-28T20:23:10: Compiling...
+2026-04-28T20:23:11: Compiled successfully!
+2026-04-28T20:23:11: webpack compiled successfully
+2026-04-28T20:23:11: No issues found.
+2026-04-28T20:23:12: Compiling...
+2026-04-28T20:23:12: Compiled successfully!
+2026-04-28T20:23:12: webpack compiled successfully
+2026-04-28T20:23:12: No issues found.
+2026-04-28T20:23:23: Compiling...
+2026-04-28T20:23:23: Compiled successfully!
+2026-04-28T20:23:23: webpack compiled successfully
+2026-04-28T20:23:23: No issues found.
+2026-04-28T22:13:55: Compiling...
+2026-04-28T22:13:55: Compiled successfully!
+2026-04-28T22:13:55: webpack compiled successfully
+2026-04-28T22:13:55: Compiling...
+2026-04-28T22:13:55: No issues found.
+2026-04-28T22:13:56: Compiled successfully!
+2026-04-28T22:13:56: webpack compiled successfully
+2026-04-28T22:13:56: No issues found.
+2026-04-28T22:13:59: Compiling...
+2026-04-28T22:13:59: Compiled successfully!
+2026-04-28T22:13:59: webpack compiled successfully
+2026-04-28T22:13:59: No issues found.
+2026-04-28T22:18:50: Compiling...
+2026-04-28T22:18:51: Compiled successfully!
+2026-04-28T22:18:51: webpack compiled successfully
+2026-04-28T22:18:51: No issues found.
+2026-04-28T22:33:56: Compiling...
+2026-04-28T22:33:57: Compiled successfully!
+2026-04-28T22:33:57: webpack compiled successfully
+2026-04-28T22:33:57: No issues found.
+2026-04-28T22:34:02: Compiling...
+2026-04-28T22:34:02: Compiled successfully!
+2026-04-28T22:34:02: webpack compiled successfully
+2026-04-28T22:34:02: No issues found.
+2026-04-28T22:35:34: Compiling...
+2026-04-28T22:35:36: Compiled successfully!
+2026-04-28T22:35:36: webpack compiled successfully
+2026-04-28T22:35:36: No issues found.
+2026-04-28T22:35:39: Compiling...
+2026-04-28T22:35:39: Compiled successfully!
+2026-04-28T22:35:39: webpack compiled successfully
+2026-04-28T22:35:39: No issues found.
+2026-04-28T22:37:37: Compiling...
+2026-04-28T22:37:38: Compiled successfully!
+2026-04-28T22:37:38: webpack compiled successfully
+2026-04-28T22:37:38: No issues found.
+2026-04-28T22:38:53: Compiling...
+2026-04-28T22:38:53: Compiled successfully!
+2026-04-28T22:38:53: webpack compiled successfully
+2026-04-28T22:38:53: No issues found.
+2026-04-28T22:40:35: Compiling...
+2026-04-28T22:40:36: Compiled successfully!
+2026-04-28T22:40:36: webpack compiled successfully
+2026-04-28T22:40:36: No issues found.
+2026-04-28T22:40:36: Compiling...
+2026-04-28T22:40:36: Compiled successfully!
+2026-04-28T22:40:36: webpack compiled successfully
+2026-04-28T22:40:36: No issues found.
+2026-04-28T22:44:39: Compiling...
+2026-04-28T22:44:40: Compiled successfully!
+2026-04-28T22:44:40: webpack compiled successfully
+2026-04-28T22:44:40: No issues found.
+2026-04-29T00:09:26: Compiling...
+2026-04-29T00:09:27: Compiled successfully!
+2026-04-29T00:09:27: webpack compiled successfully
+2026-04-29T00:09:27: No issues found.
+2026-04-29T00:09:27: Compiling...
+2026-04-29T00:09:28: Compiled successfully!
+2026-04-29T00:09:28: webpack compiled successfully
+2026-04-29T00:09:28: No issues found.
+2026-04-29T00:09:30: Compiling...
+2026-04-29T00:09:30: Compiled successfully!
+2026-04-29T00:09:30: webpack compiled successfully
+2026-04-29T00:09:30: No issues found.
+2026-04-29T00:09:32: Compiling...
+2026-04-29T00:09:32: Compiled successfully!
+2026-04-29T00:09:32: webpack compiled successfully
+2026-04-29T00:09:32: No issues found.
+2026-04-29T00:09:41: Compiling...
+2026-04-29T00:09:41: Compiled successfully!
+2026-04-29T00:09:41: webpack compiled successfully
+2026-04-29T00:09:41: No issues found.
+2026-05-01T22:56:44: Compiling...
+2026-05-01T22:56:44: Compiled successfully!
+2026-05-01T22:56:44: webpack compiled successfully
+2026-05-01T22:56:44: No issues found.
+2026-05-01T22:57:08: Compiling...
+2026-05-01T22:57:09: Compiled successfully!
+2026-05-01T22:57:09: webpack compiled successfully
+2026-05-01T22:57:09: No issues found.
+2026-05-01T22:57:10: Compiling...
+2026-05-01T22:57:11: Compiled successfully!
+2026-05-01T22:57:11: webpack compiled successfully
+2026-05-01T22:57:11: No issues found.
+2026-05-01T22:57:16: Compiling...
+2026-05-01T22:57:16: Compiled successfully!
+2026-05-01T22:57:16: webpack compiled successfully
+2026-05-01T22:57:16: No issues found.
+2026-05-01T22:57:26: Compiling...
+2026-05-01T22:57:26: Compiled successfully!
+2026-05-01T22:57:26: webpack compiled successfully
+2026-05-01T22:57:26: No issues found.
+2026-05-01T22:57:29: Compiling...
+2026-05-01T22:57:29: Compiled successfully!
+2026-05-01T22:57:29: webpack compiled successfully
+2026-05-01T22:57:29: No issues found.
+2026-05-04T21:37:28: Compiling...
+2026-05-04T21:37:29: Compiled successfully!
+2026-05-04T21:37:29: webpack compiled successfully
+2026-05-04T21:37:29: No issues found.
+2026-05-04T21:37:37: Compiling...
+2026-05-04T21:37:38: Compiled successfully!
+2026-05-04T21:37:38: webpack compiled successfully
+2026-05-04T21:37:38: No issues found.
+2026-05-11T12:00:31: Compiling...
+2026-05-11T12:00:32: Compiled successfully!
+2026-05-11T12:00:32: webpack compiled successfully
+2026-05-11T12:00:32: No issues found.
+2026-05-11T12:01:24: Compiling...
+2026-05-11T12:01:25: Compiled successfully!
+2026-05-11T12:01:25: webpack compiled successfully
+2026-05-11T12:01:25: No issues found.
+2026-05-11T12:01:29: Compiling...
+2026-05-11T12:01:30: Compiled successfully!
+2026-05-11T12:01:30: webpack compiled successfully
+2026-05-11T12:01:30: No issues found.
+2026-05-11T12:03:09: Compiling...
+2026-05-11T12:03:10: Compiled successfully!
+2026-05-11T12:03:10: webpack compiled successfully
+2026-05-11T12:03:10: No issues found.
+2026-05-11T12:04:21: Compiling...
+2026-05-11T12:04:22: Compiled with warnings.
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: [eslint] 
+2026-05-11T12:04:22: src/components/CourseSchedule.tsx
+2026-05-11T12:04:22:   Line 17:7:  'PILLAR_COPY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: Search for the keywords to learn more about each warning.
+2026-05-11T12:04:22: To ignore, add // eslint-disable-next-line to the line before.
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: WARNING in [eslint] 
+2026-05-11T12:04:22: src/components/CourseSchedule.tsx
+2026-05-11T12:04:22:   Line 17:7:  'PILLAR_COPY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: webpack compiled with 1 warning
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:31:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     29 |
+2026-05-11T12:04:22:     30 |   const pricingPlans: PricingPlan[] = [
+2026-05-11T12:04:22:   > 31 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 32 |       id: 1,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 33 |       name: 'Web3实战开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 34 |       priceUSDT: 649,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 35 |       description: '从零到一完整项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 36 |       badge: '最受欢迎',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 37 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 38 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 39 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 40 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 41 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 42 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 43 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 44 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 45 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 46 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     47 |     {
+2026-05-11T12:04:22:     48 |       id: 2,
+2026-05-11T12:04:22:     49 |       name: 'Web3实战+合约开发',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:47:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     45 |       ],
+2026-05-11T12:04:22:     46 |     },
+2026-05-11T12:04:22:   > 47 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 48 |       id: 2,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 49 |       name: 'Web3实战+合约开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 50 |       priceUSDT: 849,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 51 |       description: '从零到一完整项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 52 |       badge: '最受欢迎',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 53 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 54 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 55 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 56 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 57 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 58 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 59 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 60 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 61 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 62 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 63 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 64 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     65 |     {
+2026-05-11T12:04:22:     66 |       id: 3,
+2026-05-11T12:04:22:     67 |       name: 'Web3实战+合约开发+路由聚合器开发',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:65:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     63 |       ],
+2026-05-11T12:04:22:     64 |     },
+2026-05-11T12:04:22:   > 65 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 66 |       id: 3,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 67 |       name: 'Web3实战+合约开发+路由聚合器开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 68 |       priceUSDT: 1049,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 69 |       description: '实战、合约与链下路由聚合一站式',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 70 |       badge: '含路由专项',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 71 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 72 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 73 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 74 |         'Router 路由聚合器实战项目',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 75 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 76 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 77 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 78 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 79 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 80 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 81 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 82 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 83 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     84 |     {
+2026-05-11T12:04:22:     85 |       id: 4,
+2026-05-11T12:04:22:     86 |       name: '全流程VIP陪跑',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:84:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: JSX.Element; badge: string; features: (string | JSX.Element)[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:      82 |       ],
+2026-05-11T12:04:22:      83 |     },
+2026-05-11T12:04:22:   >  84 |     {
+2026-05-11T12:04:22:         |     ^
+2026-05-11T12:04:22:   >  85 |       id: 4,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  86 |       name: '全流程VIP陪跑',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  87 |       priceUSDT: 3000,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  88 |       description: <span className="price-highlight-text">一对一全程指导</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  89 |       badge: 'VIP专享',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  90 |       features: [
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  91 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  92 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  93 |         'Router 路由聚合器实战项目',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  94 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  95 |         '个性化学习路径规划',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  96 |         '包含实战开发全部内容',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  97 |         '合约开发实战',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  98 |         '1对1简历优化 + 求职指导',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  99 |         '模拟面试',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 100 |         '面试复盘(持续跟踪)',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 101 |         '英语口语学习路径规划',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 102 |         <span key="vip-meetings" className="price-highlight-text">每周3-4次,1v1会议，进度跟踪及复盘</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 103 |         <span key="vip-probation" className="price-highlight-text">试用期指导</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 104 |         '持续6个月跟踪服务',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 105 |       ],
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 106 |     },
+2026-05-11T12:04:22:         | ^^^^^^
+2026-05-11T12:04:22:     107 |   ];
+2026-05-11T12:04:22:     108 |
+2026-05-11T12:04:22:     109 |   return (
+2026-05-11T12:04:22: 
+2026-05-11T12:04:24: Compiling...
+2026-05-11T12:04:24: Compiled with warnings.
+2026-05-11T12:04:24: 
+2026-05-11T12:04:24: [eslint] 
+2026-05-11T12:04:24: src/components/CourseSchedule.tsx
+2026-05-11T12:04:24:   Line 17:7:  'PILLAR_COPY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-05-11T12:04:24: 
+2026-05-11T12:04:24: Search for the keywords to learn more about each warning.
+2026-05-11T12:04:24: To ignore, add // eslint-disable-next-line to the line before.
+2026-05-11T12:04:24: 
+2026-05-11T12:04:24: WARNING in [eslint] 
+2026-05-11T12:04:24: src/components/CourseSchedule.tsx
+2026-05-11T12:04:24:   Line 17:7:  'PILLAR_COPY' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-05-11T12:04:24: 
+2026-05-11T12:04:24: webpack compiled with 1 warning
+2026-05-11T12:04:24: No issues found.
+2026-05-11T12:04:26: Compiling...
+2026-05-11T12:04:26: Compiled successfully!
+2026-05-11T12:04:26: webpack compiled successfully
+2026-05-11T12:04:26: No issues found.
+2026-05-11T12:04:49: Compiling...
+2026-05-11T12:04:50: Compiled successfully!
+2026-05-11T12:04:50: webpack compiled successfully
+2026-05-11T12:04:50: No issues found.
+2026-05-11T12:10:39: 
+2026-05-11T12:10:39: > web3ite@0.1.0 start
+2026-05-11T12:10:39: > react-scripts start
+2026-05-11T12:10:39: 
+2026-05-11T12:10:44: Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+2026-05-11T12:10:44:   npx update-browserslist-db@latest
+2026-05-11T12:10:44:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-05-11T12:10:45: (node:1623) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-05-11T12:10:45: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-05-11T12:10:45: (node:1623) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-05-11T12:10:45: Starting the development server...
+2026-05-11T12:10:45: 
+2026-05-11T12:10:48: Compiled successfully!
+2026-05-11T12:10:48: 
+2026-05-11T12:10:48: You can now view web3ite in the browser.
+2026-05-11T12:10:48: 
+2026-05-11T12:10:48:   Local:            http://localhost:3000
+2026-05-11T12:10:48:   On Your Network:  http://10.7.64.2:3000
+2026-05-11T12:10:48: 
+2026-05-11T12:10:48: Note that the development build is not optimized.
+2026-05-11T12:10:48: To create a production build, use npm run build.
+2026-05-11T12:10:48: 
+2026-05-11T12:10:48: webpack compiled successfully
+2026-05-11T12:10:48: Files successfully emitted, waiting for typecheck results...
+2026-05-11T12:10:48: Issues checking in progress...
+2026-05-11T12:10:51: No issues found.
+2026-05-11T12:11:18: Compiling...
+2026-05-11T12:11:22: Compiled successfully!
+2026-05-11T12:11:22: webpack compiled successfully
+2026-05-11T12:11:22: No issues found.
+2026-05-11T12:15:13: Compiling...
+2026-05-11T12:15:15: Compiled successfully!
+2026-05-11T12:15:15: webpack compiled successfully
+2026-05-11T12:15:15: Compiling...
+2026-05-11T12:15:15: No issues found.
+2026-05-11T12:15:16: Compiled successfully!
+2026-05-11T12:15:16: webpack compiled successfully
+2026-05-11T12:15:16: No issues found.
+2026-05-11T12:17:06: Compiling...
+2026-05-11T12:17:08: Compiled successfully!
+2026-05-11T12:17:08: webpack compiled successfully
+2026-05-11T12:17:08: No issues found.
+2026-06-05T10:33:42: Compiling...
+2026-06-05T10:33:43: Compiled successfully!
+2026-06-05T10:33:43: webpack compiled successfully
+2026-06-05T10:33:43: No issues found.

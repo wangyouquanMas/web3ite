@@ -20,10 +20,10 @@ const AboutInstructorSection: React.FC = () => {
     },
     {
       title: '独特性的价值',
-      content: '珍视自己的各种奇奇怪怪的特质，这是你独特性的来源。不要试图成为别人，要成为更好的自己。'
+      content: '珍视自己的各种奇奇怪怪的特质，这是你独特性的来源。不要试图成为任何人，成为你自己，这是一个奖励独特性的时代。'
     },
     {
-      title: '爱上犯错',
+      title: '爱上犯错 但不要重复',
       content: '犯错不可怕，事实上你应该爱上犯错。因为本质上，犯错暴露了我们的认知盲点，我们的局限性。每一次犯错都是在给我们一次变得更好的机会。'
     },
     {
@@ -43,7 +43,7 @@ const AboutInstructorSection: React.FC = () => {
         <p className="social-connect-intro">欢迎在 B 站关注我，看更多更新与分享。</p>
         <a
           className="social-link social-link-bilibili"
-          href="https://b23.tv/AdjkDVI"
+          href="https://www.bilibili.com/video/BV1XUr9BCEJb/?vd_source=8aa23e8c5dc8681b1b9df8130ba63700"
           target="_blank"
           rel="noopener noreferrer"
         >

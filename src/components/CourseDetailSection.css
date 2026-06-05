@@ -70,6 +70,34 @@
   margin: 0 auto;
 }
 
+.course-detail-value-prop {
+  margin: 1.25rem auto 0;
+  max-width: 720px;
+  padding: 0.9rem 1.15rem;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #dce2ee;
+  text-align: center;
+  background: rgba(153, 69, 255, 0.08);
+  border: 1px solid rgba(153, 69, 255, 0.28);
+  border-radius: 10px;
+}
+
+.course-detail-value-prop-emphasis {
+  color: #fcd34d;
+  font-weight: 700;
+}
+
+.pumpfun-course-detail .course-detail-value-prop {
+  background: rgba(20, 241, 149, 0.08);
+  border-color: rgba(20, 241, 149, 0.3);
+}
+
+.router-course-detail .course-detail-value-prop {
+  background: rgba(251, 191, 36, 0.09);
+  border-color: rgba(251, 191, 36, 0.32);
+}
+
 .highlight {
   color: #9945FF;
   font-weight: 600;

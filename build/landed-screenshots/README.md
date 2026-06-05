@@ -1,28 +1,22 @@
 # 已上岸列表截图说明
 
-请将已上岸朋友的聊天截图放在此目录中。
+将截图放入本目录，并在 `src/components/LandedListSection.tsx` 的 `screenshots` 数组中登记 `imageUrl` 与 `description`。
 
-## 文件命名规范
-- screenshot1.jpg
-- screenshot2.jpg
-- screenshot3.jpg
-- ...
+## 文件命名
 
-## 图片格式
-支持 JPG、PNG 等常见图片格式。
+当前使用 `image1.png` … `image12.png`。新增建议顺延为 `image13.png`、`image14.png`，避免重名覆盖。
 
-## 使用方法
-1. 将截图文件放入 `public/landed-screenshots/` 目录
-2. 在 `src/components/LandedListSection.tsx` 中更新 `screenshots` 数组，添加对应的图片路径和描述
+## 格式
+
+支持 PNG、JPG、WebP 等浏览器常见格式。
 
 ## 示例
+
 ```typescript
 {
-  id: 1,
-  imageUrl: '/landed-screenshots/screenshot1.jpg',
-  alt: '已上岸朋友截图1',
-  description: 'sean 成功转正'
+  id: 13,
+  imageUrl: '/landed-screenshots/image13.png',
+  alt: '学员成果截图',
+  description: '原xxx，现xxx',
 }
 ```
-
-

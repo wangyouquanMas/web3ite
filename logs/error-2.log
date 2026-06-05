@@ -2194,3 +2194,229 @@
 2026-04-20T01:48:09: (node:1620) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 2026-04-20T01:48:09: (Use `node --trace-deprecation ...` to show where the warning was created)
 2026-04-20T01:48:09: (node:1620) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-28T20:10:13: Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+2026-04-28T20:10:13:   npx update-browserslist-db@latest
+2026-04-28T20:10:13:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-04-28T20:10:14: (node:1674) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-28T20:10:14: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-28T20:10:14: (node:1674) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-04-28T20:20:20: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:20: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:20:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:20:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:20:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:20:         |          ^^^
+2026-04-28T20:20:20:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:20:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:20:     160 |               社群内容交付总览
+2026-04-28T20:20:20: 
+2026-04-28T20:20:21: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:21: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:21:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:21:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:21:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:21:         |          ^^^
+2026-04-28T20:20:21:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:21:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:21:     160 |               社群内容交付总览
+2026-04-28T20:20:21: 
+2026-04-28T20:20:29: ERROR in src/components/CourseSchedule.tsx:157:10
+2026-04-28T20:20:29: TS17008: JSX element 'div' has no corresponding closing tag.
+2026-04-28T20:20:29:     155 |       <section id="community-delivery" className="community-section" aria-labelledby="community-delivery-heading">
+2026-04-28T20:20:29:     156 |         <div className="section-transition-top" aria-hidden="true" />
+2026-04-28T20:20:29:   > 157 |         <div className="community-section-inner">
+2026-04-28T20:20:29:         |          ^^^
+2026-04-28T20:20:29:     158 |           <div className="community-delivery-overview">
+2026-04-28T20:20:29:     159 |             <h3 id="community-delivery-heading" className="community-delivery-title">
+2026-04-28T20:20:29:     160 |               社群内容交付总览
+2026-04-28T20:20:29: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:31:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     29 |
+2026-05-11T12:04:22:     30 |   const pricingPlans: PricingPlan[] = [
+2026-05-11T12:04:22:   > 31 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 32 |       id: 1,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 33 |       name: 'Web3实战开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 34 |       priceUSDT: 649,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 35 |       description: '从零到一完整项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 36 |       badge: '最受欢迎',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 37 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 38 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 39 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 40 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 41 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 42 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 43 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 44 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 45 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 46 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     47 |     {
+2026-05-11T12:04:22:     48 |       id: 2,
+2026-05-11T12:04:22:     49 |       name: 'Web3实战+合约开发',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:47:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     45 |       ],
+2026-05-11T12:04:22:     46 |     },
+2026-05-11T12:04:22:   > 47 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 48 |       id: 2,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 49 |       name: 'Web3实战+合约开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 50 |       priceUSDT: 849,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 51 |       description: '从零到一完整项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 52 |       badge: '最受欢迎',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 53 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 54 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 55 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 56 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 57 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 58 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 59 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 60 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 61 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 62 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 63 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 64 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     65 |     {
+2026-05-11T12:04:22:     66 |       id: 3,
+2026-05-11T12:04:22:     67 |       name: 'Web3实战+合约开发+路由聚合器开发',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:65:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: string; badge: string; features: string[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:     63 |       ],
+2026-05-11T12:04:22:     64 |     },
+2026-05-11T12:04:22:   > 65 |     {
+2026-05-11T12:04:22:        |     ^
+2026-05-11T12:04:22:   > 66 |       id: 3,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 67 |       name: 'Web3实战+合约开发+路由聚合器开发',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 68 |       priceUSDT: 1049,
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 69 |       description: '实战、合约与链下路由聚合一站式',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 70 |       badge: '含路由专项',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 71 |       features: [
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 72 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 73 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 74 |         'Router 路由聚合器实战项目',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 75 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 76 |         '课后实践加答案解析',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 77 |         '学习群答疑服务',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 78 |         '生产级项目实战',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 79 |         '大量真实面经',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 80 |         '简历修改',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 81 |         '专属社区(实时交流)',
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 82 |       ],
+2026-05-11T12:04:22:        | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 83 |     },
+2026-05-11T12:04:22:        | ^^^^^^
+2026-05-11T12:04:22:     84 |     {
+2026-05-11T12:04:22:     85 |       id: 4,
+2026-05-11T12:04:22:     86 |       name: '全流程VIP陪跑',
+2026-05-11T12:04:22: 
+2026-05-11T12:04:22: ERROR in src/components/CourseSchedule.tsx:84:5
+2026-05-11T12:04:22: TS2741: Property 'pillars' is missing in type '{ id: number; name: string; priceUSDT: number; description: JSX.Element; badge: string; features: (string | JSX.Element)[]; }' but required in type 'PricingPlan'.
+2026-05-11T12:04:22:      82 |       ],
+2026-05-11T12:04:22:      83 |     },
+2026-05-11T12:04:22:   >  84 |     {
+2026-05-11T12:04:22:         |     ^
+2026-05-11T12:04:22:   >  85 |       id: 4,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  86 |       name: '全流程VIP陪跑',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  87 |       priceUSDT: 3000,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  88 |       description: <span className="price-highlight-text">一对一全程指导</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  89 |       badge: 'VIP专享',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  90 |       features: [
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  91 |         'DEX聚合器100+ 节精品视频课程',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  92 |         'Pumpfun合约从零到一实现',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  93 |         'Router 路由聚合器实战项目',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  94 |         'EVM全系列解析实战',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  95 |         '个性化学习路径规划',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  96 |         '包含实战开发全部内容',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  97 |         '合约开发实战',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  98 |         '1对1简历优化 + 求职指导',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   >  99 |         '模拟面试',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 100 |         '面试复盘(持续跟踪)',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 101 |         '英语口语学习路径规划',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 102 |         <span key="vip-meetings" className="price-highlight-text">每周3-4次,1v1会议，进度跟踪及复盘</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 103 |         <span key="vip-probation" className="price-highlight-text">试用期指导</span>,
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 104 |         '持续6个月跟踪服务',
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 105 |       ],
+2026-05-11T12:04:22:         | ^^^^^^^^^^^^
+2026-05-11T12:04:22:   > 106 |     },
+2026-05-11T12:04:22:         | ^^^^^^
+2026-05-11T12:04:22:     107 |   ];
+2026-05-11T12:04:22:     108 |
+2026-05-11T12:04:22:     109 |   return (
+2026-05-11T12:04:22: 
+2026-05-11T12:10:44: Browserslist: browsers data (caniuse-lite) is 15 months old. Please run:
+2026-05-11T12:10:44:   npx update-browserslist-db@latest
+2026-05-11T12:10:44:   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026-05-11T12:10:45: (node:1623) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2026-05-11T12:10:45: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-05-11T12:10:45: (node:1623) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
