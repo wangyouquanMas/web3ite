@@ -10,7 +10,8 @@ type PricingPlan = {
   priceUSDT: number;
   /** 每期人数 / 开班节奏等补充说明（小班用） */
   cohortNote?: React.ReactNode;
-  discount?: number;
+  /** 早鸟实付价（覆盖显示），配合 priceUSDT 作为划线原价 */
+  salePriceUSDT?: number;
   description: React.ReactNode;
   badge?: string;
   /** 主推套餐（小班）高亮显示 */
@@ -55,20 +56,20 @@ const CourseSchedule: React.FC = () => {
       name: '小班课程',
       category: '小班',
       priceUSDT: 2049,
-      discount: 0.9,
+      salePriceUSDT: 1849,
       description: '小班直播带练 · 带改作业 · 带找工作',
       badge: '主推',
       featured: true,
       cohortNote: (
         <>
-          <strong>下期 7 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>5 人</strong>
+          <strong>下期 7 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>8 人</strong>
           <span className="price-earlybird">⏰ 提前预定享 9 折优惠</span>
         </>
       ),
       pillars: [true, true, true, true],
       features: [
         <span key="class-include" className="price-highlight-text">含自学套餐全部内容</span>,
-        <span key="class-cohort" className="price-highlight-text">每 2 个月一期，为保障质量每期仅招 5 人</span>,
+        <span key="class-cohort" className="price-highlight-text">每 2 个月一期，为保障质量每期仅招 8 人</span>,
         '小班直播带练 + 作业批改',
         '简历修改 + 求职指导',
         '模拟面试 + 面经复盘',
@@ -134,13 +135,15 @@ const CourseSchedule: React.FC = () => {
               </span>
               <h3>{plan.name}</h3>
               <div className="price">
-                {plan.discount != null && plan.discount < 1 ? (
+                {plan.salePriceUSDT != null && plan.salePriceUSDT < plan.priceUSDT ? (
                   <>
                     <div className="price-discount-line">
-                      <span className="price-zhe-badge">提前预定 {Math.round(plan.discount * 10)}折</span>
+                      <span className="price-zhe-badge">
+                        提前预定 {Math.round((plan.salePriceUSDT / plan.priceUSDT) * 10)}折
+                      </span>
                     </div>
                     <div className="price-row price-row--sale">
-                      <span className="amount">{Math.round(plan.priceUSDT * plan.discount)}</span>
+                      <span className="amount">{plan.salePriceUSDT}</span>
                       <span className="currency">USDT</span>
                     </div>
                     <div className="price-row price-row--original">
