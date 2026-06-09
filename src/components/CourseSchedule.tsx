@@ -56,14 +56,12 @@ const CourseSchedule: React.FC = () => {
       name: '小班课程',
       category: '小班',
       priceUSDT: 2049,
-      salePriceUSDT: 1849,
       description: '小班直播带练 · 带改作业 · 带找工作',
       badge: '主推',
       featured: true,
       cohortNote: (
         <>
           <strong>下期 7 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>5 人</strong>
-          <span className="price-earlybird">⏰ 提前预定享 9 折优惠</span>
         </>
       ),
       pillars: [true, true, true, true],
