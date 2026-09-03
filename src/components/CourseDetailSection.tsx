@@ -593,6 +593,167 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
+  const evmLaunchpadIcon = (
+    <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5 15C3 17 3 21 3 21C3 21 7 21 9 19C10 18 10 16.5 9.5 15.5C9 14.5 7 14 5 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M9 15L7 13C8 9 11 5 18 4C19 8 17 12 14 14L12 16L9 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="14.5" cy="8.5" r="1.5" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+
+  const evmLaunchpadCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '产品闭环与 EVM 交易事实',
+      level: 'L0 · Day 1–2',
+      description: '理解 create、曲线买卖、毕业迁移与 DEX 交易的完整资金流，并用 receipt/logs 验证真实结果。',
+      topicsLeft: ['Launchpad、Bonding Curve 与 DEX 的边界', 'transaction、receipt、Event 与余额变化', 'Factory、Token、Market、Migrator 的职责'],
+      topicsRight: ['实验：还原一次 create/buy/sell 交易', '交付：资金流图、状态图与信任边界', '面试：txHash 为什么不代表执行成功？'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 2,
+      title: '曲线数学、固定供应与 Factory',
+      level: 'L1 · Day 3–5',
+      description: '用虚拟储备建立初始价格，严格区分真实储备与费用，并创建不可任意增发的 ERC-20 和独立 Market。',
+      topicsLeft: ['偏移常数乘积、手续费与整数舍入', '固定供应 ERC-20：无 mint、blacklist 和隐藏税', 'Factory 配置上限、映射与 configHash'],
+      topicsRight: ['实验：quote 与执行同状态对账', '验证：fee bucket 不进入迁移储备', '交付：LaunchToken + LaunchFactory 测试'],
+      duration: '3 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 3,
+      title: 'Curve Buy / Sell 与费用会计',
+      level: 'L1 · Day 6–7',
+      description: '实现 exact-input 买卖、滑点、deadline、allowance 和真实 BNB 储备约束，使每一笔资金都可解释。',
+      topicsLeft: ['quoteBuy/buy 与 minTokenOut', 'approve + quoteSell/sell 与 minQuoteOut', '协议费、创作者费与真实储备分账'],
+      topicsRight: ['CEI、nonReentrant 与安全 ETH transfer', '实验：极小输入、储备不足和超滑点', '验收：事件可重放交易前后储备'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 4,
+      title: '毕业状态机与 Pancake 迁移',
+      level: 'L2 · Day 8–9',
+      description: '达到阈值后冻结曲线交易，并将剩余 Token + WBNB 原子迁移到 PancakeSwap V2。',
+      topicsLeft: ['Active → Graduating → Graduated', '临界买入、不可越过阈值与失败回滚', 'WBNB、addLiquidity、min amount 与 deadline'],
+      topicsRight: ['LP lock/burn、Router refund 与 dust', 'BSC fork 核对 Pair 储备和 LP 接收者', '验收：毕业后曲线 buy/sell 永久失败'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 5,
+      title: 'Event Indexer 与钱包前端',
+      level: 'L2 · Day 10–11',
+      description: '从 Factory 部署块重放创建、成交和毕业事件，并完成创建代币、报价、交易和领取费用的前端闭环。',
+      topicsLeft: ['blockHash、txHash、logIndex 与幂等快照', 'reorg buffer、checkpoint 与恢复', '读取 Market 配置，禁止前端猜测曲线参数'],
+      topicsRight: ['钱包签名、approve 顺序与 receipt status', '展示价格、储备、fee、minOut 和毕业进度', '实验：Indexer 快照驱动完整 UI'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 6,
+      title: 'Foundry 测试与安全审计',
+      level: 'L2 · Day 12–13',
+      description: '用 unit、fuzz、invariant 和攻击实验验证储备守恒、状态不可逆与权限最小化。',
+      topicsLeft: ['quote parity、余额/储备与 fee invariant', '重入、恶意 Router、舍入和极值输入', 'creator/admin/deployer 权限与 LP 归属'],
+      topicsRight: ['实验：随机 buy/sell 序列和迁移失败', '安全检查：无库存提取、无重复迁移', '交付：SECURITY_REVIEW 与残余风险'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+    {
+      id: 7,
+      title: 'BSC Fork、上线与面试答辩',
+      level: 'L3 · Day 14–15',
+      description: '使用真实 WBNB/Pancake 合约完成端到端验证，交付部署、监控、回滚和项目表达。',
+      topicsLeft: ['Fork E2E、真实 Router/Factory 与参数审查', '部署密钥、权限交接、监控和 incident runbook', 'create → trade → graduate → DEX 全链路演示'],
+      topicsRight: ['验收：资金、费用、dust 和 LP 全部对账', '主网前独立审计与小额 canary', '面试：问题、数学、状态机、安全和证据'],
+      duration: '2 天',
+      icon: evmLaunchpadIcon,
+    },
+  ];
+
+  const solanaPredictionIcon = (
+    <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 5H20V19H4V5Z" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" />
+      <path d="M8 15L11 12L13 14L17 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+
+  const solanaPredictionCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: 'Anchor 工程与预测市场账户图',
+      level: 'L0 · Day 1–2',
+      description: '从源码快照重建可运行 workspace，设计 Config、Market、Vault、YES/NO Mint 和 Position PDA。',
+      topicsLeft: ['Anchor workspace、Program ID、IDL 与客户端', 'PDA seeds、bump、space、owner 与 signer', '抵押 vault、outcome vault 与用户 ATA'],
+      topicsRight: ['实验：修复工程并通过 anchor build', '交付：账户关系图和权限矩阵', '验收：相同市场地址可确定性派生'],
+      duration: '2 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 2,
+      title: 'Complete Set、FPMM 与市场创建',
+      level: 'L1 · Day 3–5',
+      description: '建立 YES + NO 的抵押责任和 AMM 定价，实现 Config、Outcome Mint、Metadata 与安全市场创建。',
+      topicsLeft: ['1 collateral ↔ 1 YES + 1 NO', 'x·y=k、YES/NO 边际价格与整数舍入', 'Configure、两步 authority transfer 与参数上限'],
+      topicsRight: ['创建 Market PDA、Mints、Vault ATA 和 Metadata', '约束 mint/freeze authority 和市场时间', '实验：从账户余额证明抵押责任'],
+      duration: '3 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 3,
+      title: '流动性、LP 会计与 Swap',
+      level: 'L1 · Day 6–7',
+      description: '实现比例化流动性份额和 exact-input YES/NO 交易，确保 Market 字段与 SPL vault 实际余额一致。',
+      topicsLeft: ['初始 LP 价格、share mint/position 与比例存取', 'buy/sell、fee、minimum_receive_amount', 'SPL Token CPI 与 idempotent ATA 创建'],
+      topicsRight: ['验证 mint、authority、token program 和 vault', '实验：方向、零输出、滑点与余额差', '验收：quote 和相同 slot 执行一致'],
+      duration: '2 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 4,
+      title: '生命周期、Oracle 与 Claim',
+      level: 'L2 · Day 8–10',
+      description: '用可信外部结果完成 Open、Closed、Resolved/Voided 和领取，禁止使用市场储备自动决定现实赢家。',
+      topicsLeft: ['Draft → Open → Closed → Resolving → Resolved/Voided', 'slot/time 边界、暂停、oracle/multisig 和 challenge delay', '胜方 token burn/escrow 与 payout vector'],
+      topicsRight: ['重复 claim、错误 outcome 与无结果退款', '实验：正常 YES/NO 结算和 Void', '验收：resolution 后 swap 与规则修改永久失败'],
+      duration: '3 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 5,
+      title: '交易构造、Events 与 Indexer',
+      level: 'L2 · Day 11–12',
+      description: '构造多指令交易并通过 logs/account subscription 重建市场、价格、成交、持仓与结算。',
+      topicsLeft: ['AccountMeta、Compute Budget、CPI、ALT 与签名', 'Anchor Event、token balance change 与错误解码', 'processed 快通道、confirmed/finalized 事实层'],
+      topicsRight: ['signature + instruction/event index 幂等键', 'slot、blockhash、重放窗口与恢复', '实验：从事件和账户状态恢复市场快照'],
+      duration: '2 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 6,
+      title: '钱包前端与交易体验',
+      level: 'L2 · Day 13',
+      description: '实现市场列表、交易面板、持仓、LP 和 Claim，并正确表达 pending、confirmed 与 finalized。',
+      topicsLeft: ['Wallet Adapter、网络切换与账户准备', 'amountOut、fee、price impact、minOut 和 quote slot', '市场截止、结果、payout 和可领取量'],
+      topicsRight: ['交易发送后检查 meta.err', '账户变化推送和过期报价刷新', '实验：浏览器完成 create → trade → claim'],
+      duration: '1 天',
+      icon: solanaPredictionIcon,
+    },
+    {
+      id: 7,
+      title: '安全、Devnet 与面试答辩',
+      level: 'L3 · Day 14–15',
+      description: '通过账户替换、权限、数学和重复领取攻击实验验证安全，在 Devnet 完成可交易和可结算的闭环。',
+      topicsLeft: ['Anchor constraints、恶意账户、整数和状态 invariant', 'LiteSVM/Bankrun、Devnet E2E 与故障注入', 'upgrade authority、oracle、监控和 incident 流程'],
+      topicsRight: ['验收：vault 覆盖最大兑付责任', '演示：create → LP → trade → resolve → claim', '面试：账户模型、FPMM、结算和安全证据'],
+      duration: '2 天',
+      icon: solanaPredictionIcon,
+    },
+  ];
+
   const pumpfunCourseChapters: CourseChapterCard[] = [
     {
       id: 1,
@@ -1053,6 +1214,50 @@ const CourseDetailSection: React.FC = () => {
       chapters: evmAggregatorCourseChapters,
     },
     {
+      id: 'evm-launchpad',
+      tab: 'Pump.fun (EVM)',
+      badge: 'NEW',
+      panelClass: 'evm-launchpad-course-detail',
+      gridClass: 'evm-launchpad-course-grid',
+      title: 'Pump.fun（EVM 版本）· 15天工程实战',
+      subtitle: (
+        <p>
+          基于真实 <span className="highlight">Solidity + Foundry</span> 项目，从{' '}
+          <span className="highlight">固定供应代币、Bonding Curve 买卖和费用会计</span> 到{' '}
+          <span className="highlight">PancakeSwap 毕业迁移、Indexer 与钱包前端</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          构建可交易、可毕业、可审计的 EVM Launchpad，而不是简单 ERC-20 发币页面{' '}
+          <strong className="course-detail-value-prop-emphasis">【Solidity资金系统实战】</strong>
+        </p>
+      ),
+      chapters: evmLaunchpadCourseChapters,
+    },
+    {
+      id: 'solana-prediction',
+      tab: '预测市场 (Solana)',
+      badge: 'NEW',
+      panelClass: 'solana-prediction-course-detail',
+      gridClass: 'solana-prediction-course-grid',
+      title: '预测市场（Solana 版本）· 15天工程实战',
+      subtitle: (
+        <p>
+          使用 <span className="highlight">Rust + Anchor + TypeScript</span>，从{' '}
+          <span className="highlight">Market PDA、YES/NO Token、FPMM 和流动性</span> 到{' '}
+          <span className="highlight">Oracle Resolution、Claim、Indexer 与 Devnet</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          实现资金守恒、结果可验证、结算可领取的 Solana 二元预测市场{' '}
+          <strong className="course-detail-value-prop-emphasis">【Anchor综合项目】</strong>
+        </p>
+      ),
+      chapters: solanaPredictionCourseChapters,
+    },
+    {
       id: 'evm',
       tab: '预测市场 (EVM)',
       badge: 'NEW',
@@ -1083,7 +1288,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>五大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>七大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
