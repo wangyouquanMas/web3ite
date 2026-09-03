@@ -425,6 +425,174 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
+  const evmAggregatorCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '聚合器边界与 EVM 交易事实',
+      level: 'L0 · Day 1–2',
+      description: '先区分行情看板、DEX Router 与真正的聚合器，再用 transaction、receipt、logs 和 trace 还原一笔多跳交易。',
+      topicsLeft: [
+        '聚合器的数据面、决策面与执行面',
+        'Quote、RoutePlan、交易与结算事实的边界',
+        'transaction / receipt / logs / trace 各自回答什么',
+      ],
+      topicsRight: [
+        '实验：用 Go 解析一笔 EVM 多跳 Swap',
+        '验收：按 txHash + logIndex 还原事件和余额变化',
+        '面试：为什么不能只解析 calldata？',
+      ],
+      duration: '2 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M12 22V12M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 2,
+      title: '实时摄取与可信 Pool Registry',
+      level: 'L1 · Day 3–4',
+      description: '通过 WS 快通道与 confirmed 回放维护可回滚的池状态，并从 Factory / PoolManager 事件安全发现池子。',
+      topicsLeft: [
+        'WebSocket、checkpoint、幂等键与补块',
+        'blockHash、确认深度与 reorg 回滚',
+        'V2/V3 Factory 与 V4 PoolManager 池发现',
+      ],
+      topicsRight: [
+        '验证 factory、bytecode、token 与 fee 参数',
+        '实验：重组和漏块故障注入',
+        '验收：假池不能进入 Token/Pool 图',
+      ],
+      duration: '2 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="12" cy="5" rx="8" ry="3" stroke="currentColor" strokeWidth="2" />
+          <path d="M4 5V12C4 13.7 7.6 15 12 15C16.4 15 20 13.7 20 12V5M4 12V19C4 20.7 7.6 22 12 22C16.4 22 20 20.7 20 19V12" stroke="currentColor" strokeWidth="2" />
+        </svg>
+      ),
+    },
+    {
+      id: 3,
+      title: 'V2 / V3 / V4 本地报价',
+      level: 'L1 · Day 5–7',
+      description: '从 reserve、tick 到 PoolKey / Hook，真正理解三代 AMM 的流动性表达和 exact-input 报价。',
+      topicsLeft: [
+        'V2：x·y=k、手续费、价格冲击与整数舍入',
+        'V3：sqrtPriceX96、TickBitmap 与跨 tick 流动性',
+        'V4：Singleton、poolId、PoolKey 与 dynamic fee',
+      ],
+      topicsRight: [
+        'Hook 能改变什么，未知行为如何隔离',
+        '实验：本地报价与 Quoter / eth_call 对账',
+        '验收：误差、方向和边界金额均有测试证据',
+      ],
+      duration: '3 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 18L8 13L12 16L20 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M15 6H20V11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 4,
+      title: '统一 Adapter 与多跳路径搜索',
+      level: 'L2 · Day 8–9',
+      description: '把不同 DEX 转换为同一报价接口和 Token/Pool 图，在有限延迟预算内搜索 1/2/3-hop 候选。',
+      topicsLeft: [
+        'QuoteExactIn、依赖版本、新鲜度与错误分类',
+        'Token 为节点、Pool 为边的邻接图',
+        '简单路径约束、流动性剪枝与 top-K beam search',
+      ],
+      topicsRight: [
+        '防止组合爆炸与跨版本状态拼接',
+        '实验：不同图规模下的 p50 / p95 benchmark',
+        '面试：adapter 如何让新增 DEX 不改搜索器？',
+      ],
+      duration: '2 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="12" r="2" stroke="currentColor" strokeWidth="2" />
+          <circle cx="12" cy="5" r="2" stroke="currentColor" strokeWidth="2" />
+          <circle cx="19" cy="12" r="2" stroke="currentColor" strokeWidth="2" />
+          <circle cx="12" cy="19" r="2" stroke="currentColor" strokeWidth="2" />
+          <path d="M6.5 10.5L10.5 6.5M13.5 6.5L17.5 10.5M17.5 13.5L13.5 17.5M10.5 17.5L6.5 13.5" stroke="currentColor" strokeWidth="2" />
+        </svg>
+      ),
+    },
+    {
+      id: 5,
+      title: 'Gas 后最优与拆单路由',
+      level: 'L2 · Day 10',
+      description: '最大 amountOut 不等于最佳成交；将 Gas 换算成输出代币，并比较单路径与受控两路拆单的净输出。',
+      topicsLeft: [
+        'netOut = amountOut − gasCost − fee − riskPenalty',
+        'Gas 价格与资产价格的单位换算',
+        '两路 split 的边际报价与金额守恒',
+      ],
+      topicsRight: [
+        '避免共享池导致的虚假拆单收益',
+        '实验：直接、多跳、拆单三类 RoutePlan 对比',
+        '验收：选择结果可解释、可复现',
+      ],
+      duration: '1 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 4V9C4 11 6 12 8 12H16C18 12 20 13 20 15V20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path d="M4 20V15C4 13 6 12 8 12M20 4V9C20 11 18 12 16 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 6,
+      title: '安全执行、滑点与交易发送',
+      level: 'L2 · Day 11–13',
+      description: '把 RoutePlan 构造成原子交易，通过执行合约与发送状态机控制授权、滑点、MEV、nonce 和 calldata 风险。',
+      topicsLeft: [
+        'allowlist、deadline、minOut 与余额增量校验',
+        'ERC-20 allowance、Permit2、ETH / WETH 边界',
+        'pending nonce、EIP-1559、replacement 与私有发送',
+      ],
+      topicsRight: [
+        '模拟、stale state、滑点失败与 MEV 风险',
+        '校验外部 route/build 的 to、value、data 与 fee',
+        '实验：Fork 上签名、广播、revert 解码和 PnL 对账',
+      ],
+      duration: '3 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L4 5V11C4 16 7.5 20.5 12 22C16.5 20.5 20 16 20 11V5L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
+    {
+      id: 7,
+      title: '生产优化、综合验收与面试',
+      level: 'L3 · Day 14–15',
+      description: '用性能指标、故障演练和端到端对账证明它是可运行的聚合器，而不是只会展示理论报价的 demo。',
+      topicsLeft: [
+        'Quote p50 / p95 / p99、锁竞争与缓存失效',
+        'RPC 超时、限流、节点切换与可观测性',
+        '请求 → route ID → txHash → receipt → PnL 全链路追踪',
+      ],
+      topicsRight: [
+        'Fork E2E、第三方聚合器对照与故障注入',
+        '最终作品：多 DEX、1/2/3-hop、Gas 后选优与安全执行',
+        '面试：用问题、原因、方案和证据讲清项目价值',
+      ],
+      duration: '2 天',
+      icon: (
+        <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 15C3 17 3 21 3 21C3 21 7 21 9 19C10 18 10 16.5 9.5 15.5C9 14.5 7 14 5 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M9 15L7 13C8 9 11 5 18 4C19 8 17 12 14 14L12 16L9 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="14.5" cy="8.5" r="1.5" stroke="currentColor" strokeWidth="2" />
+        </svg>
+      ),
+    },
+  ];
+
   const pumpfunCourseChapters: CourseChapterCard[] = [
     {
       id: 1,
@@ -863,6 +1031,28 @@ const CourseDetailSection: React.FC = () => {
       chapters: routerCourseChapters,
     },
     {
+      id: 'evm-aggregator',
+      tab: '（EVM链）DEX聚合器',
+      badge: 'NEW',
+      panelClass: 'evm-aggregator-course-detail',
+      gridClass: 'evm-aggregator-course-grid',
+      title: '（EVM链）DEX聚合器 · 15天工程实战',
+      subtitle: (
+        <p>
+          参考真实 <span className="highlight">EVM Consumer 与交易系统</span>，从{' '}
+          <span className="highlight">V2 / V3 / V4 链上状态、本地报价和路径搜索</span> 到{' '}
+          <span className="highlight">Gas 后选优、安全执行与 Receipt 对账</span>，完成交易闭环。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          使用 Go + Solidity 构建真正的多 DEX 聚合器，而不是简单转发第三方 route API{' '}
+          <strong className="course-detail-value-prop-emphasis">【EVM交易系统核心项目】</strong>
+        </p>
+      ),
+      chapters: evmAggregatorCourseChapters,
+    },
+    {
       id: 'evm',
       tab: '预测市场 (EVM)',
       badge: 'NEW',
@@ -893,7 +1083,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>四大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>五大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
@@ -939,4 +1129,4 @@ const CourseDetailSection: React.FC = () => {
   );
 };
 
-export default CourseDetailSection; 
+export default CourseDetailSection;
