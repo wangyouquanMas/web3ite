@@ -425,10 +425,146 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
-  const evmAggregatorCourseChapters: CourseChapterCard[] = [
+  const evmDexAggregatorIcon = (
+    <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 22V12M21 7L12 12L3 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+
+  const evmDexAggregatorCourseChapters: CourseChapterCard[] = [
     {
       id: 1,
-      title: '聚合器边界与 EVM 交易事实',
+      title: 'EVM 数据模型与交易解析',
+      level: 'L0 · Day 1–2',
+      description: '从区块、交易、Receipt、Logs 和 Trace 建立 EVM 数据事实层，为 DEX 数据产品提供可靠输入。',
+      topicsLeft: [
+        'block / transaction / receipt 数据结构',
+        'Event topic、data 与 ABI 解码',
+        'internal call、delegatecall 与 call trace',
+      ],
+      topicsRight: [
+        '交易状态、确认深度与链重组',
+        '实验：完整还原一笔多协议 Swap',
+        '验收：成交、转账和手续费可以互相对账',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 2,
+      title: '实时 Consumer 与可靠数据管道',
+      level: 'L1 · Day 3–4',
+      description: '通过 WebSocket 快通道和区块回放构建不丢数、可回滚、可恢复的多链数据摄取服务。',
+      topicsLeft: [
+        'WebSocket 订阅、RPC 补块与 checkpoint',
+        'txHash + logIndex 幂等键与重复消费',
+        'reorg 检测、回滚和 finalized 推进',
+      ],
+      topicsRight: [
+        'Kafka 分区、背压、重试与死信队列',
+        '实验：断流、漏块和重组故障注入',
+        '验收：恢复后数据库与链上事实一致',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 3,
+      title: 'V2 / V3 / V4 协议解析',
+      level: 'L1 · Day 5–7',
+      description: '解析不同 AMM 的池发现、流动性状态与 Swap 事件，形成统一 Pool、Pair 和 Trade 数据模型。',
+      topicsLeft: [
+        'V2 Factory、Pair、reserve 与 Swap/Sync',
+        'V3 Pool、slot0、tick、liquidity 与事件',
+        'V4 Singleton、PoolKey、poolId 与 Hook',
+      ],
+      topicsRight: [
+        'Factory、bytecode、token 和 fee 可信校验',
+        '协议差异适配与未知 Hook 隔离',
+        '实验：同一交易解析为统一 Trade 记录',
+      ],
+      duration: '3 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 4,
+      title: 'Token、行情与 K 线系统',
+      level: 'L2 · Day 8–9',
+      description: '把原始链上事件加工成代币、交易对、价格、成交量、Holder 与 OHLCV 等可查询产品数据。',
+      topicsLeft: [
+        'Token / Pair / Pool / Trade 表结构',
+        '价格锚定、decimal 与 USD 计价',
+        '实时 K 线聚合与迟到事件修正',
+      ],
+      topicsRight: [
+        'Holder、流动性和风险指标',
+        'Redis 热数据与历史数据库分层',
+        '实验：链上 Swap → 实时 K 线闭环',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 5,
+      title: '行情 API 与实时推送',
+      level: 'L2 · Day 10–11',
+      description: '对外提供 Token、Pair、Trade、K 线和钱包数据 API，并通过 WebSocket 推送实时行情。',
+      topicsLeft: [
+        'REST / gRPC / WebSocket 服务边界',
+        '分页、排序、搜索与多链命名空间',
+        '缓存一致性、热点保护和限流',
+      ],
+      topicsRight: [
+        '钱包持仓、成交历史和 PnL 数据',
+        '实验：实现交易流与 K 线订阅',
+        '验收：断线重连后无重复、无数据缺口',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 6,
+      title: '交易服务与 Router 集成边界',
+      level: 'L2 · Day 12–13',
+      description: 'DEX 聚合器负责用户、行情与交易生命周期；最佳路径计算和 calldata 构造交给独立 Router 服务。',
+      topicsLeft: [
+        'Quote / Build API 契约与 RoutePlan',
+        'Allowance、Permit2、nonce 与 EIP-1559',
+        '订单 pending / confirmed / reverted 状态机',
+      ],
+      topicsRight: [
+        'minOut、deadline 与交易前模拟',
+        'Receipt、Logs 与余额增量成交对账',
+        '实验：聚合器调用 Router 完成一次真实闭环',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+    {
+      id: 7,
+      title: '微服务部署、监控与综合验收',
+      level: 'L3 · Day 14–15',
+      description: '部署 Consumer、Market、Trade、Gateway 与数据组件，通过延迟、完整性和故障恢复证明系统可用。',
+      topicsLeft: [
+        'Go 服务、Kafka、Redis、PostgreSQL 部署',
+        '消费延迟、漏块、解析失败和 API p95 指标',
+        'RPC 超时、限流、熔断与节点切换',
+      ],
+      topicsRight: [
+        '数据回放、Schema 演进与灰度发布',
+        '最终作品：多链 DEX 数据与交易平台',
+        '边界：本课程不深入路径搜索算法和路由合约',
+      ],
+      duration: '2 天',
+      icon: evmDexAggregatorIcon,
+    },
+  ];
+
+  const evmRouterCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: 'Router 边界与 EVM 交易事实',
       level: 'L0 · Day 1–2',
       description: '先区分行情看板、DEX Router 与真正的聚合器，再用 transaction、receipt、logs 和 trace 还原一笔多跳交易。',
       topicsLeft: [
@@ -571,7 +707,7 @@ const CourseDetailSection: React.FC = () => {
       id: 7,
       title: '生产优化、综合验收与面试',
       level: 'L3 · Day 14–15',
-      description: '用性能指标、故障演练和端到端对账证明它是可运行的聚合器，而不是只会展示理论报价的 demo。',
+      description: '用性能指标、故障演练和端到端对账证明它是可运行的 Router，而不是只会展示理论报价的 demo。',
       topicsLeft: [
         'Quote p50 / p95 / p99、锁竞争与缓存失效',
         'RPC 超时、限流、节点切换与可观测性',
@@ -1144,7 +1280,7 @@ const CourseDetailSection: React.FC = () => {
   const courses: CourseTab[] = [
     {
       id: 'dex',
-      tab: 'DEX 聚合器',
+      tab: 'DEX 聚合器（Solana）',
       panelClass: '',
       title: 'DEX 聚合器 · 课表详情',
       subtitle: (
@@ -1174,7 +1310,7 @@ const CourseDetailSection: React.FC = () => {
     },
     {
       id: 'router',
-      tab: 'Router 路由',
+      tab: 'Router 路由（Solana）',
       panelClass: 'router-course-detail',
       gridClass: 'router-course-grid',
       title: 'Router 实战项目 · 课表详情',
@@ -1193,25 +1329,47 @@ const CourseDetailSection: React.FC = () => {
     },
     {
       id: 'evm-aggregator',
-      tab: 'EVM Router 路由',
+      tab: 'DEX 聚合器（EVM）',
       badge: 'NEW',
       panelClass: 'evm-aggregator-course-detail',
       gridClass: 'evm-aggregator-course-grid',
-      title: 'EVM DEX Router 路由聚合器 · 15天工程实战',
+      title: 'DEX 聚合器（EVM）· 15天全栈工程实战',
       subtitle: (
         <p>
-          参考真实 <span className="highlight">EVM Consumer 与交易系统</span>，从{' '}
-          <span className="highlight">V2 / V3 / V4 链上状态、本地报价和路径搜索</span> 到{' '}
-          <span className="highlight">Gas 后选优、安全执行与 Receipt 对账</span>，完成交易闭环。
+          参考真实 <span className="highlight">EVM Consumer 与 dex_full 数据系统</span>，从{' '}
+          <span className="highlight">交易解析、实时摄取、V2 / V3 / V4 协议适配</span> 到{' '}
+          <span className="highlight">Token 行情、K 线、交易服务与微服务部署</span>，完成 DEX 产品闭环。
         </p>
       ),
       valueProp: (
         <p className="course-detail-value-prop">
-          使用 Go + Solidity 构建真正的多 DEX 聚合器，而不是简单转发第三方 route API{' '}
-          <strong className="course-detail-value-prop-emphasis">【EVM交易系统核心项目】</strong>
+          构建完整的 EVM DEX 数据与交易平台；Router 作为独立下游服务，本课程不深入路径搜索算法{' '}
+          <strong className="course-detail-value-prop-emphasis">【数据与业务系统】</strong>
         </p>
       ),
-      chapters: evmAggregatorCourseChapters,
+      chapters: evmDexAggregatorCourseChapters,
+    },
+    {
+      id: 'evm-router',
+      tab: 'Router 路由（EVM）',
+      badge: 'NEW',
+      panelClass: 'evm-router-course-detail',
+      gridClass: 'evm-router-course-grid',
+      title: 'Router 路由（EVM）· 15天算法与执行实战',
+      subtitle: (
+        <p>
+          基于真实 <span className="highlight">evm_router_aggregator</span>，从{' '}
+          <span className="highlight">一致池状态、本地报价、Token/Pool 图和 1/2/3-hop 搜索</span> 到{' '}
+          <span className="highlight">Gas 后选优、拆单、执行 Adapter 与 RelayRouter</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          输入标准化池状态，输出可执行 RoutePlan 和安全 calldata；不负责 K 线、Holder 和行情产品{' '}
+          <strong className="course-detail-value-prop-emphasis">【路由算法与执行系统】</strong>
+        </p>
+      ),
+      chapters: evmRouterCourseChapters,
     },
     {
       id: 'evm-launchpad',
@@ -1288,7 +1446,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>七大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>八大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
