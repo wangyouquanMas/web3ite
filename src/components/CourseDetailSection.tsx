@@ -736,7 +736,7 @@ const CourseDetailSection: React.FC = () => {
     </svg>
   );
 
-  const contractAuditCourseChapters: CourseChapterCard[] = [
+  const evmContractAuditCourseChapters: CourseChapterCard[] = [
     {
       id: 1,
       title: '区块链与 Solidity 基础',
@@ -861,6 +861,135 @@ const CourseDetailSection: React.FC = () => {
         'Capstone：提交完整审计报告和修复测试',
       ],
       duration: '持续进行',
+      icon: contractAuditIcon,
+    },
+  ];
+
+  const solanaContractAuditCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: 'Solana 执行与账户模型',
+      level: 'L0 · Day 1–3',
+      description: '理解显式账户输入、Signer/Writable 权限、账户锁和原子执行，建立 Solana 特有的攻击面模型。',
+      topicsLeft: [
+        'Account、Program、Instruction 与 Transaction',
+        'owner、lamports、data、executable',
+        'AccountMeta、账户锁与并行执行',
+      ],
+      topicsRight: [
+        'Native Rust、Anchor 与序列化边界',
+        'PDA、CPI 与 signer privilege',
+        '实验：绘制交易账户权限和状态变化图',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 2,
+      title: '账户身份与授权审计',
+      level: 'L1 · Day 4–6',
+      description: '验证账户是否真实、属于预期程序、具备正确类型，并与 signer、authority 和业务实例严格绑定。',
+      topicsLeft: [
+        'Signer Authorization 与 authority rotation',
+        'Account Owner、Program ID、Sysvar',
+        'Address、discriminator 与 data length',
+      ],
+      topicsRight: [
+        'Account Data Matching 与 has_one',
+        'Type Cosplay、remaining_accounts 注入',
+        '实验：跨市场拼接账户完成未授权提现',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 3,
+      title: 'PDA 与账户生命周期',
+      level: 'L1 · Day 7–9',
+      description: '审查初始化、canonical bump、PDA 共享、账户关闭和复活，防止重复领取与跨用户权限泄漏。',
+      topicsLeft: [
+        'init、zero、init_if_needed 与重初始化',
+        'Canonical Bump 与完整 PDA Seeds',
+        'PDA Sharing 和 domain separation',
+      ],
+      topicsRight: [
+        'close、lamports、discriminator 与 revival',
+        'close destination 和 force defund',
+        '实验：重复 claim 与关闭后再次使用账户',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 4,
+      title: 'CPI 与运行时边界',
+      level: 'L2 · Day 10–12',
+      description: '识别任意 CPI、PDA confused deputy、重复可变账户和 CPI 后陈旧状态等 Solana 高危漏洞。',
+      topicsLeft: [
+        'Arbitrary CPI 与恶意 Program 替换',
+        'invoke_signed、PDA signer 和账户传播',
+        'Duplicate Mutable Accounts 与账户别名',
+      ],
+      topicsRight: [
+        'CPI 后 Account reload',
+        'Instructions Sysvar 与指令内省',
+        '实验：恶意 CPI + stale supply 会计攻击',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 5,
+      title: 'Token、Oracle 与 DeFi 安全',
+      level: 'L2 · Day 13–15',
+      description: '从整数舍入、SPL Token/Token-2022 到 Pyth 和 DeFi 不变量，审查真实资产与价格风险。',
+      topicsLeft: [
+        'checked arithmetic、精度与舍入套利',
+        'Mint、ATA、delegate、close/freeze authority',
+        'Token Program 与 Token-2022 Program ID',
+      ],
+      topicsRight: [
+        'Transfer Fee/Hook、Permanent Delegate、CPI Guard',
+        'Pyth feed、status、staleness、confidence、exponent',
+        '实验：Token-2022 到账差异与价格攻击',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 6,
+      title: '测试、Fuzz 与事故复现',
+      level: 'L2 · Day 16–18',
+      description: '结合攻击测试、Trident fuzz、invariant、Radar/Xray 和交易 Trace，将安全假设变成可验证证据。',
+      topicsLeft: [
+        'Anchor、BanksClient/Bankrun 与 Rust VM 测试',
+        'Sequence Fuzzing、Crash Replay 与 Coverage',
+        '资金守恒、权限隔离和份额单调性 invariant',
+      ],
+      topicsRight: [
+        'Radar、Xray 与 Sealevel Attacks',
+        'Inner Instructions、Logs 和余额变化',
+        '实验：Wormhole/真实事故根因复现',
+      ],
+      duration: '3 天',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 7,
+      title: '升级安全与完整审计',
+      level: 'L3 · Day 19–21',
+      description: '检查 Upgrade Authority、ProgramData 和可验证构建，并完成从 Threat Model 到 Retest 的正式审计。',
+      topicsLeft: [
+        'Upgradeable Loader、ProgramData 与 Buffer',
+        '多签、权限轮换、Immutable Program',
+        '依赖锁定、IDL、Program ID 与部署配置',
+      ],
+      topicsRight: [
+        'Instruction/Account Matrix 与资金流',
+        'Finding、Severity、PoC、Recommendation、Retest',
+        'Capstone：完整审计报告和修复测试',
+      ],
+      duration: '3 天',
       icon: contractAuditIcon,
     },
   ];
@@ -1508,6 +1637,28 @@ const CourseDetailSection: React.FC = () => {
       chapters: evmRouterCourseChapters,
     },
     {
+      id: 'solana-contract-audit',
+      tab: '智能合约审计（Solana）',
+      badge: 'NEW',
+      panelClass: 'solana-contract-audit-course-detail',
+      gridClass: 'solana-contract-audit-course-grid',
+      title: 'Solana 智能合约审计 · 21天工程实战',
+      subtitle: (
+        <p>
+          基于 <span className="highlight">Solana Developer Program Security 与 SlowMist 最佳实践</span>，从{' '}
+          <span className="highlight">账户身份、PDA、CPI 和 Anchor 攻击面</span> 到{' '}
+          <span className="highlight">Token-2022、Pyth、Fuzz、升级安全与完整审计报告</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          掌握 Solana 特有的账户替换、权限传播和组合调用风险，能够独立完成 PoC、修复与 Retest{' '}
+          <strong className="course-detail-value-prop-emphasis">【Solana Program 安全专项】</strong>
+        </p>
+      ),
+      chapters: solanaContractAuditCourseChapters,
+    },
+    {
       id: 'contract-audit',
       tab: '智能合约审计（EVM）',
       badge: 'NEW',
@@ -1527,7 +1678,7 @@ const CourseDetailSection: React.FC = () => {
           <strong className="course-detail-value-prop-emphasis">【智能合约安全专项】</strong>
         </p>
       ),
-      chapters: contractAuditCourseChapters,
+      chapters: evmContractAuditCourseChapters,
     },
     {
       id: 'evm-launchpad',
@@ -1602,11 +1753,12 @@ const CourseDetailSection: React.FC = () => {
     'router',
     'pumpfun',
     'solana-prediction',
-    'contract-audit',
+    'solana-contract-audit',
     'evm-aggregator',
     'evm-router',
     'evm-launchpad',
     'evm',
+    'contract-audit',
   ];
   const orderedCourses = courseTabOrder
     .map((id) => courses.find((course) => course.id === id))
@@ -1618,7 +1770,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>九大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>十大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
