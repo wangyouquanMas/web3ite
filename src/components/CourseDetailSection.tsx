@@ -1439,7 +1439,20 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
-  const active = courses.find((c) => c.id === activeCourse) ?? courses[0];
+  const courseTabOrder = [
+    'dex',
+    'router',
+    'pumpfun',
+    'solana-prediction',
+    'evm-aggregator',
+    'evm-router',
+    'evm-launchpad',
+    'evm',
+  ];
+  const orderedCourses = courseTabOrder
+    .map((id) => courses.find((course) => course.id === id))
+    .filter((course): course is CourseTab => course !== undefined);
+  const active = orderedCourses.find((course) => course.id === activeCourse) ?? orderedCourses[0];
 
   return (
     <div>
@@ -1450,7 +1463,7 @@ const CourseDetailSection: React.FC = () => {
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
-          {courses.map((c) => (
+          {orderedCourses.map((c) => (
             <button
               key={c.id}
               type="button"
