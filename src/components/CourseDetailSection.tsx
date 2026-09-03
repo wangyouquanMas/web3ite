@@ -729,6 +729,142 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
+  const contractAuditIcon = (
+    <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L4 5V11C4 16 7.5 20.5 12 22C16.5 20.5 20 16 20 11V5L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M9 12L11 14L15 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+
+  const contractAuditCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '区块链与 Solidity 基础',
+      level: 'L0 · Step 1–2',
+      description: '从 Ethereum 状态转换、共识和最终性开始，建立能够逐行追踪 Solidity 状态、资金与外部调用的基础。',
+      topicsLeft: [
+        'Mastering Ethereum、PoW 与 PoS',
+        '账户、交易、区块、Gas 与最终性',
+        'Solidity 类型、数据位置与可见性',
+      ],
+      topicsRight: [
+        '继承、modifier、error 与外部调用',
+        'Secureum Solidity 101 / 201',
+        '验收：画出陌生合约的状态与资金流',
+      ],
+      duration: '2～3 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 2,
+      title: '安全合约工程基础',
+      level: 'L1 · Step 3–7',
+      description: '掌握 Gas、测试、ERC 标准、OpenZeppelin 与代理升级，使正常功能和工程边界都可被验证。',
+      topicsLeft: [
+        'storage / memory / calldata 与 Gas 优化',
+        'Foundry、Hardhat、Tenderly 调试',
+        'unit、fuzz、invariant 与 fork test',
+      ],
+      topicsRight: [
+        'ERC-20/721/777/1155/4626/2981',
+        'OpenZeppelin 权限与安全组件',
+        'Proxy、storage collision 与升级权限',
+      ],
+      duration: '3～4 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 3,
+      title: '攻击面、Yul 与 EVM',
+      level: 'L1 · Step 8–9',
+      description: '从攻击向量和业务不变量寻找漏洞，并下降到 Yul、opcode、precompile 和动态 Gas 理解真实执行行为。',
+      topicsLeft: [
+        '权限、重入、算术、签名与 DoS',
+        '外部调用、回调、升级与经济攻击',
+        'Secureum Pitfalls、SWC Registry',
+      ],
+      topicsRight: [
+        'Inline Assembly 与 Yul',
+        'Stack、Memory、Storage 与 Opcodes',
+        'CALL/DELEGATECALL、Precompile 与 Gas',
+      ],
+      duration: '2～3 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 4,
+      title: 'CTF 与 DeFi 攻击实战',
+      level: 'L2 · Step 10–12',
+      description: '通过 CTF 和协议深挖，把漏洞知识转化为可复现 PoC，并理解闪电贷、预言机和 MEV 组合攻击。',
+      topicsLeft: [
+        'Ethernaut、Capture The Ether',
+        'CipherShastra、Damn Vulnerable DeFi',
+        '每题交付根因、PoC、修复和回归测试',
+      ],
+      topicsRight: [
+        'Uniswap、Compound、Curve、Aave、Vault',
+        'Flash Loan → Oracle Manipulation',
+        'Front-running、Sandwich 与授权风险',
+      ],
+      duration: '4～6 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 5,
+      title: '事故复盘与审计报告',
+      level: 'L2 · Step 13–14',
+      description: '还原真实攻击的前置条件、调用链和资金流，并把发现写成清晰、可复现、可修复的专业报告。',
+      topicsLeft: [
+        'Immunefi、BlockSec、SlowMist',
+        'Rekt News、PeckShield 事故复盘',
+        '根因、攻击路径、影响与修复模板',
+      ],
+      topicsRight: [
+        'Secureum Audit Findings 101 / 201',
+        'Consensys、Trail of Bits、OpenZeppelin',
+        'Code4rena、Sherlock 与 Solodit',
+      ],
+      duration: '2～3 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 6,
+      title: '标准、EIP 与审计工具箱',
+      level: 'L2 · Step 15–17',
+      description: '用标准清单保障覆盖面，用关键 EIP 理解安全假设，再用自动化工具为人工审计提供证据。',
+      topicsLeft: [
+        'SCSVS 与 Solcurity 检查清单',
+        'EIP-1559/2929/1153、EIP-712',
+        'ERC-1271/2612/4337/4626',
+      ],
+      topicsRight: [
+        'Slither、Mythril、Manticore、Echidna',
+        'Surya、Scribble 与交易 Trace 工具',
+        '原则：工具告警必须人工验证可利用性',
+      ],
+      duration: '2～3 周',
+      icon: contractAuditIcon,
+    },
+    {
+      id: 7,
+      title: '持续研究与综合审计',
+      level: 'L3 · Step 18',
+      description: '跟踪 Ethereum 规范与最新攻击面，并对一个真实中型协议完成从威胁建模到正式报告的完整审计。',
+      topicsLeft: [
+        'Yellow Paper、Execution / Consensus Specs',
+        'Ethereum Magicians、Eth Research',
+        '安全社区、事故周报与研究论文',
+      ],
+      topicsRight: [
+        '权限图、资金流与关键不变量',
+        '手工审计、工具扫描、PoC 与严重度',
+        'Capstone：提交完整审计报告和修复测试',
+      ],
+      duration: '持续进行',
+      icon: contractAuditIcon,
+    },
+  ];
+
   const evmLaunchpadIcon = (
     <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M5 15C3 17 3 21 3 21C3 21 7 21 9 19C10 18 10 16.5 9.5 15.5C9 14.5 7 14 5 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -1372,6 +1508,28 @@ const CourseDetailSection: React.FC = () => {
       chapters: evmRouterCourseChapters,
     },
     {
+      id: 'contract-audit',
+      tab: '智能合约审计（EVM）',
+      badge: 'NEW',
+      panelClass: 'contract-audit-course-detail',
+      gridClass: 'contract-audit-course-grid',
+      title: 'Ethereum 智能合约审计 · 18步成长路线',
+      subtitle: (
+        <p>
+          基于 <span className="highlight">Ethereum Smart Contract Auditor Roadmap</span>，从{' '}
+          <span className="highlight">Solidity、EVM、Yul 与攻击向量</span> 到{' '}
+          <span className="highlight">DeFi CTF、事故复盘、审计工具和正式报告</span>，形成完整审计能力。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          不只背漏洞名称，而是能够定义不变量、定位根因、编写 PoC、评估影响并交付专业审计报告{' '}
+          <strong className="course-detail-value-prop-emphasis">【智能合约安全专项】</strong>
+        </p>
+      ),
+      chapters: contractAuditCourseChapters,
+    },
+    {
       id: 'evm-launchpad',
       tab: 'Pump.fun (EVM)',
       badge: 'NEW',
@@ -1444,6 +1602,7 @@ const CourseDetailSection: React.FC = () => {
     'router',
     'pumpfun',
     'solana-prediction',
+    'contract-audit',
     'evm-aggregator',
     'evm-router',
     'evm-launchpad',
@@ -1459,7 +1618,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>八大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>九大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">
