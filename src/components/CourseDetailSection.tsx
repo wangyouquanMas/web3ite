@@ -1193,11 +1193,11 @@ const CourseDetailSection: React.FC = () => {
     },
     {
       id: 'evm-aggregator',
-      tab: '（EVM链）DEX聚合器',
+      tab: 'EVM Router 路由',
       badge: 'NEW',
       panelClass: 'evm-aggregator-course-detail',
       gridClass: 'evm-aggregator-course-grid',
-      title: '（EVM链）DEX聚合器 · 15天工程实战',
+      title: 'EVM DEX Router 路由聚合器 · 15天工程实战',
       subtitle: (
         <p>
           参考真实 <span className="highlight">EVM Consumer 与交易系统</span>，从{' '}
