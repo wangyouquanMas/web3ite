@@ -898,22 +898,26 @@
 .course-tabs {
   position: relative;
   z-index: 1;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.75rem;
-  max-width: 900px;
+  width: min(1120px, 100%);
   margin: 0 auto 2.5rem;
 }
 
 .course-tab {
   position: relative;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
+  width: 100%;
+  min-height: 48px;
   padding: 0.65rem 1.4rem;
   font-size: 1rem;
   font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
   color: #9BA5B7;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1015,6 +1019,7 @@
 
 @media (max-width: 768px) {
   .course-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
     margin-bottom: 1.75rem;
   }
