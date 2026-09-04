@@ -16,16 +16,17 @@ type PricingPlan = {
   badge?: string;
   /** 主推套餐（小班）高亮显示 */
   featured?: boolean;
-  /** 与 PILLAR_COPY 四项对应（DEX → Pumpfun → Router → EVM），true 表示本套餐含该项 */
-  pillars: [boolean, boolean, boolean, boolean];
+  /** 与 PILLAR_COPY 五项对应，true 表示本套餐含该项 */
+  pillars: [boolean, boolean, boolean, boolean, boolean];
   features: Array<string | React.ReactNode>;
 };
 
-const PILLAR_COPY: readonly [string, string, string, string] = [
+const PILLAR_COPY: readonly [string, string, string, string, string] = [
   'DEX聚合器100+ 节精品视频课程（Solana + EVM）',
   'Pumpfun合约从零到一实现（Solana + EVM）',
   'Router 路由聚合器实战项目（Solana + EVM）',
-  '预测市场（EVM）全栈实战',
+  '预测市场（Solana + EVM）全栈实战',
+  '智能合约审计（Solana + EVM）',
 ];
 
 const CourseSchedule: React.FC = () => {
@@ -41,7 +42,7 @@ const CourseSchedule: React.FC = () => {
       category: '自学',
       priceUSDT: 1049,
       description: '一次购买，永久回看 · 按自己的节奏学',
-      pillars: [true, true, true, false],
+      pillars: [true, true, true, false, false],
       features: [
         <span key="self-combo" className="price-highlight-text">Web3实战 + 合约开发 + 路由聚合器开发</span>,
         '课后实践加答案解析',
@@ -64,8 +65,14 @@ const CourseSchedule: React.FC = () => {
           <strong>下期 9 月 20 日开班</strong>，一期 3 个月
         </>
       ),
-      pillars: [true, true, true, true],
+      pillars: [true, true, true, true, true],
       features: [
+        <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
+        <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
+        '小班直播带练 + 作业批改',
+        '简历修改 + 求职指导',
+        '模拟面试 + 面经复盘',
+        '专属小班社群（高频答疑）',
         <a
           key="class-english-membership"
           className="price-highlight-text price-feature-link"
@@ -75,12 +82,6 @@ const CourseSchedule: React.FC = () => {
         >
           英语产品免费年度会员：https://biguo.me/
         </a>,
-        <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
-        <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
-        '小班直播带练 + 作业批改',
-        '简历修改 + 求职指导',
-        '模拟面试 + 面经复盘',
-        '专属小班社群（高频答疑）',
       ],
     },
   ];
