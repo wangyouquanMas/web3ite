@@ -61,14 +61,14 @@ const CourseSchedule: React.FC = () => {
       featured: true,
       cohortNote: (
         <>
-          <strong>下期 9 月 20 日开班</strong>，一期 3 个月 · 为保障质量，每期仅招 <strong>10 人</strong>
+          <strong>下期 9 月 20 日开班</strong>，一期 3 个月
         </>
       ),
       pillars: [true, true, true, true],
       features: [
         <span key="class-include" className="price-highlight-text">含自学套餐全部内容</span>,
         <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
-        <span key="class-cohort" className="price-highlight-text">一期 3 个月，为保障质量每期仅招 10 人</span>,
+        <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
         '小班直播带练 + 作业批改',
         '简历修改 + 求职指导',
         '模拟面试 + 面经复盘',
