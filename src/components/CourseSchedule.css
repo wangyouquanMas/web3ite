@@ -517,44 +517,6 @@
   font-weight: 700;
 }
 
-.cohort-progress {
-  margin: 0 auto 0.9rem;
-  max-width: 92%;
-}
-
-.cohort-progress-labels {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.4rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-}
-
-.cohort-progress-enrolled {
-  color: #c9b6ff;
-}
-
-.cohort-progress-left {
-  color: #ff8a5c;
-  font-weight: 700;
-}
-
-.cohort-progress-track {
-  position: relative;
-  height: 8px;
-  border-radius: 999px;
-  background: rgba(153, 69, 255, 0.15);
-  overflow: hidden;
-}
-
-.cohort-progress-fill {
-  height: 100%;
-  border-radius: 999px;
-  background: linear-gradient(90deg, #9945ff, #ff5c8a);
-  transition: width 0.6s ease;
-}
-
 .price-earlybird {
   display: inline-block;
   padding: 0.3rem 0.8rem;

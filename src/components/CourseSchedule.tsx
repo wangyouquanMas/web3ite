@@ -28,10 +28,6 @@ const PILLAR_COPY: readonly [string, string, string, string] = [
   '预测市场（EVM）全栈实战',
 ];
 
-/** 小班当期报名进度：总名额 10，已报名 3，剩余 7 */
-const COHORT_TOTAL = 10;
-const COHORT_ENROLLED = 3;
-
 const CourseSchedule: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
 
@@ -65,13 +61,14 @@ const CourseSchedule: React.FC = () => {
       featured: true,
       cohortNote: (
         <>
-          <strong>下期 9 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>10 人</strong>
+          <strong>下期 9 月 20 日开班</strong>，一期 3 个月 · 为保障质量，每期仅招 <strong>10 人</strong>
         </>
       ),
       pillars: [true, true, true, true],
       features: [
         <span key="class-include" className="price-highlight-text">含自学套餐全部内容</span>,
-        <span key="class-cohort" className="price-highlight-text">每 2 个月一期，为保障质量每期仅招 10 人</span>,
+        <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
+        <span key="class-cohort" className="price-highlight-text">一期 3 个月，为保障质量每期仅招 10 人</span>,
         '小班直播带练 + 作业批改',
         '简历修改 + 求职指导',
         '模拟面试 + 面经复盘',
@@ -143,27 +140,6 @@ const CourseSchedule: React.FC = () => {
                 )}
               </div>
               {plan.cohortNote && <p className="price-cohort-note">{plan.cohortNote}</p>}
-              {plan.featured && (
-                <div
-                  className="cohort-progress"
-                  role="progressbar"
-                  aria-valuenow={COHORT_ENROLLED}
-                  aria-valuemin={0}
-                  aria-valuemax={COHORT_TOTAL}
-                  aria-label={`已报名 ${COHORT_ENROLLED} 人，仅剩 ${COHORT_TOTAL - COHORT_ENROLLED} 个名额`}
-                >
-                  <div className="cohort-progress-labels">
-                    <span className="cohort-progress-enrolled">已报名 {COHORT_ENROLLED} 人</span>
-                    <span className="cohort-progress-left">仅剩 {COHORT_TOTAL - COHORT_ENROLLED} 个名额</span>
-                  </div>
-                  <div className="cohort-progress-track">
-                    <div
-                      className="cohort-progress-fill"
-                      style={{ width: `${(COHORT_ENROLLED / COHORT_TOTAL) * 100}%` }}
-                    />
-                  </div>
-                </div>
-              )}
               <p className="price-description">{plan.description}</p>
               <ul className="price-features">
                 {PILLAR_COPY.map((pillarText, i) =>
