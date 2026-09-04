@@ -2109,6 +2109,9 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
+          <p className="course-detail-upgrade-notice">
+            课程经过全面改造，全面支持 EVM 兼容链，同时增加智能合约安全审计 + 智能钱包
+          </p>
           <p>十二大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
