@@ -40,7 +40,7 @@ const CourseSchedule: React.FC = () => {
       id: 1,
       name: '自学套餐',
       category: '自学',
-      priceUSDT: 1049,
+      priceUSDT: 1549,
       description: '一次购买，永久回看 · 按自己的节奏学',
       pillars: [true, true, true, false, false],
       features: [
