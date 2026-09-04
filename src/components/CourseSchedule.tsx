@@ -69,6 +69,9 @@ const CourseSchedule: React.FC = () => {
       features: [
         <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
         <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
+        <span key="class-live-schedule" className="price-highlight-text">
+          线上直播 · 每周五天 · 20:00–22:00 或 21:00–23:00（灵活调整）
+        </span>,
         '小班直播带练 + 作业批改',
         '简历修改 + 求职指导',
         '模拟面试 + 面经复盘',
