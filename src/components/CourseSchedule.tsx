@@ -22,9 +22,9 @@ type PricingPlan = {
 };
 
 const PILLAR_COPY: readonly [string, string, string, string] = [
-  'DEX聚合器100+ 节精品视频课程',
-  'Pumpfun合约从零到一实现',
-  'Router 路由聚合器实战项目',
+  'DEX聚合器100+ 节精品视频课程（Solana + EVM）',
+  'Pumpfun合约从零到一实现（Solana + EVM）',
+  'Router 路由聚合器实战项目（Solana + EVM）',
   '预测市场（EVM）全栈实战',
 ];
 
