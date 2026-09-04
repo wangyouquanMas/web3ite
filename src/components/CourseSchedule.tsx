@@ -5,7 +5,7 @@ import wechatQrImage from '../assets/images/wechat.jpg';
 type PricingPlan = {
   id: number;
   name: string;
-  /** 套餐类别：自学 / 小班 / 1v1 */
+  /** 套餐类别：自学 / 小班 */
   category: string;
   priceUSDT: number;
   /** 每期人数 / 开班节奏等补充说明（小班用） */
@@ -55,15 +55,13 @@ const CourseSchedule: React.FC = () => {
       id: 2,
       name: '小班课程',
       category: '小班',
-      priceUSDT: 2049,
-      salePriceUSDT: 1849,
+      priceUSDT: 3000,
       description: '小班直播带练 · 带改作业 · 带找工作',
       badge: '主推',
       featured: true,
       cohortNote: (
         <>
           <strong>下期 7 月 1 日开班</strong>，每 2 个月一期 · 为保障质量，每期仅招 <strong>8 人</strong>
-          <span className="price-earlybird">⏰ 提前预定享 9 折优惠</span>
         </>
       ),
       pillars: [true, true, true, true],
@@ -76,25 +74,6 @@ const CourseSchedule: React.FC = () => {
         '专属小班社群（高频答疑）',
       ],
     },
-    {
-      id: 3,
-      name: '1v1 全程陪跑',
-      category: '1v1',
-      priceUSDT: 3899,
-      description: <span className="price-highlight-text">一对一全程指导</span>,
-      badge: 'VIP专享',
-      pillars: [true, true, true, true],
-      features: [
-        <span key="vip-include" className="price-highlight-text">含小班课程全部内容</span>,
-        '个性化学习路径规划',
-        '1对1 简历优化 + 求职指导',
-        '模拟面试 + 面试复盘(持续跟踪)',
-        <span key="vip-meetings" className="price-highlight-text">每周 1v1 会议，进度跟踪及复盘</span>,
-        '英语口语学习路径规划',
-        <span key="vip-probation" className="price-highlight-text">试用期指导</span>,
-        '持续 6 个月跟踪服务',
-      ],
-    },
   ];
 
   return (
@@ -103,7 +82,7 @@ const CourseSchedule: React.FC = () => {
         <div className="section-transition-top"></div>
         <div className="section-header">
           <h2>课程费用</h2>
-          <p>三种学习方式：自学 · 小班 · 1v1，<strong className="fee-note-highlight">主推小班带练</strong>，开启你的 Web3 之旅</p>
+          <p>两种学习方式：自学 · 小班，<strong className="fee-note-highlight">主推小班带练</strong>，开启你的 Web3 之旅</p>
         </div>
         <p className="fee-pricing-policy">
           为了给大家提供更高性价比的内容体验，同时为了打击盗版，所有付费用户<strong>可免费进入付费社群</strong>，享 <strong>1 年</strong>权益
@@ -130,7 +109,7 @@ const CourseSchedule: React.FC = () => {
           {pricingPlans.map((plan) => (
             <div key={plan.id} className={`price-card ${plan.featured ? 'featured' : ''}`}>
               {plan.badge && <div className="price-badge">{plan.badge}</div>}
-              <span className={`price-category price-category--${plan.category === '小班' ? 'class' : plan.category === '1v1' ? 'vip' : 'self'}`}>
+              <span className={`price-category price-category--${plan.category === '小班' ? 'class' : 'self'}`}>
                 {plan.category}
               </span>
               <h3>{plan.name}</h3>
