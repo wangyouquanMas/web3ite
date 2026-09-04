@@ -366,6 +366,16 @@
   font-weight: 600;
 }
 
+.price-feature-link {
+  text-decoration: underline;
+  text-decoration-color: rgba(20, 241, 149, 0.55);
+  text-underline-offset: 0.22em;
+}
+
+.price-feature-link:hover {
+  text-decoration-color: #14F195;
+}
+
 .price-rmb {
   font-size: 0.9rem;
   color: #9BA5B7;

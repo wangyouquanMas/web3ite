@@ -66,6 +66,15 @@ const CourseSchedule: React.FC = () => {
       ),
       pillars: [true, true, true, true],
       features: [
+        <a
+          key="class-english-membership"
+          className="price-highlight-text price-feature-link"
+          href="https://biguo.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          英语产品免费年度会员：https://biguo.me/
+        </a>,
         <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
         <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
         '小班直播带练 + 作业批改',
