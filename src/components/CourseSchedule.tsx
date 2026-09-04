@@ -66,7 +66,6 @@ const CourseSchedule: React.FC = () => {
       ),
       pillars: [true, true, true, true],
       features: [
-        <span key="class-include" className="price-highlight-text">含自学套餐全部内容</span>,
         <span key="class-wallet" className="price-highlight-text">Wallet 钱包（Solana + EVM）完整课程</span>,
         <span key="class-cohort" className="price-highlight-text">一期 3 个月</span>,
         '小班直播带练 + 作业批改',
