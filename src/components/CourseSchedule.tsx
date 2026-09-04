@@ -28,6 +28,10 @@ const PILLAR_COPY: readonly [string, string, string, string] = [
   '预测市场（EVM）全栈实战',
 ];
 
+/** 小班当期报名进度：总名额 10，已报名 3，剩余 7 */
+const COHORT_TOTAL = 10;
+const COHORT_ENROLLED = 3;
+
 const CourseSchedule: React.FC = () => {
   const [showWechatModal, setShowWechatModal] = useState(false);
 
@@ -139,6 +143,27 @@ const CourseSchedule: React.FC = () => {
                 )}
               </div>
               {plan.cohortNote && <p className="price-cohort-note">{plan.cohortNote}</p>}
+              {plan.featured && (
+                <div
+                  className="cohort-progress"
+                  role="progressbar"
+                  aria-valuenow={COHORT_ENROLLED}
+                  aria-valuemin={0}
+                  aria-valuemax={COHORT_TOTAL}
+                  aria-label={`已报名 ${COHORT_ENROLLED} 人，仅剩 ${COHORT_TOTAL - COHORT_ENROLLED} 个名额`}
+                >
+                  <div className="cohort-progress-labels">
+                    <span className="cohort-progress-enrolled">已报名 {COHORT_ENROLLED} 人</span>
+                    <span className="cohort-progress-left">仅剩 {COHORT_TOTAL - COHORT_ENROLLED} 个名额</span>
+                  </div>
+                  <div className="cohort-progress-track">
+                    <div
+                      className="cohort-progress-fill"
+                      style={{ width: `${(COHORT_ENROLLED / COHORT_TOTAL) * 100}%` }}
+                    />
+                  </div>
+                </div>
+              )}
               <p className="price-description">{plan.description}</p>
               <ul className="price-features">
                 {PILLAR_COPY.map((pillarText, i) =>
