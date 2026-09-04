@@ -1530,6 +1530,299 @@ const CourseDetailSection: React.FC = () => {
     },
   ];
 
+  const walletCourseIcon = (
+    <svg className="course-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 6.5C4 5.11929 5.11929 4 6.5 4H18C19.1046 4 20 4.89543 20 6V19C20 20.1046 19.1046 21 18 21H6.5C5.11929 21 4 19.8807 4 18.5V6.5Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4 7H18M15 12H20V16H15C13.8954 16 13 15.1046 13 14C13 12.8954 13.8954 12 15 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+
+  const solanaWalletCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '钱包架构与 Solana 账户模型',
+      level: 'L0',
+      description: '从托管边界、资金角色和威胁模型出发，理解 Wallet 不只是地址生成器，而是一套资产负债与交易安全系统。',
+      topicsLeft: [
+        '托管、非托管、MPC 与智能合约钱包',
+        'Funding / Deposit / Hot / Cold Wallet',
+        '用户负债 vs 平台链上资产',
+        'Account / Program / Instruction / CPI',
+      ],
+      topicsRight: [
+        'PDA、Signer、Writable 与 Account Owner',
+        'Account / Sign / Trade / Watcher 服务边界',
+        '充值、提币、转账与归集资金流',
+        '密钥泄漏、重复入账与账户替换威胁',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 2,
+      title: 'HD 地址派生与钱包生命周期',
+      level: 'L1',
+      description: '掌握 ed25519、标准派生路径和并发地址分配，让地址可恢复、可轮换、可审计且不发生索引冲突。',
+      topicsLeft: [
+        'BIP-39、SLIP-0010 与 ed25519',
+        '标准 Solana 派生路径与兼容性',
+        '用途隔离、索引管理与 Golden Vector',
+        '现有自定义派生算法的迁移评估',
+      ],
+      topicsRight: [
+        '用户地址、地址池与钱包所有权',
+        '并发分配与数据库唯一约束',
+        '启用、冻结、轮换、归档与恢复',
+        '实验：100 并发地址零重复',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 3,
+      title: 'SOL / SPL / Token-2022 资产账本',
+      level: 'L1',
+      description: '建立按 Network、Token Program 与 Mint 唯一识别的资产体系，并用复式账本管理可用、冻结和待确认余额。',
+      topicsLeft: [
+        'Lamports、SOL 与 Wrapped SOL',
+        'Mint、Token Account、ATA 与 Program ID',
+        'Token-2022 Extension 与兼容边界',
+        'Asset Registry：Mint 识别而非 Symbol',
+      ],
+      topicsRight: [
+        'Journal / Entry / Ledger Account',
+        'available / locked / pending / fee',
+        '整数最小单位与 decimals 展示',
+        '充值、提币、退款、站内转账分录',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 4,
+      title: '充值监听、解析与幂等入账',
+      level: 'L2',
+      description: '同时处理 SOL、SPL 与 Token-2022，使用 Stream 快速发现、区块补扫保证完整，并在 finalized 后安全入账。',
+      topicsLeft: [
+        'System / Transfer / TransferChecked',
+        'Outer / Inner Instruction 与余额变化',
+        '事件唯一键与多转账交易',
+        'processed / confirmed / finalized',
+      ],
+      topicsRight: [
+        'Stream 通知 + Slot 补扫双通道',
+        '乱序、重复、断线和 RPC 限流',
+        '先存证据、再确认、最后入账',
+        '实验：重放 10,000 次只入账一次',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 5,
+      title: '提币、转账与交易生命周期',
+      level: 'L2',
+      description: '把余额冻结、策略审批、交易构造、签名、广播和确认串成可恢复的状态机，避免重复经济出金。',
+      topicsLeft: [
+        '提币状态机、幂等请求与余额冻结',
+        '2FA、白名单、限额与失败解冻',
+        'Recent Blockhash 与 Versioned Tx',
+        'ATA、Token Transfer、WSOL Sync/Close',
+      ],
+      topicsRight: [
+        'Compute Unit、Priority Fee 与交易大小',
+        'Blockhash 过期后的安全重建',
+        '广播 Unknown 状态的正确处理',
+        '离线解码并校验收款、Mint 和金额',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 6,
+      title: '资产归集、Gas/rent 与安全签名',
+      level: 'L2',
+      description: '实现多层资金钱包、Token 归集、SOL 补充和租金回收，并用结构化 Sign Intent 约束每次签名。',
+      topicsLeft: [
+        'Deposit → Sweep → Cold 资金分层',
+        '归集阈值、Dust、批量与任务幂等',
+        'Gas Top-up 水位、预算与防滥用',
+        'ATA 关闭、rent 回收与成本核算',
+      ],
+      topicsRight: [
+        'KMS / HSM / MPC 与签名隔离',
+        'Sign Intent：账户、Mint、金额、Program',
+        '拒绝任意 Bytes 和篡改后交易',
+        '归集与补 Gas 不改变用户负债',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 7,
+      title: '对账、可靠性与 Devnet Capstone',
+      level: 'L3',
+      description: '完成链上资产、内部账本和业务订单三方对账，通过 RPC 故障、重复消息与服务重启测试后交付完整钱包。',
+      topicsLeft: [
+        '三方对账、资产覆盖率与差异分类',
+        'Indexer Lag、卡单、热钱包水位监控',
+        '多 RPC、Inbox/Outbox 与断点恢复',
+        '故障注入：Timeout、重复、乱序、重启',
+      ],
+      topicsRight: [
+        'SOL + SPL + Token-2022 端到端闭环',
+        '充值、站内转账、提币、归集',
+        '零未解释差异的对账报告',
+        '安全报告、运行手册与事故演练',
+      ],
+      duration: '3天',
+      icon: walletCourseIcon,
+    },
+  ];
+
+  const evmWalletCourseChapters: CourseChapterCard[] = [
+    {
+      id: 1,
+      title: '钱包架构与 EVM 执行模型',
+      level: 'L0',
+      description: '从托管资金边界进入 EOA、Contract、交易、Receipt、Log 与 Trace，建立多网络钱包的正确心智模型。',
+      topicsLeft: [
+        '托管、非托管、MPC 与 ERC-4337',
+        'Deposit / Hot / Sweep / Gas / Cold Wallet',
+        '用户负债 vs 平台链上资产',
+        'EOA、Contract、Calldata 与 Storage',
+      ],
+      topicsRight: [
+        'Transaction、Receipt、Log 与 Internal Call',
+        'Chain ID、Nonce 与重放保护',
+        '服务边界和完整资金流',
+        'Reorg、假币、RPC 欺骗与密钥威胁',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 2,
+      title: 'HD 地址派生与多网络抽象',
+      level: 'L1',
+      description: '使用 BIP-44 和 secp256k1 派生可恢复地址，以 Chain Registry 管理 Ethereum、Base 与 BSC 的独立能力和策略。',
+      topicsLeft: [
+        'BIP-39 / BIP-44 与 secp256k1',
+        'Keccak-256 与 EIP-55 地址',
+        '签名恢复与 Golden Vector',
+        '共享地址、分网络独立记账',
+      ],
+      topicsRight: [
+        'Chain Registry 与能力矩阵',
+        'RPC、确认深度、Gas Asset 配置',
+        '并发地址分配和唯一约束',
+        '地址冻结、轮换、归档与恢复',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 3,
+      title: 'Native / ERC-20 资产与复式账本',
+      level: 'L1',
+      description: '以 Chain ID 和 Contract 唯一标识资产，兼容 ERC-20 差异，并用复式分录形成统一资产视图。',
+      topicsLeft: [
+        'ETH / BNB 与 ERC-20',
+        'Balance、Allowance、Decimals 与 Metadata',
+        'Fee-on-transfer / Rebasing / Proxy Token',
+        'Asset Registry：Contract 而非 Symbol',
+      ],
+      topicsRight: [
+        'Journal / Entry / Ledger Account',
+        'available / locked / pending / fee',
+        '整数最小单位和跨网络隔离',
+        '余额、价格、估值与数据时间',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 4,
+      title: '充值索引、确认与链重组',
+      level: 'L2',
+      description: '解析原生币、ERC-20 Log 和合约内部转账，用区块扫描保证完整性，并在 Reorg 后安全冲正。',
+      topicsLeft: [
+        'Block / Tx / Receipt / Transfer Log',
+        '原生币转账与 Internal Call Trace',
+        'Tx Hash + Log Index 事件唯一键',
+        'Head / Safe / Finalized / Confirmations',
+      ],
+      topicsRight: [
+        'WebSocket 通知 + 区块范围补扫',
+        'Parent Hash 检测 Reorg',
+        'Orphaned 事件与冲正分录',
+        '实验：重复区块和宕机补扫',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 5,
+      title: '提币、Nonce 与 EIP-1559',
+      level: 'L2',
+      description: '实现可恢复的提币状态机、并发安全 Nonce Manager、动态费用和同 Nonce 交易替换。',
+      topicsLeft: [
+        '提币状态机、余额冻结与风控审批',
+        'Native / ERC-20 交易构造',
+        'Pending / Latest Nonce 与数据库租约',
+        '100 并发请求 Nonce 零重复',
+      ],
+      topicsRight: [
+        'Gas Limit、Base Fee、Priority Fee',
+        'Max Fee、Underpriced 与费用上限',
+        'Speed-up / Cancel / Replacement',
+        'Unknown 广播状态不退款重发',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 6,
+      title: '归集、Gas Station 与安全签名',
+      level: 'L2',
+      description: '解决 Token 地址缺少 Gas、批量归集与热冷资金调拨问题，并让 Signer 独立验证结构化交易意图。',
+      topicsLeft: [
+        'Deposit → Sweep → Cold 资金分层',
+        '归集阈值、Dust、任务幂等与恢复',
+        'Gas 水位、补充预算、回收与防薅',
+        '归集和补 Gas 的成本会计',
+      ],
+      topicsRight: [
+        'KMS / HSM / MPC 与密钥生命周期',
+        'Sign Intent：Chain、Nonce、To、Value、Data',
+        'EIP-155/2718/1559 与跨链重放保护',
+        'Calldata 或费用被篡改时拒签',
+      ],
+      duration: '2天',
+      icon: walletCourseIcon,
+    },
+    {
+      id: 7,
+      title: '对账、可靠性与 Testnet Capstone',
+      level: 'L3',
+      description: '在两个 EVM 网络完成充值到归集闭环，用 Reorg、Nonce 卡单和 RPC 故障证明资产系统可恢复、可解释。',
+      topicsLeft: [
+        '链上、账本、业务订单三方对账',
+        '资产覆盖率、Nonce Gap、Pending 监控',
+        'RPC Quorum、Inbox/Outbox 与 DLQ',
+        '故障注入：Reorg、Timeout、重复消息',
+      ],
+      topicsRight: [
+        '两个网络 + Native + ERC-20 闭环',
+        '充值、站内转账、提币、归集、补 Gas',
+        '同 Nonce 替换和服务恢复演练',
+        '零未解释差异报告与生产运行手册',
+      ],
+      duration: '3天',
+      icon: walletCourseIcon,
+    },
+  ];
+
   type CourseTab = {
     id: string;
     tab: string;
@@ -1598,7 +1891,7 @@ const CourseDetailSection: React.FC = () => {
       badge: 'NEW',
       panelClass: 'evm-aggregator-course-detail',
       gridClass: 'evm-aggregator-course-grid',
-      title: 'DEX 聚合器（EVM）· 15天全栈工程实战',
+      title: 'DEX 聚合器（EVM）',
       subtitle: (
         <p>
           参考真实 <span className="highlight">EVM Consumer 与 dex_full 数据系统</span>，从{' '}
@@ -1620,7 +1913,7 @@ const CourseDetailSection: React.FC = () => {
       badge: 'NEW',
       panelClass: 'evm-router-course-detail',
       gridClass: 'evm-router-course-grid',
-      title: 'Router 路由（EVM）· 15天算法与执行实战',
+      title: 'Router 路由（EVM）',
       subtitle: (
         <p>
           基于真实 <span className="highlight">evm_router_aggregator</span>，从{' '}
@@ -1686,7 +1979,7 @@ const CourseDetailSection: React.FC = () => {
       badge: 'NEW',
       panelClass: 'evm-launchpad-course-detail',
       gridClass: 'evm-launchpad-course-grid',
-      title: 'Pump.fun（EVM 版本）· 15天工程实战',
+      title: 'Pump.fun（EVM 版本）',
       subtitle: (
         <p>
           基于真实 <span className="highlight">Solidity + Foundry</span> 项目，从{' '}
@@ -1708,7 +2001,7 @@ const CourseDetailSection: React.FC = () => {
       badge: 'NEW',
       panelClass: 'solana-prediction-course-detail',
       gridClass: 'solana-prediction-course-grid',
-      title: '预测市场（Solana 版本）· 15天工程实战',
+      title: '预测市场（Solana 版本）',
       subtitle: (
         <p>
           使用 <span className="highlight">Rust + Anchor + TypeScript</span>，从{' '}
@@ -1746,6 +2039,50 @@ const CourseDetailSection: React.FC = () => {
       ),
       chapters: predictionMarketCourseChapters,
     },
+    {
+      id: 'solana-wallet',
+      tab: 'Wallet 钱包（Solana）',
+      badge: 'NEW',
+      panelClass: 'solana-wallet-course-detail',
+      gridClass: 'solana-wallet-course-grid',
+      title: 'Wallet 钱包（Solana）',
+      subtitle: (
+        <p>
+          基于真实 <span className="highlight">wallet_mvp 与 Account Service</span>，从{' '}
+          <span className="highlight">地址派生、SOL / SPL / Token-2022 资产账本</span> 到{' '}
+          <span className="highlight">充值、提币、归集、Gas/rent、安全签名与三方对账</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          构建可恢复、可审计、不会重复入账或重复出金的 Solana 托管钱包系统{' '}
+          <strong className="course-detail-value-prop-emphasis">【钱包资金系统专项】</strong>
+        </p>
+      ),
+      chapters: solanaWalletCourseChapters,
+    },
+    {
+      id: 'evm-wallet',
+      tab: 'Wallet 钱包（EVM）',
+      badge: 'NEW',
+      panelClass: 'evm-wallet-course-detail',
+      gridClass: 'evm-wallet-course-grid',
+      title: 'Wallet 钱包（EVM）',
+      subtitle: (
+        <p>
+          面向 <span className="highlight">Ethereum、Base 与 BSC</span>，从{' '}
+          <span className="highlight">BIP-44、Native / ERC-20 账本和充值索引</span> 到{' '}
+          <span className="highlight">Nonce、EIP-1559、Reorg、Gas Station、安全签名与对账</span>。
+        </p>
+      ),
+      valueProp: (
+        <p className="course-detail-value-prop">
+          构建支持多 EVM 网络、并发提币和链重组恢复的生产型托管钱包{' '}
+          <strong className="course-detail-value-prop-emphasis">【多链资产与交易专项】</strong>
+        </p>
+      ),
+      chapters: evmWalletCourseChapters,
+    },
   ];
 
   const courseTabOrder = [
@@ -1754,11 +2091,13 @@ const CourseDetailSection: React.FC = () => {
     'pumpfun',
     'solana-prediction',
     'solana-contract-audit',
+    'solana-wallet',
     'evm-aggregator',
     'evm-router',
     'evm-launchpad',
     'evm',
     'contract-audit',
+    'evm-wallet',
   ];
   const orderedCourses = courseTabOrder
     .map((id) => courses.find((course) => course.id === id))
@@ -1770,7 +2109,7 @@ const CourseDetailSection: React.FC = () => {
       <section id="course-detail" className="course-detail course-detail--tabbed">
         <div className="section-header course-detail-intro">
           <h2>课表详情</h2>
-          <p>十大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
+          <p>十二大实战项目，<span className="highlight">点击切换</span>查看每套课程的完整章节</p>
         </div>
 
         <div className="course-tabs" role="tablist" aria-label="课程切换">

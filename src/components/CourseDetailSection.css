@@ -128,6 +128,16 @@
   border-color: rgba(34, 211, 238, 0.32);
 }
 
+.solana-wallet-course-detail .course-detail-value-prop {
+  background: rgba(20, 241, 149, 0.09);
+  border-color: rgba(153, 69, 255, 0.34);
+}
+
+.evm-wallet-course-detail .course-detail-value-prop {
+  background: rgba(96, 165, 250, 0.09);
+  border-color: rgba(96, 165, 250, 0.34);
+}
+
 .highlight {
   color: #9945FF;
   font-weight: 600;
@@ -619,6 +629,54 @@
   box-shadow: 0 8px 25px rgba(56, 189, 248, 0.35);
 }
 
+.solana-wallet-course-detail .section-header h2 {
+  background: linear-gradient(to right, #ffffff, #14f195, #9945ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.solana-wallet-course-detail .course-chapter-card::before {
+  background: linear-gradient(90deg, #14f195, #9945ff);
+}
+
+.solana-wallet-course-detail .chapter-icon-container {
+  background: rgba(20, 241, 149, 0.12);
+}
+
+.solana-wallet-course-detail .course-svg {
+  color: #14f195;
+}
+
+.solana-wallet-course-detail .level-badge,
+.solana-wallet-course-detail .course-detail-cta .btn {
+  background: linear-gradient(45deg, #14f195, #9945ff);
+}
+
+.evm-wallet-course-detail .section-header h2 {
+  background: linear-gradient(to right, #ffffff, #60a5fa, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.evm-wallet-course-detail .course-chapter-card::before {
+  background: linear-gradient(90deg, #60a5fa, #8b5cf6);
+}
+
+.evm-wallet-course-detail .chapter-icon-container {
+  background: rgba(96, 165, 250, 0.12);
+}
+
+.evm-wallet-course-detail .course-svg {
+  color: #60a5fa;
+}
+
+.evm-wallet-course-detail .level-badge,
+.evm-wallet-course-detail .course-detail-cta .btn {
+  background: linear-gradient(45deg, #60a5fa, #8b5cf6);
+}
+
 @media (max-width: 768px) {
   .router-course-detail,
   .pumpfun-course-detail,
@@ -628,6 +686,8 @@
   .solana-contract-audit-course-detail,
   .evm-launchpad-course-detail,
   .solana-prediction-course-detail,
+  .solana-wallet-course-detail,
+  .evm-wallet-course-detail,
   .prediction-market-course-detail {
     padding-top: 2rem;
     margin-top: 1rem;
@@ -1015,9 +1075,9 @@
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 0.75rem;
-  width: min(1120px, 100%);
+  width: min(1320px, 100%);
   margin: 0 auto 2.5rem;
 }
 
@@ -1100,6 +1160,16 @@
   background: linear-gradient(90deg, #38bdf8, #3b82f6);
   box-shadow: 0 6px 18px rgba(56, 189, 248, 0.3);
 }
+.course-tab--solana-wallet.active {
+  background: linear-gradient(90deg, #14f195, #9945ff);
+  box-shadow: 0 6px 18px rgba(20, 241, 149, 0.3);
+  color: #0c111b;
+}
+.course-tab--evm-wallet.active {
+  background: linear-gradient(90deg, #60a5fa, #8b5cf6);
+  box-shadow: 0 6px 18px rgba(96, 165, 250, 0.3);
+  color: #fff;
+}
 
 .course-tab-badge {
   padding: 0.05rem 0.4rem;
@@ -1134,6 +1204,8 @@
 .course-panel.solana-contract-audit-course-detail,
 .course-panel.evm-launchpad-course-detail,
 .course-panel.solana-prediction-course-detail,
+.course-panel.solana-wallet-course-detail,
+.course-panel.evm-wallet-course-detail,
 .course-panel.prediction-market-course-detail {
   margin-top: 0;
   border-top: none;

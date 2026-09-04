@@ -214,7 +214,7 @@ const CourseSchedule: React.FC = () => {
                   <li>Pumpfun 合约实战拆解</li>
                   <li>Router 路由聚合器实战拆解</li>
                   <li>预测市场（EVM）全栈实战拆解</li>
-                  <li>Smart Wallet 实战拆解</li>
+                  <li>Wallet 钱包（Solana + EVM）资金系统实战拆解</li>
                   <li>UniswapV3 实战拆解</li>
                 </ul>
               </article>
